@@ -1,0 +1,32 @@
+# The Access Gate — pinned to what the test suite was verified on (Python 3.12, 311 tests, 18 September 2026).
+#   uv venv --python 3.12 && uv pip install -r requirements.txt
+# Every version below is the one installed in the verified environment, so a fresh venv reproduces the runs.
+
+# ── the crew ───────────────────────────────────────────────────────────────
+crewai==1.15.20          # the agent framework Path A mandates; 1.15.20's native tool-calling protocol is what the adapters implement
+anthropic==1.6.0         # Claude (claude-opus-5) for the final presentation run, through crew/llm.py
+google-genai==1.65.0     # Gemini (free tier) for development and the demo, through crew/gemini.py
+pydantic==2.12.5         # typed contracts at every boundary; invalid agent output is caught, not propagated
+python-dotenv==1.2.3     # reads .env (never committed)
+
+# ── data and reference tables ──────────────────────────────────────────────
+pandas==3.0.5
+numpy==2.5.3
+pyarrow==25.0.1          # the district feature frame is parquet
+shapely==2.1.2           # district representative points for the access-distance matrix
+requests==2.34.2         # data.gov.in (OGD) pulls in scripts/fetch_ogd.py
+
+# ── reading the source documents ───────────────────────────────────────────
+openpyxl==3.1.5          # .xlsx sources
+xlrd==2.0.2              # the PM-JAY registry export is a legacy .xls
+pymupdf==1.28.2          # the three NHA rulebooks and the HBP package master
+
+# ── tests ──────────────────────────────────────────────────────────────────
+pytest==9.1.1            # 311 tests, ~6 min, no API key needed
+
+# Lint is run without installing it: uvx ruff check --select F,E9,B,PLE --ignore B008,B905 .
+#
+# Not required, and deliberately not installed: scripts/build_crosswalk.py (inherited, provenance-only —
+# it documents how data/crosswalk was produced and is not part of any build, test or run) imports rapidfuzz.
+# Install it only to re-derive that crosswalk from scratch:
+#   uv pip install rapidfuzz
