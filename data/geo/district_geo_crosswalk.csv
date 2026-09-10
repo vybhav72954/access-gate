@@ -1,0 +1,736 @@
+shapeID,shapeName,assigned_state,state_method,district_code,resolve_method,resolve_score,frame_name,frame_state
+76128533B33103505211400,Nicobars,Andaman and Nicobar Islands,centroid,603,exact_state,100,Nicobars,Andaman And Nicobar Islands
+76128533B28397307540277,North  & Middle Andaman,Andaman and Nicobar Islands,vote,632,exact_state,100,North And Middle Andaman,Andaman And Nicobar Islands
+76128533B22587307937261,South Andaman,Andaman and Nicobar Islands,centroid,602,fuzzy_state,96,South Andamans,Andaman And Nicobar Islands
+76128533B52664671961643,Anantapur,Andhra Pradesh,centroid,502,alias_exact,100,Ananthapuramu,Andhra Pradesh
+76128533B22471914548132,Chittoor,Andhra Pradesh,centroid,503,exact_state,100,Chittoor,Andhra Pradesh
+76128533B29138015770556,East Godavari,Andhra Pradesh,centroid,505,exact_state,100,East Godavari,Andhra Pradesh
+76128533B72541188260561,Guntur,Andhra Pradesh,centroid,506,exact_state,100,Guntur,Andhra Pradesh
+76128533B72109128179340,Kadapa(YSR),Andhra Pradesh,centroid,504,alias_exact,100,Y.S.R.,Andhra Pradesh
+76128533B4481773749911,Krishna,Andhra Pradesh,centroid,510,exact_state,100,Krishna,Andhra Pradesh
+76128533B28294794137747,Kurnool,Andhra Pradesh,centroid,511,exact_state,100,Kurnool,Andhra Pradesh
+76128533B95075104846315,Prakasam,Andhra Pradesh,centroid,517,exact_state,100,Prakasam,Andhra Pradesh
+76128533B55622097933343,Sri Potti Sriramulu Nellore,Andhra Pradesh,centroid,515,exact_state,100,Sri Potti Sriramulu Nellore,Andhra Pradesh
+76128533B59405966069108,Srikakulam,Andhra Pradesh,centroid,519,exact_state,100,Srikakulam,Andhra Pradesh
+76128533B71485440235524,Visakhapatnam,Andhra Pradesh,centroid,520,exact_state,100,Visakhapatnam,Andhra Pradesh
+76128533B36164606132718,Vizianagaram,Andhra Pradesh,centroid,521,exact_state,100,Vizianagaram,Andhra Pradesh
+76128533B19792346411952,West Godavari,Andhra Pradesh,centroid,523,exact_state,100,West Godavari,Andhra Pradesh
+76128533B83105693975079,Yanam,Andhra Pradesh,centroid,601,exact_name_india,97,Yanam,Puducherry
+76128533B55878637000592,Anjaw,Arunachal Pradesh,centroid,628,exact_state,100,Anjaw,Arunachal Pradesh
+76128533B9558749744242,Changlang,Arunachal Pradesh,centroid,229,exact_state,100,Changlang,Arunachal Pradesh
+76128533B11651252780045,Dibang Valley,Arunachal Pradesh,centroid,230,exact_state,100,Dibang Valley,Arunachal Pradesh
+76128533B76129461078086,East Kameng,Arunachal Pradesh,centroid,231,exact_state,100,East Kameng,Arunachal Pradesh
+76128533B53717296822608,East Siang,Arunachal Pradesh,centroid,232,exact_state,100,East Siang,Arunachal Pradesh
+76128533B19898496046456,Kamle,Arunachal Pradesh,centroid,718,exact_state,100,Kamle,Arunachal Pradesh
+76128533B12129983841645,Kra Daadi,Arunachal Pradesh,centroid,677,exact_state,100,Kra Daadi,Arunachal Pradesh
+76128533B31405919461443,Kurung Kumey,Arunachal Pradesh,centroid,233,exact_state,100,Kurung Kumey,Arunachal Pradesh
+76128533B25448742967716,Leparada,Arunachal Pradesh,centroid,724,exact_state,100,Leparada,Arunachal Pradesh
+76128533B6828791241172,Lohit,Arunachal Pradesh,centroid,234,exact_state,100,Lohit,Arunachal Pradesh
+76128533B22715430000002,Longding,Arunachal Pradesh,centroid,666,exact_state,100,Longding,Arunachal Pradesh
+76128533B38784530776316,Lower Dibang Valley,Arunachal Pradesh,centroid,235,exact_state,100,Lower Dibang Valley,Arunachal Pradesh
+76128533B49993259380917,Lower Siang,Arunachal Pradesh,centroid,719,exact_state,100,Lower Siang,Arunachal Pradesh
+76128533B90913053845537,Lower Subansiri,Arunachal Pradesh,centroid,236,exact_state,100,Lower Subansiri,Arunachal Pradesh
+76128533B1875965515331,Namsai,Arunachal Pradesh,centroid,678,exact_state,100,Namsai,Arunachal Pradesh
+76128533B24017517661394,Pakke Kessang,Arunachal Pradesh,centroid,723,exact_state,100,Pakke Kessang,Arunachal Pradesh
+76128533B17472905712757,Papum Pare,Arunachal Pradesh,centroid,237,exact_state,100,Papum Pare,Arunachal Pradesh
+76128533B46084756537322,Shi Yomi,Arunachal Pradesh,centroid,725,exact_state,100,Shi Yomi,Arunachal Pradesh
+76128533B95910687666425,Siang,Arunachal Pradesh,centroid,679,exact_state,100,Siang,Arunachal Pradesh
+76128533B18668117085772,Tawang,Arunachal Pradesh,centroid,238,exact_state,100,Tawang,Arunachal Pradesh
+76128533B99469070633974,Tirap,Arunachal Pradesh,centroid,239,exact_state,100,Tirap,Arunachal Pradesh
+76128533B76058958071350,Upper Siang,Arunachal Pradesh,centroid,240,exact_state,100,Upper Siang,Arunachal Pradesh
+76128533B84689409020934,Upper Subansiri,Arunachal Pradesh,centroid,241,exact_state,100,Upper Subansiri,Arunachal Pradesh
+76128533B61235952222315,West Kameng,Arunachal Pradesh,centroid,242,exact_state,100,West Kameng,Arunachal Pradesh
+76128533B95764075909869,West Siang,Arunachal Pradesh,centroid,243,exact_state,100,West Siang,Arunachal Pradesh
+76128533B8221925175605,Baksa,Assam,centroid,616,exact_state,100,Baksa,Assam
+76128533B47772746709007,Barpeta,Assam,centroid,280,exact_state,100,Barpeta,Assam
+76128533B40714385808093,Biswanath,Assam,centroid,705,exact_state,100,Biswanath,Assam
+76128533B46490409917345,Bongaigaon,Assam,centroid,281,exact_state,100,Bongaigaon,Assam
+76128533B26964150246712,Cachar,Assam,centroid,282,exact_state,100,Cachar,Assam
+76128533B89228414823983,Charaideo,Assam,centroid,708,exact_state,100,Charaideo,Assam
+76128533B56012535339305,Chirang,Assam,centroid,612,exact_state,100,Chirang,Assam
+76128533B96719327593873,Darrang,Assam,centroid,283,exact_state,100,Darrang,Assam
+76128533B50650763703739,Dhemaji,Assam,centroid,284,exact_state,100,Dhemaji,Assam
+76128533B25835998628545,Dhubri,Assam,centroid,285,exact_state,100,Dhubri,Assam
+76128533B57825981663822,Dibrugarh,Assam,centroid,286,exact_state,100,Dibrugarh,Assam
+76128533B66125202864966,Dima Hasao,Assam,centroid,299,exact_state,100,Dima Hasao,Assam
+76128533B91472319248603,Goalpara,Assam,centroid,287,exact_state,100,Goalpara,Assam
+76128533B55519385298440,Golaghat,Assam,centroid,288,exact_state,100,Golaghat,Assam
+76128533B16749627383755,Hailakandi,Assam,centroid,289,exact_state,100,Hailakandi,Assam
+76128533B70315194619807,Hojai,Assam,centroid,709,exact_state,100,Hojai,Assam
+76128533B334793883930,Jorhat,Assam,centroid,290,exact_state,100,Jorhat,Assam
+76128533B66682530790248,Kamrup,Assam,centroid,291,exact_state,100,Kamrup,Assam
+76128533B38548995376745,Karbi Anglong East,Assam,centroid,292,alias_exact,100,Karbi Anglong,Assam
+76128533B57995625790051,Karbi Anglong West,Assam,centroid,710,fuzzy_state,100,West Karbi Anglong,Assam
+76128533B23092176497025,Karimganj,Assam,centroid,293,exact_state,100,Karimganj,Assam
+76128533B91480770176940,Kokrajhar,Assam,centroid,294,exact_state,100,Kokrajhar,Assam
+76128533B85627242103654,Lakhimpur,Assam,centroid,295,exact_state,100,Lakhimpur,Assam
+76128533B15157901669242,Majuli,Assam,centroid,706,exact_state,100,Majuli,Assam
+76128533B17968019348564,Morigaon,Assam,centroid,296,alias_exact,100,Marigaon,Assam
+76128533B13437137070957,Nagaon,Assam,centroid,297,exact_state,100,Nagaon,Assam
+76128533B40995085026980,Nalbari,Assam,centroid,298,exact_state,100,Nalbari,Assam
+76128533B21722277889516,Sivasagar,Assam,centroid,300,exact_state,100,Sivasagar,Assam
+76128533B41005496708834,Sonitpur,Assam,centroid,301,exact_state,100,Sonitpur,Assam
+76128533B20298037622173,South Salmara-Mankachar,Assam,centroid,707,fuzzy_state,95,South Salmara Mancachar,Assam
+76128533B8920527783032,Tinsukia,Assam,centroid,302,exact_state,100,Tinsukia,Assam
+76128533B20307518801538,Udalguri,Assam,centroid,617,exact_state,100,Udalguri,Assam
+76128533B4745348385341,Araria,Bihar,centroid,188,exact_state,100,Araria,Bihar
+76128533B45623818137574,Arwal,Bihar,centroid,611,exact_state,100,Arwal,Bihar
+76128533B21485639457044,Aurangabad,Bihar,centroid,189,exact_state,100,Aurangabad,Bihar
+76128533B54517225652088,Banka,Bihar,centroid,190,exact_state,100,Banka,Bihar
+76128533B5855800361016,Begusarai,Bihar,centroid,191,exact_state,100,Begusarai,Bihar
+76128533B83462627230182,Bhagalpur,Bihar,centroid,192,exact_state,100,Bhagalpur,Bihar
+76128533B66426066081507,Bhojpur,Bihar,centroid,193,exact_state,100,Bhojpur,Bihar
+76128533B12244320360965,Buxar,Bihar,centroid,194,exact_state,100,Buxar,Bihar
+76128533B12694285477701,Darbhanga,Bihar,centroid,195,exact_state,100,Darbhanga,Bihar
+76128533B91871300208785,Gaya,Bihar,centroid,196,exact_state,100,Gaya,Bihar
+76128533B93214480696409,Gopalganj,Bihar,centroid,197,exact_state,100,Gopalganj,Bihar
+76128533B16781044866906,Jamui,Bihar,centroid,198,exact_state,100,Jamui,Bihar
+76128533B24101991435637,Jehanabad,Bihar,centroid,199,exact_state,100,Jehanabad,Bihar
+76128533B78904410352326,Kaimur (Bhabua),Bihar,centroid,200,exact_state,100,Kaimur (Bhabua),Bihar
+76128533B27432148084533,Katihar,Bihar,centroid,201,exact_state,100,Katihar,Bihar
+76128533B78970756356546,Khagaria,Bihar,centroid,202,exact_state,100,Khagaria,Bihar
+76128533B65773363805797,Kishanganj,Bihar,centroid,203,exact_state,100,Kishanganj,Bihar
+76128533B98985252129882,Lakhisarai,Bihar,centroid,204,exact_state,100,Lakhisarai,Bihar
+76128533B29293163114565,Madhepura,Bihar,centroid,205,exact_state,100,Madhepura,Bihar
+76128533B90384580518633,Madhubani,Bihar,centroid,206,exact_state,100,Madhubani,Bihar
+76128533B40868676647207,Munger,Bihar,centroid,207,exact_state,100,Munger,Bihar
+76128533B88481188307630,Muzaffarpur,Bihar,centroid,208,exact_state,100,Muzaffarpur,Bihar
+76128533B51363853289247,Nalanda,Bihar,centroid,209,exact_state,100,Nalanda,Bihar
+76128533B36625800127334,Nawada,Bihar,centroid,210,exact_state,100,Nawada,Bihar
+76128533B17762399278073,Pashchim Champaran,Bihar,centroid,211,exact_state,100,Pashchim Champaran,Bihar
+76128533B60721316645780,Patna,Bihar,centroid,212,exact_state,100,Patna,Bihar
+76128533B49017555803526,Purba Champaran,Bihar,centroid,213,fuzzy_state,93,Purbi Champaran,Bihar
+76128533B32499449492865,Purnia,Bihar,centroid,214,exact_state,100,Purnia,Bihar
+76128533B33458049385696,Rohtas,Bihar,centroid,215,exact_state,100,Rohtas,Bihar
+76128533B24755983727265,Saharsa,Bihar,centroid,216,exact_state,100,Saharsa,Bihar
+76128533B66790149147330,Samastipur,Bihar,centroid,217,exact_state,100,Samastipur,Bihar
+76128533B19903856317609,Saran,Bihar,centroid,218,exact_state,100,Saran,Bihar
+76128533B29672216830072,Sheikhpura,Bihar,centroid,219,exact_state,100,Sheikhpura,Bihar
+76128533B74961596993088,Sheohar,Bihar,centroid,220,exact_state,100,Sheohar,Bihar
+76128533B21922686388534,Sitamarhi,Bihar,centroid,221,exact_state,100,Sitamarhi,Bihar
+76128533B14033116794334,Siwan,Bihar,centroid,222,exact_state,100,Siwan,Bihar
+76128533B62794162648247,Supaul,Bihar,centroid,223,exact_state,100,Supaul,Bihar
+76128533B91445917652173,Vaishali,Bihar,centroid,224,exact_state,100,Vaishali,Bihar
+76128533B56050914259601,Chandigarh,Chandigarh,centroid,44,exact_state,100,Chandigarh,Chandigarh
+76128533B90169585758701,Balod,Chhattisgarh,centroid,646,exact_state,100,Balod,Chhattisgarh
+76128533B54306414631532,Baloda Bazar,Chhattisgarh,centroid,644,alias_exact,100,Balodabazar-Bhatapara,Chhattisgarh
+76128533B14598081584747,Balrampur,Chhattisgarh,centroid,649,alias_exact,100,Balrampur-Ramanujganj,Chhattisgarh
+76128533B47840093719460,Bastar,Chhattisgarh,centroid,374,exact_state,100,Bastar,Chhattisgarh
+76128533B73736605657091,Bemetra,Chhattisgarh,centroid,650,fuzzy_state,93,Bemetara,Chhattisgarh
+76128533B66145460152555,Bijapur,Chhattisgarh,centroid,636,exact_state,100,Bijapur,Chhattisgarh
+76128533B81964529079574,Bilaspur,Chhattisgarh,centroid,375,exact_state,100,Bilaspur,Chhattisgarh
+76128533B14292125820380,Dakshin Bastar Dantewada,Chhattisgarh,centroid,376,exact_state,100,Dakshin Bastar Dantewada,Chhattisgarh
+76128533B71714250401862,Dhamtari,Chhattisgarh,centroid,377,exact_state,100,Dhamtari,Chhattisgarh
+76128533B15993411864574,Durg,Chhattisgarh,centroid,378,exact_state,100,Durg,Chhattisgarh
+76128533B93063337202124,Gariaband,Chhattisgarh,centroid,645,fuzzy_state,94,Gariyaband,Chhattisgarh
+76128533B38203190611533,Gaurella Pendra Marwahi,Chhattisgarh,centroid,734,fuzzy_state,97,Gaurela-Pendra-Marwahi,Chhattisgarh
+76128533B6310527412636,Janjgir-Champa,Chhattisgarh,centroid,379,exact_state,100,Janjgir-Champa,Chhattisgarh
+76128533B53609934827566,Jashpur,Chhattisgarh,centroid,380,exact_state,100,Jashpur,Chhattisgarh
+76128533B48077510234542,Kabeerdham,Chhattisgarh,centroid,382,exact_state,100,Kabeerdham,Chhattisgarh
+76128533B12144400448811,Kondagaon,Chhattisgarh,centroid,643,exact_state,100,Kondagaon,Chhattisgarh
+76128533B89438858641946,Korba,Chhattisgarh,centroid,383,exact_state,100,Korba,Chhattisgarh
+76128533B1621599562140,Koriya,Chhattisgarh,centroid,384,alias_exact,100,Korea,Chhattisgarh
+76128533B9759621355294,Mahasamund,Chhattisgarh,centroid,385,exact_state,100,Mahasamund,Chhattisgarh
+76128533B17292264941997,Mungeli,Chhattisgarh,centroid,647,exact_state,100,Mungeli,Chhattisgarh
+76128533B89979485471283,Narayanpur,Chhattisgarh,centroid,637,exact_state,100,Narayanpur,Chhattisgarh
+76128533B67018657649043,Raigarh,Chhattisgarh,centroid,386,exact_state,100,Raigarh,Chhattisgarh
+76128533B57691508962219,Raipur,Chhattisgarh,centroid,387,exact_state,100,Raipur,Chhattisgarh
+76128533B25020556592153,Rajnandgaon,Chhattisgarh,centroid,388,exact_state,100,Rajnandgaon,Chhattisgarh
+76128533B53316015271969,Sukma,Chhattisgarh,centroid,642,exact_state,100,Sukma,Chhattisgarh
+76128533B46979893461805,Surajpur,Chhattisgarh,centroid,648,exact_state,100,Surajpur,Chhattisgarh
+76128533B52487813780503,Surguja,Chhattisgarh,centroid,389,exact_state,100,Surguja,Chhattisgarh
+76128533B26755490628656,Uttar Bastar Kanker,Chhattisgarh,centroid,381,exact_state,100,Uttar Bastar Kanker,Chhattisgarh
+76128533B15180319517641,Daman,Dadra and Nagar Haveli and Daman and Diu,centroid,463,exact_state,100,Daman,The Dadra And Nagar Haveli And Daman And Diu
+76128533B56857410767766,Diu,Dadra and Nagar Haveli and Daman and Diu,centroid,464,exact_state,100,Diu,The Dadra And Nagar Haveli And Daman And Diu
+76128533B19832024635761,Central,Delhi,centroid,77,exact_state,100,Central,Delhi
+76128533B72485933575946,East,Delhi,centroid,78,exact_state,100,East,Delhi
+76128533B58262202014972,New Delhi,Delhi,centroid,79,exact_state,100,New Delhi,Delhi
+76128533B45574198291616,North ,Delhi,centroid,80,exact_state,100,North,Delhi
+76128533B9976625304286,North East,Delhi,centroid,81,exact_state,100,North East,Delhi
+76128533B71353370080255,North West,Delhi,centroid,82,exact_state,100,North West,Delhi
+76128533B81419063387740,Shahdara,Delhi,centroid,671,exact_state,100,Shahdara,Delhi
+76128533B97089774514948,South,Delhi,centroid,83,exact_state,100,South,Delhi
+76128533B1420136949169,South East,Delhi,centroid,670,exact_state,100,South East,Delhi
+76128533B53136419849111,South West,Delhi,centroid,84,exact_state,100,South West,Delhi
+76128533B68379889579232,West,Delhi,centroid,85,exact_state,100,West,Delhi
+76128533B1711704044407,North Goa,Goa,centroid,551,exact_state,100,North Goa,Goa
+76128533B63117839967753,South Goa,Goa,centroid,552,exact_state,100,South Goa,Goa
+76128533B93113981386565,Ahmadabad,Gujarat,centroid,438,alias_exact,100,Ahmedabad,Gujarat
+76128533B43737470294384,Amreli,Gujarat,centroid,439,exact_state,100,Amreli,Gujarat
+76128533B69438085511257,Anand,Gujarat,centroid,440,exact_state,100,Anand,Gujarat
+76128533B62153454383166,Aravali,Gujarat,centroid,672,alias_exact,100,Arvalli,Gujarat
+76128533B52902360321344,Banas Kantha,Gujarat,centroid,441,exact_state,100,Banas Kantha,Gujarat
+76128533B48885555323596,Batod,Gujarat,centroid,676,alias_exact,100,Botad,Gujarat
+76128533B63599385776584,Bharuch,Gujarat,centroid,442,exact_state,100,Bharuch,Gujarat
+76128533B93450974047240,Bhavnagar,Gujarat,centroid,443,exact_state,100,Bhavnagar,Gujarat
+76128533B69417260894674,Chhota Udaipur,Gujarat,centroid,668,alias_exact,100,Chhotaudepur,Gujarat
+76128533B43252171579976,Dadra & Nagar Haveli,Gujarat,centroid,465,exact_name_india,97,Dadra And Nagar Haveli,The Dadra And Nagar Haveli And Daman And Diu
+76128533B74381554567803,Devbhumi Dwarka,Gujarat,centroid,674,exact_state,100,Devbhumi Dwarka,Gujarat
+76128533B70576899889534,Dohad,Gujarat,centroid,445,alias_exact,100,Dahod,Gujarat
+76128533B7606365706860,Gandhinagar,Gujarat,centroid,446,exact_state,100,Gandhinagar,Gujarat
+76128533B45037556977273,Gir Somnath,Gujarat,centroid,675,exact_state,100,Gir Somnath,Gujarat
+76128533B35205406647638,Jamnagar,Gujarat,centroid,447,exact_state,100,Jamnagar,Gujarat
+76128533B40923846274136,Junagadh,Gujarat,centroid,448,exact_state,100,Junagadh,Gujarat
+76128533B91881382098572,Kachchh,Gujarat,centroid,449,exact_state,100,Kachchh,Gujarat
+76128533B39046535416628,Kheda,Gujarat,centroid,450,exact_state,100,Kheda,Gujarat
+76128533B81661995166840,Mahesana,Gujarat,centroid,451,exact_state,100,Mahesana,Gujarat
+76128533B49615943426842,Mahisagar,Gujarat,centroid,669,exact_state,100,Mahisagar,Gujarat
+76128533B2080752988715,Morbi,Gujarat,centroid,673,exact_state,100,Morbi,Gujarat
+76128533B46866455993508,Narmada,Gujarat,centroid,452,exact_state,100,Narmada,Gujarat
+76128533B6397758882978,Navsari,Gujarat,centroid,453,exact_state,100,Navsari,Gujarat
+76128533B16476001647323,Panch Mahals,Gujarat,centroid,454,exact_state,100,Panch Mahals,Gujarat
+76128533B42839853072341,Patan,Gujarat,centroid,455,exact_state,100,Patan,Gujarat
+76128533B84417945851362,Porbandar,Gujarat,centroid,456,exact_state,100,Porbandar,Gujarat
+76128533B74992405432705,Rajkot,Gujarat,centroid,457,exact_state,100,Rajkot,Gujarat
+76128533B35129325000613,Sabar Kantha,Gujarat,centroid,458,exact_state,100,Sabar Kantha,Gujarat
+76128533B97372652494648,Surat,Gujarat,centroid,459,exact_state,100,Surat,Gujarat
+76128533B7851306475665,Surendranagar,Gujarat,centroid,460,exact_state,100,Surendranagar,Gujarat
+76128533B12519626815499,Tapi,Gujarat,centroid,641,exact_state,100,Tapi,Gujarat
+76128533B16271917438029,The Dangs,Gujarat,centroid,444,alias_exact,100,Dangs,Gujarat
+76128533B33151011563565,Vadodara,Gujarat,centroid,461,exact_state,100,Vadodara,Gujarat
+76128533B60261306484775,Valsad,Gujarat,centroid,462,exact_state,100,Valsad,Gujarat
+76128533B95049353851516,Ambala,Haryana,centroid,58,exact_state,100,Ambala,Haryana
+76128533B42646400584570,Bhiwani,Haryana,centroid,59,exact_state,100,Bhiwani,Haryana
+76128533B40638696154891,Faridabad,Haryana,centroid,60,exact_state,100,Faridabad,Haryana
+76128533B10727492375508,Fatehabad,Haryana,centroid,61,exact_state,100,Fatehabad,Haryana
+76128533B67580812983244,Gurgaon,Haryana,centroid,62,alias_exact,100,Gurugram,Haryana
+76128533B22732185131019,Hisar,Haryana,centroid,63,exact_state,100,Hisar,Haryana
+76128533B70554191137208,Jhajjar,Haryana,centroid,64,exact_state,100,Jhajjar,Haryana
+76128533B45106682783501,Jind,Haryana,centroid,65,exact_state,100,Jind,Haryana
+76128533B64596101949699,Kaithal,Haryana,centroid,66,exact_state,100,Kaithal,Haryana
+76128533B6330405394721,Karnal,Haryana,centroid,67,exact_state,100,Karnal,Haryana
+76128533B94710820075529,Kurukshetra,Haryana,centroid,68,exact_state,100,Kurukshetra,Haryana
+76128533B64161607349718,Mahendragarh,Haryana,centroid,69,exact_state,100,Mahendragarh,Haryana
+76128533B80016894369263,Mewat,Haryana,centroid,604,alias_exact,100,Nuh,Haryana
+76128533B71088079535368,Palwal,Haryana,centroid,619,exact_state,100,Palwal,Haryana
+76128533B58876508630362,Panchkula,Haryana,centroid,70,exact_state,100,Panchkula,Haryana
+76128533B86048662040782,Panipat,Haryana,centroid,71,exact_state,100,Panipat,Haryana
+76128533B22722327711505,Rewari,Haryana,centroid,72,exact_state,100,Rewari,Haryana
+76128533B12244045944458,Rohtak,Haryana,centroid,73,exact_state,100,Rohtak,Haryana
+76128533B84837672903805,Sirsa,Haryana,centroid,74,exact_state,100,Sirsa,Haryana
+76128533B69536039643660,Sonipat,Haryana,centroid,75,exact_state,100,Sonipat,Haryana
+76128533B23956636471502,Yamunanagar,Haryana,centroid,76,exact_state,100,Yamunanagar,Haryana
+76128533B85695392289827,Bilaspur,Himachal Pradesh,centroid,15,exact_state,100,Bilaspur,Himachal Pradesh
+76128533B58537895532859,Chamba,Himachal Pradesh,centroid,16,exact_state,100,Chamba,Himachal Pradesh
+76128533B35956162202704,Hamirpur,Himachal Pradesh,centroid,17,exact_state,100,Hamirpur,Himachal Pradesh
+76128533B13697452453823,Kangra,Himachal Pradesh,centroid,18,exact_state,100,Kangra,Himachal Pradesh
+76128533B50011981829203,Kinnaur,Himachal Pradesh,centroid,19,exact_state,100,Kinnaur,Himachal Pradesh
+76128533B97425778881707,Kullu,Himachal Pradesh,centroid,20,exact_state,100,Kullu,Himachal Pradesh
+76128533B75359793481950,Lahul & Spiti,Himachal Pradesh,centroid,21,alias_exact,100,Lahaul And Spiti,Himachal Pradesh
+76128533B23735146933631,Mandi,Himachal Pradesh,centroid,22,exact_state,100,Mandi,Himachal Pradesh
+76128533B77537928419507,Shimla,Himachal Pradesh,centroid,23,exact_state,100,Shimla,Himachal Pradesh
+76128533B11802210119774,Sirmaur,Himachal Pradesh,centroid,24,exact_state,100,Sirmaur,Himachal Pradesh
+76128533B58569599021232,Solan,Himachal Pradesh,centroid,25,exact_state,100,Solan,Himachal Pradesh
+76128533B75262864015847,Una,Himachal Pradesh,centroid,26,exact_state,100,Una,Himachal Pradesh
+76128533B6393836306469,Anantnag,Jammu and Kashmir,centroid,1,exact_state,100,Anantnag,Jammu And Kashmir
+76128533B88214376170788,Badgam,Jammu and Kashmir,centroid,2,alias_exact,100,Budgam,Jammu And Kashmir
+76128533B41744580856133,Bandipore,Jammu and Kashmir,centroid,623,alias_exact,100,Bandipora,Jammu And Kashmir
+76128533B15567489974292,Baramula,Jammu and Kashmir,centroid,3,fuzzy_state,94,Baramulla,Jammu And Kashmir
+76128533B48708628358161,Doda,Jammu and Kashmir,centroid,4,exact_state,100,Doda,Jammu And Kashmir
+76128533B20504715877560,Ganderbal,Jammu and Kashmir,centroid,626,exact_state,100,Ganderbal,Jammu And Kashmir
+76128533B3371867518692,Jammu,Jammu and Kashmir,centroid,5,exact_state,100,Jammu,Jammu And Kashmir
+76128533B79652855441225,Kathua,Jammu and Kashmir,centroid,7,exact_state,100,Kathua,Jammu And Kashmir
+76128533B20458430922604,Kishtwar,Jammu and Kashmir,centroid,620,exact_state,100,Kishtwar,Jammu And Kashmir
+76128533B87327155385261,Kulgam,Jammu and Kashmir,centroid,622,exact_state,100,Kulgam,Jammu And Kashmir
+76128533B68195849750399,Kupwara,Jammu and Kashmir,centroid,8,exact_state,100,Kupwara,Jammu And Kashmir
+76128533B74958462315105,Pulwama,Jammu and Kashmir,centroid,11,exact_state,100,Pulwama,Jammu And Kashmir
+76128533B32998994032811,Punch,Jammu and Kashmir,centroid,10,alias_exact,100,Poonch,Jammu And Kashmir
+76128533B45655211862788,Rajouri,Jammu and Kashmir,centroid,12,exact_state,100,Rajouri,Jammu And Kashmir
+76128533B92985585225784,Ramban,Jammu and Kashmir,centroid,621,exact_state,100,Ramban,Jammu And Kashmir
+76128533B50784044604286,Reasi,Jammu and Kashmir,centroid,627,exact_state,100,Reasi,Jammu And Kashmir
+76128533B49429513424897,Samba,Jammu and Kashmir,centroid,624,exact_state,100,Samba,Jammu And Kashmir
+76128533B37825396764028,Shupiyan,Jammu and Kashmir,centroid,625,alias_exact,100,Shopian,Jammu And Kashmir
+76128533B32249045995424,Srinagar,Jammu and Kashmir,centroid,13,exact_state,100,Srinagar,Jammu And Kashmir
+76128533B31127900859310,Udhampur,Jammu and Kashmir,centroid,14,exact_state,100,Udhampur,Jammu And Kashmir
+76128533B30016122738302,Bokaro,Jharkhand,centroid,322,exact_state,100,Bokaro,Jharkhand
+76128533B44632955875385,Chatra,Jharkhand,centroid,323,exact_state,100,Chatra,Jharkhand
+76128533B90068096507942,Deoghar,Jharkhand,centroid,324,exact_state,100,Deoghar,Jharkhand
+76128533B94847743365739,Dhanbad,Jharkhand,centroid,325,exact_state,100,Dhanbad,Jharkhand
+76128533B18802630191461,Dumka,Jharkhand,centroid,326,exact_state,100,Dumka,Jharkhand
+76128533B12294379827032,Garhwa,Jharkhand,centroid,328,exact_state,100,Garhwa,Jharkhand
+76128533B75529869544465,Giridih,Jharkhand,centroid,329,exact_state,100,Giridih,Jharkhand
+76128533B58697472287618,Godda,Jharkhand,centroid,330,exact_state,100,Godda,Jharkhand
+76128533B80916614857890,Gumla,Jharkhand,centroid,331,exact_state,100,Gumla,Jharkhand
+76128533B1222571856670,Hazaribagh,Jharkhand,centroid,332,exact_state,100,Hazaribagh,Jharkhand
+76128533B17261532861377,Jamtara,Jharkhand,centroid,333,exact_state,100,Jamtara,Jharkhand
+76128533B27414563922025,Khunti,Jharkhand,centroid,606,exact_state,100,Khunti,Jharkhand
+76128533B43180268042348,Kodarma,Jharkhand,centroid,334,alias_exact,100,Koderma,Jharkhand
+76128533B35143550659673,Latehar,Jharkhand,centroid,335,exact_state,100,Latehar,Jharkhand
+76128533B35439951183692,Lohardaga,Jharkhand,centroid,336,exact_state,100,Lohardaga,Jharkhand
+76128533B45381195840581,Pakur,Jharkhand,centroid,337,exact_state,100,Pakur,Jharkhand
+76128533B6050540865870,Palamu,Jharkhand,centroid,338,exact_state,100,Palamu,Jharkhand
+76128533B60893804631193,Pashchimi Singhbhum,Jharkhand,centroid,343,alias_exact,100,West Singhbhum,Jharkhand
+76128533B18931932305748,Purbi Singhbhum,Jharkhand,centroid,327,alias_exact,100,East Singhbum,Jharkhand
+76128533B79263581040575,Ramgarh,Jharkhand,centroid,607,exact_state,100,Ramgarh,Jharkhand
+76128533B71439508543442,Ranchi,Jharkhand,centroid,339,exact_state,100,Ranchi,Jharkhand
+76128533B49805675626253,Sahibganj,Jharkhand,centroid,340,alias_exact,100,Sahebganj,Jharkhand
+76128533B50275440439236,Saraikela-Kharsawan,Jharkhand,centroid,341,exact_state,100,Saraikela Kharsawan,Jharkhand
+76128533B15601995412161,Simdega,Jharkhand,centroid,342,exact_state,100,Simdega,Jharkhand
+76128533B83278580643229,Bagalkot,Karnataka,centroid,524,alias_exact,100,Bagalkote,Karnataka
+76128533B76927648517269,Bangalore,Karnataka,centroid,525,alias_exact,100,Bengaluru Urban,Karnataka
+76128533B48075109668277,Bangalore Rural,Karnataka,centroid,526,alias_exact,100,Bengaluru Rural,Karnataka
+76128533B74319098136622,Belgaum,Karnataka,centroid,527,alias_exact,100,Belagavi,Karnataka
+76128533B92621859299479,Bellary,Karnataka,centroid,528,alias_exact,100,Ballari,Karnataka
+76128533B9794868259401,Bidar,Karnataka,centroid,529,exact_state,100,Bidar,Karnataka
+76128533B40495457052818,Bijapur,Karnataka,centroid,530,alias_exact,100,Vijayapura,Karnataka
+76128533B16628456658675,Chamarajanagar,Karnataka,centroid,531,fuzzy_state,96,Chamarajanagara,Karnataka
+76128533B80772392204057,Chikkaballapura,Karnataka,centroid,630,exact_state,100,Chikkaballapura,Karnataka
+76128533B15550697205080,Chikmagalur,Karnataka,centroid,532,alias_exact,100,Chikkamagaluru,Karnataka
+76128533B47594161132413,Chitradurga,Karnataka,centroid,533,exact_state,100,Chitradurga,Karnataka
+76128533B54396396829952,Dakshina Kannada,Karnataka,centroid,534,exact_state,100,Dakshina Kannada,Karnataka
+76128533B49597693387243,Davanagere,Karnataka,centroid,535,fuzzy_state,94,Davangere,Karnataka
+76128533B75110579117636,Dharwad,Karnataka,centroid,536,exact_state,100,Dharwad,Karnataka
+76128533B33966968116377,Gadag,Karnataka,centroid,537,exact_state,100,Gadag,Karnataka
+76128533B1083016608278,Gulbarga,Karnataka,centroid,538,alias_exact,100,Kalaburagi,Karnataka
+76128533B54775433755383,Hassan,Karnataka,centroid,539,exact_state,100,Hassan,Karnataka
+76128533B86721175299079,Haveri,Karnataka,centroid,540,exact_state,100,Haveri,Karnataka
+76128533B57609583882472,Kodagu,Karnataka,centroid,541,exact_state,100,Kodagu,Karnataka
+76128533B29292403538801,Kolar,Karnataka,centroid,542,exact_state,100,Kolar,Karnataka
+76128533B79601545186231,Koppal,Karnataka,centroid,543,exact_state,100,Koppal,Karnataka
+76128533B43335986553000,Mandya,Karnataka,centroid,544,exact_state,100,Mandya,Karnataka
+76128533B95879808095476,Mysore,Karnataka,centroid,545,alias_exact,100,Mysuru,Karnataka
+76128533B284680734793,Raichur,Karnataka,centroid,546,exact_state,100,Raichur,Karnataka
+76128533B79600797037735,Ramanagara,Karnataka,centroid,631,exact_state,100,Ramanagara,Karnataka
+76128533B85389886560116,Shimoga,Karnataka,centroid,547,alias_exact,100,Shivamogga,Karnataka
+76128533B64905184636422,Tumkur,Karnataka,centroid,548,alias_exact,100,Tumakuru,Karnataka
+76128533B4839184447445,Udupi,Karnataka,centroid,549,exact_state,100,Udupi,Karnataka
+76128533B79180273895456,Uttara Kannada,Karnataka,centroid,550,exact_state,100,Uttara Kannada,Karnataka
+76128533B84927972855096,Yadgir,Karnataka,centroid,635,exact_state,100,Yadgir,Karnataka
+76128533B86368264587575,Alappuzha,Kerala,centroid,554,exact_state,100,Alappuzha,Kerala
+76128533B75519739609062,Ernakulam,Kerala,centroid,555,exact_state,100,Ernakulam,Kerala
+76128533B35083559759016,Idukki,Kerala,centroid,556,exact_state,100,Idukki,Kerala
+76128533B41976979530466,Kannur,Kerala,centroid,557,exact_state,100,Kannur,Kerala
+76128533B63366045987285,Kasaragod,Kerala,centroid,558,exact_state,100,Kasaragod,Kerala
+76128533B61117593923933,Kollam,Kerala,centroid,559,exact_state,100,Kollam,Kerala
+76128533B2576169508425,Kottayam,Kerala,centroid,560,exact_state,100,Kottayam,Kerala
+76128533B3985531353014,Kozhikode,Kerala,centroid,561,exact_state,100,Kozhikode,Kerala
+76128533B41246169049488,Mahe,Kerala,vote_multi,599,exact_name_india,97,Mahe,Puducherry
+76128533B83861010847920,Malappuram,Kerala,centroid,562,exact_state,100,Malappuram,Kerala
+76128533B19581555782120,Palakkad,Kerala,centroid,563,exact_state,100,Palakkad,Kerala
+76128533B29330052395581,Pathanamthitta,Kerala,centroid,564,exact_state,100,Pathanamthitta,Kerala
+76128533B33162455176756,Thiruvananthapuram,Kerala,centroid,565,exact_state,100,Thiruvananthapuram,Kerala
+76128533B75696328527555,Thrissur,Kerala,centroid,566,exact_state,100,Thrissur,Kerala
+76128533B82539771173603,Wayanad,Kerala,centroid,567,exact_state,100,Wayanad,Kerala
+76128533B2782141712775,DATA NOT AVAILABLE,Ladakh,centroid,,unmatched,55,,
+76128533B47664895117076,Kargil,Ladakh,centroid,6,exact_state,100,Kargil,Ladakh
+76128533B57183548666997,Leh(Ladakh),Ladakh,centroid,9,exact_state,100,Leh Ladakh,Ladakh
+76128533B41477629049356,Lakshadweep,Lakshadweep,nearest,553,alias_exact,100,Lakshadweep District,Lakshadweep
+76128533B29721759389119,Agar,Madhya Pradesh,centroid,667,alias_exact,100,Agar-Malwa,Madhya Pradesh
+76128533B35167844027544,Alirajpur,Madhya Pradesh,centroid,639,exact_state,100,Alirajpur,Madhya Pradesh
+76128533B25468964623139,Anuppur,Madhya Pradesh,centroid,390,exact_state,100,Anuppur,Madhya Pradesh
+76128533B75548370501185,Ashoknagar,Madhya Pradesh,centroid,391,exact_state,100,Ashoknagar,Madhya Pradesh
+76128533B66134271591289,Balaghat,Madhya Pradesh,centroid,392,exact_state,100,Balaghat,Madhya Pradesh
+76128533B668165975951,Barwani,Madhya Pradesh,centroid,393,exact_state,100,Barwani,Madhya Pradesh
+76128533B82559220423608,Betul,Madhya Pradesh,centroid,394,exact_state,100,Betul,Madhya Pradesh
+76128533B57712033428660,Bhind,Madhya Pradesh,centroid,395,exact_state,100,Bhind,Madhya Pradesh
+76128533B22439249004073,Bhopal,Madhya Pradesh,centroid,396,exact_state,100,Bhopal,Madhya Pradesh
+76128533B37096001761063,Burhanpur,Madhya Pradesh,centroid,397,exact_state,100,Burhanpur,Madhya Pradesh
+76128533B42922918567330,Chhatarpur,Madhya Pradesh,centroid,398,exact_state,100,Chhatarpur,Madhya Pradesh
+76128533B70646408240587,Chhindwara,Madhya Pradesh,centroid,399,exact_state,100,Chhindwara,Madhya Pradesh
+76128533B44250373880839,Damoh,Madhya Pradesh,centroid,400,exact_state,100,Damoh,Madhya Pradesh
+76128533B80958502091898,Datia,Madhya Pradesh,centroid,401,exact_state,100,Datia,Madhya Pradesh
+76128533B53549946596470,Dewas,Madhya Pradesh,centroid,402,exact_state,100,Dewas,Madhya Pradesh
+76128533B42880544505675,Dhar,Madhya Pradesh,centroid,403,exact_state,100,Dhar,Madhya Pradesh
+76128533B20502827346807,Dindori,Madhya Pradesh,centroid,404,exact_state,100,Dindori,Madhya Pradesh
+76128533B79048012717121,Guna,Madhya Pradesh,centroid,406,exact_state,100,Guna,Madhya Pradesh
+76128533B90551733723251,Gwalior,Madhya Pradesh,centroid,407,exact_state,100,Gwalior,Madhya Pradesh
+76128533B21179322085415,Harda,Madhya Pradesh,centroid,408,exact_state,100,Harda,Madhya Pradesh
+76128533B45314020251888,Hoshangabad,Madhya Pradesh,centroid,409,alias_exact,100,Narmadapuram,Madhya Pradesh
+76128533B60360721573267,Indore,Madhya Pradesh,centroid,410,exact_state,100,Indore,Madhya Pradesh
+76128533B27615708126939,Jabalpur,Madhya Pradesh,centroid,411,exact_state,100,Jabalpur,Madhya Pradesh
+76128533B67004768724668,Jhabua,Madhya Pradesh,centroid,412,exact_state,100,Jhabua,Madhya Pradesh
+76128533B16674973717653,Katni,Madhya Pradesh,centroid,413,exact_state,100,Katni,Madhya Pradesh
+76128533B71271011331008,Khandwa (East Nimar),Madhya Pradesh,centroid,405,exact_state,100,Khandwa (East Nimar),Madhya Pradesh
+76128533B69481535535995,Khargone (West Nimar),Madhya Pradesh,centroid,414,exact_state,100,Khargone (West Nimar),Madhya Pradesh
+76128533B79087524886024,Mandla,Madhya Pradesh,centroid,415,exact_state,100,Mandla,Madhya Pradesh
+76128533B25679991785711,Mandsaur,Madhya Pradesh,centroid,416,exact_state,100,Mandsaur,Madhya Pradesh
+76128533B12343314564708,Morena,Madhya Pradesh,centroid,417,exact_state,100,Morena,Madhya Pradesh
+76128533B20683890392439,Narsimhapur,Madhya Pradesh,centroid,418,exact_state,100,Narsimhapur,Madhya Pradesh
+76128533B77191913035963,Neemuch,Madhya Pradesh,centroid,419,exact_state,100,Neemuch,Madhya Pradesh
+76128533B38767180038480,Niwari,Madhya Pradesh,centroid,722,exact_state,100,Niwari,Madhya Pradesh
+76128533B81607600692021,Panna,Madhya Pradesh,centroid,420,exact_state,100,Panna,Madhya Pradesh
+76128533B57893545331548,Raisen,Madhya Pradesh,centroid,421,exact_state,100,Raisen,Madhya Pradesh
+76128533B28521131010314,Rajgarh,Madhya Pradesh,centroid,422,exact_state,100,Rajgarh,Madhya Pradesh
+76128533B19341883513630,Ratlam,Madhya Pradesh,centroid,423,exact_state,100,Ratlam,Madhya Pradesh
+76128533B31161316175613,Rewa,Madhya Pradesh,centroid,424,exact_state,100,Rewa,Madhya Pradesh
+76128533B30447764775083,Sagar,Madhya Pradesh,centroid,425,exact_state,100,Sagar,Madhya Pradesh
+76128533B39705008578419,Satna,Madhya Pradesh,centroid,426,exact_state,100,Satna,Madhya Pradesh
+76128533B39959897010345,Sehore,Madhya Pradesh,centroid,427,exact_state,100,Sehore,Madhya Pradesh
+76128533B78482805703540,Seoni,Madhya Pradesh,centroid,428,exact_state,100,Seoni,Madhya Pradesh
+76128533B79303776608295,Shahdol,Madhya Pradesh,centroid,429,exact_state,100,Shahdol,Madhya Pradesh
+76128533B30477486088156,Shajapur,Madhya Pradesh,centroid,430,exact_state,100,Shajapur,Madhya Pradesh
+76128533B82240600990321,Sheopur,Madhya Pradesh,centroid,431,exact_state,100,Sheopur,Madhya Pradesh
+76128533B66335428496945,Shivpuri,Madhya Pradesh,centroid,432,exact_state,100,Shivpuri,Madhya Pradesh
+76128533B53791014455989,Sidhi,Madhya Pradesh,centroid,433,exact_state,100,Sidhi,Madhya Pradesh
+76128533B50014751336341,Singrauli,Madhya Pradesh,centroid,638,exact_state,100,Singrauli,Madhya Pradesh
+76128533B1566053393466,Tikamgarh,Madhya Pradesh,centroid,434,exact_state,100,Tikamgarh,Madhya Pradesh
+76128533B89286042589317,Ujjain,Madhya Pradesh,centroid,435,exact_state,100,Ujjain,Madhya Pradesh
+76128533B4466876522971,Umaria,Madhya Pradesh,centroid,436,exact_state,100,Umaria,Madhya Pradesh
+76128533B64834018186186,Vidisha,Madhya Pradesh,centroid,437,exact_state,100,Vidisha,Madhya Pradesh
+76128533B47816398970283,Ahmadnagar,Maharashtra,centroid,466,alias_exact,100,Ahmednagar,Maharashtra
+76128533B12380735325851,Akola,Maharashtra,centroid,467,exact_state,100,Akola,Maharashtra
+76128533B63815467309300,Amravati,Maharashtra,centroid,468,exact_state,100,Amravati,Maharashtra
+76128533B39329594544563,Aurangabad,Maharashtra,centroid,469,alias_exact,100,Chhatrapati Sambhajinagar,Maharashtra
+76128533B14243635342908,Bhandara,Maharashtra,centroid,471,exact_state,100,Bhandara,Maharashtra
+76128533B5215906594478,Bid,Maharashtra,centroid,470,alias_exact,100,Beed,Maharashtra
+76128533B70021405538438,Buldana,Maharashtra,centroid,472,fuzzy_state,93,Buldhana,Maharashtra
+76128533B31342633028465,Chandrapur,Maharashtra,centroid,473,exact_state,100,Chandrapur,Maharashtra
+76128533B25344721013980,Dhule,Maharashtra,centroid,474,exact_state,100,Dhule,Maharashtra
+76128533B36958871695926,Gadchiroli,Maharashtra,centroid,475,exact_state,100,Gadchiroli,Maharashtra
+76128533B76286653784168,Gondiya,Maharashtra,centroid,476,alias_exact,100,Gondia,Maharashtra
+76128533B86424887513424,Hingoli,Maharashtra,centroid,477,exact_state,100,Hingoli,Maharashtra
+76128533B40156838070,Jalgaon,Maharashtra,centroid,478,exact_state,100,Jalgaon,Maharashtra
+76128533B55603381222870,Jalna,Maharashtra,centroid,479,exact_state,100,Jalna,Maharashtra
+76128533B66719908763317,Kolhapur,Maharashtra,centroid,480,exact_state,100,Kolhapur,Maharashtra
+76128533B98050240849249,Latur,Maharashtra,centroid,481,exact_state,100,Latur,Maharashtra
+76128533B16442413169750,Mumbai,Maharashtra,centroid,482,exact_state,100,Mumbai,Maharashtra
+76128533B67326016655833,Mumbai Suburban,Maharashtra,centroid,483,exact_state,100,Mumbai Suburban,Maharashtra
+76128533B3026318797185,Nagpur,Maharashtra,centroid,484,exact_state,100,Nagpur,Maharashtra
+76128533B63783580004876,Nanded,Maharashtra,centroid,485,exact_state,100,Nanded,Maharashtra
+76128533B61304308285665,Nandurbar,Maharashtra,centroid,486,exact_state,100,Nandurbar,Maharashtra
+76128533B50056157736049,Nashik,Maharashtra,centroid,487,exact_state,100,Nashik,Maharashtra
+76128533B20474666262371,Osmanabad,Maharashtra,centroid,488,alias_exact,100,Dharashiv,Maharashtra
+76128533B37148244536449,Palghar,Maharashtra,centroid,665,exact_state,100,Palghar,Maharashtra
+76128533B27609096170969,Parbhani,Maharashtra,centroid,489,exact_state,100,Parbhani,Maharashtra
+76128533B71380851181380,Pune,Maharashtra,centroid,490,exact_state,100,Pune,Maharashtra
+76128533B99895802074414,Raigarh,Maharashtra,centroid,491,alias_exact,100,Raigad,Maharashtra
+76128533B8575303957680,Ratnagiri,Maharashtra,centroid,492,exact_state,100,Ratnagiri,Maharashtra
+76128533B9892158671522,Sangli,Maharashtra,centroid,493,exact_state,100,Sangli,Maharashtra
+76128533B93152786731267,Satara,Maharashtra,centroid,494,exact_state,100,Satara,Maharashtra
+76128533B39238815774480,Sindhudurg,Maharashtra,centroid,495,exact_state,100,Sindhudurg,Maharashtra
+76128533B62490300334729,Solapur,Maharashtra,centroid,496,exact_state,100,Solapur,Maharashtra
+76128533B74859418903113,Thane,Maharashtra,centroid,497,exact_state,100,Thane,Maharashtra
+76128533B37486272752374,Wardha,Maharashtra,centroid,498,exact_state,100,Wardha,Maharashtra
+76128533B59866172845044,Washim,Maharashtra,centroid,499,exact_state,100,Washim,Maharashtra
+76128533B61814103412294,Yavatmal,Maharashtra,centroid,500,exact_state,100,Yavatmal,Maharashtra
+76128533B14403163214152,Bishnupur,Manipur,centroid,252,exact_state,100,Bishnupur,Manipur
+76128533B59855617266389,Chandel,Manipur,centroid,253,exact_state,100,Chandel,Manipur
+76128533B50969226102213,Churachandpur,Manipur,centroid,254,exact_state,100,Churachandpur,Manipur
+76128533B30779259886340,Imphal East,Manipur,centroid,255,exact_state,100,Imphal East,Manipur
+76128533B99807650893733,Imphal West,Manipur,centroid,256,exact_state,100,Imphal West,Manipur
+76128533B64881202564500,Jiribam,Manipur,centroid,713,exact_state,100,Jiribam,Manipur
+76128533B82279368215419,Kakching,Manipur,centroid,711,exact_state,100,Kakching,Manipur
+76128533B66815680293072,Kamjong,Manipur,centroid,717,exact_state,100,Kamjong,Manipur
+76128533B56326354019534,Kangpokpi,Manipur,centroid,712,exact_state,100,Kangpokpi,Manipur
+76128533B36594996191182,Noney,Manipur,centroid,714,exact_state,100,Noney,Manipur
+76128533B13733639953372,Phek,Manipur,centroid,248,exact_name_india,97,Phek,Nagaland
+76128533B71254158898830,Pherzawl,Manipur,centroid,715,exact_state,100,Pherzawl,Manipur
+76128533B95642877176862,Senapati,Manipur,centroid,257,exact_state,100,Senapati,Manipur
+76128533B11421856387892,Tamenglong,Manipur,centroid,258,exact_state,100,Tamenglong,Manipur
+76128533B61831576863813,Tengnoupal,Manipur,centroid,716,exact_state,100,Tengnoupal,Manipur
+76128533B44197302080139,Thoubal,Manipur,centroid,259,exact_state,100,Thoubal,Manipur
+76128533B44190672061408,Ukhrul,Manipur,centroid,260,exact_state,100,Ukhrul,Manipur
+76128533B40535123096970,East Garo Hills,Meghalaya,centroid,273,exact_state,100,East Garo Hills,Meghalaya
+76128533B70185077694103,East Jaintia Hills,Meghalaya,centroid,657,exact_state,100,East Jaintia Hills,Meghalaya
+76128533B49246671500878,East Khasi Hills,Meghalaya,centroid,274,exact_state,100,East Khasi Hills,Meghalaya
+76128533B38230828972906,Kamrup Metropolitan,Meghalaya,centroid,618,alias_name_india,97,Kamrup Metro,Assam
+76128533B35759455556328,North Garo Hills,Meghalaya,centroid,656,exact_state,100,North Garo Hills,Meghalaya
+76128533B70570208114113,Ribhoi,Meghalaya,centroid,276,alias_exact,100,Ri Bhoi,Meghalaya
+76128533B79750857313751,South Garo Hills,Meghalaya,centroid,277,exact_state,100,South Garo Hills,Meghalaya
+76128533B52906466328910,South West Garo Hills,Meghalaya,centroid,663,exact_state,100,South West Garo Hills,Meghalaya
+76128533B27102120636500,South West Khasi Hills,Meghalaya,centroid,658,exact_state,100,South West Khasi Hills,Meghalaya
+76128533B96195300293897,West Garo Hills,Meghalaya,centroid,278,exact_state,100,West Garo Hills,Meghalaya
+76128533B84622469201834,West Jaintia Hills,Meghalaya,centroid,275,exact_state,100,West Jaintia Hills,Meghalaya
+76128533B42153891534463,West Khasi Hills,Meghalaya,centroid,279,exact_state,100,West Khasi Hills,Meghalaya
+76128533B34203923268864,Aizawl,Mizoram,centroid,261,exact_state,100,Aizawl,Mizoram
+76128533B39039541714099,Champhai,Mizoram,centroid,262,exact_state,100,Champhai,Mizoram
+76128533B64903504311414,Hnahthial,Mizoram,centroid,726,exact_state,100,Hnahthial,Mizoram
+76128533B41321006511827,Khawzawl,Mizoram,centroid,728,exact_state,100,Khawzawl,Mizoram
+76128533B38141181853016,Kolasib,Mizoram,centroid,263,exact_state,100,Kolasib,Mizoram
+76128533B70210707786180,Lawngtlai,Mizoram,centroid,264,exact_state,100,Lawngtlai,Mizoram
+76128533B97836280165555,Lunglei,Mizoram,centroid,265,exact_state,100,Lunglei,Mizoram
+76128533B77336742344288,Mamit,Mizoram,centroid,266,exact_state,100,Mamit,Mizoram
+76128533B35468154415031,Saiha,Mizoram,centroid,267,alias_exact,100,Siaha,Mizoram
+76128533B62486414019241,Saitual,Mizoram,centroid,727,exact_state,100,Saitual,Mizoram
+76128533B49456368048033,Serchhip,Mizoram,centroid,268,exact_state,100,Serchhip,Mizoram
+76128533B85747247216737,Dimapur,Nagaland,centroid,244,exact_state,100,Dimapur,Nagaland
+76128533B49100243723360,Kiphire,Nagaland,centroid,614,exact_state,100,Kiphire,Nagaland
+76128533B53671786151110,Kohima,Nagaland,centroid,245,exact_state,100,Kohima,Nagaland
+76128533B66411945144923,Longleng,Nagaland,centroid,615,exact_state,100,Longleng,Nagaland
+76128533B82793215586362,Mokokchung,Nagaland,centroid,246,exact_state,100,Mokokchung,Nagaland
+76128533B23611090346849,Mon,Nagaland,centroid,247,exact_state,100,Mon,Nagaland
+76128533B2970909480221,Peren,Nagaland,centroid,613,exact_state,100,Peren,Nagaland
+76128533B82052450002431,Tuensang,Nagaland,centroid,249,exact_state,100,Tuensang,Nagaland
+76128533B67210465807627,Wokha,Nagaland,centroid,250,exact_state,100,Wokha,Nagaland
+76128533B58058152513003,Zunheboto,Nagaland,centroid,251,exact_state,100,Zunheboto,Nagaland
+76128533B60186573304899,Anugul,Odisha,centroid,344,exact_state,100,Anugul,Odisha
+76128533B44395557448920,Balangir,Odisha,centroid,345,exact_state,100,Balangir,Odisha
+76128533B81147724102706,Baleshwar,Odisha,centroid,346,exact_state,100,Baleshwar,Odisha
+76128533B74482494441458,Bargarh,Odisha,centroid,347,exact_state,100,Bargarh,Odisha
+76128533B84772375641700,Baudh,Odisha,centroid,349,alias_exact,100,Boudh,Odisha
+76128533B58797478961083,Bhadrak,Odisha,centroid,348,exact_state,100,Bhadrak,Odisha
+76128533B70842759816811,Cuttack,Odisha,centroid,350,exact_state,100,Cuttack,Odisha
+76128533B64749652826710,Debagarh,Odisha,centroid,351,alias_exact,100,Deogarh,Odisha
+76128533B32509926596077,Dhenkanal,Odisha,centroid,352,exact_state,100,Dhenkanal,Odisha
+76128533B73854359719990,Gajapati,Odisha,centroid,353,exact_state,100,Gajapati,Odisha
+76128533B633842538351,Ganjam,Odisha,centroid,354,exact_state,100,Ganjam,Odisha
+76128533B32949331695897,Jagatsinghapur,Odisha,centroid,355,exact_state,100,Jagatsinghapur,Odisha
+76128533B91818883767147,Jajapur,Odisha,centroid,356,exact_state,100,Jajapur,Odisha
+76128533B93240759409313,Jharsuguda,Odisha,centroid,357,exact_state,100,Jharsuguda,Odisha
+76128533B70759200975708,Kalahandi,Odisha,centroid,358,exact_state,100,Kalahandi,Odisha
+76128533B8798165946807,Kandhamal,Odisha,centroid,359,exact_state,100,Kandhamal,Odisha
+76128533B98951704707517,Kendrapara,Odisha,centroid,360,exact_state,100,Kendrapara,Odisha
+76128533B59504628511334,Kendujhar,Odisha,centroid,361,exact_state,100,Kendujhar,Odisha
+76128533B52802748445403,Khordha,Odisha,centroid,362,exact_state,100,Khordha,Odisha
+76128533B47448948912370,Koraput,Odisha,centroid,363,exact_state,100,Koraput,Odisha
+76128533B85917349021677,Malkangiri,Odisha,centroid,364,exact_state,100,Malkangiri,Odisha
+76128533B34216851275023,Mayurbhanj,Odisha,centroid,365,exact_state,100,Mayurbhanj,Odisha
+76128533B99037046327658,Nabarangapur,Odisha,centroid,366,fuzzy_state,95,Nabarangpur,Odisha
+76128533B77719785699048,Nayagarh,Odisha,centroid,367,exact_state,100,Nayagarh,Odisha
+76128533B33451850475260,Nuapada,Odisha,centroid,368,exact_state,100,Nuapada,Odisha
+76128533B80656256583567,Puri,Odisha,centroid,369,exact_state,100,Puri,Odisha
+76128533B50498617372937,Rayagada,Odisha,centroid,370,exact_state,100,Rayagada,Odisha
+76128533B84129562351919,Sambalpur,Odisha,centroid,371,exact_state,100,Sambalpur,Odisha
+76128533B6884509901047,Subarnapur,Odisha,centroid,372,alias_exact,100,Sonepur,Odisha
+76128533B6128685860104,Sundargarh,Odisha,centroid,373,exact_state,100,Sundargarh,Odisha
+76128533B62624361588317,Karaikal,Puducherry,centroid,598,exact_state,100,Karaikal,Puducherry
+76128533B29873478326363,Puducherry,Puducherry,centroid,600,exact_state,100,Puducherry,Puducherry
+76128533B8426545955058,Amritsar,Punjab,centroid,27,exact_state,100,Amritsar,Punjab
+76128533B39051871473194,Barnala,Punjab,centroid,605,exact_state,100,Barnala,Punjab
+76128533B13791982054894,Bathinda,Punjab,centroid,28,exact_state,100,Bathinda,Punjab
+76128533B13552746017223,Faridkot,Punjab,centroid,29,exact_state,100,Faridkot,Punjab
+76128533B99919205026025,Fatehgarh Sahib,Punjab,centroid,30,exact_state,100,Fatehgarh Sahib,Punjab
+76128533B7291413308870,Fazilka,Punjab,centroid,651,exact_state,100,Fazilka,Punjab
+76128533B421757708753,Firozpur,Punjab,centroid,31,alias_exact,100,Ferozepur,Punjab
+76128533B51331331726928,Gurdaspur,Punjab,centroid,32,exact_state,100,Gurdaspur,Punjab
+76128533B41747884279129,Hoshiarpur,Punjab,centroid,33,exact_state,100,Hoshiarpur,Punjab
+76128533B91211372620495,Jalandhar,Punjab,centroid,34,exact_state,100,Jalandhar,Punjab
+76128533B37199077904074,Kapurthala,Punjab,centroid,35,exact_state,100,Kapurthala,Punjab
+76128533B46195204843409,Ludhiana,Punjab,centroid,36,exact_state,100,Ludhiana,Punjab
+76128533B41499938690181,Mansa,Punjab,centroid,37,exact_state,100,Mansa,Punjab
+76128533B18834172694083,Moga,Punjab,centroid,38,exact_state,100,Moga,Punjab
+76128533B50184713016881,Muktsar,Punjab,centroid,39,alias_exact,100,Sri Muktsar Sahib,Punjab
+76128533B19630094725383,Pathankot,Punjab,centroid,662,exact_state,100,Pathankot,Punjab
+76128533B39368211148513,Patiala,Punjab,centroid,41,exact_state,100,Patiala,Punjab
+76128533B24759700890118,Rupnagar,Punjab,centroid,42,exact_state,100,Rupnagar,Punjab
+76128533B12197302963241,Sahibzada Ajit Singh Nagar,Punjab,centroid,608,alias_exact,100,S.A.S Nagar,Punjab
+76128533B82601690264832,Sangrur,Punjab,centroid,43,exact_state,100,Sangrur,Punjab
+76128533B14984770113274,Shahid Bhagat Singh Nagar,Punjab,centroid,40,exact_state,100,Shahid Bhagat Singh Nagar,Punjab
+76128533B54652028494758,Tarn Taran,Punjab,centroid,609,exact_state,100,Tarn Taran,Punjab
+76128533B60180372390230,Ajmer,Rajasthan,centroid,86,exact_state,100,Ajmer,Rajasthan
+76128533B5628791558965,Alwar,Rajasthan,centroid,87,exact_state,100,Alwar,Rajasthan
+76128533B96584288929219,Banswara,Rajasthan,centroid,88,exact_state,100,Banswara,Rajasthan
+76128533B98308664713511,Baran,Rajasthan,centroid,89,exact_state,100,Baran,Rajasthan
+76128533B75922461866405,Barmer,Rajasthan,centroid,90,exact_state,100,Barmer,Rajasthan
+76128533B25576352747885,Bharatpur,Rajasthan,centroid,91,exact_state,100,Bharatpur,Rajasthan
+76128533B93441663686573,Bhilwara,Rajasthan,centroid,92,exact_state,100,Bhilwara,Rajasthan
+76128533B55039756001726,Bikaner,Rajasthan,centroid,93,exact_state,100,Bikaner,Rajasthan
+76128533B69412164931619,Bundi,Rajasthan,centroid,94,exact_state,100,Bundi,Rajasthan
+76128533B58527154065354,Chittaurgarh,Rajasthan,centroid,95,alias_exact,100,Chittorgarh,Rajasthan
+76128533B66825707357376,Churu,Rajasthan,centroid,96,exact_state,100,Churu,Rajasthan
+76128533B73809971322123,Dausa,Rajasthan,centroid,97,exact_state,100,Dausa,Rajasthan
+76128533B64898456093948,Dhaulpur,Rajasthan,centroid,98,alias_exact,100,Dholpur,Rajasthan
+76128533B12079567451207,Dungarpur,Rajasthan,centroid,99,exact_state,100,Dungarpur,Rajasthan
+76128533B72079972234594,Ganganagar,Rajasthan,centroid,100,exact_state,100,Ganganagar,Rajasthan
+76128533B92044109913630,Hanumangarh,Rajasthan,centroid,101,exact_state,100,Hanumangarh,Rajasthan
+76128533B28755611410447,Jaipur,Rajasthan,centroid,102,exact_state,100,Jaipur,Rajasthan
+76128533B14849085202492,Jaisalmer,Rajasthan,centroid,103,exact_state,100,Jaisalmer,Rajasthan
+76128533B59459156188335,Jalor,Rajasthan,centroid,104,fuzzy_state,90,Jalore,Rajasthan
+76128533B91943656836526,Jhalawar,Rajasthan,centroid,105,exact_state,100,Jhalawar,Rajasthan
+76128533B86135761305702,Jhunjhunun,Rajasthan,centroid,106,fuzzy_state,94,Jhunjhunu,Rajasthan
+76128533B84094142280102,Jodhpur,Rajasthan,centroid,107,exact_state,100,Jodhpur,Rajasthan
+76128533B34069028331411,Karauli,Rajasthan,centroid,108,exact_state,100,Karauli,Rajasthan
+76128533B74447895476194,Kota,Rajasthan,centroid,109,exact_state,100,Kota,Rajasthan
+76128533B43544960343942,Nagaur,Rajasthan,centroid,110,exact_state,100,Nagaur,Rajasthan
+76128533B9783509419210,Pali,Rajasthan,centroid,111,exact_state,100,Pali,Rajasthan
+76128533B50613523798301,Pratapgarh,Rajasthan,centroid,629,exact_state,100,Pratapgarh,Rajasthan
+76128533B11082155919544,Rajsamand,Rajasthan,centroid,112,exact_state,100,Rajsamand,Rajasthan
+76128533B28138828116492,Sawai Madhopur,Rajasthan,centroid,113,exact_state,100,Sawai Madhopur,Rajasthan
+76128533B20732636837048,Sikar,Rajasthan,centroid,114,exact_state,100,Sikar,Rajasthan
+76128533B49867917697487,Sirohi,Rajasthan,centroid,115,exact_state,100,Sirohi,Rajasthan
+76128533B54301724756864,Tonk,Rajasthan,centroid,116,exact_state,100,Tonk,Rajasthan
+76128533B37392223136185,Udaipur,Rajasthan,centroid,117,exact_state,100,Udaipur,Rajasthan
+76128533B67639510673366,East District,Sikkim,centroid,225,alias_exact,100,Gangtok,Sikkim
+76128533B65820903826030,North District,Sikkim,centroid,226,alias_exact,100,Mangan,Sikkim
+76128533B10270619600482,South District,Sikkim,centroid,227,alias_exact,100,Namchi,Sikkim
+76128533B30151252629779,West District,Sikkim,centroid,228,alias_exact,100,Gyalshing,Sikkim
+76128533B16889790752134,Ariyalur,Tamil Nadu,centroid,610,exact_state,100,Ariyalur,Tamil Nadu
+76128533B88669134807148,Chengalputtu,Tamil Nadu,centroid,730,fuzzy_state,91,Chengalpattu,Tamil Nadu
+76128533B89024397489955,Chennai,Tamil Nadu,centroid,568,exact_state,100,Chennai,Tamil Nadu
+76128533B4753404177348,Coimbatore,Tamil Nadu,centroid,569,exact_state,100,Coimbatore,Tamil Nadu
+76128533B61321395333865,Cuddalore,Tamil Nadu,centroid,570,exact_state,100,Cuddalore,Tamil Nadu
+76128533B4743808419896,Dharmapuri,Tamil Nadu,centroid,571,exact_state,100,Dharmapuri,Tamil Nadu
+76128533B28879432621383,Dindigul,Tamil Nadu,centroid,572,exact_state,100,Dindigul,Tamil Nadu
+76128533B15337568968545,Erode,Tamil Nadu,centroid,573,exact_state,100,Erode,Tamil Nadu
+76128533B19545859035458,Kallakurichi,Tamil Nadu,centroid,729,exact_state,100,Kallakurichi,Tamil Nadu
+76128533B83644689337946,Kancheepuram,Tamil Nadu,centroid,574,exact_state,100,Kancheepuram,Tamil Nadu
+76128533B53796141759805,Kanniyakumari,Tamil Nadu,centroid,575,exact_state,100,Kanniyakumari,Tamil Nadu
+76128533B19335918192159,Karur,Tamil Nadu,centroid,576,exact_state,100,Karur,Tamil Nadu
+76128533B35717069663408,Krishnagiri,Tamil Nadu,centroid,577,exact_state,100,Krishnagiri,Tamil Nadu
+76128533B71824979235503,Madurai,Tamil Nadu,centroid,578,exact_state,100,Madurai,Tamil Nadu
+76128533B63176236753619,Mayiladuthurai,Tamil Nadu,centroid,735,exact_state,100,Mayiladuthurai,Tamil Nadu
+76128533B88466433485589,Nagapattinam,Tamil Nadu,centroid,579,exact_state,100,Nagapattinam,Tamil Nadu
+76128533B51372664315362,Namakkal,Tamil Nadu,centroid,580,exact_state,100,Namakkal,Tamil Nadu
+76128533B51799781997546,Perambalur,Tamil Nadu,centroid,581,exact_state,100,Perambalur,Tamil Nadu
+76128533B64003397477352,Pudukkottai,Tamil Nadu,centroid,582,exact_state,100,Pudukkottai,Tamil Nadu
+76128533B1629699732681,Ramanathapuram,Tamil Nadu,centroid,583,exact_state,100,Ramanathapuram,Tamil Nadu
+76128533B22687502928564,Ranipet,Tamil Nadu,centroid,731,exact_state,100,Ranipet,Tamil Nadu
+76128533B52590639744160,Salem,Tamil Nadu,centroid,584,exact_state,100,Salem,Tamil Nadu
+76128533B89925537847414,Sivaganga,Tamil Nadu,centroid,585,exact_state,100,Sivaganga,Tamil Nadu
+76128533B27604563137530,Tenkasi,Tamil Nadu,centroid,733,exact_state,100,Tenkasi,Tamil Nadu
+76128533B54279577656282,Thanjavur,Tamil Nadu,centroid,586,exact_state,100,Thanjavur,Tamil Nadu
+76128533B21812274124310,The Nilgiris,Tamil Nadu,centroid,587,exact_state,100,The Nilgiris,Tamil Nadu
+76128533B79135514077232,Theni,Tamil Nadu,centroid,588,exact_state,100,Theni,Tamil Nadu
+76128533B45592431373253,Thiruvallur,Tamil Nadu,centroid,589,exact_state,100,Thiruvallur,Tamil Nadu
+76128533B45072089356239,Thiruvarur,Tamil Nadu,centroid,590,exact_state,100,Thiruvarur,Tamil Nadu
+76128533B31241181851990,Thoothukkudi,Tamil Nadu,centroid,594,exact_state,100,Thoothukkudi,Tamil Nadu
+76128533B1645877589145,Tiruchirappalli,Tamil Nadu,centroid,591,exact_state,100,Tiruchirappalli,Tamil Nadu
+76128533B52639434516056,Tirunelveli,Tamil Nadu,centroid,592,exact_state,100,Tirunelveli,Tamil Nadu
+76128533B11403491783632,Tirupathur,Tamil Nadu,centroid,732,exact_state,100,Tirupathur,Tamil Nadu
+76128533B57036825942975,Tiruppur,Tamil Nadu,centroid,634,exact_state,100,Tiruppur,Tamil Nadu
+76128533B89575258858457,Tiruvannamalai,Tamil Nadu,centroid,593,exact_state,100,Tiruvannamalai,Tamil Nadu
+76128533B89374164863010,Vellore,Tamil Nadu,centroid,595,exact_state,100,Vellore,Tamil Nadu
+76128533B86430586962522,Viluppuram,Tamil Nadu,centroid,596,exact_state,100,Viluppuram,Tamil Nadu
+76128533B70974512658911,Virudhunagar,Tamil Nadu,centroid,597,exact_state,100,Virudhunagar,Tamil Nadu
+76128533B38354309367879,Adilabad,Telangana,centroid,501,exact_state,100,Adilabad,Telangana
+76128533B30246762498957,Bhadradri,Telangana,centroid,690,alias_exact,100,Bhadradri Kothagudem,Telangana
+76128533B84676164211579,Hydrabad,Telangana,centroid,507,fuzzy_state,94,Hyderabad,Telangana
+76128533B67054925852429,Jagtial,Telangana,centroid,681,fuzzy_state,93,Jagitial,Telangana
+76128533B8930157583904,Jangaon,Telangana,centroid,689,alias_exact,100,Jangoan,Telangana
+76128533B60322704115131,Jayashankar,Telangana,centroid,687,alias_exact,100,Jayashankar Bhupalapally,Telangana
+76128533B72829420975835,Jogulamba,Telangana,centroid,695,alias_exact,100,Jogulamba Gadwal,Telangana
+76128533B21068662878849,Kamareddy,Telangana,centroid,685,exact_state,100,Kamareddy,Telangana
+76128533B58104976570569,Karimnagar,Telangana,centroid,508,exact_state,100,Karimnagar,Telangana
+76128533B96571577519224,Khammam,Telangana,centroid,509,exact_state,100,Khammam,Telangana
+76128533B33226396095315,Komaram Bheem,Telangana,centroid,699,alias_exact,100,Kumuram Bheem Asifabad,Telangana
+76128533B28290181894983,Mahabubabad,Telangana,centroid,688,exact_state,100,Mahabubabad,Telangana
+76128533B58170186574016,Mahabubnagar,Telangana,centroid,512,exact_state,100,Mahabubnagar,Telangana
+76128533B53018054761164,Mancherial,Telangana,centroid,684,exact_state,100,Mancherial,Telangana
+76128533B97126567441665,Medak,Telangana,centroid,513,exact_state,100,Medak,Telangana
+76128533B71056110198347,Medchal,Telangana,centroid,700,alias_exact,100,Medchal Malkajgiri,Telangana
+76128533B84398038505400,Mulugu,Telangana,centroid,720,exact_state,100,Mulugu,Telangana
+76128533B31246189674263,Nagarkurnool,Telangana,centroid,694,exact_state,100,Nagarkurnool,Telangana
+76128533B8892495882090,Nalgonda,Telangana,centroid,514,exact_state,100,Nalgonda,Telangana
+76128533B14968875277413,Narayanpet,Telangana,centroid,721,exact_state,100,Narayanpet,Telangana
+76128533B25280172436550,Nirmal,Telangana,centroid,680,exact_state,100,Nirmal,Telangana
+76128533B58493775523243,Nizamabad,Telangana,centroid,516,exact_state,100,Nizamabad,Telangana
+76128533B53373614632193,Peddapalli,Telangana,centroid,682,exact_state,100,Peddapalli,Telangana
+76128533B21485897206517,Rajanna Sircilla,Telangana,centroid,683,exact_state,100,Rajanna Sircilla,Telangana
+76128533B31175522938788,Rangareddy,Telangana,centroid,518,alias_exact,100,Ranga Reddy,Telangana
+76128533B40480360118262,Sangareddy,Telangana,centroid,691,exact_state,100,Sangareddy,Telangana
+76128533B31111781432113,Siddipet,Telangana,centroid,692,exact_state,100,Siddipet,Telangana
+76128533B24594618908349,Suryapet,Telangana,centroid,696,exact_state,100,Suryapet,Telangana
+76128533B74887942950962,Vikarabad,Telangana,centroid,698,exact_state,100,Vikarabad,Telangana
+76128533B49394025943542,Wanaparthy,Telangana,centroid,693,exact_state,100,Wanaparthy,Telangana
+76128533B63833971372360,Warangal (R),Telangana,centroid,522,alias_exact,100,Warangal,Telangana
+76128533B34824326075805,Warangal (U),Telangana,centroid,686,alias_exact,100,Hanumakonda,Telangana
+76128533B85157820615002,Yadadri Bhongiri,Telangana,centroid,697,alias_exact,100,Yadadri Bhuvanagiri,Telangana
+76128533B42970684683247,Dhalai,Tripura,centroid,269,exact_state,100,Dhalai,Tripura
+76128533B94126463611805,Gomati,Tripura,centroid,654,exact_state,100,Gomati,Tripura
+76128533B67044589012853,Khowai,Tripura,centroid,652,exact_state,100,Khowai,Tripura
+76128533B77134386587213,North Tripura,Tripura,centroid,270,exact_state,100,North Tripura,Tripura
+76128533B43965372582859,Sipahijula,Tripura,centroid,653,alias_exact,100,Sepahijala,Tripura
+76128533B67748245133340,South Tripura,Tripura,centroid,271,exact_state,100,South Tripura,Tripura
+76128533B4720703924950,Unokoti,Tripura,centroid,655,alias_exact,100,Unakoti,Tripura
+76128533B97225684979956,West Tripura,Tripura,centroid,272,exact_state,100,West Tripura,Tripura
+76128533B26296891809198,Agra,Uttar Pradesh,centroid,118,exact_state,100,Agra,Uttar Pradesh
+76128533B60862799554879,Aligarh,Uttar Pradesh,centroid,119,exact_state,100,Aligarh,Uttar Pradesh
+76128533B51368558457506,Allahabad,Uttar Pradesh,centroid,120,alias_exact,100,Prayagraj,Uttar Pradesh
+76128533B7879459377699,Ambedkar Nagar,Uttar Pradesh,centroid,121,exact_state,100,Ambedkar Nagar,Uttar Pradesh
+76128533B13908294104682,Amethi,Uttar Pradesh,centroid,640,exact_state,100,Amethi,Uttar Pradesh
+76128533B20660206691661,Auraiya,Uttar Pradesh,centroid,122,exact_state,100,Auraiya,Uttar Pradesh
+76128533B73925919155567,Azamgarh,Uttar Pradesh,centroid,123,exact_state,100,Azamgarh,Uttar Pradesh
+76128533B46268976217915,Baghpat,Uttar Pradesh,centroid,124,exact_state,100,Baghpat,Uttar Pradesh
+76128533B66612397499770,Bahraich,Uttar Pradesh,centroid,125,exact_state,100,Bahraich,Uttar Pradesh
+76128533B73769926250842,Ballia,Uttar Pradesh,centroid,126,exact_state,100,Ballia,Uttar Pradesh
+76128533B87371000929659,Balrampur,Uttar Pradesh,centroid,127,exact_state,100,Balrampur,Uttar Pradesh
+76128533B45099378029175,Banda,Uttar Pradesh,centroid,128,exact_state,100,Banda,Uttar Pradesh
+76128533B74938989340684,Bara Banki,Uttar Pradesh,centroid,129,exact_state,100,Bara Banki,Uttar Pradesh
+76128533B68554447699730,Bareilly,Uttar Pradesh,centroid,130,exact_state,100,Bareilly,Uttar Pradesh
+76128533B18648944871057,Basti,Uttar Pradesh,centroid,131,exact_state,100,Basti,Uttar Pradesh
+76128533B14534161138054,Bijnor,Uttar Pradesh,centroid,132,exact_state,100,Bijnor,Uttar Pradesh
+76128533B84679668760735,Budaun,Uttar Pradesh,centroid,133,exact_state,100,Budaun,Uttar Pradesh
+76128533B13272482176343,Bulandshahr,Uttar Pradesh,centroid,134,exact_state,100,Bulandshahr,Uttar Pradesh
+76128533B13673614951516,Chandauli,Uttar Pradesh,centroid,135,exact_state,100,Chandauli,Uttar Pradesh
+76128533B53725063754801,Chitrakoot,Uttar Pradesh,centroid,136,exact_state,100,Chitrakoot,Uttar Pradesh
+76128533B40023971667984,Deoria,Uttar Pradesh,centroid,137,exact_state,100,Deoria,Uttar Pradesh
+76128533B15342706434354,Etah,Uttar Pradesh,centroid,138,exact_state,100,Etah,Uttar Pradesh
+76128533B79784438258239,Etawah,Uttar Pradesh,centroid,139,exact_state,100,Etawah,Uttar Pradesh
+76128533B60320291189162,Faizabad,Uttar Pradesh,centroid,140,alias_exact,100,Ayodhya,Uttar Pradesh
+76128533B59596968713717,Farrukhabad,Uttar Pradesh,centroid,141,exact_state,100,Farrukhabad,Uttar Pradesh
+76128533B7124697440629,Fatehpur,Uttar Pradesh,centroid,142,exact_state,100,Fatehpur,Uttar Pradesh
+76128533B91640519747726,Firozabad,Uttar Pradesh,centroid,143,exact_state,100,Firozabad,Uttar Pradesh
+76128533B34462889864078,Gautam Buddha Nagar,Uttar Pradesh,centroid,144,exact_state,100,Gautam Buddha Nagar,Uttar Pradesh
+76128533B68984344044805,Ghaziabad,Uttar Pradesh,centroid,145,exact_state,100,Ghaziabad,Uttar Pradesh
+76128533B49460554954204,Ghazipur,Uttar Pradesh,centroid,146,exact_state,100,Ghazipur,Uttar Pradesh
+76128533B67530641452031,Gonda,Uttar Pradesh,centroid,147,exact_state,100,Gonda,Uttar Pradesh
+76128533B40226077866964,Gorakhpur,Uttar Pradesh,centroid,148,exact_state,100,Gorakhpur,Uttar Pradesh
+76128533B27201270098470,Hamirpur,Uttar Pradesh,centroid,149,exact_state,100,Hamirpur,Uttar Pradesh
+76128533B87317961648652,Hapur,Uttar Pradesh,centroid,661,exact_state,100,Hapur,Uttar Pradesh
+76128533B25208535254310,Hardoi,Uttar Pradesh,centroid,150,exact_state,100,Hardoi,Uttar Pradesh
+76128533B15835290978888,Jalaun,Uttar Pradesh,centroid,151,exact_state,100,Jalaun,Uttar Pradesh
+76128533B64732849735713,Jaunpur,Uttar Pradesh,centroid,152,exact_state,100,Jaunpur,Uttar Pradesh
+76128533B66072086060089,Jhansi,Uttar Pradesh,centroid,153,exact_state,100,Jhansi,Uttar Pradesh
+76128533B21119051307760,Jyotiba Phule Nagar,Uttar Pradesh,centroid,154,alias_exact,100,Amroha,Uttar Pradesh
+76128533B80966996849325,Kannauj,Uttar Pradesh,centroid,155,exact_state,100,Kannauj,Uttar Pradesh
+76128533B80299348876357,Kanpur Dehat,Uttar Pradesh,centroid,156,exact_state,100,Kanpur Dehat,Uttar Pradesh
+76128533B23710487943819,Kanpur Nagar,Uttar Pradesh,centroid,157,exact_state,100,Kanpur Nagar,Uttar Pradesh
+76128533B7643504807381,Kanshiram Nagar,Uttar Pradesh,centroid,633,alias_exact,100,Kasganj,Uttar Pradesh
+76128533B98420041301261,Kaushambi,Uttar Pradesh,centroid,158,exact_state,100,Kaushambi,Uttar Pradesh
+76128533B76479861129777,Kheri,Uttar Pradesh,centroid,159,exact_state,100,Kheri,Uttar Pradesh
+76128533B26931973511551,Kushinagar,Uttar Pradesh,centroid,160,exact_state,100,Kushinagar,Uttar Pradesh
+76128533B59256192226816,Lalitpur,Uttar Pradesh,centroid,161,exact_state,100,Lalitpur,Uttar Pradesh
+76128533B49436035281620,Lucknow,Uttar Pradesh,centroid,162,exact_state,100,Lucknow,Uttar Pradesh
+76128533B8878807356913,Mahamaya Nagar,Uttar Pradesh,centroid,163,alias_exact,100,Hathras,Uttar Pradesh
+76128533B11083100419963,Mahoba,Uttar Pradesh,centroid,165,exact_state,100,Mahoba,Uttar Pradesh
+76128533B29554440319099,Mahrajganj,Uttar Pradesh,centroid,164,exact_state,100,Mahrajganj,Uttar Pradesh
+76128533B84772439394056,Mainpuri,Uttar Pradesh,centroid,166,exact_state,100,Mainpuri,Uttar Pradesh
+76128533B88758450653156,Mathura,Uttar Pradesh,centroid,167,exact_state,100,Mathura,Uttar Pradesh
+76128533B88623139855224,Mau,Uttar Pradesh,centroid,168,exact_state,100,Mau,Uttar Pradesh
+76128533B61760400952464,Meerut,Uttar Pradesh,centroid,169,exact_state,100,Meerut,Uttar Pradesh
+76128533B18243475101734,Mirzapur,Uttar Pradesh,centroid,170,exact_state,100,Mirzapur,Uttar Pradesh
+76128533B51849218363622,Moradabad,Uttar Pradesh,centroid,171,exact_state,100,Moradabad,Uttar Pradesh
+76128533B87051210355251,Muzaffarnagar,Uttar Pradesh,centroid,172,exact_state,100,Muzaffarnagar,Uttar Pradesh
+76128533B90071703601852,Pilibhit,Uttar Pradesh,centroid,173,exact_state,100,Pilibhit,Uttar Pradesh
+76128533B20647769792365,Pratapgarh,Uttar Pradesh,centroid,174,exact_state,100,Pratapgarh,Uttar Pradesh
+76128533B74057284038879,Rae Bareli,Uttar Pradesh,centroid,175,exact_state,100,Rae Bareli,Uttar Pradesh
+76128533B46682008877369,Rampur,Uttar Pradesh,centroid,176,exact_state,100,Rampur,Uttar Pradesh
+76128533B33437990510331,Saharanpur,Uttar Pradesh,centroid,177,exact_state,100,Saharanpur,Uttar Pradesh
+76128533B7545062765383,Sambhal,Uttar Pradesh,centroid,659,exact_state,100,Sambhal,Uttar Pradesh
+76128533B35465481868600,Samli,Uttar Pradesh,centroid,660,fuzzy_state,90,Shamli,Uttar Pradesh
+76128533B54279951806726,Sant Kabir Nagar,Uttar Pradesh,centroid,178,exact_state,100,Sant Kabir Nagar,Uttar Pradesh
+76128533B87515288456202,Sant Ravidas Nagar (Bhadohi),Uttar Pradesh,centroid,179,alias_exact,100,Bhadohi,Uttar Pradesh
+76128533B96870418529164,Shahjahanpur,Uttar Pradesh,centroid,180,exact_state,100,Shahjahanpur,Uttar Pradesh
+76128533B34832354589031,Shrawasti,Uttar Pradesh,centroid,181,exact_state,100,Shrawasti,Uttar Pradesh
+76128533B40509297062120,Siddharthnagar,Uttar Pradesh,centroid,182,exact_state,100,Siddharthnagar,Uttar Pradesh
+76128533B8998698404381,Sitapur,Uttar Pradesh,centroid,183,exact_state,100,Sitapur,Uttar Pradesh
+76128533B52058654769647,Sonbhadra,Uttar Pradesh,centroid,184,exact_state,100,Sonbhadra,Uttar Pradesh
+76128533B1996088953603,Sultanpur,Uttar Pradesh,centroid,185,exact_state,100,Sultanpur,Uttar Pradesh
+76128533B42623703243160,Unnao,Uttar Pradesh,centroid,186,exact_state,100,Unnao,Uttar Pradesh
+76128533B7622369120497,Varanasi,Uttar Pradesh,centroid,187,exact_state,100,Varanasi,Uttar Pradesh
+76128533B74917207853309,Almora,Uttarakhand,centroid,45,exact_state,100,Almora,Uttarakhand
+76128533B64217423710469,Bageshwar,Uttarakhand,centroid,46,exact_state,100,Bageshwar,Uttarakhand
+76128533B69844709752120,Chamoli,Uttarakhand,centroid,47,exact_state,100,Chamoli,Uttarakhand
+76128533B2761749808956,Champawat,Uttarakhand,centroid,48,exact_state,100,Champawat,Uttarakhand
+76128533B67005208112053,Dehradun,Uttarakhand,centroid,49,exact_state,100,Dehradun,Uttarakhand
+76128533B46926146855114,Garhwal,Uttarakhand,centroid,52,alias_exact,100,Pauri Garhwal,Uttarakhand
+76128533B87833640460819,Hardwar,Uttarakhand,centroid,50,alias_exact,100,Haridwar,Uttarakhand
+76128533B50374927918374,Nainital,Uttarakhand,centroid,51,exact_state,100,Nainital,Uttarakhand
+76128533B38561771925520,Pithoragarh,Uttarakhand,centroid,53,exact_state,100,Pithoragarh,Uttarakhand
+76128533B46038384763988,Rudraprayag,Uttarakhand,centroid,54,alias_exact,100,Rudra Prayag,Uttarakhand
+76128533B61134942989820,Tehri Garhwal,Uttarakhand,centroid,55,exact_state,100,Tehri Garhwal,Uttarakhand
+76128533B46531174070538,Udham Singh Nagar,Uttarakhand,centroid,56,alias_exact,100,Udam Singh Nagar,Uttarakhand
+76128533B81694682724865,Uttarkashi,Uttarakhand,centroid,57,alias_exact,100,Uttar Kashi,Uttarakhand
+76128533B23858286755005,Alipurduar,West Bengal,centroid,664,exact_state,100,Alipurduar,West Bengal
+76128533B20752885472650,Bankura,West Bengal,centroid,305,exact_state,100,Bankura,West Bengal
+76128533B59121537940607,Barddhaman,West Bengal,centroid,306,alias_exact,100,Purba Bardhaman,West Bengal
+76128533B53366745705922,Birbhum,West Bengal,centroid,307,exact_state,100,Birbhum,West Bengal
+76128533B43049220506604,Dakshin Dinajpur,West Bengal,centroid,310,exact_state,100,Dakshin Dinajpur,West Bengal
+76128533B17109302371020,Darjiling,West Bengal,centroid,309,alias_exact,100,Darjeeling,West Bengal
+76128533B22077262393417,Haora,West Bengal,centroid,313,alias_exact,100,Howrah,West Bengal
+76128533B81857725777974,Hugli,West Bengal,centroid,312,alias_exact,100,Hooghly,West Bengal
+76128533B99051523080987,Jalpaiguri,West Bengal,centroid,314,exact_state,100,Jalpaiguri,West Bengal
+76128533B24861976740713,Jhargram,West Bengal,centroid,703,exact_state,100,Jhargram,West Bengal
+76128533B78458325839103,Kalimpong,West Bengal,centroid,702,exact_state,100,Kalimpong,West Bengal
+76128533B64156747739715,Koch Bihar,West Bengal,centroid,308,alias_exact,100,Cooch Behar,West Bengal
+76128533B72507508533064,Kolkata,West Bengal,centroid,315,exact_state,100,Kolkata,West Bengal
+76128533B36734405131975,Maldah,West Bengal,centroid,316,fuzzy_state,90,Malda,West Bengal
+76128533B51402332870635,Murshidabad,West Bengal,centroid,319,exact_state,100,Murshidabad,West Bengal
+76128533B71390118115414,Nadia,West Bengal,centroid,320,exact_state,100,Nadia,West Bengal
+76128533B93453964263910,North Twenty Four Parganas,West Bengal,centroid,303,alias_exact,100,North 24 Parganas,West Bengal
+76128533B60845263086042,Paschim Barddhaman,West Bengal,centroid,704,fuzzy_state,97,Paschim Bardhaman,West Bengal
+76128533B88812350838807,Paschim Medinipur,West Bengal,centroid,318,exact_state,100,Paschim Medinipur,West Bengal
+76128533B25373378863054,Purba Medinipur,West Bengal,centroid,317,exact_state,100,Purba Medinipur,West Bengal
+76128533B16811573188243,Puruliya,West Bengal,centroid,321,fuzzy_state,93,Purulia,West Bengal
+76128533B2860535426345,South Twenty Four Parganas,West Bengal,centroid,304,alias_exact,100,South 24 Parganas,West Bengal
+76128533B7157007143985,Uttar Dinajpur,West Bengal,vote,311,exact_state,100,Uttar Dinajpur,West Bengal

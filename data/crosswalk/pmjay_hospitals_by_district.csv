@@ -1,0 +1,786 @@
+district_code,district_name_english,state_name_english,n_pmjay_hospitals,n_pmjay_private,n_pmjay_public,is_apportioned
+554,Alappuzha,Kerala,20.0,10.0,10.0,False
+121,Ambedkar Nagar,Uttar Pradesh,37.0,13.0,24.0,False
+27,Amritsar,Punjab,90.0,77.0,13.0,False
+672,Arvalli,Gujarat,64.0,20.0,44.0,False
+611,Arwal,Bihar,6.0,0.0,6.0,False
+189,Aurangabad,Bihar,18.0,6.0,12.0,False
+125,Bahraich,Uttar Pradesh,87.0,13.0,74.0,False
+646,Balod,Chhattisgarh,44.0,7.0,37.0,False
+127,Balrampur,Uttar Pradesh,50.0,8.0,42.0,False
+649,Balrampur-Ramanujganj,Chhattisgarh,39.0,4.0,35.0,False
+623,Bandipora,Jammu And Kashmir,7.0,3.0,4.0,False
+470,Beed,Maharashtra,47.0,32.0,15.0,False
+650,Bemetara,Chhattisgarh,30.0,3.0,27.0,False
+525,Bengaluru Urban,Karnataka,319.0,71.0,248.0,False
+179,Bhadohi,Uttar Pradesh,52.0,30.0,22.0,False
+471,Bhandara,Maharashtra,23.0,13.0,10.0,False
+395,Bhind,Madhya Pradesh,11.0,1.0,10.0,False
+636,Bijapur,Chhattisgarh,20.0,0.0,20.0,False
+676,Botad,Gujarat,31.0,8.0,23.0,False
+47,Chamoli,Uttarakhand,9.0,2.0,7.0,False
+135,Chandauli,Uttar Pradesh,62.0,47.0,15.0,False
+253,Chandel,Manipur,2.0,0.0,2.0,False
+473,Chandrapur,Maharashtra,23.0,8.0,15.0,False
+398,Chhatarpur,Madhya Pradesh,12.0,1.0,11.0,False
+668,Chhotaudepur,Gujarat,44.0,7.0,35.0,False
+445,Dahod,Gujarat,114.0,9.0,103.0,False
+310,Dakshin Dinajpur,West Bengal,0.0,0.0,0.0,False
+400,Damoh,Madhya Pradesh,9.0,1.0,8.0,False
+444,Dangs,Gujarat,8.0,0.0,8.0,False
+309,Darjeeling,West Bengal,0.8637433040415893,0.0,0.8637433040415893,True
+535,Davangere,Karnataka,133.0,21.0,112.0,False
+269,Dhalai,Tripura,16.0,0.0,16.0,False
+352,Dhenkanal,Odisha,0.0,0.0,0.0,False
+404,Dindori,Madhya Pradesh,9.0,1.0,8.0,False
+769,Dudu,Rajasthan,24.99640026559349,20.050588448337024,4.945811817256466,True
+657,East Jaintia Hills,Meghalaya,9.0,0.0,9.0,False
+748,Eluru,Andhra Pradesh,17.0,5.0,12.0,False
+573,Erode,Tamil Nadu,92.0,63.0,29.0,False
+651,Fazilka,Punjab,14.0,8.0,6.0,False
+31,Ferozepur,Punjab,18.0,11.0,7.0,False
+446,Gandhinagar,Gujarat,70.0,24.0,44.0,False
+328,Garhwa,Jharkhand,12.0,2.0,10.0,False
+645,Gariyaband,Chhattisgarh,31.0,9.0,22.0,False
+196,Gaya,Bihar,41.0,13.0,28.0,False
+654,Gomati,Tripura,16.0,0.0,16.0,False
+331,Gumla,Jharkhand,11.0,0.0,11.0,False
+17,Hamirpur,Himachal Pradesh,17.0,9.0,8.0,False
+686,Hanumakonda,Telangana,83.0,55.0,28.0,False
+408,Harda,Madhya Pradesh,10.0,5.0,5.0,False
+50,Haridwar,Uttarakhand,54.0,44.0,10.0,False
+539,Hassan,Karnataka,187.0,10.0,177.0,False
+355,Jagatsinghapur,Odisha,1.0,0.0,1.0,False
+102,Jaipur,Rajasthan,230.1138764328777,184.58332334188052,45.530553090997195,True
+104,Jalore,Rajasthan,18.28164901324963,11.291606743477713,6.990042269771918,True
+314,Jalpaiguri,West Bengal,7.0,3.0,4.0,False
+687,Jayashankar Bhupalapally,Telangana,31.0,2.0,29.0,False
+105,Jhalawar,Rajasthan,27.0,9.0,18.0,False
+153,Jhansi,Uttar Pradesh,66.0,49.0,17.0,False
+357,Jharsuguda,Odisha,1.0,0.0,1.0,False
+382,Kabeerdham,Chhattisgarh,47.0,16.0,31.0,False
+702,Kalimpong,West Bengal,0.13625669595841075,0.0,0.13625669595841075,True
+156,Kanpur Dehat,Uttar Pradesh,38.0,11.0,27.0,False
+108,Karauli,Rajasthan,15.496471052511751,4.809249636986405,10.687221415525345,True
+508,Karimnagar,Telangana,60.0,32.0,28.0,False
+201,Katihar,Bihar,28.0,10.0,18.0,False
+360,Kendrapara,Odisha,0.0,0.0,0.0,False
+414,Khargone (West Nimar),Madhya Pradesh,21.0,8.0,13.0,False
+450,Kheda,Gujarat,84.0,12.0,71.0,False
+159,Kheri,Uttar Pradesh,82.0,16.0,66.0,False
+652,Khowai,Tripura,9.0,0.0,9.0,False
+606,Khunti,Jharkhand,8.0,2.0,6.0,False
+620,Kishtwar,Jammu And Kashmir,3.0,0.0,3.0,False
+263,Kolasib,Mizoram,7.0,0.0,7.0,False
+315,Kolkata,West Bengal,14.0,10.0,4.0,False
+559,Kollam,Kerala,41.0,27.0,14.0,False
+109,Kota,Rajasthan,55.0,31.0,24.0,False
+160,Kushinagar,Uttar Pradesh,84.0,35.0,49.0,False
+553,Lakshadweep District,Lakshadweep,5.0,0.0,5.0,False
+161,Lalitpur,Uttar Pradesh,23.0,6.0,17.0,False
+335,Latehar,Jharkhand,8.0,1.0,7.0,False
+234,Lohit,Arunachal Pradesh,1.0,0.0,1.0,False
+615,Longleng,Nagaland,4.0,0.0,4.0,False
+206,Madhubani,Bihar,47.0,22.0,25.0,False
+578,Madurai,Tamil Nadu,125.0,94.0,31.0,False
+69,Mahendragarh,Haryana,81.0,52.0,29.0,False
+669,Mahisagar,Gujarat,53.0,9.0,44.0,False
+784,Maihar,Madhya Pradesh,4.666180933943789,0.9998959144165263,3.6662850195272627,True
+166,Mainpuri,Uttar Pradesh,31.0,14.0,17.0,False
+706,Majuli,Assam,1.0,0.0,1.0,False
+562,Malappuram,Kerala,93.0,72.0,21.0,False
+316,Malda,West Bengal,1.0,0.0,1.0,False
+364,Malkangiri,Odisha,0.0,0.0,0.0,False
+684,Mancherial,Telangana,29.0,4.0,25.0,False
+168,Mau,Uttar Pradesh,54.0,28.0,26.0,False
+247,Mon,Nagaland,12.0,0.0,12.0,False
+720,Mulugu,Telangana,3.0,0.0,3.0,False
+207,Munger,Bihar,16.0,6.0,10.0,False
+545,Mysuru,Karnataka,228.0,38.0,190.0,False
+579,Nagapattinam,Tamil Nadu,37.0,11.0,26.0,False
+484,Nagpur,Maharashtra,69.0,48.0,21.0,False
+51,Nainital,Uttarakhand,35.0,19.0,16.0,False
+409,Narmadapuram,Madhya Pradesh,21.0,12.0,9.0,False
+487,Nashik,Maharashtra,124.0,91.0,33.0,False
+453,Navsari,Gujarat,72.0,13.0,57.0,False
+714,Noney,Manipur,1.0,0.0,1.0,False
+81,North East,Delhi,0.0,0.0,0.0,False
+270,North Tripura,Tripura,17.0,0.0,17.0,False
+749,Ntr,Andhra Pradesh,22.0,19.0,3.0,False
+563,Palakkad,Kerala,35.0,20.0,15.0,False
+338,Palamu,Jharkhand,27.0,17.0,10.0,False
+665,Palghar,Maharashtra,31.0,14.0,17.0,False
+70,Panchkula,Haryana,34.0,22.0,12.0,False
+71,Panipat,Haryana,106.0,89.0,17.0,False
+743,Parvathipuram Manyam,Andhra Pradesh,9.0,4.0,5.0,False
+662,Pathankot,Punjab,18.0,13.0,5.0,False
+53,Pithoragarh,Uttarakhand,11.0,4.0,7.0,False
+213,Purbi Champaran,Bihar,29.0,9.0,20.0,False
+369,Puri,Odisha,0.0,0.0,0.0,False
+421,Raisen,Madhya Pradesh,25.0,11.0,14.0,False
+518,Ranga Reddy,Telangana,79.0,68.0,11.0,False
+627,Reasi,Jammu And Kashmir,4.0,1.0,3.0,False
+425,Sagar,Madhya Pradesh,24.0,8.0,16.0,False
+217,Samastipur,Bihar,43.0,22.0,21.0,False
+43,Sangrur,Punjab,25.0,16.0,9.0,False
+608,S.A.S Nagar,Punjab,42.0,33.0,9.0,False
+40,Shahid Bhagat Singh Nagar,Punjab,10.0,4.0,6.0,False
+182,Siddharthnagar,Uttar Pradesh,27.0,6.0,21.0,False
+114,Sikar,Rajasthan,103.0,64.0,39.0,False
+495,Sindhudurg,Maharashtra,19.0,8.0,11.0,False
+115,Sirohi,Rajasthan,20.0,7.0,13.0,False
+74,Sirsa,Haryana,117.0,86.0,31.0,False
+585,Sivaganga,Tamil Nadu,48.0,21.0,27.0,False
+184,Sonbhadra,Uttar Pradesh,32.0,19.0,13.0,False
+372,Sonepur,Odisha,0.0,0.0,0.0,False
+304,South 24 Parganas,West Bengal,3.0,3.0,0.0,False
+552,South Goa,Goa,10.0,2.0,8.0,False
+696,Suryapet,Telangana,38.0,9.0,29.0,False
+716,Tengnoupal,Manipur,2.0,0.0,2.0,False
+588,Theni,Tamil Nadu,37.0,18.0,19.0,False
+590,Thiruvarur,Tamil Nadu,32.0,7.0,25.0,False
+434,Tikamgarh,Madhya Pradesh,7.918778188803224,2.1596667787645156,5.759111410038709,True
+655,Unakoti,Tripura,8.0,0.0,8.0,False
+241,Upper Subansiri,Arunachal Pradesh,1.0,0.0,1.0,False
+187,Varanasi,Uttar Pradesh,225.0,195.0,30.0,False
+597,Virudhunagar,Tamil Nadu,63.0,31.0,32.0,False
+498,Wardha,Maharashtra,16.0,5.0,11.0,False
+279,West Khasi Hills,Meghalaya,21.0,2.0,19.0,False
+272,West Tripura,Tripura,27.0,5.0,22.0,False
+504,Y.S.R.,Andhra Pradesh,135.0,47.0,88.0,False
+667,Agar-Malwa,Madhya Pradesh,8.0,4.0,4.0,False
+118,Agra,Uttar Pradesh,130.0,71.0,59.0,False
+86,Ajmer,Rajasthan,49.582893703827345,20.541484534442755,29.041409169384586,True
+664,Alipurduar,West Bengal,1.0,0.0,1.0,False
+45,Almora,Uttarakhand,12.0,4.0,8.0,False
+58,Ambala,Haryana,100.0,74.0,26.0,False
+468,Amravati,Maharashtra,36.0,20.0,16.0,False
+439,Amreli,Gujarat,75.0,22.0,50.0,False
+1,Anantnag,Jammu And Kashmir,25.0,17.0,8.0,False
+753,Annamayya,Andhra Pradesh,5.0,2.0,3.0,False
+616,Baksa,Assam,1.7712022735047233,0.0,1.7712022735047233,True
+346,Baleshwar,Odisha,0.0,0.0,0.0,False
+126,Ballia,Uttar Pradesh,62.0,15.0,47.0,False
+644,Balodabazar-Bhatapara,Chhattisgarh,45.0,14.0,31.0,False
+128,Banda,Uttar Pradesh,26.0,4.0,22.0,False
+190,Banka,Bihar,12.0,1.0,11.0,False
+305,Bankura,West Bengal,0.0,0.0,0.0,False
+3,Baramulla,Jammu And Kashmir,15.0,8.0,7.0,False
+130,Bareilly,Uttar Pradesh,250.0,188.0,62.0,False
+393,Barwani,Madhya Pradesh,21.0,13.0,8.0,False
+28,Bathinda,Punjab,89.0,74.0,15.0,False
+191,Begusarai,Bihar,48.0,28.0,20.0,False
+527,Belagavi,Karnataka,256.0,53.0,203.0,False
+192,Bhagalpur,Bihar,50.0,31.0,19.0,False
+375,Bilaspur,Chhattisgarh,129.0,76.0,53.0,False
+252,Bishnupur,Manipur,3.0,0.0,3.0,False
+705,Biswanath,Assam,3.0,1.0,2.0,False
+133,Budaun,Uttar Pradesh,45.0,12.0,33.0,False
+134,Bulandshahr,Uttar Pradesh,156.0,83.0,73.0,False
+94,Bundi,Rajasthan,23.0,5.0,18.0,False
+282,Cachar,Assam,13.0,3.0,10.0,False
+531,Chamarajanagara,Karnataka,77.0,4.0,73.0,False
+48,Champawat,Uttarakhand,4.0,1.0,3.0,False
+708,Charaideo,Assam,3.1874549324529777,1.992159332783111,1.1952955996698666,True
+568,Chennai,Tamil Nadu,215.0,134.0,81.0,False
+612,Chirang,Assam,2.0,0.0,2.0,False
+569,Coimbatore,Tamil Nadu,161.0,118.0,43.0,False
+401,Datia,Madhya Pradesh,7.0,1.0,6.0,False
+325,Dhanbad,Jharkhand,35.0,23.0,12.0,False
+571,Dharmapuri,Tamil Nadu,46.0,26.0,20.0,False
+536,Dharwad,Karnataka,89.0,23.0,66.0,False
+98,Dholpur,Rajasthan,14.0,3.0,11.0,False
+286,Dibrugarh,Assam,23.0,16.0,7.0,False
+378,Durg,Chhattisgarh,96.0,53.0,43.0,False
+273,East Garo Hills,Meghalaya,10.0,0.0,10.0,False
+29,Faridkot,Punjab,17.0,11.0,6.0,False
+30,Fatehgarh Sahib,Punjab,14.0,7.0,7.0,False
+354,Ganjam,Odisha,0.0,0.0,0.0,False
+144,Gautam Buddha Nagar,Uttar Pradesh,82.0,61.0,21.0,False
+146,Ghazipur,Uttar Pradesh,35.0,15.0,20.0,False
+330,Godda,Jharkhand,16.0,8.0,8.0,False
+62,Gurugram,Haryana,79.0,49.0,30.0,False
+661,Hapur,Uttar Pradesh,50.0,22.0,28.0,False
+163,Hathras,Uttar Pradesh,37.0,7.0,30.0,False
+540,Haveri,Karnataka,102.0,9.0,93.0,False
+63,Hisar,Haryana,172.0,139.0,33.0,False
+726,Hnahthial,Mizoram,2.264675273186808,0.16176251951334342,2.1029127536734644,True
+507,Hyderabad,Telangana,214.0,96.0,118.0,False
+151,Jalaun,Uttar Pradesh,40.0,8.0,32.0,False
+479,Jalna,Maharashtra,38.0,28.0,9.0,False
+447,Jamnagar,Gujarat,50.0,12.0,37.0,False
+380,Jashpur,Chhattisgarh,47.0,3.0,44.0,False
+412,Jhabua,Madhya Pradesh,9.0,1.0,8.0,False
+65,Jind,Haryana,64.0,35.0,29.0,False
+713,Jiribam,Manipur,1.0,0.0,1.0,False
+107,Jodhpur,Rajasthan,45.22854388127464,25.043904463185132,20.18463941808951,True
+778,Jodhpur (Gramin),Rajasthan,57.244549945554375,31.697395424397875,25.547154521156497,True
+290,Jorhat,Assam,7.0,4.0,3.0,False
+449,Kachchh,Gujarat,115.0,24.0,86.0,False
+746,Kakinada,Andhra Pradesh,16.0,9.0,7.0,False
+358,Kalahandi,Odisha,0.0,0.0,0.0,False
+729,Kallakurichi,Tamil Nadu,3.0,2.0,1.0,False
+685,Kamareddy,Telangana,33.0,3.0,30.0,False
+618,Kamrup Metro,Assam,67.0,58.0,9.0,False
+557,Kannur,Kerala,37.0,22.0,15.0,False
+157,Kanpur Nagar,Uttar Pradesh,228.0,168.0,60.0,False
+35,Kapurthala,Punjab,13.0,4.0,9.0,False
+6,Kargil,Ladakh,5.0,0.0,5.0,False
+576,Karur,Tamil Nadu,43.0,19.0,24.0,False
+7,Kathua,Jammu And Kashmir,7.0,1.0,6.0,False
+770,Khairthal-Tijara,Rajasthan,25.457480177603408,12.50144115864453,12.956039018958878,True
+405,Khandwa (East Nimar),Madhya Pradesh,15.0,5.0,10.0,False
+542,Kolar,Karnataka,83.0,3.0,80.0,False
+699,Kumuram Bheem Asifabad,Telangana,29.0,1.0,28.0,False
+264,Lawngtlai,Mizoram,8.0,2.0,6.0,False
+336,Lohardaga,Jharkhand,6.0,1.0,5.0,False
+235,Lower Dibang Valley,Arunachal Pradesh,1.0,0.0,1.0,False
+719,Lower Siang,Arunachal Pradesh,1.0,0.0,1.0,False
+165,Mahoba,Uttar Pradesh,24.0,1.0,23.0,False
+415,Mandla,Madhya Pradesh,10.0,1.0,9.0,False
+735,Mayiladuthurai,Tamil Nadu,2.0,1.0,1.0,False
+513,Medak,Telangana,25.0,3.0,22.0,False
+170,Mirzapur,Uttar Pradesh,78.0,30.0,48.0,False
+246,Mokokchung,Nagaland,15.0,6.0,9.0,False
+171,Moradabad,Uttar Pradesh,126.0,96.0,29.0,False
+673,Morbi,Gujarat,39.0,5.0,33.0,False
+482,Mumbai,Maharashtra,28.0,24.0,4.0,False
+483,Mumbai Suburban,Maharashtra,54.0,28.0,26.0,False
+694,Nagarkurnool,Telangana,35.0,1.0,34.0,False
+209,Nalanda,Bihar,36.0,14.0,22.0,False
+514,Nalgonda,Telangana,124.0,36.0,88.0,False
+210,Nawada,Bihar,19.0,4.0,15.0,False
+80,North,Delhi,5.0,4.0,1.0,False
+82,North West,Delhi,13.0,13.0,0.0,False
+237,Papum Pare,Arunachal Pradesh,13.0,4.0,9.0,False
+564,Pathanamthitta,Kerala,20.0,12.0,8.0,False
+456,Porbandar,Gujarat,20.0,3.0,16.0,False
+120,Prayagraj,Uttar Pradesh,190.0,122.0,68.0,False
+175,Rae Bareli,Uttar Pradesh,87.0,11.0,76.0,False
+546,Raichur,Karnataka,88.0,13.0,75.0,False
+683,Rajanna Sircilla,Telangana,21.0,3.0,18.0,False
+621,Ramban,Jammu And Kashmir,5.0,1.0,4.0,False
+423,Ratlam,Madhya Pradesh,16.0,5.0,11.0,False
+72,Rewari,Haryana,59.0,39.0,20.0,False
+276,Ri Bhoi,Meghalaya,15.0,3.0,12.0,False
+73,Rohtak,Haryana,95.0,74.0,21.0,False
+624,Samba,Jammu And Kashmir,8.0,3.0,5.0,False
+371,Sambalpur,Odisha,2.0,0.0,2.0,False
+493,Sangli,Maharashtra,67.0,53.0,14.0,False
+427,Sehore,Madhya Pradesh,27.0,10.0,17.0,False
+257,Senapati,Manipur,3.0,0.0,3.0,False
+780,Shahpura,Rajasthan,15.013516582569483,6.0054066330277935,9.00810994954169,True
+219,Sheikhpura,Bihar,7.0,0.0,7.0,False
+679,Siang,Arunachal Pradesh,1.0,0.0,1.0,False
+692,Siddipet,Telangana,54.0,17.0,37.0,False
+24,Sirmaur,Himachal Pradesh,16.0,8.0,8.0,False
+300,Sivasagar,Assam,4.812545067547022,3.0078406672168887,1.8047044003301334,True
+301,Sonitpur,Assam,13.0,7.0,6.0,False
+271,South Tripura,Tripura,26.0,0.0,26.0,False
+185,Sultanpur,Uttar Pradesh,90.0,33.0,57.0,False
+373,Sundargarh,Odisha,2.0,1.0,1.0,False
+459,Surat,Gujarat,165.0,78.0,80.0,False
+460,Surendranagar,Gujarat,77.0,11.0,65.0,False
+594,Thoothukkudi,Tamil Nadu,50.0,19.0,31.0,False
+566,Thrissur,Kerala,41.0,30.0,11.0,False
+752,Tirupati,Andhra Pradesh,22.0,5.0,17.0,False
+249,Tuensang,Nagaland,9.264150847423142,2.1798001993936804,7.084350648029462,True
+56,Udam Singh Nagar,Uttarakhand,63.0,54.0,9.0,False
+14,Udhampur,Jammu And Kashmir,4.0,1.0,3.0,False
+435,Ujjain,Madhya Pradesh,18.0,6.0,12.0,False
+186,Unnao,Uttar Pradesh,78.0,15.0,63.0,False
+311,Uttar Dinajpur,West Bengal,0.0,0.0,0.0,False
+595,Vellore,Tamil Nadu,78.0,37.0,41.0,False
+693,Wanaparthy,Telangana,24.0,4.0,20.0,False
+523,West Godavari,Andhra Pradesh,152.0,61.0,91.0,False
+242,West Kameng,Arunachal Pradesh,4.0,0.0,4.0,False
+76,Yamunanagar,Haryana,75.0,61.0,14.0,False
+500,Yavatmal,Maharashtra,34.0,24.0,10.0,False
+466,Ahmednagar,Maharashtra,78.0,53.0,25.0,False
+745,Alluri Sitharama Raju,Andhra Pradesh,9.0,0.0,9.0,False
+154,Amroha,Uttar Pradesh,51.0,22.0,29.0,False
+744,Anakapalli,Andhra Pradesh,9.0,2.0,7.0,False
+628,Anjaw,Arunachal Pradesh,1.0,0.0,1.0,False
+776,Anupgarh,Rajasthan,25.893623093611108,17.02594395196347,8.86767914164764,True
+122,Auraiya,Uttar Pradesh,34.0,2.0,32.0,False
+140,Ayodhya,Uttar Pradesh,71.0,22.0,49.0,False
+739,Bajali,Assam,0.0,0.0,0.0,False
+345,Balangir,Odisha,0.0,0.0,0.0,False
+129,Bara Banki,Uttar Pradesh,71.0,26.0,45.0,False
+690,Bhadradri Kothagudem,Telangana,45.0,9.0,36.0,False
+91,Bharatpur,Rajasthan,35.90158848748775,17.371736364913428,18.529852122574322,True
+193,Bhojpur,Bihar,33.0,17.0,16.0,False
+93,Bikaner,Rajasthan,40.0,10.0,30.0,False
+307,Birbhum,West Bengal,0.0,0.0,0.0,False
+701,Charki Dadri,Haryana,46.0,32.0,14.0,False
+630,Chikkaballapura,Karnataka,83.0,7.0,76.0,False
+503,Chittoor,Andhra Pradesh,184.0,60.0,124.0,False
+376,Dakshin Bastar Dantewada,Chhattisgarh,20.0,0.0,20.0,False
+283,Darrang,Assam,5.0,3.0,2.0,False
+49,Dehradun,Uttarakhand,72.0,57.0,15.0,False
+351,Deogarh,Odisha,0.0,0.0,0.0,False
+284,Dhemaji,Assam,6.0,1.0,5.0,False
+285,Dhubri,Assam,12.0,3.0,9.0,False
+230,Dibang Valley,Arunachal Pradesh,0.0,0.0,0.0,False
+768,Didwana-Kuchaman,Rajasthan,39.32196667032475,17.694885001646135,21.627081668678613,True
+244,Dimapur,Nagaland,19.537151772255818,14.784871611436836,4.752280160818983,True
+572,Dindigul,Tamil Nadu,82.0,44.0,38.0,False
+464,Diu,The Dadra And Nagar Haveli And Daman And Diu,1.0,0.0,1.0,False
+4,Doda,Jammu And Kashmir,4.0,0.0,4.0,False
+99,Dungarpur,Rajasthan,23.0,5.0,18.0,False
+232,East Siang,Arunachal Pradesh,5.0,1.0,4.0,False
+555,Ernakulam,Kerala,50.0,32.0,18.0,False
+138,Etah,Uttar Pradesh,21.0,5.0,16.0,False
+141,Farrukhabad,Uttar Pradesh,27.0,16.0,11.0,False
+61,Fatehabad,Haryana,58.0,37.0,21.0,False
+142,Fatehpur,Uttar Pradesh,55.0,11.0,44.0,False
+537,Gadag,Karnataka,63.0,8.0,55.0,False
+771,Gangapurcity,Rajasthan,13.503528947488249,4.190750363013595,9.312778584474655,True
+225,Gangtok,Sikkim,7.0,4.0,3.0,False
+145,Ghaziabad,Uttar Pradesh,106.0,85.0,21.0,False
+147,Gonda,Uttar Pradesh,92.0,18.0,74.0,False
+197,Gopalganj,Bihar,22.0,8.0,14.0,False
+32,Gurdaspur,Punjab,37.0,25.0,12.0,False
+407,Gwalior,Madhya Pradesh,72.0,63.0,9.0,False
+289,Hailakandi,Assam,4.0,0.0,4.0,False
+101,Hanumangarh,Rajasthan,44.0,25.0,19.0,False
+150,Hardoi,Uttar Pradesh,62.0,18.0,44.0,False
+332,Hazaribagh,Jharkhand,35.0,25.0,10.0,False
+477,Hingoli,Maharashtra,14.0,8.0,6.0,False
+681,Jagitial,Telangana,32.0,10.0,22.0,False
+356,Jajapur,Odisha,0.0,0.0,0.0,False
+333,Jamtara,Jharkhand,7.0,2.0,5.0,False
+198,Jamui,Bihar,16.0,6.0,10.0,False
+379,Janjgir-Champa,Chhattisgarh,54.0,20.0,34.0,False
+199,Jehanabad,Bihar,11.0,1.0,10.0,False
+703,Jhargram,West Bengal,0.19219691674042272,0.0,0.19219691674042272,True
+200,Kaimur (Bhabua),Bihar,13.0,3.0,10.0,False
+574,Kancheepuram,Tamil Nadu,100.0,60.0,40.0,False
+359,Kandhamal,Odisha,0.0,0.0,0.0,False
+18,Kangra,Himachal Pradesh,59.0,34.0,25.0,False
+155,Kannauj,Uttar Pradesh,45.0,6.0,39.0,False
+67,Karnal,Haryana,95.0,70.0,25.0,False
+633,Kasganj,Uttar Pradesh,19.0,3.0,16.0,False
+413,Katni,Madhya Pradesh,18.0,10.0,8.0,False
+202,Khagaria,Bihar,11.0,4.0,7.0,False
+19,Kinnaur,Himachal Pradesh,6.0,0.0,6.0,False
+614,Kiphire,Nagaland,6.0,0.0,6.0,False
+203,Kishanganj,Bihar,17.0,8.0,9.0,False
+334,Koderma,Jharkhand,15.0,8.0,7.0,False
+543,Koppal,Karnataka,75.0,7.0,68.0,False
+782,Kotputli-Behror,Rajasthan,31.65669485193682,15.545698364790402,16.110996487146416,True
+560,Kottayam,Kerala,31.0,15.0,16.0,False
+561,Kozhikode,Kerala,85.0,68.0,17.0,False
+510,Krishna,Andhra Pradesh,173.0,69.0,104.0,False
+622,Kulgam,Jammu And Kashmir,7.0,3.0,4.0,False
+8,Kupwara,Jammu And Kashmir,13.0,5.0,8.0,False
+511,Kurnool,Andhra Pradesh,175.0,88.0,87.0,False
+204,Lakhisarai,Bihar,9.0,3.0,6.0,False
+481,Latur,Maharashtra,42.0,22.0,20.0,False
+265,Lunglei,Mizoram,11.735324726813193,0.8382374804866566,10.897087246326535,True
+688,Mahabubabad,Telangana,32.0,10.0,22.0,False
+451,Mahesana,Gujarat,119.0,41.0,78.0,False
+164,Mahrajganj,Uttar Pradesh,49.0,12.0,37.0,False
+266,Mamit,Mizoram,8.0,0.0,8.0,False
+22,Mandi,Himachal Pradesh,46.0,24.0,22.0,False
+760,Manendragarh-Chirmiri-Bharatpur(M C B),Chhattisgarh,24.0,1.0,23.0,False
+365,Mayurbhanj,Odisha,0.0,0.0,0.0,False
+700,Medchal Malkajgiri,Telangana,94.0,57.0,37.0,False
+417,Morena,Madhya Pradesh,15.0,4.0,11.0,False
+319,Murshidabad,West Bengal,1.0,0.0,1.0,False
+366,Nabarangpur,Odisha,0.0,0.0,0.0,False
+320,Nadia,West Bengal,2.0,0.0,2.0,False
+485,Nanded,Maharashtra,55.0,34.0,21.0,False
+486,Nandurbar,Maharashtra,23.0,8.0,15.0,False
+721,Narayanpet,Telangana,5.0,1.0,4.0,False
+418,Narsimhapur,Madhya Pradesh,10.0,4.0,6.0,False
+419,Neemuch,Madhya Pradesh,18.0,11.0,7.0,False
+603,Nicobars,Andaman And Nicobar Islands,2.0,0.0,2.0,False
+680,Nirmal,Telangana,37.0,11.0,26.0,False
+722,Niwari,Madhya Pradesh,3.081221811196776,0.8403332212354844,2.240888589961292,True
+516,Nizamabad,Telangana,73.0,28.0,45.0,False
+736,Noklak,Nagaland,4.793474943539034,1.1278764573033022,3.6655984862357323,True
+551,North Goa,Goa,6.0,0.0,6.0,False
+723,Pakke Kessang,Arunachal Pradesh,1.0,0.0,1.0,False
+337,Pakur,Jharkhand,10.0,2.0,8.0,False
+785,Pandhurna,Madhya Pradesh,3.4013176962124843,1.4321337668263092,1.9691839293861753,True
+489,Parbhani,Maharashtra,22.0,12.0,10.0,False
+704,Paschim Bardhaman,West Bengal,8.0,2.0,6.0,False
+318,Paschim Medinipur,West Bengal,0.8078030832595773,0.0,0.8078030832595773,True
+41,Patiala,Punjab,67.0,53.0,14.0,False
+212,Patna,Bihar,176.0,137.0,39.0,False
+682,Peddapalli,Telangana,25.0,1.0,24.0,False
+10,Poonch,Jammu And Kashmir,5.0,1.0,4.0,False
+174,Pratapgarh,Uttar Pradesh,87.0,8.0,79.0,False
+600,Puducherry,Puducherry,22.0,15.0,7.0,False
+11,Pulwama,Jammu And Kashmir,9.0,5.0,4.0,False
+490,Pune,Maharashtra,122.0,99.0,23.0,False
+491,Raigad,Maharashtra,33.0,22.0,11.0,False
+386,Raigarh,Chhattisgarh,81.0,23.0,58.0,False
+387,Raipur,Chhattisgarh,273.0,218.0,55.0,False
+422,Rajgarh,Madhya Pradesh,16.0,6.0,10.0,False
+12,Rajouri,Jammu And Kashmir,11.0,5.0,6.0,False
+54,Rudra Prayag,Uttarakhand,3.0,0.0,3.0,False
+458,Sabar Kantha,Gujarat,93.0,29.0,62.0,False
+177,Saharanpur,Uttar Pradesh,103.0,74.0,29.0,False
+727,Saitual,Mizoram,1.8404757324966463,0.3200827360863733,1.5203929964102731,True
+584,Salem,Tamil Nadu,120.0,72.0,48.0,False
+777,Salumbar,Rajasthan,13.021115101583225,4.278366390520203,8.742748711063022,True
+659,Sambhal,Uttar Pradesh,29.0,7.0,22.0,False
+691,Sangareddy,Telangana,60.0,17.0,43.0,False
+218,Saran,Bihar,25.0,9.0,16.0,False
+763,Sarangarh-Bilaigarh,Chhattisgarh,28.0,9.0,19.0,False
+426,Satna,Madhya Pradesh,9.333819066056211,2.000104085583474,7.333714980472737,True
+671,Shahdara,Delhi,0.0,0.0,0.0,False
+765,Shamator,Nagaland,2.942374209037824,0.6923233433030174,2.2500508657348064,True
+660,Shamli,Uttar Pradesh,46.0,27.0,19.0,False
+23,Shimla,Himachal Pradesh,23.0,5.0,18.0,False
+547,Shivamogga,Karnataka,162.0,27.0,135.0,False
+725,Shi Yomi,Arunachal Pradesh,1.0,0.0,1.0,False
+267,Siaha,Mizoram,5.0,0.0,5.0,False
+221,Sitamarhi,Bihar,32.0,13.0,19.0,False
+75,Sonipat,Haryana,108.0,76.0,32.0,False
+602,South Andamans,Andaman And Nicobar Islands,2.0,0.0,2.0,False
+277,South Garo Hills,Meghalaya,8.0,0.0,8.0,False
+658,South West Khasi Hills,Meghalaya,5.0,0.0,5.0,False
+39,Sri Muktsar Sahib,Punjab,26.0,16.0,10.0,False
+13,Srinagar,Jammu And Kashmir,47.0,31.0,15.0,False
+515,Sri Potti Sriramulu Nellore,Andhra Pradesh,119.0,38.0,81.0,False
+754,Sri Sathya Sai,Andhra Pradesh,23.0,1.0,22.0,False
+641,Tapi,Gujarat,52.0,5.0,46.0,False
+589,Thiruvallur,Tamil Nadu,76.0,43.0,33.0,False
+259,Thoubal,Manipur,7.0,2.0,5.0,False
+592,Tirunelveli,Tamil Nadu,76.0,34.0,42.0,False
+757,Tseminyu,Nagaland,4.454001671716644,2.1209531770079257,2.3330484947087182,True
+548,Tumakuru,Karnataka,186.0,11.0,175.0,False
+436,Umaria,Madhya Pradesh,6.0,1.0,5.0,False
+461,Vadodara,Gujarat,108.0,45.0,59.0,False
+224,Vaishali,Bihar,36.0,18.0,18.0,False
+462,Valsad,Gujarat,81.0,14.0,65.0,False
+596,Viluppuram,Tamil Nadu,63.0,28.0,35.0,False
+520,Visakhapatnam,Andhra Pradesh,169.0,71.0,98.0,False
+521,Vizianagaram,Andhra Pradesh,98.0,26.0,72.0,False
+85,West,Delhi,11.0,11.0,0.0,False
+440,Anand,Gujarat,45.0,17.0,27.0,False
+502,Ananthapuramu,Andhra Pradesh,145.0,68.0,77.0,False
+344,Anugul,Odisha,2.0,0.0,2.0,False
+390,Anuppur,Madhya Pradesh,9.0,1.0,8.0,False
+188,Araria,Bihar,13.0,3.0,10.0,False
+610,Ariyalur,Tamil Nadu,18.0,5.0,13.0,False
+391,Ashoknagar,Madhya Pradesh,5.0,0.0,5.0,False
+124,Baghpat,Uttar Pradesh,34.0,17.0,17.0,False
+392,Balaghat,Madhya Pradesh,13.0,3.0,10.0,False
+775,Balotra,Rajasthan,16.760406044971273,4.736636490970143,12.023769554001131,True
+441,Banas Kantha,Gujarat,250.0,104.0,144.0,False
+88,Banswara,Rajasthan,30.0,5.0,25.0,False
+89,Baran,Rajasthan,22.0,4.0,18.0,False
+347,Bargarh,Odisha,0.0,0.0,0.0,False
+131,Basti,Uttar Pradesh,103.0,53.0,50.0,False
+774,Beawar,Rajasthan,18.02897082914697,6.904712232439266,11.124258596707707,True
+526,Bengaluru Rural,Karnataka,71.0,11.0,60.0,False
+442,Bharuch,Gujarat,40.0,20.0,17.0,False
+396,Bhopal,Madhya Pradesh,193.0,176.0,17.0,False
+349,Boudh,Odisha,0.0,0.0,0.0,False
+472,Buldhana,Maharashtra,46.0,31.0,15.0,False
+397,Burhanpur,Madhya Pradesh,13.0,8.0,5.0,False
+229,Changlang,Arunachal Pradesh,6.0,0.0,6.0,False
+323,Chatra,Jharkhand,10.0,3.0,7.0,False
+532,Chikkamagaluru,Karnataka,120.0,5.0,115.0,False
+533,Chitradurga,Karnataka,121.0,7.0,114.0,False
+95,Chittorgarh,Rajasthan,35.0,7.0,28.0,False
+758,Chumoukedima,Nagaland,16.30287135273263,12.337308050716585,3.965563302016045,True
+96,Churu,Rajasthan,49.0,24.0,25.0,False
+308,Cooch Behar,West Bengal,1.0,1.0,0.0,False
+465,Dadra And Nagar Haveli,The Dadra And Nagar Haveli And Daman And Diu,13.0,2.0,11.0,False
+324,Deoghar,Jharkhand,26.0,16.0,10.0,False
+674,Devbhumi Dwarka,Gujarat,36.0,6.0,30.0,False
+377,Dhamtari,Chhattisgarh,52.0,21.0,31.0,False
+299,Dima Hasao,Assam,2.0,1.0,1.0,False
+326,Dumka,Jharkhand,18.0,7.0,11.0,False
+78,East,Delhi,5.0,5.0,0.0,False
+740,Eastern West Khasi Hills,Meghalaya,0.0,0.0,0.0,False
+505,East Godavari,Andhra Pradesh,234.0,86.0,148.0,False
+274,East Khasi Hills,Meghalaya,51.0,10.0,41.0,False
+327,East Singhbum,Jharkhand,44.0,31.0,13.0,False
+475,Gadchiroli,Maharashtra,20.0,6.0,14.0,False
+353,Gajapati,Odisha,0.0,0.0,0.0,False
+626,Ganderbal,Jammu And Kashmir,3.0,1.0,2.0,False
+734,Gaurela-Pendra-Marwahi,Chhattisgarh,20.0,2.0,18.0,False
+329,Giridih,Jharkhand,30.0,18.0,12.0,False
+675,Gir Somnath,Gujarat,51.0,13.0,37.0,False
+287,Goalpara,Assam,14.0,7.0,7.0,False
+476,Gondia,Maharashtra,28.0,15.0,13.0,False
+506,Guntur,Andhra Pradesh,259.0,151.0,108.0,False
+709,Hojai,Assam,11.0,4.0,7.0,False
+312,Hooghly,West Bengal,1.0,1.0,0.0,False
+33,Hoshiarpur,Punjab,21.0,6.0,15.0,False
+313,Howrah,West Bengal,4.0,2.0,2.0,False
+256,Imphal West,Manipur,23.0,17.0,6.0,False
+411,Jabalpur,Madhya Pradesh,44.0,31.0,13.0,False
+34,Jalandhar,Punjab,64.0,49.0,15.0,False
+478,Jalgaon,Maharashtra,63.0,55.0,8.0,False
+5,Jammu,Jammu And Kashmir,60.0,40.0,19.0,False
+106,Jhunjhunu,Rajasthan,44.11808412311187,26.06977698183883,18.04830714127304,True
+695,Jogulamba Gadwal,Telangana,15.0,2.0,13.0,False
+711,Kakching,Manipur,4.0,2.0,2.0,False
+538,Kalaburagi,Karnataka,181.0,33.0,148.0,False
+717,Kamjong,Manipur,1.0,0.0,1.0,False
+291,Kamrup,Assam,30.0,17.0,13.0,False
+712,Kangpokpi,Manipur,2.0,0.0,2.0,False
+292,Karbi Anglong,Assam,8.0,3.0,5.0,False
+558,Kasaragod,Kerala,32.0,21.0,11.0,False
+509,Khammam,Telangana,67.0,33.0,34.0,False
+728,Khawzawl,Mizoram,5.685959567986707,0.3553724729991692,5.330587094987537,True
+362,Khordha,Odisha,4.0,0.0,4.0,False
+541,Kodagu,Karnataka,48.0,0.0,48.0,False
+363,Koraput,Odisha,0.0,0.0,0.0,False
+383,Korba,Chhattisgarh,66.0,15.0,51.0,False
+384,Korea,Chhattisgarh,17.0,0.0,17.0,False
+677,Kra Daadi,Arunachal Pradesh,1.0,0.0,1.0,False
+577,Krishnagiri,Tamil Nadu,65.0,37.0,28.0,False
+68,Kurukshetra,Haryana,80.0,62.0,18.0,False
+21,Lahaul And Spiti,Himachal Pradesh,6.0,0.0,6.0,False
+295,Lakhimpur,Assam,14.0,8.0,6.0,False
+724,Leparada,Arunachal Pradesh,1.0,0.0,1.0,False
+666,Longding,Arunachal Pradesh,1.0,0.0,1.0,False
+236,Lower Subansiri,Arunachal Pradesh,1.0,0.0,1.0,False
+36,Ludhiana,Punjab,94.0,76.0,18.0,False
+512,Mahabubnagar,Telangana,56.0,19.0,37.0,False
+385,Mahasamund,Chhattisgarh,63.0,27.0,36.0,False
+599,Mahe,Puducherry,3.0,1.0,2.0,False
+416,Mandsaur,Madhya Pradesh,23.0,12.0,11.0,False
+544,Mandya,Karnataka,156.0,9.0,147.0,False
+766,MAUGANJ,Madhya Pradesh,7.312040982518331,2.8725875288464873,4.4394534536718435,True
+761,Mohla-Manpur-Ambagarh Chouki,Chhattisgarh,18.0,4.0,14.0,False
+297,Nagaon,Assam,30.0,17.0,13.0,False
+298,Nalbari,Assam,8.0,6.0,2.0,False
+580,Namakkal,Tamil Nadu,61.0,33.0,28.0,False
+678,Namsai,Arunachal Pradesh,3.0,0.0,3.0,False
+755,Nandyal,Andhra Pradesh,25.0,3.0,22.0,False
+773,Neem Ka Thana,Rajasthan,43.88191587688813,25.93022301816117,17.95169285872696,True
+79,New Delhi,Delhi,24.0,20.0,4.0,False
+368,Nuapada,Odisha,0.0,0.0,0.0,False
+454,Panch Mahals,Gujarat,44.0,12.0,30.0,False
+211,Pashchim Champaran,Bihar,24.0,5.0,19.0,False
+455,Patan,Gujarat,99.0,27.0,71.0,False
+581,Perambalur,Tamil Nadu,22.0,12.0,10.0,False
+613,Peren,Nagaland,6.0,0.0,6.0,False
+248,Phek,Nagaland,12.0,2.0,10.0,False
+715,Pherzawl,Manipur,1.0,0.0,1.0,False
+517,Prakasam,Andhra Pradesh,162.0,53.0,109.0,False
+629,Pratapgarh,Rajasthan,12.0,1.0,11.0,False
+582,Pudukkottai,Tamil Nadu,44.0,12.0,32.0,False
+317,Purba Medinipur,West Bengal,2.0,0.0,2.0,False
+214,Purnia,Bihar,27.0,11.0,16.0,False
+321,Purulia,West Bengal,1.0,0.0,1.0,False
+388,Rajnandgaon,Chhattisgarh,64.0,30.0,34.0,False
+112,Rajsamand,Rajasthan,27.0,9.0,18.0,False
+583,Ramanathapuram,Tamil Nadu,38.0,10.0,28.0,False
+339,Ranchi,Jharkhand,119.0,93.0,26.0,False
+492,Ratnagiri,Maharashtra,19.0,11.0,8.0,False
+370,Rayagada,Odisha,0.0,0.0,0.0,False
+216,Saharsa,Bihar,16.0,6.0,10.0,False
+340,Sahebganj,Jharkhand,10.0,3.0,7.0,False
+762,Sakti,Chhattisgarh,32.0,6.0,26.0,False
+178,Sant Kabir Nagar,Uttar Pradesh,65.0,38.0,27.0,False
+341,Saraikela Kharsawan,Jharkhand,25.0,17.0,8.0,False
+113,Sawai Madhopur,Rajasthan,35.0,16.0,19.0,False
+653,Sepahijala,Tripura,19.0,0.0,19.0,False
+268,Serchhip,Mizoram,7.0,0.0,7.0,False
+429,Shahdol,Madhya Pradesh,15.0,5.0,10.0,False
+220,Sheohar,Bihar,5.0,1.0,4.0,False
+181,Shrawasti,Uttar Pradesh,23.0,4.0,19.0,False
+342,Simdega,Jharkhand,8.0,1.0,7.0,False
+222,Siwan,Bihar,27.0,6.0,21.0,False
+25,Solan,Himachal Pradesh,33.0,25.0,8.0,False
+670,South East,Delhi,2.0,2.0,0.0,False
+84,South West,Delhi,15.0,13.0,2.0,False
+648,Surajpur,Chhattisgarh,52.0,5.0,47.0,False
+389,Surguja,Chhattisgarh,60.0,25.0,35.0,False
+258,Tamenglong,Manipur,1.0,0.0,1.0,False
+609,Tarn Taran,Punjab,26.0,14.0,12.0,False
+238,Tawang,Arunachal Pradesh,1.0,0.0,1.0,False
+733,Tenkasi,Tamil Nadu,2.0,0.0,2.0,False
+586,Thanjavur,Tamil Nadu,80.0,38.0,42.0,False
+587,The Nilgiris,Tamil Nadu,36.0,14.0,22.0,False
+302,Tinsukia,Assam,9.0,3.0,6.0,False
+239,Tirap,Arunachal Pradesh,1.0,0.0,1.0,False
+732,Tirupathur,Tamil Nadu,3.0,3.0,0.0,False
+116,Tonk,Rajasthan,33.0,17.0,16.0,False
+549,Udupi,Karnataka,95.0,14.0,81.0,False
+260,Ukhrul,Manipur,2.0,1.0,1.0,False
+26,Una,Himachal Pradesh,32.0,22.0,10.0,False
+381,Uttar Bastar Kanker,Chhattisgarh,45.0,9.0,36.0,False
+437,Vidisha,Madhya Pradesh,21.0,10.0,11.0,False
+738,Vijayanagar,Karnataka,14.0,0.0,14.0,False
+530,Vijayapura,Karnataka,273.0,140.0,133.0,False
+698,Vikarabad,Telangana,31.0,5.0,26.0,False
+499,Washim,Maharashtra,27.0,18.0,9.0,False
+710,West Karbi Anglong,Assam,3.0,0.0,3.0,False
+250,Wokha,Nagaland,8.0,2.0,6.0,False
+501,Adilabad,Telangana,35.0,4.0,31.0,False
+438,Ahmedabad,Gujarat,208.0,119.0,80.0,False
+261,Aizawl,Mizoram,21.159524267503354,3.6799172639136266,17.479607003589727,True
+467,Akola,Maharashtra,29.0,24.0,5.0,False
+119,Aligarh,Uttar Pradesh,91.0,61.0,30.0,False
+639,Alirajpur,Madhya Pradesh,7.0,0.0,7.0,False
+87,Alwar,Rajasthan,54.88582497045977,26.952860476565068,27.932964493894705,True
+640,Amethi,Uttar Pradesh,59.0,19.0,40.0,False
+123,Azamgarh,Uttar Pradesh,84.0,32.0,52.0,False
+524,Bagalkote,Karnataka,136.0,57.0,79.0,False
+46,Bageshwar,Uttarakhand,4.0,0.0,4.0,False
+528,Ballari,Karnataka,118.0,9.0,109.0,False
+750,Bapatla,Andhra Pradesh,4.0,2.0,2.0,False
+90,Barmer,Rajasthan,29.239593955028727,8.263363509029858,20.97623044599887,True
+605,Barnala,Punjab,13.0,7.0,6.0,False
+280,Barpeta,Assam,17.0,8.0,9.0,False
+374,Bastar,Chhattisgarh,49.0,3.0,46.0,False
+394,Betul,Madhya Pradesh,20.0,8.0,12.0,False
+348,Bhadrak,Odisha,0.0,0.0,0.0,False
+443,Bhavnagar,Gujarat,109.0,41.0,66.0,False
+92,Bhilwara,Rajasthan,34.98648341743051,13.994593366972206,20.99189005045831,True
+59,Bhiwani,Haryana,92.0,55.0,37.0,False
+529,Bidar,Karnataka,98.0,14.0,84.0,False
+132,Bijnor,Uttar Pradesh,111.0,80.0,31.0,False
+15,Bilaspur,Himachal Pradesh,15.0,5.0,10.0,False
+322,Bokaro,Jharkhand,34.0,18.0,16.0,False
+281,Bongaigaon,Assam,9.0,3.0,6.0,False
+2,Budgam,Jammu And Kashmir,14.0,4.0,10.0,False
+194,Buxar,Bihar,14.0,2.0,12.0,False
+77,Central,Delhi,7.0,3.0,4.0,False
+16,Chamba,Himachal Pradesh,13.0,5.0,8.0,False
+262,Champhai,Mizoram,10.314040432013293,0.6446275270008308,9.669412905012463,True
+44,Chandigarh,Chandigarh,34.0,26.0,7.0,False
+730,Chengalpattu,Tamil Nadu,19.0,16.0,3.0,False
+469,Chhatrapati Sambhajinagar,Maharashtra,51.0,48.0,3.0,False
+399,Chhindwara,Madhya Pradesh,15.598682303787514,6.567866233173691,9.030816070613824,True
+136,Chitrakoot,Uttar Pradesh,31.0,3.0,28.0,False
+254,Churachandpur,Manipur,4.0,2.0,2.0,False
+570,Cuddalore,Tamil Nadu,58.0,23.0,35.0,False
+350,Cuttack,Odisha,0.0,0.0,0.0,False
+534,Dakshina Kannada,Karnataka,127.0,23.0,104.0,False
+463,Daman,The Dadra And Nagar Haveli And Daman And Diu,6.0,3.0,3.0,False
+195,Darbhanga,Bihar,51.0,31.0,20.0,False
+97,Dausa,Rajasthan,41.0,11.0,30.0,False
+767,Deeg,Rajasthan,26.098411512512254,12.628263635086574,13.47014787742568,True
+137,Deoria,Uttar Pradesh,53.0,25.0,28.0,False
+402,Dewas,Madhya Pradesh,17.0,7.0,10.0,False
+403,Dhar,Madhya Pradesh,22.0,7.0,15.0,False
+488,Dharashiv,Maharashtra,30.0,18.0,12.0,False
+474,Dhule,Maharashtra,41.0,33.0,8.0,False
+747,Dr. B.R. Ambedkar Konaseema,Andhra Pradesh,4.0,3.0,1.0,False
+231,East Kameng,Arunachal Pradesh,1.0,0.0,1.0,False
+139,Etawah,Uttar Pradesh,48.0,10.0,38.0,False
+60,Faridabad,Haryana,52.0,33.0,19.0,False
+143,Firozabad,Uttar Pradesh,55.0,12.0,43.0,False
+100,Ganganagar,Rajasthan,47.10637690638889,30.97405604803653,16.132320858352358,True
+288,Golaghat,Assam,9.0,4.0,5.0,False
+148,Gorakhpur,Uttar Pradesh,281.0,190.0,91.0,False
+406,Guna,Madhya Pradesh,9.0,3.0,6.0,False
+228,Gyalshing,Sikkim,2.0,0.0,2.0,False
+149,Hamirpur,Uttar Pradesh,37.0,3.0,34.0,False
+556,Idukki,Kerala,16.0,10.0,6.0,False
+255,Imphal East,Manipur,16.0,14.0,2.0,False
+410,Indore,Madhya Pradesh,89.0,70.0,18.0,False
+783,Jaipur (Gramin),Rajasthan,118.88972330152882,95.36608820978248,23.523635091746343,True
+103,Jaisalmer,Rajasthan,17.0,2.0,15.0,False
+689,Jangoan,Telangana,22.0,4.0,18.0,False
+152,Jaunpur,Uttar Pradesh,147.0,35.0,112.0,False
+64,Jhajjar,Haryana,63.0,43.0,20.0,False
+448,Junagadh,Gujarat,78.0,26.0,48.0,False
+66,Kaithal,Haryana,37.0,24.0,13.0,False
+718,Kamle,Arunachal Pradesh,1.0,0.0,1.0,False
+575,Kanniyakumari,Tamil Nadu,87.0,59.0,28.0,False
+598,Karaikal,Puducherry,4.0,2.0,2.0,False
+293,Karimganj,Assam,12.0,2.0,10.0,False
+158,Kaushambi,Uttar Pradesh,34.0,7.0,27.0,False
+781,Kekri,Rajasthan,20.41710629617266,8.458515465557243,11.958590830615414,True
+361,Kendujhar,Odisha,0.0,0.0,0.0,False
+759,Khairagarh-Chhuikhadan-Gandai,Chhattisgarh,18.0,2.0,16.0,False
+245,Kohima,Nagaland,16.545998328283357,7.879046822992074,8.666951505291282,True
+294,Kokrajhar,Assam,5.0,1.0,4.0,False
+480,Kolhapur,Maharashtra,103.0,81.0,22.0,False
+643,Kondagaon,Chhattisgarh,36.0,7.0,29.0,False
+20,Kullu,Himachal Pradesh,22.0,13.0,9.0,False
+233,Kurung Kumey,Arunachal Pradesh,1.0,0.0,1.0,False
+9,Leh Ladakh,Ladakh,5.0,0.0,5.0,False
+162,Lucknow,Uttar Pradesh,326.0,274.0,52.0,False
+205,Madhepura,Bihar,22.0,6.0,16.0,False
+737,Malerkotla,Punjab,7.0,4.0,3.0,False
+226,Mangan,Sikkim,2.0,0.0,2.0,False
+37,Mansa,Punjab,17.0,11.0,6.0,False
+296,Marigaon,Assam,6.0,0.0,6.0,False
+167,Mathura,Uttar Pradesh,91.0,51.0,40.0,False
+169,Meerut,Uttar Pradesh,153.0,108.0,45.0,False
+38,Moga,Punjab,30.0,23.0,7.0,False
+647,Mungeli,Chhattisgarh,40.0,7.0,33.0,False
+172,Muzaffarnagar,Uttar Pradesh,97.0,36.0,61.0,False
+208,Muzaffarpur,Bihar,69.0,49.0,20.0,False
+110,Nagaur,Rajasthan,40.67803332967525,18.305114998353865,22.372918331321387,True
+227,Namchi,Sikkim,5.0,1.0,4.0,False
+637,Narayanpur,Chhattisgarh,8.0,1.0,7.0,False
+452,Narmada,Gujarat,23.0,1.0,22.0,False
+367,Nayagarh,Odisha,0.0,0.0,0.0,False
+764,Niuland,Nagaland,1.1599768750115491,0.8778203378465778,0.2821565371649714,True
+303,North 24 Parganas,West Bengal,5.0,4.0,1.0,False
+632,North And Middle Andaman,Andaman And Nicobar Islands,3.0,0.0,3.0,False
+656,North Garo Hills,Meghalaya,12.0,0.0,12.0,False
+604,Nuh,Haryana,30.0,6.0,24.0,False
+741,Pakyong,Sikkim,2.0,0.0,2.0,False
+111,Pali,Rajasthan,28.97102917085303,11.095287767560734,17.875741403292295,True
+751,Palnadu,Andhra Pradesh,10.0,8.0,2.0,False
+619,Palwal,Haryana,42.0,18.0,24.0,False
+420,Panna,Madhya Pradesh,9.0,1.0,8.0,False
+52,Pauri Garhwal,Uttarakhand,13.0,4.0,9.0,False
+772,Phalodi,Rajasthan,18.526906173170985,10.258700112416992,8.268206060753993,True
+173,Pilibhit,Uttar Pradesh,49.0,20.0,29.0,False
+306,Purba Bardhaman,West Bengal,0.0,0.0,0.0,False
+457,Rajkot,Gujarat,139.0,61.0,74.0,False
+631,Ramanagara,Karnataka,85.0,3.0,82.0,False
+607,Ramgarh,Jharkhand,18.0,11.0,7.0,False
+176,Rampur,Uttar Pradesh,35.0,12.0,23.0,False
+731,Ranipet,Tamil Nadu,2.0,1.0,1.0,False
+424,Rewa,Madhya Pradesh,20.687959017481667,8.127412471153512,12.560546546328156,True
+215,Rohtas,Bihar,29.0,10.0,19.0,False
+42,Rupnagar,Punjab,28.0,20.0,8.0,False
+779,Sanchore,Rajasthan,15.718350986750368,9.708393256522285,6.0099577302280816,True
+494,Satara,Maharashtra,46.0,28.0,18.0,False
+428,Seoni,Madhya Pradesh,9.0,2.0,7.0,False
+180,Shahjahanpur,Uttar Pradesh,65.0,19.0,46.0,False
+430,Shajapur,Madhya Pradesh,14.0,6.0,8.0,False
+431,Sheopur,Madhya Pradesh,7.0,1.0,6.0,False
+432,Shivpuri,Madhya Pradesh,14.0,4.0,10.0,False
+625,Shopian,Jammu And Kashmir,5.0,2.0,3.0,False
+433,Sidhi,Madhya Pradesh,9.0,2.0,7.0,False
+638,Singrauli,Madhya Pradesh,14.0,3.0,11.0,False
+183,Sitapur,Uttar Pradesh,88.0,19.0,69.0,False
+496,Solapur,Maharashtra,87.0,79.0,8.0,False
+742,Soreng,Sikkim,1.0,0.0,1.0,False
+83,South,Delhi,12.0,12.0,0.0,False
+707,South Salmara Mancachar,Assam,4.0,0.0,4.0,False
+663,South West Garo Hills,Meghalaya,11.0,0.0,11.0,False
+519,Srikakulam,Andhra Pradesh,118.0,18.0,100.0,False
+642,Sukma,Chhattisgarh,13.0,0.0,13.0,False
+223,Supaul,Bihar,18.0,6.0,12.0,False
+756,Tamulpur,Assam,1.2287977264952767,0.0,1.2287977264952767,True
+55,Tehri Garhwal,Uttarakhand,10.0,0.0,10.0,False
+497,Thane,Maharashtra,108.0,72.0,36.0,False
+565,Thiruvananthapuram,Kerala,64.0,31.0,33.0,False
+591,Tiruchirappalli,Tamil Nadu,99.0,63.0,36.0,False
+634,Tiruppur,Tamil Nadu,71.0,39.0,32.0,False
+593,Tiruvannamalai,Tamil Nadu,51.0,14.0,37.0,False
+117,Udaipur,Rajasthan,56.97888489841677,18.7216336094798,38.25725128893698,True
+617,Udalguri,Assam,4.0,0.0,4.0,False
+240,Upper Siang,Arunachal Pradesh,2.0,0.0,2.0,False
+550,Uttara Kannada,Karnataka,117.0,7.0,110.0,False
+57,Uttar Kashi,Uttarakhand,4.0,0.0,4.0,False
+522,Warangal,Telangana,35.0,9.0,26.0,False
+567,Wayanad,Kerala,24.0,17.0,7.0,False
+278,West Garo Hills,Meghalaya,21.0,2.0,19.0,False
+275,West Jaintia Hills,Meghalaya,19.0,3.0,16.0,False
+243,West Siang,Arunachal Pradesh,1.0,0.0,1.0,False
+343,West Singhbhum,Jharkhand,25.0,8.0,17.0,False
+697,Yadadri Bhuvanagiri,Telangana,28.0,2.0,26.0,False
+635,Yadgir,Karnataka,66.0,4.0,62.0,False
+601,Yanam,Puducherry,1.0,0.0,1.0,False
+251,Zunheboto,Nagaland,6.0,2.0,4.0,False

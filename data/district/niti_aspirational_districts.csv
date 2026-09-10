@@ -1,0 +1,125 @@
+# NITI Aayog "Aspirational Districts Programme" (ADP) -- OFFICIAL 112-district list.
+# Source: NITI Aayog "List of 112 Aspirational Districts" (docx + pdf in
+#   data/raw/niti_adp/, cross-checked byte-for-byte identical; downloaded from
+#   niti.gov.in 2026-07-21). Regenerate: python data/raw/niti_adp/build_niti_reference.py
+# District names below are the OFFICIAL NITI spellings (current post-reorganisation
+#   names, e.g. AP's Alluri Sitharamaraju / Parvathipuram Manyam, TG's Kumuram Bheem
+#   Asifabad, MH's Osmanabad->Dharashiv). Each is resolved to the 785-frame LGD
+#   district_code via a documented alias map (renames / spelling / frame-typo variants;
+#   see build_niti_reference.py). 112/112 matched, unique codes -- verified against
+#   mai_scores.csv 2026-07-21. The overlay joins on district_code (not name).
+# Columns: niti_sno, state_name, district_name (official), district_code (frame),
+#   district_name_frame (frame spelling), aspirational_flag (=1)
+niti_sno,state_name,district_name,district_code,district_name_frame,aspirational_flag
+1,Andhra Pradesh,Alluri Sitharamaraju,745,Alluri Sitharama Raju,1
+2,Andhra Pradesh,Parvathipuram Manyam,743,Parvathipuram Manyam,1
+3,Andhra Pradesh,Y.S.R. Kadapa,504,Y.S.R.,1
+4,Arunachal Pradesh,Namsai,678,Namsai,1
+5,Assam,Baksa,616,Baksa,1
+6,Assam,Barpeta,280,Barpeta,1
+7,Assam,Darrang,283,Darrang,1
+8,Assam,Dhubri,285,Dhubri,1
+9,Assam,Goalpara,287,Goalpara,1
+10,Assam,Hailakandi,289,Hailakandi,1
+11,Assam,Udalguri,617,Udalguri,1
+12,Bihar,Araria,188,Araria,1
+13,Bihar,Aurangabad,189,Aurangabad,1
+14,Bihar,Banka,190,Banka,1
+15,Bihar,Begusarai,191,Begusarai,1
+16,Bihar,Gaya,196,Gaya,1
+17,Bihar,Jamui,198,Jamui,1
+18,Bihar,Katihar,201,Katihar,1
+19,Bihar,Khagaria,202,Khagaria,1
+20,Bihar,Muzaffarpur,208,Muzaffarpur,1
+21,Bihar,Nawada,210,Nawada,1
+22,Bihar,Purnea,214,Purnia,1
+23,Bihar,Sheikhpura,219,Sheikhpura,1
+24,Bihar,Sitamarhi,221,Sitamarhi,1
+25,Chhattisgarh,Bastar,374,Bastar,1
+26,Chhattisgarh,Bijapur,636,Bijapur,1
+27,Chhattisgarh,Dantewada,376,Dakshin Bastar Dantewada,1
+28,Chhattisgarh,Kanker,381,Uttar Bastar Kanker,1
+29,Chhattisgarh,Kondagaon,643,Kondagaon,1
+30,Chhattisgarh,Korba,383,Korba,1
+31,Chhattisgarh,Mahasamund,385,Mahasamund,1
+32,Chhattisgarh,Narayanpur,637,Narayanpur,1
+33,Chhattisgarh,Rajnandgaon,388,Rajnandgaon,1
+34,Chhattisgarh,Sukma,642,Sukma,1
+35,Gujarat,Dahod,445,Dahod,1
+36,Gujarat,Narmada,452,Narmada,1
+37,Haryana,Mewat,604,Nuh,1
+38,Himachal Pradesh,Chamba,16,Chamba,1
+39,Jammu & Kashmir,Baramula,3,Baramulla,1
+40,Jammu & Kashmir,Kupwara,8,Kupwara,1
+41,Jharkhand,Bokaro,322,Bokaro,1
+42,Jharkhand,Chatra,323,Chatra,1
+43,Jharkhand,Dumka,326,Dumka,1
+44,Jharkhand,Garhwa,328,Garhwa,1
+45,Jharkhand,Giridih,329,Giridih,1
+46,Jharkhand,Godda,330,Godda,1
+47,Jharkhand,Gumla,331,Gumla,1
+48,Jharkhand,Hazaribag,332,Hazaribagh,1
+49,Jharkhand,Khunti,606,Khunti,1
+50,Jharkhand,Latehar,335,Latehar,1
+51,Jharkhand,Lohardaga,336,Lohardaga,1
+52,Jharkhand,Pakur,337,Pakur,1
+53,Jharkhand,Palamu,338,Palamu,1
+54,Jharkhand,Pashchimi Singhbhum,343,West Singhbhum,1
+55,Jharkhand,Purbi Singhbhum,327,East Singhbum,1
+56,Jharkhand,Ramgarh,607,Ramgarh,1
+57,Jharkhand,Ranchi,339,Ranchi,1
+58,Jharkhand,Sahibganj,340,Sahebganj,1
+59,Jharkhand,Simdega,342,Simdega,1
+60,Karnataka,Raichur,546,Raichur,1
+61,Karnataka,Yadgir,635,Yadgir,1
+62,Kerala,Wayanad,567,Wayanad,1
+63,Madhya Pradesh,Barwani,393,Barwani,1
+64,Madhya Pradesh,Chhatarpur,398,Chhatarpur,1
+65,Madhya Pradesh,Damoh,400,Damoh,1
+66,Madhya Pradesh,Guna,406,Guna,1
+67,Madhya Pradesh,Khandwa,405,Khandwa (East Nimar),1
+68,Madhya Pradesh,Rajgarh,422,Rajgarh,1
+69,Madhya Pradesh,Singrauli,638,Singrauli,1
+70,Madhya Pradesh,Vidisha,437,Vidisha,1
+71,Maharashtra,Gadchiroli,475,Gadchiroli,1
+72,Maharashtra,Nandurbar,486,Nandurbar,1
+73,Maharashtra,Osmanabad,488,Dharashiv,1
+74,Maharashtra,Washim,499,Washim,1
+75,Manipur,Chandel,253,Chandel,1
+76,Meghalaya,Ribhoi,276,Ri Bhoi,1
+77,Mizoram,Mamit,266,Mamit,1
+78,Nagaland,Kiphire,614,Kiphire,1
+79,Odisha,Balangir,345,Balangir,1
+80,Odisha,Dhenkanal,352,Dhenkanal,1
+81,Odisha,Gajapati,353,Gajapati,1
+82,Odisha,Kalahandi,358,Kalahandi,1
+83,Odisha,Kandhamal,359,Kandhamal,1
+84,Odisha,Koraput,363,Koraput,1
+85,Odisha,Malkangiri,364,Malkangiri,1
+86,Odisha,Nabarangapur,366,Nabarangpur,1
+87,Odisha,Nuapada,368,Nuapada,1
+88,Odisha,Rayagada,370,Rayagada,1
+89,Punjab,Ferozepur,31,Ferozepur,1
+90,Punjab,Moga,38,Moga,1
+91,Rajasthan,Baran,89,Baran,1
+92,Rajasthan,Dholpur,98,Dholpur,1
+93,Rajasthan,Jaisalmer,103,Jaisalmer,1
+94,Rajasthan,Karauli,108,Karauli,1
+95,Rajasthan,Sirohi,115,Sirohi,1
+96,Sikkim,Soreng,742,Soreng,1
+97,Tamil Nadu,Ramanathapuram,583,Ramanathapuram,1
+98,Tamil Nadu,Virudhunagar,597,Virudhunagar,1
+99,Telangana,Asifabad,699,Kumuram Bheem Asifabad,1
+100,Telangana,Bhadradri-Kothagudem,690,Bhadradri Kothagudem,1
+101,Telangana,Bhupalpally,687,Jayashankar Bhupalapally,1
+102,Tripura,Dhalai,269,Dhalai,1
+103,Uttar Pradesh,Bahraich,125,Bahraich,1
+104,Uttar Pradesh,Balrampur,127,Balrampur,1
+105,Uttar Pradesh,Chandauli,135,Chandauli,1
+106,Uttar Pradesh,Chitrakoot,136,Chitrakoot,1
+107,Uttar Pradesh,Fatehpur,142,Fatehpur,1
+108,Uttar Pradesh,Shravasti,181,Shrawasti,1
+109,Uttar Pradesh,Siddharthnagar,182,Siddharthnagar,1
+110,Uttar Pradesh,Sonbhadra,184,Sonbhadra,1
+111,Uttarakhand,Haridwar,50,Haridwar,1
+112,Uttarakhand,Udham Singh Nagar,56,Udam Singh Nagar,1

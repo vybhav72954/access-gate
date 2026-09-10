@@ -1,0 +1,719 @@
+source,src_state,src_district,district_code,lgd_district,lgd_state,method,score
+PMJAY,ANDAMAN AND NICOBAR ISLANDS,NICOBAR,603,Nicobars,Andaman And Nicobar Islands,alias_exact,100
+PMJAY,ANDAMAN AND NICOBAR ISLANDS,NORTH AND MIDDLE ANDAMAN,632,North And Middle Andaman,Andaman And Nicobar Islands,exact_state,100
+PMJAY,ANDAMAN AND NICOBAR ISLANDS,SOUTH ANDAMAN,602,South Andamans,Andaman And Nicobar Islands,fuzzy_state,96
+PMJAY,ANDHRA PRADESH,ANANTHPUR,502,Ananthapuramu,Andhra Pradesh,alias_exact,100
+PMJAY,ANDHRA PRADESH,Alluri Sitharama Raju,745,Alluri Sitharama Raju,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Anakapalli,744,Anakapalli,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Annamayya,753,Annamayya,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Bapatla,750,Bapatla,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,CHITTOOR,503,Chittoor,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,CUDDAPAH,504,Y.S.R.,Andhra Pradesh,alias_exact,100
+PMJAY,ANDHRA PRADESH,EAST GODAVARI,505,East Godavari,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Eluru,748,Eluru,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,GUNTUR,506,Guntur,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,KRISHNA,510,Krishna,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,KURNOOL,511,Kurnool,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Kakinada,746,Kakinada,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Konaseema,747,Dr. B.R. Ambedkar Konaseema,Andhra Pradesh,alias_exact,100
+PMJAY,ANDHRA PRADESH,NELLOR,515,Sri Potti Sriramulu Nellore,Andhra Pradesh,alias_exact,100
+PMJAY,ANDHRA PRADESH,NTR,749,Ntr,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Nandyal,755,Nandyal,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,PRAKASAM,517,Prakasam,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Palnadu,751,Palnadu,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Parvathipuram Manyam,743,Parvathipuram Manyam,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,SRIKAKULAM,519,Srikakulam,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Sri Sathya Sai,754,Sri Sathya Sai,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,Tirupati,752,Tirupati,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,VISHAKHAPATNAM,520,Visakhapatnam,Andhra Pradesh,fuzzy_state,96
+PMJAY,ANDHRA PRADESH,VIZIANAGARAM,521,Vizianagaram,Andhra Pradesh,exact_state,100
+PMJAY,ANDHRA PRADESH,WEST GODAVARI,523,West Godavari,Andhra Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,ANJAW,628,Anjaw,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,CHANGLANG,229,Changlang,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,EAST KAMENG,231,East Kameng,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,EAST SIANG,232,East Siang,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,KAMLE,718,Kamle,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,KURUNG KUMEY,233,Kurung Kumey,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,Kra Daadi,677,Kra Daadi,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,LEPARADA,724,Leparada,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,LOHIT,234,Lohit,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,LONGDING,666,Longding,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,LOWER DIBANG VALLEY,235,Lower Dibang Valley,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,LOWER SIANG,719,Lower Siang,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,LOWER SUBANSIRI,236,Lower Subansiri,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,NAMSAI,678,Namsai,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,PAKKE KESSANG,723,Pakke Kessang,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,PAPUM PARE,237,Papum Pare,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,SHI YOMI,725,Shi Yomi,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,SIANG,679,Siang,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,TAWANG,238,Tawang,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,TIRAP,239,Tirap,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,UPPER SIANG,240,Upper Siang,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,UPPER SUBANSIRI,241,Upper Subansiri,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,WEST KAMENG,242,West Kameng,Arunachal Pradesh,exact_state,100
+PMJAY,ARUNACHAL PRADESH,WEST SIANG,243,West Siang,Arunachal Pradesh,exact_state,100
+PMJAY,ASSAM,BAKSA,616,Baksa,Assam,exact_state,100
+PMJAY,ASSAM,BARPETA,280,Barpeta,Assam,exact_state,100
+PMJAY,ASSAM,BONGAIGAON,281,Bongaigaon,Assam,exact_state,100
+PMJAY,ASSAM,Biswanath,705,Biswanath,Assam,exact_state,100
+PMJAY,ASSAM,CHIRANG,612,Chirang,Assam,exact_state,100
+PMJAY,ASSAM,Cachar,282,Cachar,Assam,exact_state,100
+PMJAY,ASSAM,DARRANG,283,Darrang,Assam,exact_state,100
+PMJAY,ASSAM,DHEMAJI,284,Dhemaji,Assam,exact_state,100
+PMJAY,ASSAM,DHUBRI,285,Dhubri,Assam,exact_state,100
+PMJAY,ASSAM,DIBRUGARH,286,Dibrugarh,Assam,exact_state,100
+PMJAY,ASSAM,GOALPARA,287,Goalpara,Assam,exact_state,100
+PMJAY,ASSAM,GOLAGHAT,288,Golaghat,Assam,exact_state,100
+PMJAY,ASSAM,HAILAKANDI,289,Hailakandi,Assam,exact_state,100
+PMJAY,ASSAM,HOJAI,709,Hojai,Assam,exact_state,100
+PMJAY,ASSAM,JORHAT,290,Jorhat,Assam,exact_state,100
+PMJAY,ASSAM,KAMRUP,291,Kamrup,Assam,exact_state,100
+PMJAY,ASSAM,KAMRUP METRO,618,Kamrup Metro,Assam,exact_state,100
+PMJAY,ASSAM,KARBI ANGLONG,292,Karbi Anglong,Assam,exact_state,100
+PMJAY,ASSAM,KARIMGANJ,293,Karimganj,Assam,exact_state,100
+PMJAY,ASSAM,KOKRAJHAR,294,Kokrajhar,Assam,exact_state,100
+PMJAY,ASSAM,LAKHIMPUR,295,Lakhimpur,Assam,exact_state,100
+PMJAY,ASSAM,MAJULI,706,Majuli,Assam,exact_state,100
+PMJAY,ASSAM,MARIGAON,296,Marigaon,Assam,exact_state,100
+PMJAY,ASSAM,NAGAON,297,Nagaon,Assam,exact_state,100
+PMJAY,ASSAM,NALBARI,298,Nalbari,Assam,exact_state,100
+PMJAY,ASSAM,NORTH CACHAR HILL,299,Dima Hasao,Assam,alias_exact,100
+PMJAY,ASSAM,SIBSAGAR,300,Sivasagar,Assam,alias_exact,100
+PMJAY,ASSAM,SONITPUR,301,Sonitpur,Assam,exact_state,100
+PMJAY,ASSAM,SOUTH SALMARA MANCACHAR,707,South Salmara Mancachar,Assam,exact_state,100
+PMJAY,ASSAM,TINSUKIA,302,Tinsukia,Assam,exact_state,100
+PMJAY,ASSAM,UDALGURI,617,Udalguri,Assam,exact_state,100
+PMJAY,ASSAM,WEST KARBI ANGLONG,710,West Karbi Anglong,Assam,exact_state,100
+PMJAY,BIHAR,ARARIA,188,Araria,Bihar,exact_state,100
+PMJAY,BIHAR,ARWAL,611,Arwal,Bihar,exact_state,100
+PMJAY,BIHAR,AURANGABAD,189,Aurangabad,Bihar,exact_state,100
+PMJAY,BIHAR,BANKA,190,Banka,Bihar,exact_state,100
+PMJAY,BIHAR,BEGUSARAI,191,Begusarai,Bihar,exact_state,100
+PMJAY,BIHAR,BHAGALPUR,192,Bhagalpur,Bihar,exact_state,100
+PMJAY,BIHAR,BHOJPUR,193,Bhojpur,Bihar,exact_state,100
+PMJAY,BIHAR,BUXAR,194,Buxar,Bihar,exact_state,100
+PMJAY,BIHAR,DARBHANGA,195,Darbhanga,Bihar,exact_state,100
+PMJAY,BIHAR,EAST CHAMPARAN,213,Purbi Champaran,Bihar,alias_exact,100
+PMJAY,BIHAR,GAYA,196,Gaya,Bihar,exact_state,100
+PMJAY,BIHAR,GOPALGANJ,197,Gopalganj,Bihar,exact_state,100
+PMJAY,BIHAR,JAMUI,198,Jamui,Bihar,exact_state,100
+PMJAY,BIHAR,JEHANABAD,199,Jehanabad,Bihar,exact_state,100
+PMJAY,BIHAR,KAIMUR (BHABUA),200,Kaimur (Bhabua),Bihar,exact_state,100
+PMJAY,BIHAR,KATIHAR,201,Katihar,Bihar,exact_state,100
+PMJAY,BIHAR,KHAGARIA,202,Khagaria,Bihar,exact_state,100
+PMJAY,BIHAR,KISHANGANJ,203,Kishanganj,Bihar,exact_state,100
+PMJAY,BIHAR,LAKHISARAI,204,Lakhisarai,Bihar,exact_state,100
+PMJAY,BIHAR,MADHEPURA,205,Madhepura,Bihar,exact_state,100
+PMJAY,BIHAR,MADHUBANI,206,Madhubani,Bihar,exact_state,100
+PMJAY,BIHAR,MUNGER,207,Munger,Bihar,exact_state,100
+PMJAY,BIHAR,MUZAFFARPUR,208,Muzaffarpur,Bihar,exact_state,100
+PMJAY,BIHAR,NALANDA,209,Nalanda,Bihar,exact_state,100
+PMJAY,BIHAR,NAWADA,210,Nawada,Bihar,exact_state,100
+PMJAY,BIHAR,PATNA,212,Patna,Bihar,exact_state,100
+PMJAY,BIHAR,PURNIA,214,Purnia,Bihar,exact_state,100
+PMJAY,BIHAR,ROHTAS,215,Rohtas,Bihar,exact_state,100
+PMJAY,BIHAR,SAHARSA,216,Saharsa,Bihar,exact_state,100
+PMJAY,BIHAR,SAMASTIPUR,217,Samastipur,Bihar,exact_state,100
+PMJAY,BIHAR,SARAN,218,Saran,Bihar,exact_state,100
+PMJAY,BIHAR,SHEIKHPURA,219,Sheikhpura,Bihar,exact_state,100
+PMJAY,BIHAR,SHEOHAR,220,Sheohar,Bihar,exact_state,100
+PMJAY,BIHAR,SITAMARHI,221,Sitamarhi,Bihar,exact_state,100
+PMJAY,BIHAR,SIWAN,222,Siwan,Bihar,exact_state,100
+PMJAY,BIHAR,SUPAUL,223,Supaul,Bihar,exact_state,100
+PMJAY,BIHAR,VAISHALI,224,Vaishali,Bihar,exact_state,100
+PMJAY,BIHAR,WEST CHAMPARAN,211,Pashchim Champaran,Bihar,alias_exact,100
+PMJAY,CHANDIGARH,CHANDIGARH,44,Chandigarh,Chandigarh,exact_state,100
+PMJAY,CHHATTISGARH,BALOD,646,Balod,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,BALODA BAZAR,644,Balodabazar-Bhatapara,Chhattisgarh,alias_exact,100
+PMJAY,CHHATTISGARH,BALRAMPUR,649,Balrampur-Ramanujganj,Chhattisgarh,alias_exact,100
+PMJAY,CHHATTISGARH,BASTAR,374,Bastar,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,BEMETARA,650,Bemetara,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,BILASPUR,375,Bilaspur,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,Bijapur(CGH),636,Bijapur,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,DANTEWADA,376,Dakshin Bastar Dantewada,Chhattisgarh,alias_exact,100
+PMJAY,CHHATTISGARH,DHAMTARI,377,Dhamtari,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,DURG,378,Durg,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,GARIABAND,645,Gariyaband,Chhattisgarh,fuzzy_state,94
+PMJAY,CHHATTISGARH,GAURELLA PENDRA MARWAHI,734,Gaurela-Pendra-Marwahi,Chhattisgarh,fuzzy_state,97
+PMJAY,CHHATTISGARH,JANJGIR-CHAMPA,379,Janjgir-Champa,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,JASHPUR,380,Jashpur,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,KABIRDHAM,382,Kabeerdham,Chhattisgarh,alias_exact,100
+PMJAY,CHHATTISGARH,KANKER,381,Uttar Bastar Kanker,Chhattisgarh,alias_exact,100
+PMJAY,CHHATTISGARH,KHAIRGARH CHHUIKHADAN GANDAI,759,Khairagarh-Chhuikhadan-Gandai,Chhattisgarh,fuzzy_state,98
+PMJAY,CHHATTISGARH,KONDAGAON,643,Kondagaon,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,KORBA,383,Korba,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,KORIYA,384,Korea,Chhattisgarh,alias_exact,100
+PMJAY,CHHATTISGARH,MAHASAMUND,385,Mahasamund,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,MANENDRAGARH CHIRIMIRI BHARATPUR,760,Manendragarh-Chirmiri-Bharatpur(M C B),Chhattisgarh,alias_exact,100
+PMJAY,CHHATTISGARH,MOHLA MANPUR AMBAGARH CHOUKI,761,Mohla-Manpur-Ambagarh Chouki,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,MUNGELI,647,Mungeli,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,NARAYANPUR,637,Narayanpur,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,RAIGARH,386,Raigarh,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,RAIPUR,387,Raipur,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,RAJNANDGAON,388,Rajnandgaon,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,SAKTI,762,Sakti,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,SARANGARH BILAIGARH,763,Sarangarh-Bilaigarh,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,SUKMA,642,Sukma,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,SURAJPUR,648,Surajpur,Chhattisgarh,exact_state,100
+PMJAY,CHHATTISGARH,SURGUJA,389,Surguja,Chhattisgarh,exact_state,100
+PMJAY,DADRA AND NAGAR HAVELI,DADRA & NAGAR HAVELI,465,Dadra And Nagar Haveli,The Dadra And Nagar Haveli And Daman And Diu,exact_state,100
+PMJAY,DAMAN AND DIU,DAMAN,463,Daman,The Dadra And Nagar Haveli And Daman And Diu,exact_state,100
+PMJAY,DAMAN AND DIU,DIU,464,Diu,The Dadra And Nagar Haveli And Daman And Diu,exact_state,100
+PMJAY,GOA,NORTH GOA,551,North Goa,Goa,exact_state,100
+PMJAY,GOA,SOUTH GOA,552,South Goa,Goa,exact_state,100
+PMJAY,GUJARAT,AHMEDABAD,438,Ahmedabad,Gujarat,exact_state,100
+PMJAY,GUJARAT,AMRELI,439,Amreli,Gujarat,exact_state,100
+PMJAY,GUJARAT,ANAND,440,Anand,Gujarat,exact_state,100
+PMJAY,GUJARAT,ARVALLI,672,Arvalli,Gujarat,exact_state,100
+PMJAY,GUJARAT,BHARUCH,442,Bharuch,Gujarat,exact_state,100
+PMJAY,GUJARAT,BHAVNAGAR,443,Bhavnagar,Gujarat,exact_state,100
+PMJAY,GUJARAT,BOTAD,676,Botad,Gujarat,exact_state,100
+PMJAY,GUJARAT,Banaskantha,441,Banas Kantha,Gujarat,alias_exact,100
+PMJAY,GUJARAT,CHHOTAUDEPUR,668,Chhotaudepur,Gujarat,exact_state,100
+PMJAY,GUJARAT,DANG,444,Dangs,Gujarat,alias_exact,100
+PMJAY,GUJARAT,DEVBHUMI DWARKA,674,Devbhumi Dwarka,Gujarat,exact_state,100
+PMJAY,GUJARAT,Dahod,445,Dahod,Gujarat,exact_state,100
+PMJAY,GUJARAT,GIR SOMNATH,675,Gir Somnath,Gujarat,exact_state,100
+PMJAY,GUJARAT,Gandhi Nagar,446,Gandhinagar,Gujarat,exact_state,100
+PMJAY,GUJARAT,JAMNAGAR,447,Jamnagar,Gujarat,exact_state,100
+PMJAY,GUJARAT,JUNAGADH,448,Junagadh,Gujarat,exact_state,100
+PMJAY,GUJARAT,KACHCHH,449,Kachchh,Gujarat,exact_state,100
+PMJAY,GUJARAT,KHEDA,450,Kheda,Gujarat,exact_state,100
+PMJAY,GUJARAT,MAHESANA,451,Mahesana,Gujarat,exact_state,100
+PMJAY,GUJARAT,MORBI,673,Morbi,Gujarat,exact_state,100
+PMJAY,GUJARAT,Mahisagar,669,Mahisagar,Gujarat,exact_state,100
+PMJAY,GUJARAT,NARMADA,452,Narmada,Gujarat,exact_state,100
+PMJAY,GUJARAT,NAVSARI,453,Navsari,Gujarat,exact_state,100
+PMJAY,GUJARAT,PANCH MAHALS,454,Panch Mahals,Gujarat,exact_state,100
+PMJAY,GUJARAT,PATAN,455,Patan,Gujarat,exact_state,100
+PMJAY,GUJARAT,PORBANDAR,456,Porbandar,Gujarat,exact_state,100
+PMJAY,GUJARAT,RAJKOT,457,Rajkot,Gujarat,exact_state,100
+PMJAY,GUJARAT,SURAT,459,Surat,Gujarat,exact_state,100
+PMJAY,GUJARAT,Sabarkantha,458,Sabar Kantha,Gujarat,alias_exact,100
+PMJAY,GUJARAT,Surendra Nagar,460,Surendranagar,Gujarat,alias_exact,100
+PMJAY,GUJARAT,TAPI,641,Tapi,Gujarat,exact_state,100
+PMJAY,GUJARAT,VADODARA,461,Vadodara,Gujarat,exact_state,100
+PMJAY,GUJARAT,VALSAD,462,Valsad,Gujarat,exact_state,100
+PMJAY,HARYANA,AMBALA,58,Ambala,Haryana,exact_state,100
+PMJAY,HARYANA,BHIWANI,59,Bhiwani,Haryana,exact_state,100
+PMJAY,HARYANA,CHARKI DADRI,701,Charki Dadri,Haryana,exact_state,100
+PMJAY,HARYANA,FARIDABAD,60,Faridabad,Haryana,exact_state,100
+PMJAY,HARYANA,FATEHABAD,61,Fatehabad,Haryana,exact_state,100
+PMJAY,HARYANA,GURUGRAM,62,Gurugram,Haryana,exact_state,100
+PMJAY,HARYANA,HISAR,63,Hisar,Haryana,exact_state,100
+PMJAY,HARYANA,JHAJJAR,64,Jhajjar,Haryana,exact_state,100
+PMJAY,HARYANA,JIND,65,Jind,Haryana,exact_state,100
+PMJAY,HARYANA,KAITHAL,66,Kaithal,Haryana,exact_state,100
+PMJAY,HARYANA,KARNAL,67,Karnal,Haryana,exact_state,100
+PMJAY,HARYANA,KURUKSHETRA,68,Kurukshetra,Haryana,exact_state,100
+PMJAY,HARYANA,MAHENDRAGARH,69,Mahendragarh,Haryana,exact_state,100
+PMJAY,HARYANA,MEWAT,604,Nuh,Haryana,alias_exact,100
+PMJAY,HARYANA,PALWAL,619,Palwal,Haryana,exact_state,100
+PMJAY,HARYANA,PANCHKULA,70,Panchkula,Haryana,exact_state,100
+PMJAY,HARYANA,PANIPAT,71,Panipat,Haryana,exact_state,100
+PMJAY,HARYANA,REWARI,72,Rewari,Haryana,exact_state,100
+PMJAY,HARYANA,ROHTAK,73,Rohtak,Haryana,exact_state,100
+PMJAY,HARYANA,SIRSA,74,Sirsa,Haryana,exact_state,100
+PMJAY,HARYANA,SONIPAT,75,Sonipat,Haryana,exact_state,100
+PMJAY,HARYANA,Yamuna Nagar,76,Yamunanagar,Haryana,exact_state,100
+PMJAY,HIMACHAL PRADESH,BILASPUR,15,Bilaspur,Himachal Pradesh,exact_state,100
+PMJAY,HIMACHAL PRADESH,CHAMBA,16,Chamba,Himachal Pradesh,exact_state,100
+PMJAY,HIMACHAL PRADESH,HAMIRPUR,17,Hamirpur,Himachal Pradesh,exact_state,100
+PMJAY,HIMACHAL PRADESH,KANGRA,18,Kangra,Himachal Pradesh,exact_state,100
+PMJAY,HIMACHAL PRADESH,KINNAUR,19,Kinnaur,Himachal Pradesh,exact_state,100
+PMJAY,HIMACHAL PRADESH,KULLU,20,Kullu,Himachal Pradesh,exact_state,100
+PMJAY,HIMACHAL PRADESH,Lahul & Spiti,21,Lahaul And Spiti,Himachal Pradesh,alias_exact,100
+PMJAY,HIMACHAL PRADESH,MANDI,22,Mandi,Himachal Pradesh,exact_state,100
+PMJAY,HIMACHAL PRADESH,SHIMLA,23,Shimla,Himachal Pradesh,exact_state,100
+PMJAY,HIMACHAL PRADESH,SIRMAUR,24,Sirmaur,Himachal Pradesh,exact_state,100
+PMJAY,HIMACHAL PRADESH,SOLAN,25,Solan,Himachal Pradesh,exact_state,100
+PMJAY,HIMACHAL PRADESH,UNA,26,Una,Himachal Pradesh,exact_state,100
+PMJAY,JAMMU AND KASHMIR,Ananthnag,1,Anantnag,Jammu And Kashmir,fuzzy_state,94
+PMJAY,JAMMU AND KASHMIR,BARAMULLA,3,Baramulla,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,Bandipur,623,Bandipora,Jammu And Kashmir,alias_exact,100
+PMJAY,JAMMU AND KASHMIR,Budgam,2,Budgam,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,DODA,4,Doda,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,GANDERBAL,626,Ganderbal,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,JAMMU,5,Jammu,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,KATHUA,7,Kathua,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,KISHTWAR,620,Kishtwar,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,KULGAM,622,Kulgam,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,KUPWARA,8,Kupwara,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,POONCH,10,Poonch,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,PULWAMA,11,Pulwama,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,RAJAURI,12,Rajouri,Jammu And Kashmir,alias_exact,100
+PMJAY,JAMMU AND KASHMIR,RAMBAN,621,Ramban,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,REASI,627,Reasi,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,SAMBA,624,Samba,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,SHOPIAN,625,Shopian,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,SRINAGAR,13,Srinagar,Jammu And Kashmir,exact_state,100
+PMJAY,JAMMU AND KASHMIR,UDHAMPUR,14,Udhampur,Jammu And Kashmir,exact_state,100
+PMJAY,JHARKHAND,BOKARO,322,Bokaro,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,CHATRA,323,Chatra,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,DEOGHAR,324,Deoghar,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,DHANBAD,325,Dhanbad,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,DUMKA,326,Dumka,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,East Singhbhum,327,East Singhbum,Jharkhand,alias_exact,100
+PMJAY,JHARKHAND,GARHWA,328,Garhwa,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,GODDA,330,Godda,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,GUMLA,331,Gumla,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,Giridh,329,Giridih,Jharkhand,fuzzy_state,92
+PMJAY,JHARKHAND,Hazaribag,332,Hazaribagh,Jharkhand,alias_exact,100
+PMJAY,JHARKHAND,JAMTARA,333,Jamtara,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,KHUNTI,606,Khunti,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,KODERMA,334,Koderma,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,LATEHAR,335,Latehar,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,LOHARDAGA,336,Lohardaga,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,PAKUR,337,Pakur,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,Palamau,338,Palamu,Jharkhand,fuzzy_state,92
+PMJAY,JHARKHAND,RAMGARH,607,Ramgarh,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,RANCHI,339,Ranchi,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,SIMDEGA,342,Simdega,Jharkhand,exact_state,100
+PMJAY,JHARKHAND,Sahibganj,340,Sahebganj,Jharkhand,alias_exact,100
+PMJAY,JHARKHAND,Seraikela Kharsawan,341,Saraikela Kharsawan,Jharkhand,fuzzy_state,94
+PMJAY,JHARKHAND,WEST SINGHBHUM,343,West Singhbhum,Jharkhand,exact_state,100
+PMJAY,KARNATAKA,BAGALKOTE,524,Bagalkote,Karnataka,exact_state,100
+PMJAY,KARNATAKA,BALLARI,528,Ballari,Karnataka,exact_state,100
+PMJAY,KARNATAKA,BELAGAVI,527,Belagavi,Karnataka,exact_state,100
+PMJAY,KARNATAKA,BENGALURU RURAL,526,Bengaluru Rural,Karnataka,exact_state,100
+PMJAY,KARNATAKA,BENGALURU URBAN,525,Bengaluru Urban,Karnataka,exact_state,100
+PMJAY,KARNATAKA,BIDAR,529,Bidar,Karnataka,exact_state,100
+PMJAY,KARNATAKA,CHAMARAJANAGARA,531,Chamarajanagara,Karnataka,exact_state,100
+PMJAY,KARNATAKA,CHIKKABALLAPURA,630,Chikkaballapura,Karnataka,exact_state,100
+PMJAY,KARNATAKA,CHIKKAMAGALURU,532,Chikkamagaluru,Karnataka,exact_state,100
+PMJAY,KARNATAKA,CHITRADURGA,533,Chitradurga,Karnataka,exact_state,100
+PMJAY,KARNATAKA,DAKSHINA KANNADA,534,Dakshina Kannada,Karnataka,exact_state,100
+PMJAY,KARNATAKA,DAVANGERE,535,Davangere,Karnataka,exact_state,100
+PMJAY,KARNATAKA,DHARWAD,536,Dharwad,Karnataka,exact_state,100
+PMJAY,KARNATAKA,GADAG,537,Gadag,Karnataka,exact_state,100
+PMJAY,KARNATAKA,HASSAN,539,Hassan,Karnataka,exact_state,100
+PMJAY,KARNATAKA,HAVERI,540,Haveri,Karnataka,exact_state,100
+PMJAY,KARNATAKA,KALABURAGI,538,Kalaburagi,Karnataka,exact_state,100
+PMJAY,KARNATAKA,KODAGU,541,Kodagu,Karnataka,exact_state,100
+PMJAY,KARNATAKA,KOLAR,542,Kolar,Karnataka,exact_state,100
+PMJAY,KARNATAKA,KOPPAL,543,Koppal,Karnataka,exact_state,100
+PMJAY,KARNATAKA,MANDYA,544,Mandya,Karnataka,exact_state,100
+PMJAY,KARNATAKA,MYSURU,545,Mysuru,Karnataka,exact_state,100
+PMJAY,KARNATAKA,RAICHUR,546,Raichur,Karnataka,exact_state,100
+PMJAY,KARNATAKA,RAMANAGAR,631,Ramanagara,Karnataka,fuzzy_state,94
+PMJAY,KARNATAKA,SHIVAMOGGA,547,Shivamogga,Karnataka,exact_state,100
+PMJAY,KARNATAKA,TUMAKURU,548,Tumakuru,Karnataka,exact_state,100
+PMJAY,KARNATAKA,UDUPI,549,Udupi,Karnataka,exact_state,100
+PMJAY,KARNATAKA,UTTARA KANNADA,550,Uttara Kannada,Karnataka,exact_state,100
+PMJAY,KARNATAKA,VIJAYANAGAR,738,Vijayanagar,Karnataka,exact_state,100
+PMJAY,KARNATAKA,VIJAYAPURA,530,Vijayapura,Karnataka,exact_state,100
+PMJAY,KARNATAKA,YADGIR,635,Yadgir,Karnataka,exact_state,100
+PMJAY,KERALA,ALAPPUZHA,554,Alappuzha,Kerala,exact_state,100
+PMJAY,KERALA,ERNAKULAM,555,Ernakulam,Kerala,exact_state,100
+PMJAY,KERALA,IDUKKI,556,Idukki,Kerala,exact_state,100
+PMJAY,KERALA,KANNUR,557,Kannur,Kerala,exact_state,100
+PMJAY,KERALA,KASARGOD,558,Kasaragod,Kerala,fuzzy_state,94
+PMJAY,KERALA,KOLLAM,559,Kollam,Kerala,exact_state,100
+PMJAY,KERALA,KOTTAYAM,560,Kottayam,Kerala,exact_state,100
+PMJAY,KERALA,KOZHIKODE,561,Kozhikode,Kerala,exact_state,100
+PMJAY,KERALA,MALAPPURAM,562,Malappuram,Kerala,exact_state,100
+PMJAY,KERALA,PALAKKAD,563,Palakkad,Kerala,exact_state,100
+PMJAY,KERALA,PATHANAMTHITTA,564,Pathanamthitta,Kerala,exact_state,100
+PMJAY,KERALA,THIRUVANANTHAPURAM,565,Thiruvananthapuram,Kerala,exact_state,100
+PMJAY,KERALA,THRISSUR,566,Thrissur,Kerala,exact_state,100
+PMJAY,KERALA,WAYANAD,567,Wayanad,Kerala,exact_state,100
+PMJAY,LADAKH,KARGIL,6,Kargil,Ladakh,exact_state,100
+PMJAY,LADAKH,LEH LADAKH,9,Leh Ladakh,Ladakh,exact_state,100
+PMJAY,LAKSHADWEEP,LAKSHADWEEP,553,Lakshadweep District,Lakshadweep,alias_exact,100
+PMJAY,MADHYA PRADESH,AGAR MALWA,667,Agar-Malwa,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,ALIRAJPUR,639,Alirajpur,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,ANUPPUR,390,Anuppur,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,ASHOK NAGAR,391,Ashoknagar,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,BALAGHAT,392,Balaghat,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,BARWANI,393,Barwani,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,BETUL,394,Betul,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,BHIND,395,Bhind,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,BHOPAL,396,Bhopal,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,BURHANPUR,397,Burhanpur,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,CHHATARPUR,398,Chhatarpur,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,CHHINDWARA,399,Chhindwara,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,DAMOH,400,Damoh,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,DATIA,401,Datia,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,DEWAS,402,Dewas,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,DHAR,403,Dhar,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,DINDORI,404,Dindori,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,GUNA,406,Guna,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,GWALIOR,407,Gwalior,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,HARDA,408,Harda,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,HOSHANGABAD,409,Narmadapuram,Madhya Pradesh,alias_exact,100
+PMJAY,MADHYA PRADESH,INDORE,410,Indore,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,JABALPUR,411,Jabalpur,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,JHABUA,412,Jhabua,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,KATNI,413,Katni,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,KHANDWA,405,Khandwa (East Nimar),Madhya Pradesh,alias_exact,100
+PMJAY,MADHYA PRADESH,KHARGONE,414,Khargone (West Nimar),Madhya Pradesh,alias_exact,100
+PMJAY,MADHYA PRADESH,MANDLA,415,Mandla,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,MANDSAUR,416,Mandsaur,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,MORENA,417,Morena,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,NARSINGHPUR,418,Narsimhapur,Madhya Pradesh,alias_exact,100
+PMJAY,MADHYA PRADESH,NEEMUCH,419,Neemuch,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,PANNA,420,Panna,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,RAISEN,421,Raisen,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,RAJGARH,422,Rajgarh,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,RATLAM,423,Ratlam,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,REWA,424,Rewa,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,SAGAR,425,Sagar,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,SATNA,426,Satna,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,SEHORE,427,Sehore,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,SEONI,428,Seoni,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,SHAHDOL,429,Shahdol,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,SHAJAPUR,430,Shajapur,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,SHEOPUR,431,Sheopur,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,SHIVPURI,432,Shivpuri,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,SIDHI,433,Sidhi,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,SINGRAULI,638,Singrauli,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,TIKAMGARH,434,Tikamgarh,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,UJJAIN,435,Ujjain,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,UMARIA,436,Umaria,Madhya Pradesh,exact_state,100
+PMJAY,MADHYA PRADESH,VIDISHA,437,Vidisha,Madhya Pradesh,exact_state,100
+PMJAY,MAHARASHTRA,AHMED NAGAR,466,Ahmednagar,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,AKOLA,467,Akola,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,AMRAVATI,468,Amravati,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,AURANGABAD,469,Chhatrapati Sambhajinagar,Maharashtra,alias_exact,100
+PMJAY,MAHARASHTRA,BEED,470,Beed,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,BHANDARA,471,Bhandara,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,BULDHANA,472,Buldhana,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,CHANDRAPUR,473,Chandrapur,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,DHULE,474,Dhule,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,GADCHIROLI,475,Gadchiroli,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,GONDIA,476,Gondia,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,HINGOLI,477,Hingoli,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,JALGAON,478,Jalgaon,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,JALNA,479,Jalna,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,KOLHAPUR,480,Kolhapur,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,LATUR,481,Latur,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,MUMBAI,482,Mumbai,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,MUMBAI SUBURBAN,483,Mumbai Suburban,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,NAGPUR,484,Nagpur,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,NANDED,485,Nanded,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,NANDURBAR,486,Nandurbar,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,NASHIK,487,Nashik,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,OSMANABAD,488,Dharashiv,Maharashtra,alias_exact,100
+PMJAY,MAHARASHTRA,PALGHAR,665,Palghar,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,PARBHANI,489,Parbhani,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,PUNE,490,Pune,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,RAIGARH(MH),491,Raigad,Maharashtra,alias_exact,100
+PMJAY,MAHARASHTRA,RATNAGIRI,492,Ratnagiri,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,SANGLI,493,Sangli,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,SATARA,494,Satara,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,SINDHUDURG,495,Sindhudurg,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,SOLAPUR,496,Solapur,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,THANE,497,Thane,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,WARDHA,498,Wardha,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,WASHIM,499,Washim,Maharashtra,exact_state,100
+PMJAY,MAHARASHTRA,YAVATMAL,500,Yavatmal,Maharashtra,exact_state,100
+PMJAY,MANIPUR,BISHNUPUR,252,Bishnupur,Manipur,exact_state,100
+PMJAY,MANIPUR,CHANDEL,253,Chandel,Manipur,exact_state,100
+PMJAY,MANIPUR,CHURACHANDPUR,254,Churachandpur,Manipur,exact_state,100
+PMJAY,MANIPUR,IMPHAL EAST,255,Imphal East,Manipur,exact_state,100
+PMJAY,MANIPUR,IMPHAL WEST,256,Imphal West,Manipur,exact_state,100
+PMJAY,MANIPUR,JIRIBAM,713,Jiribam,Manipur,exact_state,100
+PMJAY,MANIPUR,KAKCHING,711,Kakching,Manipur,exact_state,100
+PMJAY,MANIPUR,KAMJONG,717,Kamjong,Manipur,exact_state,100
+PMJAY,MANIPUR,KANGPOKPI,712,Kangpokpi,Manipur,exact_state,100
+PMJAY,MANIPUR,NONEY,714,Noney,Manipur,exact_state,100
+PMJAY,MANIPUR,PHERZAWL,715,Pherzawl,Manipur,exact_state,100
+PMJAY,MANIPUR,SENAPATI,257,Senapati,Manipur,exact_state,100
+PMJAY,MANIPUR,TAMENGLONG,258,Tamenglong,Manipur,exact_state,100
+PMJAY,MANIPUR,TENGNOUPAL,716,Tengnoupal,Manipur,exact_state,100
+PMJAY,MANIPUR,THOUBAL,259,Thoubal,Manipur,exact_state,100
+PMJAY,MANIPUR,UKHRUL,260,Ukhrul,Manipur,exact_state,100
+PMJAY,MEGHALAYA,EAST GARO HILLS,273,East Garo Hills,Meghalaya,exact_state,100
+PMJAY,MEGHALAYA,EAST JAINTIA HILLS,657,East Jaintia Hills,Meghalaya,exact_state,100
+PMJAY,MEGHALAYA,EAST KHASI HILLS,274,East Khasi Hills,Meghalaya,exact_state,100
+PMJAY,MEGHALAYA,NORTH GARO HILLS,656,North Garo Hills,Meghalaya,exact_state,100
+PMJAY,MEGHALAYA,RI BHOI,276,Ri Bhoi,Meghalaya,exact_state,100
+PMJAY,MEGHALAYA,SOUTH GARO HILLS,277,South Garo Hills,Meghalaya,exact_state,100
+PMJAY,MEGHALAYA,SOUTH WEST GARO HILLS,663,South West Garo Hills,Meghalaya,exact_state,100
+PMJAY,MEGHALAYA,SOUTH WEST KHASI HILLS,658,South West Khasi Hills,Meghalaya,exact_state,100
+PMJAY,MEGHALAYA,WEST GARO HILLS,278,West Garo Hills,Meghalaya,exact_state,100
+PMJAY,MEGHALAYA,WEST JAINTIA HILLS,275,West Jaintia Hills,Meghalaya,exact_state,100
+PMJAY,MEGHALAYA,WEST KHASI HILLS,279,West Khasi Hills,Meghalaya,exact_state,100
+PMJAY,MIZORAM,AIZAWL,261,Aizawl,Mizoram,exact_state,100
+PMJAY,MIZORAM,CHAMPHAI,262,Champhai,Mizoram,exact_state,100
+PMJAY,MIZORAM,KOLASIB,263,Kolasib,Mizoram,exact_state,100
+PMJAY,MIZORAM,LAWNGTLAI,264,Lawngtlai,Mizoram,exact_state,100
+PMJAY,MIZORAM,LUNGLEI,265,Lunglei,Mizoram,exact_state,100
+PMJAY,MIZORAM,MAMMIT,266,Mamit,Mizoram,fuzzy_state,90
+PMJAY,MIZORAM,SAIHA,267,Siaha,Mizoram,alias_exact,100
+PMJAY,MIZORAM,SERCHHIP,268,Serchhip,Mizoram,exact_state,100
+PMJAY,NAGALAND,DIMAPUR,244,Dimapur,Nagaland,exact_state,100
+PMJAY,NAGALAND,KIPHIRE,614,Kiphire,Nagaland,exact_state,100
+PMJAY,NAGALAND,KOHIMA,245,Kohima,Nagaland,exact_state,100
+PMJAY,NAGALAND,LONGLENG,615,Longleng,Nagaland,exact_state,100
+PMJAY,NAGALAND,MOKOKCHUNG,246,Mokokchung,Nagaland,exact_state,100
+PMJAY,NAGALAND,MON,247,Mon,Nagaland,exact_state,100
+PMJAY,NAGALAND,PEREN,613,Peren,Nagaland,exact_state,100
+PMJAY,NAGALAND,PHEK,248,Phek,Nagaland,exact_state,100
+PMJAY,NAGALAND,TUENSANG,249,Tuensang,Nagaland,exact_state,100
+PMJAY,NAGALAND,WOKHA,250,Wokha,Nagaland,exact_state,100
+PMJAY,NAGALAND,ZUNHEBOTTO,251,Zunheboto,Nagaland,fuzzy_state,94
+PMJAY,NCT OF Delhi,CENTRAL DELHI,77,Central,Delhi,alias_exact,100
+PMJAY,NCT OF Delhi,EAST DELHI,78,East,Delhi,alias_exact,100
+PMJAY,NCT OF Delhi,NEW DELHI,79,New Delhi,Delhi,exact_state,100
+PMJAY,NCT OF Delhi,NORTH DELHI,80,North,Delhi,alias_exact,100
+PMJAY,NCT OF Delhi,NORTH WEST DELHI,82,North West,Delhi,alias_exact,100
+PMJAY,NCT OF Delhi,SOUTH DELHI,83,South,Delhi,alias_exact,100
+PMJAY,NCT OF Delhi,SOUTH EAST DELHI,670,South East,Delhi,alias_exact,100
+PMJAY,NCT OF Delhi,SOUTH WEST DELHI,84,South West,Delhi,alias_exact,100
+PMJAY,NCT OF Delhi,WEST DELHI,85,West,Delhi,alias_exact,100
+PMJAY,ODISHA,ANGUL,344,Anugul,Odisha,alias_exact,100
+PMJAY,ODISHA,JAGATSINGHAPUR,355,Jagatsinghapur,Odisha,exact_state,100
+PMJAY,ODISHA,JHARSUGUDA,357,Jharsuguda,Odisha,exact_state,100
+PMJAY,ODISHA,KHORDA,362,Khordha,Odisha,fuzzy_state,92
+PMJAY,ODISHA,SAMBALPUR,371,Sambalpur,Odisha,exact_state,100
+PMJAY,ODISHA,SUNDERGARH,373,Sundargarh,Odisha,fuzzy_state,90
+PMJAY,PUDUCHERRY,KARAIKAL,598,Karaikal,Puducherry,exact_state,100
+PMJAY,PUDUCHERRY,MAHE,599,Mahe,Puducherry,exact_state,100
+PMJAY,PUDUCHERRY,PONDICHERRY,600,Puducherry,Puducherry,alias_exact,100
+PMJAY,PUDUCHERRY,YANAM,601,Yanam,Puducherry,exact_state,100
+PMJAY,PUNJAB,AMRITSAR,27,Amritsar,Punjab,exact_state,100
+PMJAY,PUNJAB,BARNALA,605,Barnala,Punjab,exact_state,100
+PMJAY,PUNJAB,BATHINDA,28,Bathinda,Punjab,exact_state,100
+PMJAY,PUNJAB,FARIDKOT,29,Faridkot,Punjab,exact_state,100
+PMJAY,PUNJAB,FATEHGARH SAHIB,30,Fatehgarh Sahib,Punjab,exact_state,100
+PMJAY,PUNJAB,FAZILKA,651,Fazilka,Punjab,exact_state,100
+PMJAY,PUNJAB,FIROZPUR,31,Ferozepur,Punjab,alias_exact,100
+PMJAY,PUNJAB,GURDASPUR,32,Gurdaspur,Punjab,exact_state,100
+PMJAY,PUNJAB,HOSHIARPUR,33,Hoshiarpur,Punjab,exact_state,100
+PMJAY,PUNJAB,JALANDHAR,34,Jalandhar,Punjab,exact_state,100
+PMJAY,PUNJAB,KAPURTHALA,35,Kapurthala,Punjab,exact_state,100
+PMJAY,PUNJAB,LUDHIANA,36,Ludhiana,Punjab,exact_state,100
+PMJAY,PUNJAB,MALERKOTLA,737,Malerkotla,Punjab,exact_state,100
+PMJAY,PUNJAB,MANSA,37,Mansa,Punjab,exact_state,100
+PMJAY,PUNJAB,MOGA,38,Moga,Punjab,exact_state,100
+PMJAY,PUNJAB,MUKTSAR,39,Sri Muktsar Sahib,Punjab,alias_exact,100
+PMJAY,PUNJAB,PATHANKOT,662,Pathankot,Punjab,exact_state,100
+PMJAY,PUNJAB,PATIALA,41,Patiala,Punjab,exact_state,100
+PMJAY,PUNJAB,RUPNAGAR,42,Rupnagar,Punjab,exact_state,100
+PMJAY,PUNJAB,S.A.S Nagar,608,S.A.S Nagar,Punjab,exact_state,100
+PMJAY,PUNJAB,SANGRUR,43,Sangrur,Punjab,exact_state,100
+PMJAY,PUNJAB,Shahid Bhagat Singh Nagar,40,Shahid Bhagat Singh Nagar,Punjab,exact_state,100
+PMJAY,PUNJAB,Tarn Taran,609,Tarn Taran,Punjab,exact_state,100
+PMJAY,RAJASTHAN,AJMER,86,Ajmer,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,ALWAR,87,Alwar,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,BANSWARA,88,Banswara,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,BARAN,89,Baran,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,BARMER,90,Barmer,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,BHARATPUR,91,Bharatpur,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,BHILWARA,92,Bhilwara,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,BIKANER,93,Bikaner,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,BUNDI,94,Bundi,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,CHITTORGARH,95,Chittorgarh,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,CHURU,96,Churu,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,DAUSA,97,Dausa,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,DHOLPUR,98,Dholpur,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,DUNGARPUR,99,Dungarpur,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,GANGANAGAR,100,Ganganagar,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,HANUMANGARH,101,Hanumangarh,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,JAIPUR,102,Jaipur,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,JAISALMER,103,Jaisalmer,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,JALOR,104,Jalore,Rajasthan,fuzzy_state,90
+PMJAY,RAJASTHAN,JHALAWAR,105,Jhalawar,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,JHUJHUNU,106,Jhunjhunu,Rajasthan,fuzzy_state,94
+PMJAY,RAJASTHAN,JODHPUR,107,Jodhpur,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,KARAULI,108,Karauli,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,KOTA,109,Kota,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,NAGAUR,110,Nagaur,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,PALI,111,Pali,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,PRATAPGARH,629,Pratapgarh,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,RAJSAMAND,112,Rajsamand,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,SAWAI MADHOPUR,113,Sawai Madhopur,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,SIKAR,114,Sikar,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,SIROHI,115,Sirohi,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,TONK,116,Tonk,Rajasthan,exact_state,100
+PMJAY,RAJASTHAN,UDAIPUR,117,Udaipur,Rajasthan,exact_state,100
+PMJAY,SIKKIM,East Sikkim,225,Gangtok,Sikkim,alias_exact,100
+PMJAY,SIKKIM,North Sikkim,226,Mangan,Sikkim,alias_exact,100
+PMJAY,SIKKIM,Pakyong,741,Pakyong,Sikkim,exact_state,100
+PMJAY,SIKKIM,Soreng,742,Soreng,Sikkim,exact_state,100
+PMJAY,SIKKIM,South Sikkim,227,Namchi,Sikkim,alias_exact,100
+PMJAY,SIKKIM,West Sikkim,228,Gyalshing,Sikkim,alias_exact,100
+PMJAY,TAMIL NADU,Ariyalur,610,Ariyalur,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,CHENNAI,568,Chennai,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,COIMBATORE,569,Coimbatore,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,CUDDALORE,570,Cuddalore,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,Chengalpattu,730,Chengalpattu,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,DHARMAPURI,571,Dharmapuri,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,DINDIGUL,572,Dindigul,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,ERODE,573,Erode,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,KANCHIPURAM,574,Kancheepuram,Tamil Nadu,alias_exact,100
+PMJAY,TAMIL NADU,KARUR,576,Karur,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,KRISHNAGIRI,577,Krishnagiri,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,Kallakurichi,729,Kallakurichi,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,Kanyakumari,575,Kanniyakumari,Tamil Nadu,fuzzy_state,91
+PMJAY,TAMIL NADU,MADURAI,578,Madurai,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,Mayiladuthurai,735,Mayiladuthurai,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,NAGAPATTINAM,579,Nagapattinam,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,NAMAKKAL,580,Namakkal,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,Nilgiris,587,The Nilgiris,Tamil Nadu,alias_exact,100
+PMJAY,TAMIL NADU,PERAMBALUR,581,Perambalur,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,PUDUKKOTTAI,582,Pudukkottai,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,RAMANATHAPURAM,583,Ramanathapuram,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,Ranipet,731,Ranipet,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,SALEM,584,Salem,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,SIVAGANGA,585,Sivaganga,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,THANJAVUR,586,Thanjavur,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,THENI,588,Theni,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,TIRUCHIRAPPALLI,591,Tiruchirappalli,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,TIRUNELVELI,592,Tirunelveli,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,TIRUPPUR,634,Tiruppur,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,TIRUVANNAMALAI,593,Tiruvannamalai,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,TUTICORIN,594,Thoothukkudi,Tamil Nadu,alias_exact,100
+PMJAY,TAMIL NADU,Tenkasi,733,Tenkasi,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,Tirupathur,732,Tirupathur,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,Tiruvallur,589,Thiruvallur,Tamil Nadu,fuzzy_state,95
+PMJAY,TAMIL NADU,Tiruvarur,590,Thiruvarur,Tamil Nadu,fuzzy_state,94
+PMJAY,TAMIL NADU,VELLORE,595,Vellore,Tamil Nadu,exact_state,100
+PMJAY,TAMIL NADU,VILLUPURAM,596,Viluppuram,Tamil Nadu,alias_exact,100
+PMJAY,TAMIL NADU,VIRUDHUNAGAR,597,Virudhunagar,Tamil Nadu,exact_state,100
+PMJAY,TELANGANA,ADILABAD,501,Adilabad,Telangana,exact_state,100
+PMJAY,TELANGANA,BHADRADRI KOTHAGUDEM,690,Bhadradri Kothagudem,Telangana,exact_state,100
+PMJAY,TELANGANA,HYDERABAD,507,Hyderabad,Telangana,exact_state,100
+PMJAY,TELANGANA,JANGOAN,689,Jangoan,Telangana,exact_state,100
+PMJAY,TELANGANA,JAYASHANKAR BHUPALAPALLY,687,Jayashankar Bhupalapally,Telangana,exact_state,100
+PMJAY,TELANGANA,JOGULAMBA GADWAL,695,Jogulamba Gadwal,Telangana,exact_state,100
+PMJAY,TELANGANA,Jagitial,681,Jagitial,Telangana,exact_state,100
+PMJAY,TELANGANA,KAMAREDDY,685,Kamareddy,Telangana,exact_state,100
+PMJAY,TELANGANA,KARIMNAGAR,508,Karimnagar,Telangana,exact_state,100
+PMJAY,TELANGANA,KHAMMAM,509,Khammam,Telangana,exact_state,100
+PMJAY,TELANGANA,KUMURAM BHEEM ASIFABAD,699,Kumuram Bheem Asifabad,Telangana,exact_state,100
+PMJAY,TELANGANA,MAHABUBABAD,688,Mahabubabad,Telangana,exact_state,100
+PMJAY,TELANGANA,MAHABUBNAGAR,512,Mahabubnagar,Telangana,exact_state,100
+PMJAY,TELANGANA,MANCHERIAL,684,Mancherial,Telangana,exact_state,100
+PMJAY,TELANGANA,MEDAK,513,Medak,Telangana,exact_state,100
+PMJAY,TELANGANA,MEDCHAL MALKAJGIRI,700,Medchal Malkajgiri,Telangana,exact_state,100
+PMJAY,TELANGANA,Mulugu,720,Mulugu,Telangana,exact_state,100
+PMJAY,TELANGANA,NAGARKURNOOL,694,Nagarkurnool,Telangana,exact_state,100
+PMJAY,TELANGANA,NALGONDA,514,Nalgonda,Telangana,exact_state,100
+PMJAY,TELANGANA,NIZAMABAD,516,Nizamabad,Telangana,exact_state,100
+PMJAY,TELANGANA,Narayanpet,721,Narayanpet,Telangana,exact_state,100
+PMJAY,TELANGANA,Nirmal,680,Nirmal,Telangana,exact_state,100
+PMJAY,TELANGANA,PEDDAPALLI,682,Peddapalli,Telangana,exact_state,100
+PMJAY,TELANGANA,RAJANNA SIRCILLA,683,Rajanna Sircilla,Telangana,exact_state,100
+PMJAY,TELANGANA,RANGA REDDY,518,Ranga Reddy,Telangana,exact_state,100
+PMJAY,TELANGANA,SANGAREDDY,691,Sangareddy,Telangana,exact_state,100
+PMJAY,TELANGANA,SIDDIPET,692,Siddipet,Telangana,exact_state,100
+PMJAY,TELANGANA,SURYAPET,696,Suryapet,Telangana,exact_state,100
+PMJAY,TELANGANA,VIKARABAD,698,Vikarabad,Telangana,exact_state,100
+PMJAY,TELANGANA,WANAPARTHY,693,Wanaparthy,Telangana,exact_state,100
+PMJAY,TELANGANA,WARANGAL RURAL,522,Warangal,Telangana,alias_exact,100
+PMJAY,TELANGANA,WARANGAL URBAN,686,Hanumakonda,Telangana,alias_exact,100
+PMJAY,TELANGANA,YADADRI BHUVANAGIRI,697,Yadadri Bhuvanagiri,Telangana,exact_state,100
+PMJAY,TRIPURA,Dhalai,269,Dhalai,Tripura,exact_state,100
+PMJAY,TRIPURA,Gomati,654,Gomati,Tripura,exact_state,100
+PMJAY,TRIPURA,Khowai,652,Khowai,Tripura,exact_state,100
+PMJAY,TRIPURA,North Tripura,270,North Tripura,Tripura,exact_state,100
+PMJAY,TRIPURA,Sepahijala,653,Sepahijala,Tripura,exact_state,100
+PMJAY,TRIPURA,South Tripura,271,South Tripura,Tripura,exact_state,100
+PMJAY,TRIPURA,Unakoti,655,Unakoti,Tripura,exact_state,100
+PMJAY,TRIPURA,West Tripura,272,West Tripura,Tripura,exact_state,100
+PMJAY,UTTAR PRADESH,AGRA,118,Agra,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,ALIGARH,119,Aligarh,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,ALLAHABAD,120,Prayagraj,Uttar Pradesh,alias_exact,100
+PMJAY,UTTAR PRADESH,AMBEDKAR NAGAR,121,Ambedkar Nagar,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,AMROHA,154,Amroha,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,AURAIYA,122,Auraiya,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,AZAMGARH,123,Azamgarh,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,Amethi,640,Amethi,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,BAHRAICH,125,Bahraich,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,BALLIA,126,Ballia,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,BALRAMPUR,127,Balrampur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,BANDA,128,Banda,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,BARABANKI,129,Bara Banki,Uttar Pradesh,alias_exact,100
+PMJAY,UTTAR PRADESH,BAREILLY,130,Bareilly,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,BASTI,131,Basti,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,BHADOHI,179,Bhadohi,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,BIJNOR,132,Bijnor,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,BUDAUN,133,Budaun,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,BULANDSHAHR,134,Bulandshahr,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,Bagpat,124,Baghpat,Uttar Pradesh,fuzzy_state,92
+PMJAY,UTTAR PRADESH,CHANDAULI,135,Chandauli,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,CHITRAKOOT,136,Chitrakoot,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,DEORIA,137,Deoria,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,ETAH,138,Etah,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,ETAWAH,139,Etawah,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,FAIZABAD,140,Ayodhya,Uttar Pradesh,alias_exact,100
+PMJAY,UTTAR PRADESH,FARRUKHABAD,141,Farrukhabad,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,FATEHPUR,142,Fatehpur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,FIROZABAD,143,Firozabad,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,GAUTAM BUDDHA NAGAR,144,Gautam Buddha Nagar,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,GHAZIABAD,145,Ghaziabad,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,GHAZIPUR,146,Ghazipur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,GONDA,147,Gonda,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,GORAKHPUR,148,Gorakhpur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,HAMIRPUR,149,Hamirpur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,HAPUR,661,Hapur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,HARDOI,150,Hardoi,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,HATHRAS,163,Hathras,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,JALAUN,151,Jalaun,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,JAUNPUR,152,Jaunpur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,JHANSI,153,Jhansi,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,KANNAUJ,155,Kannauj,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,KANPUR DEHAT,156,Kanpur Dehat,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,KANPUR NAGAR,157,Kanpur Nagar,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,KAUSHAMBI,158,Kaushambi,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,KHERI,159,Kheri,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,KUSHI NAGAR,160,Kushinagar,Uttar Pradesh,alias_exact,100
+PMJAY,UTTAR PRADESH,Kasganj,633,Kasganj,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,LALITPUR,161,Lalitpur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,LUCKNOW,162,Lucknow,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,MAHARAJGANJ,164,Mahrajganj,Uttar Pradesh,alias_exact,100
+PMJAY,UTTAR PRADESH,MAHOBA,165,Mahoba,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,MAINPURI,166,Mainpuri,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,MATHURA,167,Mathura,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,MAU,168,Mau,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,MEERUT,169,Meerut,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,MIRZAPUR,170,Mirzapur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,MORADABAD,171,Moradabad,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,MUZAFFARNAGAR,172,Muzaffarnagar,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,PILIBHIT,173,Pilibhit,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,PRATAPGARH,174,Pratapgarh,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,RAMPUR,176,Rampur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,Raebareli,175,Rae Bareli,Uttar Pradesh,alias_exact,100
+PMJAY,UTTAR PRADESH,SAHARANPUR,177,Saharanpur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,SHAHJAHANPUR,180,Shahjahanpur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,SHAMLI,660,Shamli,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,SITAPUR,183,Sitapur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,SONBHADRA,184,Sonbhadra,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,SULTANPUR,185,Sultanpur,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,Sambhal,659,Sambhal,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,Sant Kabir Nagar,178,Sant Kabir Nagar,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,Shrawasti,181,Shrawasti,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,Siddharthnagar,182,Siddharthnagar,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,UNNAO,186,Unnao,Uttar Pradesh,exact_state,100
+PMJAY,UTTAR PRADESH,VARANASI,187,Varanasi,Uttar Pradesh,exact_state,100
+PMJAY,UTTARAKHAND,ALMORA,45,Almora,Uttarakhand,exact_state,100
+PMJAY,UTTARAKHAND,BAGESHWAR,46,Bageshwar,Uttarakhand,exact_state,100
+PMJAY,UTTARAKHAND,CHAMOLI,47,Chamoli,Uttarakhand,exact_state,100
+PMJAY,UTTARAKHAND,CHAMPAWAT,48,Champawat,Uttarakhand,exact_state,100
+PMJAY,UTTARAKHAND,DEHRADUN,49,Dehradun,Uttarakhand,exact_state,100
+PMJAY,UTTARAKHAND,HARIDWAR,50,Haridwar,Uttarakhand,exact_state,100
+PMJAY,UTTARAKHAND,NAINITAL,51,Nainital,Uttarakhand,exact_state,100
+PMJAY,UTTARAKHAND,PAURI GARHWAL,52,Pauri Garhwal,Uttarakhand,exact_state,100
+PMJAY,UTTARAKHAND,PITHORAGARH,53,Pithoragarh,Uttarakhand,exact_state,100
+PMJAY,UTTARAKHAND,Rudraprayag,54,Rudra Prayag,Uttarakhand,alias_exact,100
+PMJAY,UTTARAKHAND,TEHRI GARHWAL,55,Tehri Garhwal,Uttarakhand,exact_state,100
+PMJAY,UTTARAKHAND,Udham Singh Nagar,56,Udam Singh Nagar,Uttarakhand,alias_exact,100
+PMJAY,UTTARAKHAND,Uttarkashi,57,Uttar Kashi,Uttarakhand,alias_exact,100
+PMJAY,WEST BENGAL,24 PARAGANAS SOUTH,304,South 24 Parganas,West Bengal,fuzzy_state,97
+PMJAY,WEST BENGAL,Alipurduar,664,Alipurduar,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,Cooch Behar,308,Cooch Behar,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,Darjiling,309,Darjeeling,West Bengal,alias_exact,100
+PMJAY,WEST BENGAL,East Midnapur,317,Purba Medinipur,West Bengal,alias_exact,100
+PMJAY,WEST BENGAL,HOOGHLY,312,Hooghly,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,HOWRAH,313,Howrah,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,JALPAIGURI,314,Jalpaiguri,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,KOLKATA,315,Kolkata,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,MURSHIDABAD,319,Murshidabad,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,Malda,316,Malda,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,NADIA,320,Nadia,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,North 24 Parganas,303,North 24 Parganas,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,PASCHIM BARDHAMAN,704,Paschim Bardhaman,West Bengal,exact_state,100
+PMJAY,WEST BENGAL,Puruliya,321,Purulia,West Bengal,fuzzy_state,93
+PMJAY,WEST BENGAL,West Midnapur,318,Paschim Medinipur,West Bengal,alias_exact,100
