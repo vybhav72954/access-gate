@@ -1,0 +1,504 @@
+Report No. 11 of 2023 
+24 
+ 
+ 
+ 
+4. 
+Introduction  
+PMJAY covers medical and hospitalisation expenses for almost all secondary and tertiary 
+care procedures covering surgery, medical and day care treatments for economically weaker 
+segment of the population with an aim to bring low-cost quality treatment as well as to 
+provide essential drugs and diagnostic services at affordable prices. 
+Preventive and quality health care are the core components to achieve Universal health 
+coverage. In order to ensure that quality health care is provided to the beneficiaries under 
+PMJAY, State Health Authorities through State Empanelment Committees (SEC) are 
+empowered to empanel private and public health service providers in their respective 
+State/UTs. The States are free to decide the mode of verification of empanelment 
+applications, conducting the physical verification either through District Empanelment 
+Committee (DEC) or using the selected insurance company (Insurance Mode), under the 
+broad mandate of the instructions provided in the guidelines for hospital empanelment.  
+4.1 
+Process of Empanelment 
+All States/UTs are permitted to empanel Hospitals only in their own State/UT. In case any 
+State/UT wants to empanel Hospitals in another State/UT, they can do so only till the time 
+they are not implementing PMJAY. All public facilities with capability of providing inpatient 
+services (Community Health Centre level and above) are deemed empanelled under PMJAY. 
+The Private Hospitals may apply online through Hospital Empanelment Management (HEM) 
+portal for empanelment. The process of empanelment of private Hospitals is defined in Flow 
+Chart-4.1. 
+Flow Chart-4.1: Process of Empanelment 
+ 
+
+Report No. 11 of 2023 
+25 
+The State Health Department ensures that the enabling infrastructure and guidelines are put in 
+place to enable all public health facilities to provide services under PMJAY.  
+4.2 
+Criteria for Hospital Empanelment  
+According to para 1.3 of Hospital Empanelment and Management (HEM) guidelines, the 
+criteria for empanelment have been divided into two broad categories viz. General and 
+Specialty. The Empanelled Health Care Providers (EHCPs) empanelled under PMJAY for 
+providing general care should meet the minimum requirements of General Criteria. The main 
+features of General criteria for empanelment of EHCPs are as under: 
+Requirement of round-the-clock facilities 
+Requirement of Medical staff 
+• 
+At least 10 in-patient beds. 
+• 
+Round-the-clock support systems required for 
+the services like Pharmacy, Blood Bank, 
+Laboratory, 
+Dialysis 
+unit, 
+Ambulance 
+facilities. 
+• 
+24 hours emergency services managed by 
+technically 
+qualified 
+staff, 
+wherever 
+emergency services are offered. 
+• 
+Fully equipped Operation Theatre, Waste 
+Management Support services (General and 
+Bio Medical) in compliance with the Bio-
+medical Waste Management Act. 
+• 
+Appropriate fire-safety measures. 
+• 
+Adequate and qualified medical and 
+nursing staff. 
+• 
+Round-the-clock availability (or on-
+call) of a surgeon and Anaesthetist 
+where 
+surgical 
+services/day 
+care 
+treatments are offered. 
+• 
+An Obstetrician, Orthopaedics, ENT, 
+Ophthalmology, 
+Dental, 
+General 
+surgery (including endoscopy). 
+Under the Specialty Criteria, Hospitals would be empanelled separately for certain tertiary 
+care packages authorized for one or more specialities (viz. Cardiology, Oncology and 
+Neurosurgery etc.) and the Hospitals are required to meet the advanced criteria to provide 
+those facilities as specialty packages, over and above the general criteria.  
+As of November 2022, total 26209 (11,930 private and 14,279 public) Hospitals were 
+empanelled across the States/UTs.  The details are given in Annexure-4.1. 
+Audit noted instances of non-compliance with the general criteria for empanelment as 
+detailed below: 
+4.2.1 Criteria regarding support system and infrastructure 
+As per Annexure-1 of HEM guidelines, a hospital should have adequate arrangements for 
+round-the-clock support systems required for the services like pharmacy, blood bank, 
+laboratory, dialysis unit, post op ICU care etc. 
+Audit noted that in 12 States/UTs namely Andaman and Nicobar Islands, Assam, Bihar, 
+Chandigarh, Gujarat, Himachal Pradesh, Jammu & Kashmir, Manipur, Nagaland, 
+Puducherry, Tripura and Uttar Pradesh, the minimum criteria of empanelment was not 
+
+Report No. 11 of 2023 
+26 
+met by some of the EHCPs. There were deficiencies such as medical equipment being out of 
+order, lack of basic infrastructure such as IPD Beds, Operation Theatres, ICU care with 
+ventilator support systems, Pharmacy, Dialysis Unit, Blood banks, Round-the clock 
+Ambulance Services etc. Details are given in Annexure-4.2. 
+4.2.2 Non-compliance of safety measures 
+As per Annexure-1 of HEM guidelines, appropriate fire-safety measures, adherence to 
+Standard treatment guidelines/Clinical Pathways for procedures as mandated by NHA from 
+time to time, Waste Management Support Services (General and Bio Medical) – in 
+compliance with the Biomedical Waste Management Act should be followed.  
+Audit noted that in seven States namely Bihar, Himachal Pradesh, Jharkhand, 
+Karnataka, Meghalaya, Puducherry and Uttarakhand, some of the EHCPs were 
+empanelled without fulfilling the above criteria. Details are given in Annexure-4.3. 
+This is indicative of the fact that EHCPs did not conform to the prescribed quality standards 
+and mandatory conditions for empanelment.  
+NHA stated (August 2022) that safety measures like fire, bio-waste management etc. are not 
+mandatory.  
+NHA’s reply that the guidelines are not mandatory is not appropriate as SHAs are required to 
+ensure that the EHCPs follow all the norms and safety measures. 
+4.3 
+Awareness Generation and Facilitation for Empanelment of EHCPs 
+According to para 1.4 of HEM guidelines, the State Government is to ensure that maximum 
+number of eligible Hospitals participate in the PMJAY and this needs to be achieved through 
+Information, Education and Communication (IEC) campaigns, collaboration with District, 
+Sub-District and Block level workshops. The State and District administration are to 
+encourage all eligible Hospitals in their respective jurisdictions to apply for empanelment 
+under PMJAY. The SHA is to organize a District workshop to discuss the details of the 
+Scheme (including empanelment criteria, packages and processes) with the Hospitals and 
+address any query that they may have about the Scheme. Representatives of both public and 
+private Hospitals (both managerial and operational persons) including officials from 
+Insurance Companies are to be invited to participate in this workshop.  
+Audit noted that as of November 2022, total 26,209 (11,930 private and 14,279 public) 
+Hospitals have been empanelled across the States/UTs. The EHCPs availability per one lakh 
+beneficiary ranged from 1.8 EHCPs in Bihar to 26.6 EHCPs in Goa. In UT of 
+
+Report No. 11 of 2023 
+27 
+Lakshadweep, this availability ratio was 90.8 EHCPs per lakh beneficiaries. Details are 
+given in Annexure-4.1. 
+The availability of EHCPs is very less in the States/UTs of Assam (3.4), Dadra Nagar 
+Haveli-Daman Diu (3.6), Maharashtra (3) and Rajasthan (3.8). Audit noted that though 
+beneficiaries in Bihar and Uttar Pradesh are numerous at 5.56 crore and 6.47 crore, 
+availability of EHCPs was very low in comparison at 1.8 and five EHCPs respectively to a 
+lakh of population. 
+The objective of the Scheme is to provide benefits to a poor and vulnerable population. In 
+view of this, the State authorities should make concerted efforts through IEC activities to 
+empanel more Hospitals.  
+While accepting the observation, NHA stated (August 2022) that continuous efforts are being 
+made to empanel more number of hospitals. 
+4.4 
+Physical verification not conducted by District Empanelment Committee 
+According to para 1.6 of HEM guidelines, District Empanelment Committees (DEC) are 
+responsible for hospital empanelment related activities at the district level and also to assist 
+the State Empanelment Committee (SEC) in empanelment. After the empanelment request by 
+a hospital is filed, the application is scrutinized by the DEC and processed completely within 
+15 days of receipt of application. After the verification of documents, the DECs physically 
+inspect the premises of the hospital and verify the physical presence of the details entered in 
+the empanelment application and submit a report to the SEC in a prescribed format through 
+the portal along with supporting pictures/videos/document scans. Further, the SEC considers 
+the reports submitted by the DEC and approves or denies or returns the empanelment request 
+back to the hospital.  
+Audit noted that physical verification was not conducted in 163 EHCPs in Manipur (17), 
+Tripura (103) and Uttarakhand (43). 
+Empanelment without conduct of physical verification has the risk of empanelment of EHCPs 
+which do not fulfil minimum criteria of empanelment. 
+While accepting the observation, NHA stated (August 2022) that physical verification could 
+not be completed because of pandemic issues and some hospitals were empanelled on the 
+recommendation of CMO etc.  
+Audit is of the view that physical verification process should be mandatory for the 
+empanelment of hospitals so that only those hospitals can be empanelled that fulfil requisite 
+criteria are empanelled. 
+
+Report No. 11 of 2023 
+28 
+4.5 
+Non-empanelment of all available and eligible Specialities of EHCPs by SHA 
+According to HEM guidelines, DECs correlate the documents uploaded by the EHCPs with 
+physical verification of original documents produced by the hospital. In case during 
+inspection, it is found that a hospital has not applied for one or more specialties, but the same 
+facilities are available, then the hospital will be instructed to apply for the missing specialties 
+within a stipulated timeline (i.e. seven days from the inspection date). If the hospital does not 
+apply for the other specialties in the stipulated time, it will be disqualified from the 
+empanelment process.  
+Audit noted that: 
+In Assam, out of 35 test checked EHCPs, 13 EHCPs were providing four to 80 per cent of 
+available specialties to PMJAY beneficiaries.  Details are given in Annexure-4.4. 
+In Jharkhand, two private EHCPs were not providing three specialities each under the 
+PMJAY, which were otherwise available for the general public. Details are given in 
+Annexure-4.5. 
+Failure to provide all available specialities by EHCPs reduces the availability of such services 
+to beneficiaries, thus denying them benefits envisaged under the PMJAY.  
+4.5.1 Lack of Specialties 
+PMJAY aims to provide the poorest households with equitable access to a comprehensive 
+package of patient-centred quality services. The development of comprehensive service 
+packages is an important step towards this goal.  However, the lack of the envisaged 
+facilities/services in many States defeated the very purpose behind introduction of these 
+packages. 
+In Andaman and Nicobar Islands, super speciality facilities were not available, neither at 
+the referral hospital (545 bedded GB Pant Hospital, Port Blair) nor at two other District 
+EHCPs. As a result, out of 316 hospitalization cases under PMJAY, 34 patients were referred 
+by GB Pant Hospital, Port Blair to private EHCPs in Chennai, Kanchipuram, Kolkata, 
+Madurai etc. at a distance of nearly 1,500 km from Port Blair.  
+In Haryana, 14 specialties were not available in various Districts of State. Hence, 1,178 
+PMJAY beneficiaries had to travel to another District/State to avail the treatment.  
+In Maharashtra, audit noted that 1,113 types of treatment were not provided in the hospitals 
+located in Nandurbar, Washim, Osmanabad, Gadchiroli and Palghar Districts, where 
+beneficiaries had to travel to other Districts for treatment. 
+
+Report No. 11 of 2023 
+29 
+In Meghalaya, due to lack of services in three Districts, 2,750 patients of West Jaintia Hills, 
+West Garo Hills and Southwest Garo Hills took treatment in East Khasi Hills, while 884 
+patients from Southwest Garo Hills took treatment at West Garo Hills.  
+In many States, lack of speciality services necessitated the beneficiaries to move far off 
+places which causes hardship and great amount of inconvenience to the beneficiaries and may 
+lead to out-of-pocket expenditure. There is a strong need to upgrade the speciality services of 
+EHCPs so as to fulfil the objective of the scheme. 
+4.5.2 EHCPs treated patients prior to up-gradation of specialties 
+In Jharkhand, 3 EHCPs in Ranchi treated 795 patients against certain specialities which are 
+yet to be upgraded/empanelled in SHA and got payment of ₹ 0.63 crore. Details are given in 
+Annexure-4.6. 
+Further, in Jharkhand, the Insurance Company informed (26 December 2019) SHA that 
+Lifeline Nursing Home, Godda had performed 92 Phaco20 procedures without having Phaco 
+Machine in the hospital. SHA asked (March 2020) the Insurance Company to submit 
+Beneficiary Audit report of all 92 Phaco procedures done by the hospital and details of claim 
+payment made to the hospital. Although, the Insurance Company did not provide the details 
+of beneficiary audit and claim amount, the SHA had not taken action against the Insurance 
+Company or the hospital. Audit, however, noted that as per TMS data, hospital performed 72 
+Phaco procedures till 26 December 2019 and got payment of ₹ 5.98 lakh.  NHA accepted the 
+observation and quoted (August 2022) different reasons including laying responsibility on the 
+SHA and absence of specialist doctors etc.  
+4.6 
+Treatment done by EHCPs for non-empanelled specialities 
+As per Guidelines on Processes for Hospital Transactions, PMJAY, Empanelled EHCPs are 
+allowed to provide treatment to the beneficiaries only for those specialties for which they are 
+empanelled. 
+Further, according to para 1.6 (g) of HEM Guidelines on procedure of empanelment of 
+EHCPs for PMJAY, only that specialty which conforms to minimum requirements will be 
+empanelled in a hospital even though the hospital may have applied for multiple specialties.  
+In Assam, 18 EHCPs provided treatments for non-empanelled specialities to 1,149 
+beneficiaries for which total claims amounting to ₹ 1.27 crore were paid to the hospitals. 
+                                                 
+20  A small incision is made on the side of the cornea, the clear, dome-shaped surface that covers the front of 
+the eye. 
+
+Report No. 11 of 2023 
+30 
+In Chhattisgarh, 65 EHCPs claimed packages amounting to ₹ 0.29 crore for which the 
+hospital was not empanelled. 
+In Gujarat, out of 26 EHCPs, 20 EHCPs provided treatments for non-empanelled specialities 
+for an amount of ₹ 38.38 crore. 
+In Jharkhand, 8 EHCPs21 of six test checked Districts provided treatment to patients in a 
+speciality for which the hospital was not empanelled, resulting in irregular payment of ₹ 0.46 
+crore in 358 cases.  
+In Manipur, 15 EHCPs treated patients under packages/specialties not empanelled in the 
+respective EHCPs in 2,153 cases for an amount of ₹ 2.69 crore.  
+NHA stated (August 2022) that there may be some issues related to mapping of HEM portal 
+and TMS portal but no supporting documents have been provided by the NHA.  
+4.7 
+Performance under PMJAY 
+Audit noted instances of either zero or low performance in the following States: 
+PHCs are generally empanelled for Gynaecology and CHCs are empanelled for the 
+Gynaecology, Paediatrics and General medicine specialties by the SHA.  
+In Andhra Pradesh, out of 1,421 empanelled EHCPs, 52422 EHCPs submitted zero claims 
+while 81 EHCPs submitted one to five claims.  This indicates that the EHCPs are not fully 
+functional.  
+In Jharkhand, 59 empanelled EHCPs23 were not treating patients since empanelment or 
+from the year 2019-20 and 2020-21. SHA directed (January 2021) the Civil Surgeons (CS) of 
+the concerned Districts to investigate the matter.  However, the CSs did not submit any reply 
+as of December 2021. Further, Mahatma Gandhi Memorial Medical College and Hospital, 
+Jamshedpur did not provide treatment for 761 days during the three years period from 
+23 September 2018 to 22 September 2021 (1,096 days). 
+In Punjab, five selected EHCPs in five test-checked districts did not provide any treatment 
+up to March 2021 despite being empanelled between October 2019 and July 2020. 
+In Tamil Nadu, none of the 19 Government of India EHCPs empanelled in September 2020 
+were entertaining patients under the scheme as of 31st March 2021. The SHA replied that the 
+                                                 
+21  Dhanbad-Seven EHCPs-333 cases, ₹ 0.38 crore, East Singhbhum-One EHCP-25 cases, ₹ 0.08 crore. 
+22  Public EHCPs-461 and Private EHCPs-63. 
+23  Private EHCPs-51 and Public EHCPs-8. 
+
+Report No. 11 of 2023 
+31 
+EHCPs were empanelled based on the directions of NHA.  However, they were not willing to 
+participate in the State Insurance Scheme. 
+In Uttar Pradesh, out of 416 (160 public and 256 private) EHCPs in seven Districts, 27 
+public and 13 private EHCPs did not provide any treatment. 
+The zero/low performance of EHCPs may lead to denial/delay of intended benefit to the 
+beneficiaries. 
+While accepting the observation, NHA stated (August 2022) that due to the pandemic, 
+EHCPs were reluctant to provide the services to PMJAY beneficiaries.  
+4.8  
+Hospitals empanelled with delay and under process for empanelment 
+According to para 1.7 (i) of HEM guidelines, the final decision on request of a Hospital for 
+empanelment under PMJAY, shall be completed within 30 days of receiving such an 
+application. 
+i)  
+In 14 States/UTs, Andhra Pradesh, Assam, Bihar, Chandigarh, Chhattisgarh, 
+Jammu and Kashmir, Jharkhand, Madhya Pradesh, Manipur, Puducherry, Punjab, 
+Rajasthan, Uttar Pradesh and Uttarakhand, 2,733 Hospitals were empanelled with delays 
+ranging from (beyond 30 days) 1 day to 44 months as detailed in Table-4.1. 
+Table-4.1: Number of Hospitals empanelled with delay 
+Sl. No. 
+State/UT 
+Number of hospitals 
+empanelled with delay 
+Delay in number of 
+days 
+1 
+Andhra Pradesh 
+247 
+32-1315 
+2 
+Assam 
+61 
+30-365 
+3 
+Bihar 
+269 
+1-898 
+4 
+Chandigarh 
+12 
+3-51 
+5 
+Chhattisgarh 
+7 
+30-180 
+6 
+Jammu and Kashmir 
+15 
+32-524 
+7 
+Jharkhand 
+169 
+2-379 
+8 
+Madhya Pradesh 
+378 
+1- 823 
+9 
+Manipur 
+18 
+1-180 
+10 
+Puducherry 
+20 
+1-365 
+11 
+Punjab 
+717 
+1-953 
+12 
+Rajasthan 
+214 
+1-156 
+13 
+Uttarakhand 
+60 
+1-365 
+14 
+Uttar Pradesh 
+546 
+30-365 
+Total 
+2733 
+ 
+ii) 
+In six States, Bihar, Gujarat, Jharkhand, Punjab, Rajasthan and Uttar Pradesh, 
+empanelment of 418 Hospitals was under process with delays from two days to 873 days with 
+
+Report No. 11 of 2023 
+32 
+reasons like non-submission of replies of required documents, details of manpower, hospital 
+infrastructure etc. from hospitals as required by DEC. Details are given in Table-4.2. 
+Table-4.2: Number of Hospitals under process for empanelment 
+Sl. No. 
+State 
+No. of hospitals  
+Delay in number of days 
+1. 
+ 
+Bihar 
+55 
+2- 873 
+2. 
+ 
+Gujarat 
+224 
+30-408 
+3. 
+ 
+Jharkhand 
+60 
+30-690 
+4. 
+ 
+Punjab 
+10 
+28-53 
+5. 
+ 
+Rajasthan 
+47 
+219-400 
+6. 
+ 
+Uttar Pradesh 
+22 
+5- 845 
+Total 
+418 
+ 
+While accepting the observation, NHA replied (August 2022) that delay is mostly because of 
+procedural issues like delay in uploading of documents, incomplete documentation and 
+technical issues.   
+4.9  
+Money paid by beneficiaries for treatment under PMJAY 
+PMJAY intends to provide cashless access to health care services for the beneficiary at the 
+point of service, that is, the hospital. 
+The agreement signed by the SHA and the empanelled private EHCPs states that ‘the 
+treatment/interventions to PMJAY beneficiaries should be provided in a completely cashless 
+manner. After admission of a patient in hospital, expenditure for all diagnostic tests, 
+medicines, implants, etc. is to be borne by the hospital since the costs for the same have been 
+included in the cumulative package amount.  However, audit noticed instances where patients 
+had to pay as part of their treatment under the PMJAY.   
+In Himachal Pradesh, 50 beneficiaries of five EHCPs had to manage their diagnostic tests 
+from other hospital/diagnostic centre and cost of tests was borne by the beneficiaries. The 
+amount of expenses was not available with the SHA. 
+In Jammu and Kashmir, in 10 public EHCPs, 459 patients paid ₹ 43.27 lakh initially out of 
+their own pocket for which reimbursement was made to the patients after verifying the bills. 
+Reimbursement is yet to be made to 75 patients amounting to ₹ 6.70 lakh. 
+In Jharkhand, the Insurance Company observed that 36 patients of Life Care Hospital, 
+Godda paid varying amounts for purchase of medicines, injections, blood, etc. The details of 
+expenses were not available with the SHA.  On the basis of the Insurance Company’s 
+observation, SHA asked (28 August 2020) the hospital to submit its explanation within five 
+days to avoid a penalty, failing which the hospital would be suspended. However, the hospital 
+neither submitted any explanation, nor did the SHA initiate any action against the hospital. 
+
+Report No. 11 of 2023 
+33 
+In Meghalaya, out of 19,459 beneficiaries who availed treatment in five private EHCPs from 
+February 2019 to March 2021, 13,418 (69 per cent) had to pay an additional amount 
+of ₹ 12.34 crore at the time of discharge. 
+NHA replied (August 2022) that the out-of-pocket expenditure may be due to non-availability 
+of health facilities, upgradation to private ward.  
+Audit is of the opinion that the hospitals should collaborate with various interrelated service 
+providers to provide free facilities to the beneficiaries. 
+4.10 
+De-Empanelment of EHCPs 
+De-empanelment process can be initiated by the Insurance Company/SHA after conducting 
+proper disciplinary proceedings against empanelled hospitals on misrepresentation of claims, 
+fraudulent billing, wrongful beneficiary identification, overcharging, unnecessary procedures, 
+false/misdiagnosis, referral misuse and other frauds that impact delivery of care to eligible 
+beneficiaries. During audit, following instances of de-empanelment were noticed: 
+In Bihar, empanelment of Ananya Memorial Hospital was suspended on 30 August 2019, as 
+the treatment provided by the hospital was not as per the MoU and guidelines.  After 
+necessary field investigations, SEC de-empanelled (December 2020) the hospital. Though 
+payment of 12 claims amounting to ₹ 67,900 had been settled during 2018-20 to the hospital, 
+SHA did not conduct necessary investigation of the same. 
+In Jharkhand, five EHCPs of Palamu District which were de-empanelled in 2019 had treated 
+1,777 cases and got claim amount of ₹ 1.37 crore (Annexure-4.7). 
+i) SHA de-empanelled a hospital in Palamu in December 2018, but the hospital changed its 
+name to Aashirbad Hospital (HOSP20P92995), and again applied and was empanelled on 
+2 May 2019. However, due to lack of infrastructure, the hospital was again de-empanelled on 
+31 January 2020. Thus, a blacklisted hospital had been re-empanelled and treated 130 
+patients between June 2019 to September 2019 and got payment of ₹ 1.72 lakh in 25 cases. 
+ii) DEC, Ranchi recommended (June 2020) de-empanelment of Om Sai Chirayu Hospital, 
+Shalini Hospital Narayan, Soso Suyog Hospital and Sri Sai Shirdi Hospital.  However, except 
+Sri Sai Shirdi Hospital, SHA de-empanelled three EHCPs only on 25 November 2020 i.e. 
+after a delay of five months of recommendations of DEC as against the prescribed time limit 
+of two months. 
+In 11 States, 241 hospitals were de-empanelled from PMJAY either voluntarily or due to low 
+performance and mal-practices adopted by EHCPs. Details are given in Annexure-4.8. 
+
+Report No. 11 of 2023 
+34 
+This shows that the SHA had not initiated the process of de-empanelment of EHCPs in timely 
+manner. It is also clear that SHA needs to have an appropriate mechanism to prevent the 
+empanelment of a de-empanelled hospital once again. 
+NHA stated (August 2022) that in respect of Bihar, the recovery has been made. However, 
+NHA did not furnish any documentary evidence in support of recovery made.  As regards 
+Jharkhand, NHA stated that the State Audit Office referred to the wrong letter while framing 
+the audit observation. But NHA did not furnish any document in support of their claim. 
+Further, NHA’s reply was silent about other SHAs.  
+4.11 
+Allotment of more than one Unique ID  
+As per Para 1.7 (D) of empanelment guidelines, a hospital is intimated as soon as a decision 
+is taken regarding its empanelment and the same is updated on the PMJAY web portal. The 
+hospital is notified of the final decision through SMS/email. If the application is approved, 
+the hospital is assigned a unique national hospital registration number under PMJAY. 
+ In Jharkhand, one EHCP in Dhanbad and seven EHCPs in Ranchi were empanelled 
+twice by SHA with different identification, though locations of the EHCPs were same. 
+ In Tamil Nādu, data analysis of empanelled Government/private network EHCPs 
+revealed that 57 EHCPs were allotted two or more unique ID. 
+Allotment of more than one ID by SHA may lead to delay in timely processing and admitting 
+the claims. 
+While accepting the observation, NHA stated (August 2022) that in the EHCP every specialty 
+is tagged against a unique ID in the same hospital once empanelled for PMJAY. NHA’s reply 
+is not acceptable as one EHCP should have only one unique id. 
+ 
+ 

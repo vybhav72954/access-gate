@@ -1,0 +1,952 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	Press Release:Press Information Bureau
+</title><link href="css/style.css" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" />
+
+
+      <script src="js/jquery.min.js" type="text/javascript"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" /><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet" />
+
+      <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  // Get the IDs from the current page's URL
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+
+            });
+      </script>
+      <style type="text/css">
+            .table-responsive {
+                  width: 100%;
+                  overflow-x: auto;
+            }
+
+            .banner {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  background-color: #000;
+                  color: #fff;
+                  padding: 20px;
+            }
+
+            full-width {
+                  width: 100%;
+            }
+
+            .logo-left, .logo-center, .countdown {
+                  display: flex;
+                  align-items: center;
+            }
+
+                  .logo-left img, .logo-center img {
+                        height: 70px;
+                  }
+
+            .countdown {
+                  text-align: center;
+                  background-color: #444;
+                  border-radius: 10px;
+                  padding: 10px;
+                  border: 2px solid grey;
+            }
+
+            .firstnumber {
+                  color: #000000;
+                  position: absolute;
+                  top: 50px;
+                  right: 90px;
+                  font-size: 30px;
+            }
+
+            .secondnumber {
+                  position: absolute;
+                  color: #000000;
+                  right: 45px;
+                  top: 50px;
+                  font-size: 30px;
+            }
+
+            .countdown .days {
+                  font-size: 35px;
+                  color: gold;
+            }
+
+            .countdown p {
+                  margin: 0;
+            }
+
+            .countdown .text {
+                  font-size: 16px;
+            }
+
+            a {
+                  word-break: break-all;
+            }
+
+            iframe, img {
+                  max-width: 100%;
+            }
+
+            @media(max-width:1199px) {
+                  .firstnumber {
+                        top: 40px;
+                        right: 72px;
+                        font-size: 30px;
+                  }
+
+                  .secondnumber {
+                        right: 35px;
+                        top: 40px;
+                        font-size: 30px;
+                  }
+            }
+
+            @media(max-width:990px) {
+                  .firstnumber {
+                        top: 25px;
+                        right: 54px;
+                        font-size: 30px;
+                  }
+
+                  .secondnumber {
+                        right: 25px;
+                        top: 25px;
+                        font-size: 30px;
+                  }
+            }
+
+            @media(max-width:768px) {
+                  .countdown, .days {
+                        font-size: 12px !important;
+                  }
+
+
+                  .firstnumber {
+                        top: 25%;
+                        right: 8%;
+                        font-size: 30px;
+                  }
+
+                  .secondnumber {
+                        right: 4.5%;
+                        top: 25%;
+                        font-size: 30px;
+                  }
+            }
+
+            @media(max-width:475px) {
+                  .countdown, .days {
+                        font-size: 10px !important;
+                        top: 20%;
+                  }
+
+                  .bannerimgdiv {
+                        padding: 0 !important;
+                  }
+
+                  .bannerimg {
+                        width: 108% !important;
+                  }
+            }
+      </style>
+      <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+      </script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112591026-1"></script>
+      <script>
+
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() { dataLayer.push(arguments); }
+
+            gtag('js', new Date());
+
+
+
+            gtag('config', 'UA-112591026-1');
+
+      </script>
+
+<meta property="og:title" content="Measures taken to prevent misuse of AB-PMJAY Scheme" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2099542" /><meta property="og:description" content="Under Ayushman Bharat – Pradhan Mantri Jan Arogya Yojana (AB-PMJAY), 10.74 crore eligible households" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="opybivqx3rf642vbpsuq-f-50b5a9dc5-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":311,"ak.ipv":4,"ak.proto":"h2","ak.rid":"571338f","ak.r":46547,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":36329,"ak.gh":"23.217.119.238","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1788968105","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==NVQFTXyvJQImG7Yzp1B5B7SNoSREiP8Xlxae+P5xHJBh48Ahy+/y2lN/buFAAj5JXP4ibV5xT7qUZOQ/vrR4aU4zLuPPyjVM5O6tlT4mwUNjZXV7lR1rFUDCum2AM8fmIU7Z1gyah+0KfDnXMayFvxRCIErjIPBzUwN9GJxcq0dWfQBn1sE26E2wAEhfrN+fPnsdc4XuegcSSU/z2gSm2u/8ogf1Afc142bGR092AMvKlEYDlBZmWHHvoxnB7+CsujTvbWAWGomVddxgd1DLHIyIdlpnchfa8KtE0caNhNCPwqEsoFjyLa1RkabiyQCxsJF6hsKjEBlosxLbDZVGW2lQ6xxam860U3dE/NKtrWKGeKjl2N++a53lCdV6cMIFpS2i4VKv93lT3Uvnr29qt0zFGHnmJHbkprhXqxLL5zU=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+      <form method="post" action="./PressReleaseIframePage.aspx?PRID=2099542&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=b94hX14NMWluUQ9a73g0LYFvtKhY52TK8cbDkYB_F2GuPre4tdh-ebiiI4xuhXnRu6Q5dQjaQA4oN3PEeL0GrtKEyEY1&amp;t=638942408819057530" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=YwOa_0w_u3oCLFqmIIOf-XEz4GWZ1DuyQIpxIA4LVkywj39sZSps12NbK5wNl5XN9JF3m7d-ey7BFDgj6i0380qRQ5IMWCL54sYNVU1IjMmiOWpp0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_shmykYI80CxCNR43Ii1nLy9PBGhuSe6SPp3CEYu0wDEuLqDAuIcsXVNhTIgQn0iyiwPorMflXuK31FftDX9GnB0m366MCEoOmY-eKQ3YAO9xRL0gIigzgRbtbVOgSQkJbJpFg2&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleaseIframePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a720a52bf%3af9cec9bc%3a589eaa30%3aa67c2700%3aab09e3fe%3a87104b7c%3a8613aea7%3a3202a5a2%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8166A38A" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="B9pnRZ8adpKT0pMqQxlW6aJ0BkZ6u2/y0zA4W1q6PKIWcj1KB3LnDiJR6ng7ZgbdVagguBPbzdhwDrjpNfbf2Nj1Y5JQQJX8lr7zqvzmlgvZmJzjrcg8ibbQpv/4YXtgh7GskyE1r6hgm0e0PzyVwDIM1z7+3KUj4WCFHVjLoq/1qOkCvi6u/2YTcmTcqdIsUjkYMyb6ibRm3IcTcE0oTrXEAwaMgLJtCEFCTGKEXKOL3phv8yOSGUID8G4+eUqlAzY6qvs0hfAeV51fonZ9EqdBcIl7uiaRXC0hgwQ4TVSKZG6X" />
+</div>
+                              
+            <div id="templateCss"></div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+            <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+            <div class="container" style='margin-bottom: 50px;'>
+                  <div id="accessories">
+
+                        
+                        <div class="pull-right" style="display: flex">
+                              <div id="voll"></div>
+                              <div id="vollDT"></div>
+                              
+                              
+<div class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</div>
+                        </div>
+                  </div>
+                  <input type="hidden" name="hydpermid" id="hydpermid" value="2099542" />
+                  
+
+
+
+                  <div class="innner-page-main-about-us-content-right-part">
+
+                        <div id="MinistryName" class="MinistryNameSubhead text-center">
+                              Ministry of Health and Family Welfare
+                        </div>
+                        
+                        <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2021/aug/ph202183101.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+
+
+
+
+                        <div class="text-center event-heading-background">
+                              
+                              <h2 id="Titleh2">
+                                    Measures taken to prevent misuse of AB-PMJAY Scheme
+                              </h2>
+                              <h3 id="Subtitleh3">
+                                    <span id="ltrSubtitle"><br/>AB-PMJAY beneficiaries are verified through Aadhaar e-KYC at the time of creation of the card<br/><br/>Beneficiaries have to undergo Aadhaar authentication at the time of availing services<br/><br/>NHA uses artificial intelligence technologies to detect potential cases of misuse in AB-PMJAY<br/><br/>NHA and State Health Agencies conduct regular desk medical audits as well as field audits at the premises of the Empanelled Health Care Providers<br/><br/>A total of 1,114 hospitals have been de-empanelled, and 549 hospitals have been suspended under AB-PMJAY and penalties amounting to ₹122 crore have been levied on over 1,504 hospitals</span>
+                              </h3>
+                        </div>
+
+                        <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                              प्रविष्टि तिथि:
+                04 FEB 2025 2:52PM by PIB Delhi
+                        </div>
+                        
+                        <div class='pt20'>
+                        </div>
+                        <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                        
+                        <p style="margin-right:.2pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Under Ayushman Bharat &ndash; Pradhan Mantri Jan Arogya Yojana (AB-PMJAY), 10.74 crore eligible households were identified initially from the Socio Economic and Caste Census (SECC) 2011, based on certain deprivation and occupational criteria in rural and urban areas respectively. Further, in January 2022, the Government of India revised the beneficiary base to 12 crore families, considering the decadal population growth rate of 11.7% and gave the flexibility to States/UTs to use other databases of schemes meant for similar socio-economic profile which are aadhaar verified. In March 2024, 37 lakh families of Accredited Social Health Activists (ASHAs), Anganwadi Workers (AWWs) and Anganwadi Helpers (AWHs) were also included in the scheme. Further, on 29.10.2024, the government expanded AB-PMJAY to provide free treatment benefits of up to ₹5 lakh per year to all senior citizens aged 70 years and above along with their families, irrespective of their socio-economic status. In addition, many States/UTs implementing AB-PMJAY have expanded the beneficiary base under the scheme, at their own cost.</span></span></p>
+
+<p style="margin-right:.2pt; text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">To eliminate ineligible beneficiaries from the scheme, </span>AB-PMJAY beneficiaries are verified through Aadhaar e-KYC at the time of creation of the card<span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">. Further, beneficiaries have to undergo Aadhaar authentication at the time of availing services. Aadhaar-authentication helps establish the identity of the eligible beneficiary.</span></p>
+
+<p style="margin-right:.2pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">National Health Authority (NHA) has adopted a zero-tolerance policy towards misuse and abuse and has been taking steps for prevention, detection, and deterrence of different kinds of irregularities that could occur in AB-PMJAY at different stages of its implementation.</span></span></p>
+
+<p style="margin-right:.2pt; text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">NHA uses artificial intelligence technologies to detect potential cases of misuse in AB-PMJAY. Technologies deployed include rule-based triggers and Machine Learning algorithms, fuzzy logic, image classification and de-duplication, etc.</span></p>
+
+<p style="margin-right:.2pt; text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">Such cases are checked through desk audits, field investigation subsequent to which appropriate action is taken including disabling of the Ayushman Cards, penalty, recovery or legal action is taken against the errant entity. This prevents any leakage or wastage of public funds.</span></p>
+
+<p style="margin-right:.2pt; text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">NHA has well-established audit mechanism and guidelines. NHA and State Health Agencies (SHAs) conduct regular desk medical audits as well as field audits at the premises of the Empanelled Health Care Providers (EHCPs). Any malpractices observed during these audits are taken up seriously with Empanelled Health Care Providers (EHCPs) and State Health Agencies (SHAs) are asked to ensure that monies are deducted from and/or penalties are levied against such EHCPs. These may include recovery, de-empanelment and/or initiating criminal case. All these act as deterrence mechanisms. As a result of the stringent measures undertaken, disciplinary actions have been taken against various entities. A total of 1,114 hospitals have been de-empanelled, and 549 hospitals have been suspended under AB-PMJAY and penalties amounting to ₹122 crore have been levied on over 1,504 hospitals.</span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The Union Minister of State for Health and Family Welfare, </span>Shri Prataprao Jadhav<span style="background-color:white"> stated this in a written reply in the Rajya Sabha today.</span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">****</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MV</span></span></strong></p>
+
+<p><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">HFW/ Measures taken to prevent misuse of AB-PMJAY Scheme/04 February 2025/1</span></span></strong></p>
+
+
+                        
+                        <div id="reel_pic">
+                        </div>
+
+
+
+                        
+                        <br />
+                        <span id="ReleaseId">(रिलीज़ आईडी: 2099542)</span>
+                        <span id="lblViews">	आगंतुक पटल  : 1642</span>
+                        <div>
+                              
+                        </div>
+                        
+
+                        <span id="lblRefPhoto"></span>
+
+                        <div class="BackgroundRelease">
+                              
+                        </div>
+                        <div>
+                              
+                        </div>
+                        <div class="ReleaseLang">इस विज्ञप्ति को इन भाषाओं में पढ़ें: 
+                        
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2099654' target="_blank">
+                                          Gujarati </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2099655' target="_blank">
+                                          Urdu </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2099723' target="_blank">
+                                          Marathi </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2099649' target="_blank">
+                                          हिन्दी </a>
+                              
+                        </div>
+
+                        <div class="RelTag">
+                              <ul>
+                                    
+                              </ul>
+                        </div>
+                        <div class="clear">
+                        </div>
+                        <div id="RelLink" class="RelLink">
+                              <ul>
+                                    
+                                    
+                              </ul>
+                        </div>
+                        <center>
+                              
+                        </center>
+                  </div>
+
+                  <div id="update12">
+	
+                              
+                              <input type="hidden" name="Hidden" id="Hidden" />
+                              <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                                    <div>
+                                          <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                                    </div>
+                                    <div id="description">
+                                    </div>
+                                    <div class="text-center">
+                                          <h2>
+                                                
+                                                <br>
+                                                
+                                          </h2>
+                                    </div>
+                                    <br />
+                                    <div class="clear">
+                                    </div>
+                                    
+                              
+	</div>
+                        
+</div>
+            </div>
+            
+            <div id="PdfDiv" style="display: none;">
+                  <table width="100%">
+                        <tr>
+                              <td style="font-weight: 200; text-align: center">
+                                    Ministry of Health and Family Welfare
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          Measures taken to prevent misuse of AB-PMJAY Scheme
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          <div style='height:30px;width:100%;'></div>AB-PMJAY beneficiaries are verified through Aadhaar e-KYC at the time of creation of the card<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>Beneficiaries have to undergo Aadhaar authentication at the time of availing services<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>NHA uses artificial intelligence technologies to detect potential cases of misuse in AB-PMJAY<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>NHA and State Health Agencies conduct regular desk medical audits as well as field audits at the premises of the Empanelled Health Care Providers<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>A total of 1,114 hospitals have been de-empanelled, and 549 hospitals have been suspended under AB-PMJAY and penalties amounting to ₹122 crore have been levied on over 1,504 hospitals
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="text-align: center; font-size: 14px;">
+                                          प्रविष्टि तिथि:
+                        04 FEB 2025 2:52PM by PIB Delhi
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                                          <p style="margin-right:.2pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Under Ayushman Bharat &ndash; Pradhan Mantri Jan Arogya Yojana (AB-PMJAY), 10.74 crore eligible households were identified initially from the Socio Economic and Caste Census (SECC) 2011, based on certain deprivation and occupational criteria in rural and urban areas respectively. Further, in January 2022, the Government of India revised the beneficiary base to 12 crore families, considering the decadal population growth rate of 11.7% and gave the flexibility to States/UTs to use other databases of schemes meant for similar socio-economic profile which are aadhaar verified. In March 2024, 37 lakh families of Accredited Social Health Activists (ASHAs), Anganwadi Workers (AWWs) and Anganwadi Helpers (AWHs) were also included in the scheme. Further, on 29.10.2024, the government expanded AB-PMJAY to provide free treatment benefits of up to ₹5 lakh per year to all senior citizens aged 70 years and above along with their families, irrespective of their socio-economic status. In addition, many States/UTs implementing AB-PMJAY have expanded the beneficiary base under the scheme, at their own cost.</span></span></p>
+
+<p style="margin-right:.2pt; text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">To eliminate ineligible beneficiaries from the scheme, </span>AB-PMJAY beneficiaries are verified through Aadhaar e-KYC at the time of creation of the card<span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">. Further, beneficiaries have to undergo Aadhaar authentication at the time of availing services. Aadhaar-authentication helps establish the identity of the eligible beneficiary.</span></p>
+
+<p style="margin-right:.2pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">National Health Authority (NHA) has adopted a zero-tolerance policy towards misuse and abuse and has been taking steps for prevention, detection, and deterrence of different kinds of irregularities that could occur in AB-PMJAY at different stages of its implementation.</span></span></p>
+
+<p style="margin-right:.2pt; text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">NHA uses artificial intelligence technologies to detect potential cases of misuse in AB-PMJAY. Technologies deployed include rule-based triggers and Machine Learning algorithms, fuzzy logic, image classification and de-duplication, etc.</span></p>
+
+<p style="margin-right:.2pt; text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">Such cases are checked through desk audits, field investigation subsequent to which appropriate action is taken including disabling of the Ayushman Cards, penalty, recovery or legal action is taken against the errant entity. This prevents any leakage or wastage of public funds.</span></p>
+
+<p style="margin-right:.2pt; text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">NHA has well-established audit mechanism and guidelines. NHA and State Health Agencies (SHAs) conduct regular desk medical audits as well as field audits at the premises of the Empanelled Health Care Providers (EHCPs). Any malpractices observed during these audits are taken up seriously with Empanelled Health Care Providers (EHCPs) and State Health Agencies (SHAs) are asked to ensure that monies are deducted from and/or penalties are levied against such EHCPs. These may include recovery, de-empanelment and/or initiating criminal case. All these act as deterrence mechanisms. As a result of the stringent measures undertaken, disciplinary actions have been taken against various entities. A total of 1,114 hospitals have been de-empanelled, and 549 hospitals have been suspended under AB-PMJAY and penalties amounting to ₹122 crore have been levied on over 1,504 hospitals.</span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">The Union Minister of State for Health and Family Welfare, </span>Shri Prataprao Jadhav<span style="background-color:white"> stated this in a written reply in the Rajya Sabha today.</span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">****</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MV</span></span></strong></p>
+
+<p><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">HFW/ Measures taken to prevent misuse of AB-PMJAY Scheme/04 February 2025/1</span></span></strong></p>
+
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (रिलीज़ आईडी: 2099542)
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                        </tr>
+                  </table>
+            </div>
+            <div class="clearfix">
+            </div>
+
+            
+
+            <div class="section1">
+                  <div id="frst_t">
+                        <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2099542' target='_blank'><li class='fb_b'   ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/facebook.jpg' alt='Share on facebook'  width='40' /></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2099542&text=Measures taken to prevent misuse of AB-PMJAY Scheme' target='_blank'><li class='twitter_r'  ><img  src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2023/aug/ph2023818240601.jpg' alt='Share on twitter' width='40' /> </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2099542' target='_blank'><li class='whatsapp_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/whatsapp1.png' alt='Share on whatsapp' width='40' /></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Measures taken to prevent misuse of AB-PMJAY Scheme&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2099542&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/email1.png' alt='Share on email'  width='40' /></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2099542&title=Measures taken to prevent misuse of AB-PMJAY Scheme&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/linkedin.png' alt='Share on linkedin' width='40' /></li></a></ul></div></div>
+                  </div>
+                  <div id="second_t">
+                        <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2099542' target='_blank'><li class='fb_b'   ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/facebook.jpg' alt='Share on facebook'  width='35' /></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2099542&text=Measures taken to prevent misuse of AB-PMJAY Scheme' target='_blank'><li class='twitter_r'  ><img  src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2023/aug/ph2023818240601.jpg' alt='Share on twitter' width='35' /> </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2099542' target='_blank'><li class='whatsapp_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/whatsapp1.png' alt='Share on whatsapp' width='35' /></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Measures taken to prevent misuse of AB-PMJAY Scheme&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2099542&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/email1.png' alt='Share on email'  width='35' /></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2099542&title=Measures taken to prevent misuse of AB-PMJAY Scheme&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/linkedin.png' alt='Share on linkedin' width='35' /></li></a></ul></div></div>
+                  </div>
+            </div>
+            <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Measures taken to prevent misuse of AB-PMJAY Scheme" />
+            <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>AB-PMJAY beneficiaries are verified through Aadhaar e-KYC at the time of creation of the card&lt;br/>&lt;br/>Beneficiaries have to undergo Aadhaar authentication at the time of availing services&lt;br/>&lt;br/>NHA uses artificial intelligence technologies to detect potential cases of misuse in AB-PMJAY&lt;br/>&lt;br/>NHA and State Health Agencies conduct regular desk medical audits as well as field audits at the premises of the Empanelled Health Care Providers&lt;br/>&lt;br/>A total of 1,114 hospitals have been de-empanelled, and 549 hospitals have been suspended under AB-PMJAY and penalties amounting to ₹122 crore have been levied on over 1,504 hospitals" />
+            <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;margin-right:.2pt; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Under Ayushman Bharat &amp;ndash; Pradhan Mantri Jan Arogya Yojana (AB-PMJAY), 10.74 crore eligible households were identified initially from the Socio Economic and Caste Census (SECC) 2011, based on certain deprivation and occupational criteria in rural and urban areas respectively. Further, in January 2022, the Government of India revised the beneficiary base to 12 crore families, considering the decadal population growth rate of 11.7% and gave the flexibility to States/UTs to use other databases of schemes meant for similar socio-economic profile which are aadhaar verified. In March 2024, 37 lakh families of Accredited Social Health Activists (ASHAs), Anganwadi Workers (AWWs) and Anganwadi Helpers (AWHs) were also included in the scheme. Further, on 29.10.2024, the government expanded AB-PMJAY to provide free treatment benefits of up to ₹5 lakh per year to all senior citizens aged 70 years and above along with their families, irrespective of their socio-economic status. In addition, many States/UTs implementing AB-PMJAY have expanded the beneficiary base under the scheme, at their own cost.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-right:.2pt; text-align:justify&quot;>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>To eliminate ineligible beneficiaries from the scheme, &lt;/span>AB-PMJAY beneficiaries are verified through Aadhaar e-KYC at the time of creation of the card&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>. Further, beneficiaries have to undergo Aadhaar authentication at the time of availing services. Aadhaar-authentication helps establish the identity of the eligible beneficiary.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-right:.2pt; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>National Health Authority (NHA) has adopted a zero-tolerance policy towards misuse and abuse and has been taking steps for prevention, detection, and deterrence of different kinds of irregularities that could occur in AB-PMJAY at different stages of its implementation.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-right:.2pt; text-align:justify&quot;>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>NHA uses artificial intelligence technologies to detect potential cases of misuse in AB-PMJAY. Technologies deployed include rule-based triggers and Machine Learning algorithms, fuzzy logic, image classification and de-duplication, etc.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-right:.2pt; text-align:justify&quot;>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>Such cases are checked through desk audits, field investigation subsequent to which appropriate action is taken including disabling of the Ayushman Cards, penalty, recovery or legal action is taken against the errant entity. This prevents any leakage or wastage of public funds.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-right:.2pt; text-align:justify&quot;>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>NHA has well-established audit mechanism and guidelines. NHA and State Health Agencies (SHAs) conduct regular desk medical audits as well as field audits at the premises of the Empanelled Health Care Providers (EHCPs). Any malpractices observed during these audits are taken up seriously with Empanelled Health Care Providers (EHCPs) and State Health Agencies (SHAs) are asked to ensure that monies are deducted from and/or penalties are levied against such EHCPs. These may include recovery, de-empanelment and/or initiating criminal case. All these act as deterrence mechanisms. As a result of the stringent measures undertaken, disciplinary actions have been taken against various entities. A total of 1,114 hospitals have been de-empanelled, and 549 hospitals have been suspended under AB-PMJAY and penalties amounting to ₹122 crore have been levied on over 1,504 hospitals.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>The Union Minister of State for Health and Family Welfare, &lt;/span>Shri Prataprao Jadhav&lt;span style=&quot;background-color:white&quot;> stated this in a written reply in the Rajya Sabha today.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>****&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>MV&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>HFW/ Measures taken to prevent misuse of AB-PMJAY Scheme/04 February 2025/1&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+" />
+            <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+                  //function HandleAudio() {
+                  //    if (isPlaying == true) {
+                  //        //Playing already Pause it
+                  //        pauseAudio();
+                  //    } else {
+                  //        //Play the music
+                  //        playAudio();
+                  //    }
+                  //}
+            </script>
+            <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+            
+                  function CleanHtml(html) {
+
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+            </script>
+            <script type="text/javascript">
+                  $(document).ready(function () {
+                        //for responsive tables
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+
+                              // Extra Small Device
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                              // Small Device
+
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Medium Device
+
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Large Device
+
+                        }
+                  });
+            </script>
+            <script type="text/javascript">
+                  $(document).ready(function () {
+                        var width = $(window).width();
+                        if (width < 768) {
+
+                              // Extra Small Device
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                              // Small Device
+
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Medium Device
+
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Large Device
+
+                        }
+                  });
+            </script>
+            
+            <style type="text/css">
+                  @media print {
+                        .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                              display: none !important;
+                        }
+                  }
+
+                  .f_vl {
+                        padding-right: 30px;
+                        font-size: 17px;
+                        cursor: pointer;
+                  }
+
+                  .log_oo {
+                        // width: 20%;
+                        display: flex;
+                        justify-content: space-between;
+                  }
+
+                        .log_oo img {
+                              width: 150px;
+                              /*width: 100%;
+                    height: auto;*/
+                        }
+
+                  .sticky-social_mb {
+                        position: fixed;
+                        bottom: 0px;
+                        padding: 0px;
+                        margin: 0px;
+                        width: 100%;
+                  }
+
+                  .social_mb {
+                        list-style: none;
+                        display: flex;
+                        width: 100%;
+                        margin-bottom: -8px;
+                  }
+
+                        .social_mb a {
+                              padding: 8px 0px;
+                              font-size: 30px;
+                              transition: all 0.8s ease-in-out;
+                              width: 20% !important;
+                              text-align: center;
+                        }
+            </style>
+            <style type="text/css">
+                  .section1 {
+                        position: relative;
+                        padding: 10px 0px;
+                        width: 100%;
+                  }
+
+
+
+                  .sticky-social {
+                        position: fixed;
+                        top: 20px;
+                        left: 0px;
+                        padding: 0px;
+                        margin: 0px;
+                  }
+
+                  .social {
+                        list-style: none;
+                  }
+
+                        .social a li {
+                              padding: 8px 12px;
+                              font-size: 25px;
+                              transition: all 0.8s ease-in-out;
+                        }
+
+                              .social a li:hover {
+                                    margin-right: -30px;
+                                    box-shadow: 2px 5px 10px grey;
+                              }
+
+                                    .social a li:hover .fa {
+                                          margin-left: 20px;
+                                    }
+
+                  .fb_b {
+                        /* background-color: rgb(59, 89, 152);*/
+                        background-color: rgba(65,103,178,255);
+                  }
+
+                  .twitter_r {
+                        /* background-color: rgb(29, 161, 242);*/
+                        background-color: #000000;
+                  }
+
+                  .whatsapp_r {
+                        /* background-color: rgb(77, 194, 71);*/
+                        background-color: rgba(13,191,67,255);
+                  }
+
+                  .fa-envelope_r {
+                        /* background-color: rgb(219, 68, 55);*/
+                        background-color: #e2123d;
+                  }
+
+                  .fa-linkedin_r {
+                        background-color: rgb(0, 119, 181);
+                  }
+            </style>
+            <style type="text/css">
+                  @media only screen and (max-device-width: 767px) {
+                        p span img {
+                              max-width: 90% !important;
+                              height: auto !important;
+                        }
+
+                        p img {
+                              max-width: 90% !important;
+                              height: auto !important;
+                        }
+
+                        h2 {
+                              font-size: 20px !important;
+                              font-weight: 600 !important;
+                        }
+
+                        h3 {
+                              font-size: 18px !important;
+                              font-weight: 600 !important;
+                        }
+                  }
+            </style>
+            <style type="text/css">
+                  /* === Film Roll Badge Styling(IFFI2025 countdown) === */
+                  .film-roll-badge {
+                        position: absolute;
+                        top:82%;
+                        right: 20px;
+                        width: 230px;
+                        height: 70px;
+                        background: repeating-linear-gradient( to right, #9a2375 0px, #9a2375 18px, #6e2b8b 18px, #6e2b8b 36px );
+                        border-top: 8px solid #9a2375;
+                        border-bottom: 8px solid #9a2375;
+                        border-radius: 8px;
+                        overflow: hidden;
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                        animation: moveFilm 8s linear infinite;
+                        z-index: 10;
+                  }
+
+                        /* film sprocket holes */
+                        .film-roll-badge::before,
+                        .film-roll-badge::after {
+                              content: "";
+                              position: absolute;
+                              width: 100%;
+                              height: 10px;
+                              background: repeating-linear-gradient( to right, #9a2375 0px, #9a2375 10px, #fff 10px, #fff 20px );
+                              left: 0;
+                              z-index: 2;
+                        }
+
+                        .film-roll-badge::before {
+                              top: -4px;
+                        }
+
+                        .film-roll-badge::after {
+                              bottom: -4px;
+                        }
+
+                  .film-roll-inner {
+                        position: relative;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        animation: flicker 2s infinite ease-in-out;
+                  }
+
+                  .countdown-text {
+                        font-size: 1.3rem;
+                        font-weight: 700;
+                        color: #fff;
+                        text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                        white-space: nowrap;
+                  }
+
+                  /* === Animations === */
+                  @keyframes moveFilm {
+                        0% {
+                              background-position: 0 0;
+                        }
+
+                        100% {
+                              background-position: 120px 0;
+                        }
+                  }
+
+                  @keyframes flicker {
+                        0%, 100% {
+                              opacity: 1;
+                        }
+
+                        50% {
+                              opacity: 0.9;
+                        }
+
+                        25% {
+                              opacity: 0.95;
+                        }
+
+                        75% {
+                              opacity: 0.85;
+                        }
+                  }
+
+                  /* === Responsive Adjustments === */
+                  @media (max-width: 1500px) {
+                        .film-roll-badge {
+                              top: 68%;
+                              right: 18px;
+                              /* width: 220px; */
+                              height: 65px;
+                              font-size: 0.85rem;
+                        }
+
+                        .press-section {
+                              margin-top: 35px;
+                        }
+                  }
+
+                  @media (max-width: 992px) {
+                        .film-roll-badge {
+                              top: 52%;
+                              right: 10px;
+                               width: 200px; 
+                              height: 60px;
+                        }
+                  }
+
+                  @media (max-width: 768px) {
+                        .film-roll-badge {
+                              top: 56%;
+                              right: 10px;
+                               width: 124px; 
+                              height: 55px;
+                        }
+
+                        .countdown-text {
+                              font-size: 0.9rem;
+                        }
+                  }
+
+                  @media (max-width: 576px) {
+                        .film-roll-badge {
+                              top: 59%;
+                              right: 5px;
+                              /* width: 160px; */
+                              height: 50px;
+                        }
+
+                        .countdown-text {
+                              font-size: 0.85rem;
+                        }
+                  }
+            </style>
+                        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+
+                  const countdownElement = document.getElementById("countdown");
+
+                  const interval = setInterval(() => {
+                        const now = new Date().getTime();
+
+                        // BEFORE FESTIVAL — show days + hours left
+                        if (now < festivalStart) {
+                              const diff = festivalStart - now;
+                              const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                              const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                              countdownElement.innerHTML = `
+                ${days} Day${days !== 1 ? 's' : ''} 
+                ${hours} Hour${hours !== 1 ? 's' : ''} to go
+            `;
+
+                        }
+
+                        // DURING FESTIVAL — show 56th IFFI - Day X
+                        else if (now >= festivalStart && now <= festivalEnd) {
+                              const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                              countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                        }
+
+                        // AFTER FESTIVAL — new message
+                        else {
+                              countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+
+                              // Width change logic
+                              const elements = document.querySelectorAll('.film-roll-badge');
+                              elements.forEach(el => el.style.width = "350px");
+
+                              clearInterval(interval);
+                        }
+
+                  }, 1000);
+            </script>
+
+      
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleaseIframePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

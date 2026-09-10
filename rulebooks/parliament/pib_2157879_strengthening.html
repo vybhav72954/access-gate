@@ -1,0 +1,992 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=3" type="text/css" />
+      <script type="text/javascript">
+        /* Stamps the saved theme on <html> before the page paints. The
+           switcher in js/accessibility.js settles the rest, but on inner
+           pages it does not run until the end of the body and inside the
+           release frame it is a separate download - either way the reader
+           would otherwise watch a light page turn dark in front of them. */
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+      </script>
+
+
+      <script src="js/jquery.min.js" type="text/javascript"></script>
+      <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" /><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet" />
+
+      <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  // Get the IDs from the current page's URL
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+
+            });
+      </script>
+      <style type="text/css">
+            .table-responsive {
+                  width: 100%;
+                  overflow-x: auto;
+            }
+
+            .banner {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  background-color: #000;
+                  color: #fff;
+                  padding: 20px;
+            }
+
+            full-width {
+                  width: 100%;
+            }
+
+            .logo-left, .logo-center, .countdown {
+                  display: flex;
+                  align-items: center;
+            }
+
+                  .logo-left img, .logo-center img {
+                        height: 70px;
+                  }
+
+            .countdown {
+                  text-align: center;
+                  background-color: #444;
+                  border-radius: 10px;
+                  padding: 10px;
+                  border: 2px solid grey;
+            }
+
+            .firstnumber {
+                  color: #000000;
+                  position: absolute;
+                  top: 50px;
+                  right: 90px;
+                  font-size: 30px;
+            }
+
+            .secondnumber {
+                  position: absolute;
+                  color: #000000;
+                  right: 45px;
+                  top: 50px;
+                  font-size: 30px;
+            }
+
+            .countdown .days {
+                  font-size: 35px;
+                  color: gold;
+            }
+
+            .countdown p {
+                  margin: 0;
+            }
+
+            .countdown .text {
+                  font-size: 16px;
+            }
+
+            a {
+                  word-break: break-all;
+            }
+
+            iframe, img {
+                  max-width: 100%;
+            }
+
+            @media(max-width:1199px) {
+                  .firstnumber {
+                        top: 40px;
+                        right: 72px;
+                        font-size: 30px;
+                  }
+
+                  .secondnumber {
+                        right: 35px;
+                        top: 40px;
+                        font-size: 30px;
+                  }
+            }
+
+            @media(max-width:990px) {
+                  .firstnumber {
+                        top: 25px;
+                        right: 54px;
+                        font-size: 30px;
+                  }
+
+                  .secondnumber {
+                        right: 25px;
+                        top: 25px;
+                        font-size: 30px;
+                  }
+            }
+
+            @media(max-width:768px) {
+                  .countdown, .days {
+                        font-size: 12px !important;
+                  }
+
+
+                  .firstnumber {
+                        top: 25%;
+                        right: 8%;
+                        font-size: 30px;
+                  }
+
+                  .secondnumber {
+                        right: 4.5%;
+                        top: 25%;
+                        font-size: 30px;
+                  }
+            }
+
+            @media(max-width:475px) {
+                  .countdown, .days {
+                        font-size: 10px !important;
+                        top: 20%;
+                  }
+
+                  .bannerimgdiv {
+                        padding: 0 !important;
+                  }
+
+                  .bannerimg {
+                        width: 108% !important;
+                  }
+            }
+      </style>
+      <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+      </script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112591026-1"></script>
+      <script>
+
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() { dataLayer.push(arguments); }
+
+            gtag('js', new Date());
+
+
+
+            gtag('config', 'UA-112591026-1');
+
+      </script>
+
+<meta property="og:title" content="Update on Strengthening of PM-JAY Implementation" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2157879" /><meta property="og:description" content="Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) is governed on a zero-tolerance policy" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="opybivqx3rf642vbpsrq-f-aa30a57b3-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":314,"ak.ipv":4,"ak.proto":"h2","ak.rid":"325f9e3d","ak.r":46547,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":14319,"ak.gh":"23.217.119.236","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1788968099","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==SEvfZ2CX+NQLd3lD1DGSOyguRjZ8qydOmmgDtE8Q9OUK7jSdCsiLAEaTUKZE+yET98BW8hnQ9CHd6Vs84Yty1h8yF4ytf1qSK4DzsLWsRomUDVCMLmmhtBTihc2Bk5YZnY69IREd2UT6vz9W+/RHIGve1AkbLKSwvQRxYHfq+r/1NokavdsY1vySsMagF3gm7JT7wSiC6qDQgmu4Ci9S6LLkEhNsAywQJlZouksgEf2IGP0/cqBxjjU7om13/8nHT+5N55RWpi5t/pMKtIpoMwE27eJKBdHIqfs1FtJ3QloTJ8vwXRyg8a8t8g6F+Wcq8Uwp49xMs6p7nYDGXJxUybK6mKZVIsc6i11Fusd3mR9+HMzyN2MDe3n2/Qejkaxzfa+aEiMeylgxuZ3S+y7cv7QvFZaPmoyLEYhKoWn8bCQ=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+      <form method="post" action="./PressReleasePage.aspx?PRID=2157879&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="RwHeaFHcRGCifQz4iYIRlEQ7zp2AKGmwtmUBr8RtiwCozz+T7BP0L7LRSFkEiw8zHEUYz2K/imwRlqTtnI7KvlxzlnddqSHRtua40Iqg3u4ZSX7xFKopDv8jGbjC8nu+usiWysaVrWGIS+fA2g6hhY48axrW5SAxPUSbxlV6wGNJCEV/HT5haKdcWcNSIXslBE+Q6sO8/GVFoFvb2EL+Cx0hym4NlqIalD6+r6Rlr62tXXM6R6+6lLREMEY3DSEY+nHnYkUy3aIdxEln7jShxRGbxVuZ3AjcAEvSYz7I72aPDKy/M+cGFpJgjspjdH9ernhjMRovMyXfAo+BRpfu215IENRDySKf65oyrF2ENa/elJUaxlr5/xRVGOTBaZRBVMbFjzhgLblKz0hGixKGyMfoEIrhGI+FnJP0EHSf0S7rsds2hMKL4LEvdKQz/LrueezHg6IQgN6xvexboF0cL2KUZxevBtRlsMSQUy1nbY+jGzbA+M7OjbJ6dA3ByrDMvNBSauapascaHUPb6ELc7vKubTSmIAPnsC84NQDj2xibIa440/uCxoIR1k24T4zieTBqVT4SseVrqGDmUPTnrPegrMoqigwIk7feSsStpt1FM+y+r8e+5rHkPb/2ZP5vLWsa58adLr2GVpfwS+Vh+rYPJfn3VBxcoyrCalULEPowAfwZs4UwFEotrbsMbWmcNIyXOjDyZNCh84qrDHZKMWbUQRKhI6pn/3DesAFat7cFolm0ZkHL49LPe3tD4mAAGiSlqHA6FkfddWKRllMoGTuCyIhaNbaCOTmOoFN7cDK6XuA9HRVRuEn7ETXxnwlu7h5SRCtN9RQQVdzf3Ei5kjUhza6pDB+THZZwUXHgHhmHrqRGgQBVwJUOwD5VAKziw2Y3rbBXo3qkVjAW7Uky2+BmZ1MVq0p9PbNOMP6fTz2+zpYTQKVCNs+E5lddO/ZElUSmF2l/R9qWyvIN3A5gSffNoSke9WewHxCdvh5NuMyq7XDftuCAalijJCh9rQ692RZp3xesPPiuoWh10EPJdd/rq4e0ync+vEV0YkH12+5FGmf9m3+GD5yXEXKWvdtNi+flTpd0xqzwgi8fQnWIhNyd9s8cor215bYxVbuDSII87d+9CuwFhZFh9K36gHkPCjJelYrqK8+qId1JTG4+qQKiaQgVbAWm74t8ovQQ0X4sS6y9USR3tije8G63NhJw+gB8is+tnlTg5QT8us2duVy53+9MrKLZzx6l/SI/Hs2PbSUlzPaZSfuuXYHUJUfAhtRt2KUARwPmGI1pzIPxAVD8VLc71fRyfLW/VlMbVs1jz/uAINv2zevCt7OJw/XDhCZNJVe59I9TMzLdtu7EgaDlLBGEadKp/3sf1OHev4BV+x2Y5W6FaFYT2NvwfP1F/uu21j1Qq+1HhFTkOPaLNNak014E8QM5Nned3TyLm4AiIQOavYN8vmpSKSDMqDuI6/wDpnpQX2xehD5c4CoGp2vw9YWY1UNxYKbG8jhNqZa0lc2MllmUgTxFtyhiP4YtkR0ompImzXBj6Zyhbza2bfFPkMBwN2sxyingGN9wsJ1ptx8vuiCNedwUQTaVflm3mR1YKcQgUI+I1fl/RkhZJcD0dN4nG0+cjC1/A1pywHDY5D/v+lo1TgLfZ7gKUZTqsX+TMv0JgleiVbHWhw7u+iHHp7/5RyeZgowL1FkkU8HR1kkvcm3MpZazYipSOUQ0USpMj0/1JRgF2wHCQfeUQcsjwALKSSBa7svO7ErFCbqEOr04OwG9Dw0XpfbVdTkKmgvuAZ+fVq95Dix4XsxrN0oscS6SbzCeCQKnnkXbsqQkSS7nhW/ETS+yE4k+WztpfmKlddArQvAX4S6hVBEINXBRpwuWyhExxkfcX4MQLtT69lDafmS+Xb0EmatDpWfDH11//PwT74+TH1vh5ztVECsUBGpnBsQEmbaDiEVt+1eoj0YdRLYPR8GF1ky7D5Ft+u5F7eUMzHGQ56xzDu6pJ3zmPf2WoDtIvVVjFKGFpw+Px66rIHaDBNZw3V5B4fWdo+6aWF6VjHONhAOpC9SWQ9lDgtVwm6IAVM/jgGq5nPwUaGUP3ICrFOcuIzaQRqxbvIK0jzGmF2PfwbuyO8WLRObm9lbiqzAXLhhpt7KK/i32Vo5s5ZrTOEjpd+9Nq99YBy2PKSCKMgNDShxPAa1TSizAIFtrqvmfLqdI4tgWu8/HdaRf0bzvXvKyLfRWM72Md0QtBVN56nxuC4nvG4wb32FNFu2VxNMWMAv2tliHTt7XP8L2iEsdj2CI/GxREX9BLEA//IkhP6YyeQIjonl94zPO8TlFz21QP4aIiMUgEF6fKFDIVpA1Am6o0aUag9yV4H/UDc8pQWDZCJ9cA39DhRcayli1LeDCwkVO4vTC4e6X1mypeMcMBiIIRvO9kEbyuNPG1mcL+Txn2fZ+reqbfP6VwlMAP+ldZHsZKObgTCDXjyGcCr88QX8q5adL5dGADCGqo2qBol1921uYKY/m6N/FFtt0cR5AjV9+ax8sOT77IBr2oH0ursjPLupqWqDkVDFX1DjrzFCYQicDKyACfQnPm0Nk0uqNNJH0wC2L69R0aL0apOGeWhyZoUMnalbvUnas13DtMwuF/y8nmF7RRoRUeOLOLp+JkmJNYsyLw5LXvJ/LFsZ0nsxxw+1Gjy9vsdaTcgwSGS4EcOy81DhHiim2Fd2RyaEMQ9XgRb5Z1LOvaSp3kmF582SB8Vp4TO7into+OcmNNe6KL5dk7gZK+TSuF9Pyoo1DZICdIheF74sQj1Xt6mhT4VTngvXeOJ2Bbs8hbAs1FTO82XuYVhj3Wxc6rv9g2YgrPYLhg+ORsCs7cLS3ZxUX/ksrSz69GDCEhzQ9IFjOCgMmeUs0/yjtZt+Bh0Crs0V30G/tFQX7fYUwpIMAqBoURdPB+VwMrPeGEIRHiqxtf5OFoTf3fUsEP9pRNzXSL+VvTpcC8IT4WBpmPLJZLCDobHuLcaxy/a8rsQdAeEm6poH553xhieauTo6BMH0RSvN1ceaX75IEtv2vbyS1prBDKEq+5NsPjmYX8+PXTGiWozRQQSQ25zq7ueS6FJ++xuHz7VCjc4eF3JykYQipTxKcnP0BevaiBzb9iM+j+sProX3G9bDAzxEX1WB99IpaPvnpc+zjxn7bhpI0NuEoyE7wL/YRQ31RCXSuNViVm46+ppEAMObkkD7++8G/Mxa6wcJDlrK9yy2A3kuSD57dbkatt0rdoRqDc6P42F6NWUdOCMqTH0zKaL52hEHSYlIWNpvHqR0Jl8AgRru587TIumqmRu6SlLpNz6xtKuWA7JJ+t84ZStpfcf/VhqqlYkMapxmpCnBJY/34W3333b3DxCy6mUElMyEaZpalqqGQNoXIQzwYmXVR6skwfPr8GWaklZ78MFSSc+bQhV3A5F8EGZjZE87mqD08VhcqwWOeBsNgDcLCp3yZwCCL7Cv8jpsCplqVd65Hf6sOHnRKRixi9sCiftpitqx+o5qHMziu4DXpiqOwTKgMIWPwHszRefdsKOYQIDM4F0A3c+tZra4PHc1BDMVKFXhvAENSqBHcisESshPkRUipoTgeTKSHWfNI3Dr/jBrcG+KQEoBvMrFh8+HBHvEsnYxZjmIHKbVTP5gckd1RFMfhYQ7MaS5xlnvE1agBLGE9aUb6IMdVX4KQiQSpse0d1LRt/bBF2IDjjbklLdnGRIyn0r7aKDtw8JSacCwAVrBkwDCdSzXy7NGF0sX+l/9OwcpA+bXY622AbAV9eVqljCygqVjdM438OzBciaKMg0MBBagXsJdAuNsPOLXmOyKGetzSNLKn7RTjpKGdlzScboKhMijO6guT1KenWgOnn3sLSHYMRH6xEC2XIPSh2kZ/6Kxee20AeGnGYEdSXjwFIv6am4uanG6Lz58YzjfJkVtZqiNfSXBffbHeeYUxXB2ehWkcZ2H6bqZbkog0KD8GqG3zyGWNXmpmn6hmRxSdYpgRO2oxiFAN9RzTeyaMZEmXu+uiC3RFnwPP76vYLVjTLtVObbFwMt2v4RYDfAwW6H+SIIJ1gi/w7mUQOKMIPN+0DEbkqsgHVyxvNhsy9hgdN8zcgc6DZ3wkqbnIYnK0PnlHD0+BgX1jVM0Ij0P5CeTti3hSQpgGpBztt5BGMf1a4D5ja5J/BIJ1xGURTNlkWxV1ntO4sfIxhnnkwyt3DTKxUFPztLFDkMRwKykW68B2XTDXRiu87lOJBQF7MOTS4TEa8EXVviLxTYwZRS1fpbX+fx03OfRvrDeQCedaPGKmSKxW3MHXgRyNHykn1dfiWhRVUZXIRozuBteATlW/bIBbj3EiwOJVyxoJxbNeS/TgQxM2nfH5HKFewp8XxHM3Ut/LyfkeoQ4iM3R+wPRnGiwsEHFkxQUMnpuZNMKJi/nQrvdmVXKmKVJQy0t790g2az1+m+usiy2h0QlLwTibPCB19wkhezWHGBooEp14LnagSVo9TxEdHu/4Cb047JVWNcJ5PtMUXsnDvlr3emy2AKjoFUrsQgrAOfhwjIh4+TOqF+C8vPbzO4cIAAMa86vrkJTB04TcHNrsQFNmYMjdeq1Dao3FiUW7VG/6GgGmdLW/oqV6a2UFJtih98VfkQG4IFE4p4+q4rTPYO9/rRJtfneDA1N+i0uGVEG0TvwglGa4JGzTyrYiszKnB57HNYrz3uXEk6LKqAWeFhHfmlmLMyee8TKdo5UwX5jN5gx2QQZitMUinup+xZIQoUBfV2q0Hy4MCfoakw9KxOVgPioEijPy+Jt8sTEANxYbBdE3XwwRFEyhX4zcSjtIrXg216oRG/+ZUnYAh2gRnWmdiXCRiDtCKuQaUBlJse39x+JSncJMGvpcyrC2wK6hyhez4xQnFM2o5cVe/KXGaAwDdp5c+ucpY2+HR3YTUYMMtohHU49jOSIrd6eCb1/T95Nxh9qXfupZt8CmZepooiavTYv0voXgdcpk3yV28JITp+jGsmEsSnmgwZlAvH/15gM99cvZyJxFaJ7Fx2f9tmfGeiqRJsx1H9JM8fjDHrwjGe56H5fo7XXVeTZJk0psysiP2x5Vfg/m5W/7pzjm2SEjnGOZT8Oso7fF4as1x0c/KrpU6WfvoyjzyAtEiPfAAkzcKyrEaBKxxyXhCIPOjEWOxVsXEHwm5Jna5j6N3YVz7Jx1Y6gP4jxWB8qmgJgvEgaG729i96y2EeJI8U0+X1UoypHPRmQxbEz3msmWndDoOSldEYMIaWhUNfO03Lzvz1YZEssSUGsX0v8XQHFSXHnf6EhqcYIxymThy3XIpYAHGPKq1DGS3QwGFjkLvzKFYzbRis6G4F9f+G4fOl8ECjobCc3FX6P4fZuyqf2HI7vrlUdmtnIVxvHMfIVeaeJ7cGb1C7TVg07KWvW5kyPlxUJYvr6YJnfHki20qtdG3t2ocF5WGqqLZQ9ygRqUjLFBI7eOChvmmzTkFJcOp7xLl4FXtNt/Xby6eWvmwIpKgyuVKMYVyKY64d8j/nXik44fG4xp+bcP1NA8aj1VDj2ESojleBguu5q/cUhB7RKrCqSEqKHgSVzVqdCepH+WOu9ui5q/nrBRxJ4lzy4c+FtPcYGZrxadareiDxtnJjJinmqu7qC2CoyCU0G4S/it28UoZiHqsoFhk69bVld+aWUBGEk8hSMKDauRPvDWNjSVDVgOtZMFW4E5cTItz6OOpFClXoImZRoV9z+S45czogooUmZAXNww7rujhID/2nJ2CCDsEF3hSX/yJ1xa0LibM4dyzCOJPEBGrrik+eBoPFelad30aGgWUWcXY03mwYnRSlPY3aOStJaFdIskgJy2TbScDU/dOzbb3v47Q1B5lqFjrNiYLc9YBryU1SI7NgUxRHxm9FVtBovl3SIIPSPd5AJSDMu0OGSILXlAqdxRIfRVkRbenasxKAewmPcNaOIJyyAJjiEx84v/QSnr1Ir4bTo8YqW+q5JIOI0WHVUGehvnPUJUIFxAMzRSFLcGp+GsY2sdEICifMpQE3RIUHWJEffa+e++cr5daJCO0nqdIoDkcElZNNy9XlXqqB2JV48bqx6AIx0NXYA7b+1gHR3z+SS3MryhI8BVMLDddsLT0fp+/oQNuQ0uKMtOcbkF/QLAfW+6sw4wczv2RBsfSDHntB9po+Ss2bsZ7oL3zsKEaVm9IjFWXvX2j/ZL5TrCD+ve9sVbthF39S34Z/6AlOlkmjDtmdh2Qgz8Kf5peRz8EInyfNjIP3y6rNdzDEX3b9hhPnlDi62NjKwIxU8KF4YXsR3p4XCDcKlNP//PcL5GiMMUlSgOGJs6yVlinnrHGtRE9hN7QSMOTdifQIPxIelgnksmHhQWOPQwy35tyUDqc5L+7fllHLflfzcHFaG07FKDaOoL5Uffm4u8U6B0IX+Q4ooc6N8GwVL7SmPtF+Eml9m+YfhSN3QJU1Rj19sZxQLcYZkl60fWRh8R91/0uNUiALWcJpKsx4NiUWxC+wAJPJoJmYTdocOyssHDJJk+p4eZuMwMFB6lWihz5zYoHGRovRfu9ya0lslmPzrt3hf6JPi2xGIcXtTUabzaq9XsapyhwFThqOgfZNCweGW7JofhIilHuf+EHiwi18gDrbiZnAd8gwXjsDyHzvo8L7Fe2N/qokSF5tlzkS2MXHhCU7CJOJv7tkrR/pPwTf1Nxkh5MNGRkvXYpn2U3keCf/m0QxUh0mV/VrwYbz/C/+PCFNki6FN5+ibwCRctqgcEzC/hrKydZ34g9u9FNUELmZN1CD+tAW5qeiNp9Wrl5CeOofmIm+L3s2ePaJJ3dDLaAjVaaOgpv/PAkcaYE9gzjP7e+2yGZenKGKY4hlao16Q4lMuLWh7gVpgyVWP4PnhvI8Ji5BGM/esXFBpzA/PZcPmTjoGfA1pTYPq+UWIuPCm06Y8mgCzbJEnzJIYOAnQTF69IGQd5lULxAMZsfi3/bbrdqZbUMvSxALrBjIfAwQpWxNXUzq2kEyOHQh0or5X+1+72Ovi3mIWPUR5yWZFI9Ba/SkEgaDOj4F6BIJ6QrcACbF1R+ja2nlV2BVtdLwOx3PmMiNpRSPIYwpKgiqztyeru9B8rfj5U870PpvKJBl5VWvcP9sbsFb/wctsoACpmnKI6D2qUXakjzfSenNWhKCnCvB1bwb3DlkYwu3akBGvNuxoMHwWCO5KEF0iV71f3C7xm79Si8yb79f01PLeuZX7lAWreGYt+Sa5MsH3d8KzWSCpWe5QocZWmG1BnFDo+5P15Z86eWN+MfY588jLSZibWCfT5p1eq/9QOgqERb+GW4z6p3PmsEEcm99L0ls5p7XVMYfxknJAQlw4n1Zyrp/5D0Z5WoHkIE+dMGWk5Yuv73FxGPCnSZQkADsvg2VzLHl4KnCmBES4Xz+XuQqNzGCP6uYiFrSiOgs+rpzkzEGfLcz8pIc76EuYljHsUk08MFWAoRJFnuEpu6HndOk7j+xfZeJuSZ+koKcJdpZ8hSa1AMQosr+hlzqsHpiPbZOX8X441ktvouKneTZqn4KtvrrP4106WfHpz2xsu3FvlwXxRKmyXLunPOYKU83HxxlOWgSBgQHOD/1wQzBHOJiwCISyYAcaXalh94dJfDszZlYndqcAe+XoqyG8plGp+3YZCf90HtBcyrtxjTBmZCfW+4EU8qxW7VBtMVaYZR8yBPbXLfJDufYGzpGKUhgw/1FyTqow6mLA0JH5t1yygY6XEuri/mSVqhHVZkrcwz46n0LuF3RkTx6hCkwyXNfsAw2whrKLZpeO2+OyP+luf01OSa2FJAf7ppo/HcrQ9sqKJhPRVVRMq7g3jscIPlWuaqjCodvMdcZoADlyliHbGhG49zNF4+CLck6gMhxFz64Qa52uTF2xItpSUPfUq9YmohbgdvLSCk9CIYrq0DC0/WCKY2DbFWG67LWR2m/P/Tn0H5r/W5+StixL7GxIxeyEZut3MX6svoiR5c6Ikr75rgn+JMD6tbxokuZvA3xesTnPTrXn4J38cF87wm2115ZPefRfLoIZkKDqQa8UYLQnCJW+chc2V894LS/5nXK+HlrrzID/h/KdUH/J2Qm1Wl4dttM9wL0I/8+2BVhkDQlEGx9qVCFpu9SZn6TOZ7LYdUfRsO4IIupqqOZeQ/pvH9xQ0xWVaxfpLuTlsIfXJwIenEbcG3qWZz2v6EpybW7HKAtcfORMn7qBPOnJYk+HDFfT5nBGqvVvXN/NAJlP6YPoaOWtfpAmH7gzkjsrDe2PXbZ/sL6ePPfWvXw+71f2ZByEzluz3S86AIAWIQj2j1KDWlpHia0l74dayZuPlseTcRXkhph5E5k7wKlDRJjHEpOTaDC6kFNU1WqDkN4GaKh6/uVcTTI561Yf4yulLsLVFZEcnQksP83HCaBRon78A3K+c5lXq7BuselBe2i/5OYebe+0anzx07sPIpd605SmuGbuTQ+HPhlZg/rKcic+UIlklLgwTYYVRTU8fq8vQg7hvOEDVjgDt7Q9oULI5xC4YjX5/fD8vErFt5ajXDf5pj2WdqvAM248hoWfRCM2fX3UzhXAp8TMy4dKJ/302Jcg0irNN2x/c63cTPLAgO24ojfRCMq2PyzwNJl+QU0+0erLh2YX+qmcriv2IIStbH2dM5C48VR4yjOigPFpByn43ertYRtpFBSMKgir6ARyc1cvQ/XjxlS4azN3sblWtcG8yGEXlDI3SmmnY1J3XDG0mw9BcwsT2SA1RtYmRBRsAAEg2ps9d7LyGxKOf5wDfjXJR+JqY9vGBlDKZ2xOejKqjB1XBbfAA+FIP6+sjA/L7m8kOYznUz6tHRcyEwpD56Ns+OZ8DE/ImZGCVBqM9emA9cYLeaZhefmVXIQDjWWbCBhiqa9WiAmR++IyOcYRJMnlhmGu9WMYKGyW3QQkZYBJnf2iU0XlOB2lw7djXn17H/C6uGO+9WPOlrgHLJwrCL6iYtWf2oFV2eDe+P7YmzkCPft+hetzJh9rT22slB9vbmO5cM/sYZMLmFLTfBkqvurASe1eYU8ngP4F+nYHak8xGe1UyL/x1wsRuFq+SbIqaWQ9S8TmUsmcmB0M3kUA+6RfxT5INsBxKueU8Qekiq6g7HiIPvZ47fqM10Kyi+XocH9YxksZ0rA8X2qpUGpo6VX3uD9yQE1D2EzMfXICCVWfTvLYG3HpG/SmBs7Kkem5aKq00eNXaY/7I7DBuxsJsYuO1w4M/iJQ3JdFdgaCxibkKnGQFNc/7N/Q0upU4YPg9l9QQkKdbKyUc3w8Ztk3nFvCok7LgPOrJQjzhU9MgCShpts5k66CIUJgMbuIjyKjQUA4PQxe/T+QPR0WN1Cb6a9E4yh4A0SAu8nMapWPTagDMno9OhSesdYOfZHVWYIS52G1eIHD8mIN7KOHWHPvvBbvFMfFotzKP7JmGX7G2zl3el1SZmeeGLW47k9WImBo+kgdClDyff+gZf9XXpTrCMBqglvuwuPDKzf+7iKfZexgdJ65OJI7NOfu+iCy46SMrEHKkKxp7l3vZe2f20wCvTB0UdYPTENsgSvKDMF+QtXfOmse/jRH1iMfen1ACJ0G05qGZXhByJC/a58/crPcqRBXzZR8MSqSEHXGb4tycAQIgcUYEeIqVFlYyi70lio/NzyUDExhVqQ+Ia00WPu6zApKU4UQA0I2e0Gy7Q8n3oN01InJuQyMERvf8jWVyv/3ZTE2yQB8Y1o5zzbBp6K5UWAFgWqhE/Ap+RhT7tpGi5qlPhAEbTy576vw6M3UjiwijBDXAQOj4nmfQAWTpp2ThXPBOPNHSufkFVdB+ChEjoRl5OXnsA6YExP1xRCx/kH61b7jMEKipi/mLaRB/lZaovDIxP5eN+hpxGoxqGq/7Dmh9Ns7PWt7L6LJSc9D9ASBumxpG3GmvNwwgGUd2hDC0f49ewsy3VPh13mirrK/2C2WKqejFS/92VnyWvGxTDKuue1HqOkX9fhFiKJ0sf9MLf50yOAD6V7yI7qWX8G/Rw2xpo9sMlYul92cXl+PWKquEwjMeLWdEtA92bal50eow2rUB/sek/PfSGTREGInEEmqEzcA6l9bQq0UKiR9letNsIWLVGoEVibfeGZlE44DZkP5UwtMxttEyPbgttV2NrchpCkOF3HOk3978NZ0fWwSD4zXLAzdb8hOzN/C/jjrMwIIt4LIGi4Akrsig41Edrg9DpmZ2V9+3Junw5HWR4LhF0ZFc4OsaxUAv85dXd3y6PFy0IRhLdRE7u69xllYfGlYZeDKyYPhckNmSFq7MCW/nwWlE/i88GFnXAAAIb224YFtO3Y4ZZArLWZKH+FR+fYvK2fYWPOKdrVNSz29TV/jbdCqTfW3KWSGBcDrZu7A+iIHKI8DKnZ+3xFXFfl4jUQCuvg2hK89nxX2JUrvilXwd92LS5nlvkH5Ks16tEagqdpUB7gLHzuX7en7mKrupcrTw62+l3TfCLUZOpaF+xdf1hhs6c1t7/Zs2SK/mTAb4JAVtbvHzRiOvD02zXvGt2yZXUdVinScJX93gHfTskTIxHMhDhx93zrl2L01fSLeCig5InHDyh8gBb6Z3bbLnsd2YlRYW9W8VWRKr5OowMq73Gry+zznSqQDkyTMM5aB/CZ9eqqLpFEUSgFm++JVgQ82NcyDhw5PKHs3V1GPs2A+nR8VRT1JAURkKTlaSECcFYn/1PBe9L2KZRgbr30zBC7PxrafYyWPUhKkeIAxyC7d0DT2DO5aCbEIghDYRtJ6Md+WvbP6Bw2Fadtv9Lrrr1f1dLE3ty7oxYeCVwjjlFlvMRvzjHADeR0SP6hufJEh/5rEGvp9RDdrrD3+zAkOhjAJWUtRypTrp6XM9nZUghjxT6I2CQ4c4NeTx41bWyjCX1Rj63iGtoyG1NMQT6BlJkUP3JgMgKScvn143df21088XP/KmjDswAmz5qJ68J1fgenOAE65TDNH34vCzcRz277fQCdd9FLzIRJ6mPyInvYljpYLdMT+lAwWFEwhGWhUEK+fHEav4HXa3+A1pd7ZsUImmuaYT2hInAzHSedDAvSDUO+fbxeHy+7IHHkz9TkfbXin/efzd4sxs2YG3my3T6JeTKahb5cIYSsmgF63qsnOE871Wvs5VSC16rAyBpKmmXAksu/rQOu/K3DDJq62ChX0dvyWJH5TuvozPZl0+iIJC19PfRajfl/+pEMY6c6fCK5CKST3+bPJR048js54z0kRNJZWmY6TupbNRz0mehuwcktGEUNmZHRJD05SyvD0XDR4Dj0hLchWch7ScrjJbqri1u0aG9PPqffCSXKmQD40G7ayV9ocg8W0OD67ccDxJbxB+hgzscmIeESCDVc70MUBqwsz1T4L8KiuJQp+eFuC9PmkJKa+PakX9XNI4zQjzk17gaB/4HdhrRkZOUImDZXs+4WwQ6APaf4Xx4Dwb1bhSurO6ubeYOv0gdoj3FgANOR3pi/34Z91I6GtnGFneyAHbA1d9ecwUxck7YjNRADA0HYuY7ZaAisGOGVXZ6rbkoBE3AO391Ky8wmWSgwAc1nsPsYzIyvCPzXJNzOHbUVPwOGEubsBOkL8AvAQL/guBC0xEYs7puR25anT/mF6pXXHivVJq82sXzYAHWiEDlCRDuYDgpkRR1nnknkZNMHCMWRTb+2MofWZO88Q33eP5uPOfhAihTyIoUgPyXbJIHcWPDkq6THRfVlQRGCZPNaqYhJfJcwl/ukGmcgyHAdv01i6/NA2FiTKqb3Q8sPG/s9bNSsWQQK4sqcMA+3QBXFyeqRMzRZWpVZ6L59Sl92u3xZbWNaw2MyVpm1Z2pRnyj3QQFNevs2ClOhjDjO9AJOnLpaODvo3qNzduza62sYZac4Yo/KInpnVecA2IW0wAN1pTOmsht3uxQoOLPG9y1H1CunuOGpdc5p2mm1v2Qm38rbMoA3M3c2AOs00tAiVGyEHzqvlQxH0NQHT8Z2kAYF/Xt/KzXgCjnWfNftXyKWTYUpP+d0oEvto95JRhV/a9CCpUzEgofhxwy2LdXCJMbvivTwNLAhQFCthq2V7I+PJgcDMOcP/pDJZowWO27ZF7ksVQ6eyyNZsYAXWG06y8f+fgKbslRpTHZvbqvvv0WDOnHWs+cdyZjdMJkALnjC8BcHTGBOtN7vIQoXamMNmWM/CJAcLAnaNVNRwbwSyOinse/eVpjwYjDcckkkQvU7c2wNIHQ6AHsuF0ItUJcijNJFXtEkXAFFpyrForJl6IAlAfKqOBL0ojKxaZOl3qdomiUiZo4Z9pOK+vmDgNy2/2Vds7QiEYIfjwUBcE/r+CAQ1gObaPtlfBZdWSfrDlkQuk7XMG/4Qvt58qpEophA7dMhhntiW6v4mXaA5rFWxZhOLnLMPzpCZ6iqlAnxW/pOQmDlVJI1Qzl1pGkgLKoV0ISPTGGAnH6+G+sfLGpUoTmrS0RYOC1laJCU09ItaWb/EQ1qfEKD0h5UW8jgh6HgvXqXXT9shWzWS4bWze/5cli5Ez4dCGrrzV6Kf639Rk+VBPWDDokRei3idu68xsUgCLav/5RbeWkNlGg4u629Nh7tD09mWcM+t+DNqPk+cIDV0H79NGOHcBjpM24K2gGkltvkNYQovqPht8nrCy+y8VW1SaOSLp6N9pMJyvt/bfw3hsl0XjUFSTfMV3RNhQeBtOCU311DY4gcM3isy20UmspI3cajwDmF+2Vgf2e037ziS/vjLpjZUurWzxnKtcJ1Z/THw2tP5x5GLSUIcOhHhixlEohOGhrN0yONoojEhh710KPZTNUpfl+NZ52fPkwfyXVrltEJhLV61luDhlpSMjwHBmYNGsEaCuq4rzvIXnzWqG8+JT0FOEACJTKBLxnbaUgl8KF1erHB/JaJKTjEgs/dPItze+raLWD3NdPQGMo/5j+ZQweTbMs2J/nqq3na2k+3a8IInVNghPG3jKJtSExW8O0/jd10TPIXZF5MByD7i6WBsGTYjOt6Rxk1b9SUALYf9dPJGQr6eiJsT4nGAD+oA2ZK54UsGVsNZ/VWgp2+Jt7oF9kFocv+Fkf853w86AilXqg7zKrJmuUUguck/eVaD1JMH8Xy3SKTkTWG1iU4liOjnh73qoFrU/H8UNCEwvPh7qUkutKMk8ABO8UD4+Oa1sC5hb4UIr44jeBusO/lpq+N16PX4beEZmRepkt5rPHDrgTzFgb1i7aTN6+VOaRd8SAc0WG3EpK++rwMe9fTU+8rAu2gEZl2Y2aouzdpfcWUpnWqdQQ0t9k5cOIVOlRE2OEOg4O0UWL9fbQYiYryKr64YR04d1WBr9n0EQetGSn8MdQIpFyo/reFjPwATBd8+JO2iebjgQ1deguuDk/+eBYz+fx6g8tVzCf+rvaSOrQ2850cA9adlcrrWZNQXOKLQs9/P3ONqHjonZ1qnKTyXDZrF2P2VIl0S9j4p/W6TTaoqDx6WwazzYS7Xr/S6Xc7Vs3Lj3XLPneNH3eNPExQoD0lRc8jh7vafb8aPbTBIBo+9Znk3VF4fInOEBf6/zPFaLQm3Lpypw3IZvd4HYrP3FPOahx8TrvJuqVhiDnxQtJ0yPtj3vqms/l3KbWJ2NLqYQ3nS6eHqMio+Fls6ZaCMdF+sjeSQzllMRAnL+yS9/EhqzEHwk6QAdB32QK/kypogF8iId+1si4cE0DA/N/famDhJIpBizkA3NIa7C1WTzLAECpFqMOTyxQwttuuD+ytgd6zDQk9yLYEowniHUreCkjmGTEbHgj8r4HkJMH6kp9U6onbx64i12cHKIs5b1ioGOkF6dVs0Y3HPqzEcIDUk13W7RFpSjhKlH8xykKpDKg/wltIxT8hjoyNy6xb30bDxj0CEVaNJOIrnrTEBv7aXVFaSAU8owMZGyRTBoTvbZkOPqnidHD5HY3lnUAbJncJOVJOWzBXZ2tislc1eSwY74t+Jk" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=b94hX14NMWluUQ9a73g0LYFvtKhY52TK8cbDkYB_F2GuPre4tdh-ebiiI4xuhXnRu6Q5dQjaQA4oN3PEeL0GrtKEyEY1&amp;t=638942408819057530" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=YwOa_0w_u3oCLFqmIIOf-XEz4GWZ1DuyQIpxIA4LVkywj39sZSps12NbK5wNl5XN9JF3m7d-ey7BFDgj6i0380qRQ5IMWCL54sYNVU1IjMmiOWpp0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_shmykYI80CxCNR43Ii1nLy9PBGhuSe6SPp3CEYu0wDEuLqDAuIcsXVNhTIgQn0iyiwPorMflXuK31FftDX9GnB0m366MCEoOmY-eKQ3YAO9xRL0gIigzgRbtbVOgSQkJbJpFg2&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a720a52bf%3af9cec9bc%3a589eaa30%3aa67c2700%3aab09e3fe%3a87104b7c%3a8613aea7%3a3202a5a2%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="h9WZ4NDPjMXQmVGmJrxLWGy4SJPC4dBjmNlnPboUPhgmsFfPcCxjee+0KdvCVXVGskYH/FeeHU/OLq/Jkpp73sJGx6wBcusUKllN6EsQ5vl3jUq0+PWK82bd1XLHncYCIMq+FZmjvj4IVtZJaJ4ji0ZcsPBtP4j4vXUyFqh58tJoP6s/a8YYdFUVpl40XzlqsMvfpeR6J74p6Lvbp0C5aes8+DTLuqDiqucO38v5JerwgkTdwhO6oJaSVAGePoAEiiV5ADBvbeAC8JcyWslBLtR+2bx6ybzqyFHYvQ+SroQUguoj" />
+</div>
+                              
+            <div id="templateCss"></div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+            <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+            <div class="container" style='margin-bottom: 50px;'>
+                  <div id="accessories">
+
+                        
+                        <div class="pull-right" style="display: flex">
+                              <div id="voll"></div>
+                              <div id="vollDT"></div>
+                              
+                              
+<div class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</div>
+                        </div>
+                  </div>
+                  <input type="hidden" name="hydpermid" id="hydpermid" value="2157879" />
+                  
+
+
+
+                  <div class="innner-page-main-about-us-content-right-part">
+
+                        <div id="MinistryName" class="MinistryNameSubhead text-center">
+                              Ministry of Health and Family Welfare
+                        </div>
+                        
+                        <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+
+
+
+
+                        <div class="text-center event-heading-background">
+                              
+                              <h2 id="Titleh2">
+                                    Update on Strengthening of PM-JAY Implementation
+                              </h2>
+                              <h3 id="Subtitleh3">
+                                    <span id="ltrSubtitle"><br/>NHA strengthens Anti-Fraud framework with national and state units to curb abuse under AB-PMJAY<br/><br/>AB-PMJAY cracks down on fraud: 3,167 hospitals penalized, 1,114 de-empaneled, ₹122 crore fines levied<br/><br/>NHA empowers states with real-time data dashboards for better accountability</span>
+                              </h3>
+                        </div>
+
+                        <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                              Posted On:
+                19 AUG 2025 3:05PM by PIB Delhi
+                        </div>
+                        
+                        <div class='pt20'>
+                        </div>
+                        <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                        
+                        <p style="margin-right:-2.2pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) is governed on a zero-tolerance policy towards fraud and abuse and various steps are taken for prevention, detection and deterrence of different kinds of irregularities that could occur in the scheme at different stages of its implementation. A robust anti-fraud mechanism has been put in place and National Anti-Fraud Unit (NAFU) has been established at National Health Authority (NHA) and works in close coordination with State Anti-Fraud Units (SAFU) to investigate and take joint action against issues related to fraud and abuse.</span></span></span></p>
+
+<p style="margin-right:-2.2pt; text-align:justify"><span style="color:black; font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">A total of 3,167 hospitals were found guilty of irregularities/violations since inception of the scheme, and suitable actions including de-empanelment of 1114 hospitals, levying penalty worth Rs. 122 crores on 1504 errant hospitals and suspension of 549 hospitals have been taken against fraudulent entities as reported by the States/UTs.</span></p>
+
+<p style="margin-right:-2.2pt; text-align:justify"><span style="color:black; font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">NHA provides all States and Union Territories with access to robust real time dashboard monitoring thereby enhancing transparency and accountability.</span></p>
+
+<p style="margin-right:-2.3pt; text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">The Union Minister of State for Health and Family Welfare, </span><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">Shri. Prataprao Jadhav stated this in a written reply in the Rajya Sabha today.</span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">****</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MV</span></span></strong></p>
+
+<p><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">HFW/ PQ/Update on Stengthening of PM-JAY/19 August2025/4</span></span></strong></p>
+
+
+                        
+                        <div id="reel_pic">
+                        </div>
+
+
+
+                        
+                        <br />
+                        <span id="ReleaseId">(Release ID: 2157879)</span>
+                        <span id="lblViews">Visitor Counter : 1005</span>
+                        <div>
+                              
+                        </div>
+                        
+
+                        <span id="lblRefPhoto"></span>
+
+                        <div class="BackgroundRelease">
+                              
+                        </div>
+                        <div>
+                              
+                        </div>
+                        <div class="ReleaseLang">Read this release in: 
+                        
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2157974' target="_blank">
+                                          Urdu </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2158001' target="_blank">
+                                          हिन्दी </a>
+                              
+                        </div>
+
+                        <div class="RelTag">
+                              <ul>
+                                    
+                              </ul>
+                        </div>
+                        <div class="clear">
+                        </div>
+                        <div id="RelLink" class="RelLink">
+                              <ul>
+                                    
+                                    
+                              </ul>
+                        </div>
+                        <center>
+                              
+                        </center>
+                  </div>
+
+                  <div id="update12">
+	
+                              
+                              <input type="hidden" name="Hidden" id="Hidden" />
+                              <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                                    <div>
+                                          <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                                    </div>
+                                    <div id="description">
+                                    </div>
+                                    <div class="text-center">
+                                          <h2>
+                                                
+                                                <br>
+                                                
+                                          </h2>
+                                    </div>
+                                    <br />
+                                    <div class="clear">
+                                    </div>
+                                    
+                              
+	</div>
+                        
+</div>
+            </div>
+            
+            <div id="PdfDiv" style="display: none;">
+                  <table width="100%">
+                        <tr>
+                              <td style="font-weight: 200; text-align: center">
+                                    Ministry of Health and Family Welfare
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          Update on Strengthening of PM-JAY Implementation
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          <div style='height:30px;width:100%;'></div>NHA strengthens Anti-Fraud framework with national and state units to curb abuse under AB-PMJAY<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>AB-PMJAY cracks down on fraud: 3,167 hospitals penalized, 1,114 de-empaneled, ₹122 crore fines levied<div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>NHA empowers states with real-time data dashboards for better accountability
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="text-align: center; font-size: 14px;">
+                                          Posted On:
+                        19 AUG 2025 3:05PM by PIB Delhi
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                                          <p style="margin-right:-2.2pt; text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) is governed on a zero-tolerance policy towards fraud and abuse and various steps are taken for prevention, detection and deterrence of different kinds of irregularities that could occur in the scheme at different stages of its implementation. A robust anti-fraud mechanism has been put in place and National Anti-Fraud Unit (NAFU) has been established at National Health Authority (NHA) and works in close coordination with State Anti-Fraud Units (SAFU) to investigate and take joint action against issues related to fraud and abuse.</span></span></span></p>
+
+<p style="margin-right:-2.2pt; text-align:justify"><span style="color:black; font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">A total of 3,167 hospitals were found guilty of irregularities/violations since inception of the scheme, and suitable actions including de-empanelment of 1114 hospitals, levying penalty worth Rs. 122 crores on 1504 errant hospitals and suspension of 549 hospitals have been taken against fraudulent entities as reported by the States/UTs.</span></p>
+
+<p style="margin-right:-2.2pt; text-align:justify"><span style="color:black; font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">NHA provides all States and Union Territories with access to robust real time dashboard monitoring thereby enhancing transparency and accountability.</span></p>
+
+<p style="margin-right:-2.3pt; text-align:justify"><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">The Union Minister of State for Health and Family Welfare, </span><span style="font-family:&quot;Times New Roman&quot;,Times,serif; font-size:16px">Shri. Prataprao Jadhav stated this in a written reply in the Rajya Sabha today.</span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">****</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MV</span></span></strong></p>
+
+<p><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">HFW/ PQ/Update on Stengthening of PM-JAY/19 August2025/4</span></span></strong></p>
+
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (Release ID: 2157879)
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                        </tr>
+                  </table>
+            </div>
+            <div class="clearfix">
+            </div>
+
+            
+
+            <div class="section1">
+                  <div id="frst_t">
+                        <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2157879' target='_blank'><li class='fb_b'   ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/facebook.jpg' alt='Share on facebook'  width='40' /></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2157879&text=Update on Strengthening of PM-JAY Implementation' target='_blank'><li class='twitter_r'  ><img  src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2023/aug/ph2023818240601.jpg' alt='Share on twitter' width='40' /> </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2157879' target='_blank'><li class='whatsapp_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/whatsapp1.png' alt='Share on whatsapp' width='40' /></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Update on Strengthening of PM-JAY Implementation&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2157879&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/email1.png' alt='Share on email'  width='40' /></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2157879&title=Update on Strengthening of PM-JAY Implementation&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/linkedin.png' alt='Share on linkedin' width='40' /></li></a></ul></div></div>
+                  </div>
+                  <div id="second_t">
+                        <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2157879' target='_blank'><li class='fb_b'   ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/facebook.jpg' alt='Share on facebook'  width='35' /></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2157879&text=Update on Strengthening of PM-JAY Implementation' target='_blank'><li class='twitter_r'  ><img  src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2023/aug/ph2023818240601.jpg' alt='Share on twitter' width='35' /> </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2157879' target='_blank'><li class='whatsapp_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/whatsapp1.png' alt='Share on whatsapp' width='35' /></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Update on Strengthening of PM-JAY Implementation&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2157879&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/email1.png' alt='Share on email'  width='35' /></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2157879&title=Update on Strengthening of PM-JAY Implementation&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/linkedin.png' alt='Share on linkedin' width='35' /></li></a></ul></div></div>
+                  </div>
+            </div>
+            <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Update on Strengthening of PM-JAY Implementation" />
+            <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>NHA strengthens Anti-Fraud framework with national and state units to curb abuse under AB-PMJAY&lt;br/>&lt;br/>AB-PMJAY cracks down on fraud: 3,167 hospitals penalized, 1,114 de-empaneled, ₹122 crore fines levied&lt;br/>&lt;br/>NHA empowers states with real-time data dashboards for better accountability" />
+            <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;margin-right:-2.2pt; text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) is governed on a zero-tolerance policy towards fraud and abuse and various steps are taken for prevention, detection and deterrence of different kinds of irregularities that could occur in the scheme at different stages of its implementation. A robust anti-fraud mechanism has been put in place and National Anti-Fraud Unit (NAFU) has been established at National Health Authority (NHA) and works in close coordination with State Anti-Fraud Units (SAFU) to investigate and take joint action against issues related to fraud and abuse.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-right:-2.2pt; text-align:justify&quot;>&lt;span style=&quot;color:black; font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>A total of 3,167 hospitals were found guilty of irregularities/violations since inception of the scheme, and suitable actions including de-empanelment of 1114 hospitals, levying penalty worth Rs. 122 crores on 1504 errant hospitals and suspension of 549 hospitals have been taken against fraudulent entities as reported by the States/UTs.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-right:-2.2pt; text-align:justify&quot;>&lt;span style=&quot;color:black; font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>NHA provides all States and Union Territories with access to robust real time dashboard monitoring thereby enhancing transparency and accountability.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;margin-right:-2.3pt; text-align:justify&quot;>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>The Union Minister of State for Health and Family Welfare, &lt;/span>&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,Times,serif; font-size:16px&quot;>Shri. Prataprao Jadhav stated this in a written reply in the Rajya Sabha today.&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>****&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>MV&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>HFW/ PQ/Update on Stengthening of PM-JAY/19 August2025/4&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+" />
+            <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+                  //function HandleAudio() {
+                  //    if (isPlaying == true) {
+                  //        //Playing already Pause it
+                  //        pauseAudio();
+                  //    } else {
+                  //        //Play the music
+                  //        playAudio();
+                  //    }
+                  //}
+            </script>
+            <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+            
+                  function CleanHtml(html) {
+
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+            </script>
+            <script type="text/javascript">
+                  $(document).ready(function () {
+                        //for responsive tables
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+
+                              // Extra Small Device
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                              // Small Device
+
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Medium Device
+
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Large Device
+
+                        }
+                  });
+            </script>
+            <script type="text/javascript">
+                  $(document).ready(function () {
+                        var width = $(window).width();
+                        if (width < 768) {
+
+                              // Extra Small Device
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                              // Small Device
+
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Medium Device
+
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Large Device
+
+                        }
+                  });
+            </script>
+            
+            <style type="text/css">
+                  @media print {
+                        .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                              display: none !important;
+                        }
+                  }
+
+                  .f_vl {
+                        padding-right: 30px;
+                        font-size: 17px;
+                        cursor: pointer;
+                  }
+
+                  .log_oo {
+                        // width: 20%;
+                        display: flex;
+                        justify-content: space-between;
+                  }
+
+                        .log_oo img {
+                              width: 150px;
+                              /*width: 100%;
+                    height: auto;*/
+                        }
+
+                  .sticky-social_mb {
+                        position: fixed;
+                        bottom: 0px;
+                        padding: 0px;
+                        margin: 0px;
+                        width: 100%;
+                  }
+
+                  .social_mb {
+                        list-style: none;
+                        display: flex;
+                        width: 100%;
+                        margin-bottom: -8px;
+                  }
+
+                        .social_mb a {
+                              padding: 8px 0px;
+                              font-size: 30px;
+                              transition: all 0.8s ease-in-out;
+                              width: 20% !important;
+                              text-align: center;
+                        }
+            </style>
+            <style type="text/css">
+                  .section1 {
+                        position: relative;
+                        padding: 10px 0px;
+                        width: 100%;
+                  }
+
+
+
+                  .sticky-social {
+                        position: fixed;
+                        top: 20px;
+                        left: 0px;
+                        padding: 0px;
+                        margin: 0px;
+                  }
+
+                  .social {
+                        list-style: none;
+                  }
+
+                        .social a li {
+                              padding: 8px 12px;
+                              font-size: 25px;
+                              transition: all 0.8s ease-in-out;
+                        }
+
+                              .social a li:hover {
+                                    margin-right: -30px;
+                                    box-shadow: 2px 5px 10px grey;
+                              }
+
+                                    .social a li:hover .fa {
+                                          margin-left: 20px;
+                                    }
+
+                  .fb_b {
+                        /* background-color: rgb(59, 89, 152);*/
+                        background-color: rgba(65,103,178,255);
+                  }
+
+                  .twitter_r {
+                        /* background-color: rgb(29, 161, 242);*/
+                        background-color: #000000;
+                  }
+
+                  .whatsapp_r {
+                        /* background-color: rgb(77, 194, 71);*/
+                        background-color: rgba(13,191,67,255);
+                  }
+
+                  .fa-envelope_r {
+                        /* background-color: rgb(219, 68, 55);*/
+                        background-color: #e2123d;
+                  }
+
+                  .fa-linkedin_r {
+                        background-color: rgb(0, 119, 181);
+                  }
+            </style>
+            <style type="text/css">
+                  @media only screen and (max-device-width: 767px) {
+                        p span img {
+                              max-width: 90% !important;
+                              height: auto !important;
+                        }
+
+                        p img {
+                              max-width: 90% !important;
+                              height: auto !important;
+                        }
+
+                        h2 {
+                              font-size: 20px !important;
+                              font-weight: 600 !important;
+                        }
+
+                        h3 {
+                              font-size: 18px !important;
+                              font-weight: 600 !important;
+                        }
+                  }
+            </style>
+            <style type="text/css">
+                  /* === Film Roll Badge Styling(IFFI2025 countdown) === */
+                  .film-roll-badge {
+                        position: absolute;
+                        top:82%;
+                        right: 20px;
+                        width: 230px;
+                        height: 70px;
+                        background: repeating-linear-gradient( to right, #9a2375 0px, #9a2375 18px, #6e2b8b 18px, #6e2b8b 36px );
+                        border-top: 8px solid #9a2375;
+                        border-bottom: 8px solid #9a2375;
+                        border-radius: 8px;
+                        overflow: hidden;
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                        animation: moveFilm 8s linear infinite;
+                        z-index: 10;
+                  }
+
+                        /* film sprocket holes */
+                        .film-roll-badge::before,
+                        .film-roll-badge::after {
+                              content: "";
+                              position: absolute;
+                              width: 100%;
+                              height: 10px;
+                              background: repeating-linear-gradient( to right, #9a2375 0px, #9a2375 10px, #fff 10px, #fff 20px );
+                              left: 0;
+                              z-index: 2;
+                        }
+
+                        .film-roll-badge::before {
+                              top: -4px;
+                        }
+
+                        .film-roll-badge::after {
+                              bottom: -4px;
+                        }
+
+                  .film-roll-inner {
+                        position: relative;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        animation: flicker 2s infinite ease-in-out;
+                  }
+
+                  .countdown-text {
+                        font-size: 1.3rem;
+                        font-weight: 700;
+                        color: #fff;
+                        text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                        white-space: nowrap;
+                  }
+
+                  /* === Animations === */
+                  @keyframes moveFilm {
+                        0% {
+                              background-position: 0 0;
+                        }
+
+                        100% {
+                              background-position: 120px 0;
+                        }
+                  }
+
+                  @keyframes flicker {
+                        0%, 100% {
+                              opacity: 1;
+                        }
+
+                        50% {
+                              opacity: 0.9;
+                        }
+
+                        25% {
+                              opacity: 0.95;
+                        }
+
+                        75% {
+                              opacity: 0.85;
+                        }
+                  }
+
+                  /* === Responsive Adjustments === */
+                  @media (max-width: 1500px) {
+                        .film-roll-badge {
+                              top: 68%;
+                              right: 18px;
+                              /* width: 220px; */
+                              height: 65px;
+                              font-size: 0.85rem;
+                        }
+
+                        .press-section {
+                              margin-top: 35px;
+                        }
+                  }
+
+                  @media (max-width: 992px) {
+                        .film-roll-badge {
+                              top: 52%;
+                              right: 10px;
+                               width: 200px; 
+                              height: 60px;
+                        }
+                  }
+
+                  @media (max-width: 768px) {
+                        .film-roll-badge {
+                              top: 56%;
+                              right: 10px;
+                               width: 124px; 
+                              height: 55px;
+                        }
+
+                        .countdown-text {
+                              font-size: 0.9rem;
+                        }
+                  }
+
+                  @media (max-width: 576px) {
+                        .film-roll-badge {
+                              top: 59%;
+                              right: 5px;
+                              /* width: 160px; */
+                              height: 50px;
+                        }
+
+                        .countdown-text {
+                              font-size: 0.85rem;
+                        }
+                  }
+            </style>
+          <script type="text/javascript">
+                const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+
+                const countdownElement = document.getElementById("countdown");
+
+                const interval = setInterval(() => {
+                      const now = new Date().getTime();
+
+                      // BEFORE FESTIVAL — show days + hours left
+                      if (now < festivalStart) {
+                            const diff = festivalStart - now;
+                            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                            countdownElement.innerHTML = `
+              ${days} Day${days !== 1 ? 's' : ''} 
+              ${hours} Hour${hours !== 1 ? 's' : ''} to go
+          `;
+
+                      }
+
+                      // DURING FESTIVAL — show 56th IFFI - Day X
+                      else if (now >= festivalStart && now <= festivalEnd) {
+                            const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                            countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                      }
+
+                      // AFTER FESTIVAL — new message
+                      else {
+                            countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+
+                            // Width change logic
+                            const elements = document.querySelectorAll('.film-roll-badge');
+                            elements.forEach(el => el.style.width = "350px");
+
+                            clearInterval(interval);
+                      }
+
+                }, 1000);
+          </script>
+ <script type="text/javascript">
+
+               const miffStart = new Date("2026-06-15T00:00:00").getTime();
+               const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+
+               const miffElement = document.getElementById("miff");
+
+               if (miffElement) {
+
+                   const miffInterval = setInterval(() => {
+
+                       const now = new Date().getTime();
+
+                       // Before MIFF
+                       if (now < miffStart) {
+
+                           const diff = miffStart - now;
+                           const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                           const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+        
+
+                   /*  miffElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to MIFF`;*/
+                           miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+
+
+                     }
+
+                       // During MIFF
+                       else if (now >= miffStart && now <= miffEnd) {
+
+                           const dayNumber =
+                               Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+
+                           miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                       }
+
+                       // After MIFF
+                       else {
+
+                           miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+
+                           document.querySelectorAll('.film-roll-badge')
+                               .forEach(el => el.style.width = "350px");
+
+                           clearInterval(miffInterval);
+                       }
+
+                   }, 1000);
+               }
+
+</script>
+
+      
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="iHlYy0zOokg1pY4keseHjlJ7G4yWjmzFgJTUJoEH7tn-3RNOoe3MiivHPGuIr-LNLd2fxN-6DKaK4rJYVYFtWgvaRCaPuuCQUil0sUKlFGAEahu6tPSqKg=="/></form>
+</body>
+</html>
+

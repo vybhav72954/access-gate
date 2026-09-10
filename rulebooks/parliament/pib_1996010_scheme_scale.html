@@ -1,0 +1,1390 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	Press Release:Press Information Bureau
+</title><link href="css/style.css" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" />
+
+
+      <script src="js/jquery.min.js" type="text/javascript"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" /><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet" />
+
+      <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  // Get the IDs from the current page's URL
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+
+            });
+      </script>
+      <style type="text/css">
+            .table-responsive {
+                  width: 100%;
+                  overflow-x: auto;
+            }
+
+            .banner {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  background-color: #000;
+                  color: #fff;
+                  padding: 20px;
+            }
+
+            full-width {
+                  width: 100%;
+            }
+
+            .logo-left, .logo-center, .countdown {
+                  display: flex;
+                  align-items: center;
+            }
+
+                  .logo-left img, .logo-center img {
+                        height: 70px;
+                  }
+
+            .countdown {
+                  text-align: center;
+                  background-color: #444;
+                  border-radius: 10px;
+                  padding: 10px;
+                  border: 2px solid grey;
+            }
+
+            .firstnumber {
+                  color: #000000;
+                  position: absolute;
+                  top: 50px;
+                  right: 90px;
+                  font-size: 30px;
+            }
+
+            .secondnumber {
+                  position: absolute;
+                  color: #000000;
+                  right: 45px;
+                  top: 50px;
+                  font-size: 30px;
+            }
+
+            .countdown .days {
+                  font-size: 35px;
+                  color: gold;
+            }
+
+            .countdown p {
+                  margin: 0;
+            }
+
+            .countdown .text {
+                  font-size: 16px;
+            }
+
+            a {
+                  word-break: break-all;
+            }
+
+            iframe, img {
+                  max-width: 100%;
+            }
+
+            @media(max-width:1199px) {
+                  .firstnumber {
+                        top: 40px;
+                        right: 72px;
+                        font-size: 30px;
+                  }
+
+                  .secondnumber {
+                        right: 35px;
+                        top: 40px;
+                        font-size: 30px;
+                  }
+            }
+
+            @media(max-width:990px) {
+                  .firstnumber {
+                        top: 25px;
+                        right: 54px;
+                        font-size: 30px;
+                  }
+
+                  .secondnumber {
+                        right: 25px;
+                        top: 25px;
+                        font-size: 30px;
+                  }
+            }
+
+            @media(max-width:768px) {
+                  .countdown, .days {
+                        font-size: 12px !important;
+                  }
+
+
+                  .firstnumber {
+                        top: 25%;
+                        right: 8%;
+                        font-size: 30px;
+                  }
+
+                  .secondnumber {
+                        right: 4.5%;
+                        top: 25%;
+                        font-size: 30px;
+                  }
+            }
+
+            @media(max-width:475px) {
+                  .countdown, .days {
+                        font-size: 10px !important;
+                        top: 20%;
+                  }
+
+                  .bannerimgdiv {
+                        padding: 0 !important;
+                  }
+
+                  .bannerimg {
+                        width: 108% !important;
+                  }
+            }
+      </style>
+      <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+      </script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112591026-1"></script>
+      <script>
+
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() { dataLayer.push(arguments); }
+
+            gtag('js', new Date());
+
+
+
+            gtag('config', 'UA-112591026-1');
+
+      </script>
+
+<meta property="og:title" content="30 crore Ayushman Cards created under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=1996010" /><meta property="og:description" content="Ayushman Bharat Pradhan Mantri - Jan Arogya Yojana (AB PM-JAY) has crossed the milestone of 30 crore" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="opybivqxhj4jg2vbptra-f-2529223c7-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":7,"ak.ipv":4,"ak.proto":"h2","ak.rid":"1a5f368","ak.r":44022,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":41103,"ak.gh":"23.58.120.84","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1788968162","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==2qP4pe68t2y+C+Yl4raTrRvE/X8segL1uxF40py2NiHM0Z5ZQxRqT5BwWpQMe2SsqDObiuG3eG6SDPO2crHEXAcxqn5YQhEszKK+P64fxu3mB5VTz0jdo0tKxAYiqsu98hJUKGt8OH1tca0uyFop1D3JEGOaKcHD9CCTb7ZU8a94q02wSgQAGVnPvqcKFbrLkiJi/QaCKP9Al7mZV6gxt8fqzKJl4pZmTk0g31bKpDLferWq8HpDPt3IIyzxQ/+zHjGTQgCIivy7guc8s3qPIE/YfJR111NgMbphLkq7WIYT5cHDwumdUz+3hgpksw3aCyULiu9BUY4RBBU51Hgru4h8c7jASkb6W7jvBMCL/ocOUwBGw4SvU2SovZ75QsXiiZdzZC47VEyg45jJC6LiIHtIzCElpI7qN+vDFwpuGGs=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+      <form method="post" action="./PressReleaseIframePage.aspx?PRID=1996010&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=b94hX14NMWluUQ9a73g0LYFvtKhY52TK8cbDkYB_F2GuPre4tdh-ebiiI4xuhXnRu6Q5dQjaQA4oN3PEeL0GrtKEyEY1&amp;t=638942408819057530" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=YwOa_0w_u3oCLFqmIIOf-XEz4GWZ1DuyQIpxIA4LVkywj39sZSps12NbK5wNl5XN9JF3m7d-ey7BFDgj6i0380qRQ5IMWCL54sYNVU1IjMmiOWpp0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_shmykYI80CxCNR43Ii1nLy9PBGhuSe6SPp3CEYu0wDEuLqDAuIcsXVNhTIgQn0iyiwPorMflXuK31FftDX9GnB0m366MCEoOmY-eKQ3YAO9xRL0gIigzgRbtbVOgSQkJbJpFg2&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleaseIframePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a720a52bf%3af9cec9bc%3a589eaa30%3aa67c2700%3aab09e3fe%3a87104b7c%3a8613aea7%3a3202a5a2%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8166A38A" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="4TjaizVvvvSsmzJSkEGZhj8NKtsIbuGq4oecro1JXxbsK6C0RCyemBjloZJtdNtMO7TQP32UDxU8mpKDy+5Xj1CmvTGPXx46ZDR4JDVJttIHKgFMVKdIORCabxhhi5Cia55bld0HxX9kmuI9rZloBjPLnegcLq8jZbjhrnNWyBNckYZ9yGyp1+KYVTOYnmN3P0/44mVxgz0y1o1ma/taPz8o21MBmbmzEHGsz8hkRAVLzao78d6GgVn24PI/LUccTxjME3zDGLEOP/hYxjsgMJz+S9ENzTOQF075G5GeR8RbV7Ox" />
+</div>
+                              
+            <div id="templateCss"></div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+            <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+            <div class="container" style='margin-bottom: 50px;'>
+                  <div id="accessories">
+
+                        
+                        <div class="pull-right" style="display: flex">
+                              <div id="voll"></div>
+                              <div id="vollDT"></div>
+                              
+                              
+<div class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</div>
+                        </div>
+                  </div>
+                  <input type="hidden" name="hydpermid" id="hydpermid" value="1996010" />
+                  
+
+
+
+                  <div class="innner-page-main-about-us-content-right-part">
+
+                        <div id="MinistryName" class="MinistryNameSubhead text-center">
+                              Ministry of Health and Family Welfare
+                        </div>
+                        
+                        <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2021/aug/ph202183101.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+
+
+
+
+                        <div class="text-center event-heading-background">
+                              
+                              <h2 id="Titleh2">
+                                    30 crore Ayushman Cards created under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana
+                              </h2>
+                              <h3 id="Subtitleh3">
+                                    <span id="ltrSubtitle"><br/>6.2 crore free hospital admissions under scheme have saved out-of-pocket-expenditure of more than 1.25 lakh crore of poor and vulnerable population <br/><br/>Beneficiaries can create Ayushman Card from their Mobile Phone using Ayushman Appwhich has been downloaded 52 lakh times since its launch on 13thSeptember 2023</span>
+                              </h3>
+                        </div>
+
+                        <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                              प्रविष्टि तिथि:
+                14 JAN 2024 5:20PM by PIB Delhi
+                        </div>
+                        
+                        <div class='pt20'>
+                        </div>
+                        <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                        
+                        <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Ayushman Bharat Pradhan Mantri - Jan Arogya Yojana (AB PM-JAY) has crossed the milestone of 30 crore Ayushman cards on 12<sup>th</sup>January2024. The flagship scheme being implemented by the National Health Authority (NHA) aims to provide health cover of Rs. 5 lakhs per family per year for secondary and tertiary care hospitalization to 12 Crore beneficiary families.</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Ayushman card creation is the most fundamental activity under Ayushman Bharat PM-JAY and concerted efforts are being continuously made to ensure that every beneficiary under the scheme has Ayushman card. As a result of the persistent efforts, the scheme has reached the feat of 30 crore Ayushman cards created.More than 16.7 crore Ayushman cardshave been created only during the last two financial years. As on date, during 2023-24, more than 7.5 crore Ayushman cards have been created. This implies that approximately 181 Ayushman cards are created everyminute. </span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Ayushman card creation is included in on-spot services being offered duringViksit Bharat Sankalp Yatra launchedon 15<sup>th</sup>November 2023 with the intent to ensure saturation of different schemes of Government of India. This campaign has significantly helped expedite card creation at the grassroot level. More than 2.43 Cr Ayushman cards have been created during the Yatra. Further, more than 5.6 Cr Ayushman cards (launched on 17<sup>th</sup> Sep 2023) have been created during Ayushman Bhava campaign launched by Ministry of Health and Family Welfare to achieve saturation of different health schemes. </span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">The financial year wise total Ayushman cards created are as follows:</span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img id="Chart_x0020_1" src="https://static.pib.gov.in/WriteReadData/userfiles/image/image00283PL.png" /> </span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Data as on 12.01.2023 January,2</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">In order to reach out to the last mile, NHA has launched &lsquo;Ayushman App&rsquo; for Ayushman Card creation. The app has a unique feature of self-verification. In simple 4 steps, this feature enables users to create Ayushman Card using an android mobile phone. Further, any person can help beneficiaries to create Ayushman card. Thus, the Ayushman App enables Jan Bhagidari in its spirit. The success of this application can be measured from the fact that the app has been downloaded for more than 52 lakh times, since itslaunch on 13th September 2023.</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">With 4.83 crore Ayushman Cards, Uttar Pradesh tops the list of States with the highest number of Ayushman Cards crated. Madhya Pradesh and Maharashtrastand at number two and three positions with 3.78 crore and 2.39 crore Ayushman cards respectively. 11 States have more than 1 crore Ayushman cards holders.Top ten States with highest number of Ayushman cards are as below: </span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<div>
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="GridTable4Accent3" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="background-color:#a5a5a5; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">State</span></strong></span></span></p>
+			</td>
+			<td style="background-color:#a5a5a5; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">No. of Ayushman cards created</span></strong></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ededed; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Uttar Pradesh </span></strong></span></span></p>
+			</td>
+			<td style="background-color:#ededed; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">4.8 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Madhya Pradesh </span></strong></span></span></p>
+			</td>
+			<td style="width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">3.8 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ededed; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Maharashtra </span></strong></span></span></p>
+			</td>
+			<td style="background-color:#ededed; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">2.4 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Gujarat </span></strong></span></span></p>
+			</td>
+			<td style="width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">2.3 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ededed; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Chhattisgarh</span></strong></span></span></p>
+			</td>
+			<td style="background-color:#ededed; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">2.1 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Assam </span></strong></span></span></p>
+			</td>
+			<td style="width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1.6 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ededed; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Rajasthan </span></strong></span></span></p>
+			</td>
+			<td style="background-color:#ededed; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1.6 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Karnataka </span></strong></span></span></p>
+			</td>
+			<td style="width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1.5 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ededed; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Andhra Pradesh </span></strong></span></span></p>
+			</td>
+			<td style="background-color:#ededed; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1.5 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Jharkhand </span></strong></span></span></p>
+			</td>
+			<td style="width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1.2 Cr</span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Further, as on date, approximately 14.6 crore Ayushman cards have been created for females. Scheme is striving to achieve gender parity along with regional parity and income parity in access to healthcare services with 49% Ayushman Cards issued to female beneficiaries. Also, 48% of treatment provided under the scheme has been availed by the female; thus, gender equity is part of core design of the scheme.</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Today, Ayushman Card has become a symbol of equity, entitlement and empowerment. It gives an assurance to the poor and deprived family that they will be protected against the double-burden of disease and the debilitating impact of catastrophic expenditure incurred during treatment. Underscoring this fact, Government is making all efforts to ensure that all eligible beneficiaries possess Ayushman Card.</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Further, Ayushman Bharat PM-JAY has successfully catered to 6.2 crore hospital admissions worth more than Rs. 79,157crores. If the beneficiary would have availed the same treatment on their own outside the ambit of AB PM-JAY, the total cost of the treatment would have gone nearly 2 times higher, thus, saving more than 1.25 lakh crore out of pocket expenditure of poor and deprived families.</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">More detail updates about the scheme available here: </span><a href="https://dashboard.pmjay.gov.in/pmj/#/" target="_blank"><span style="color:#055193">https://dashboard.pmjay.gov.in/pmj/#/</span></a></span></span></span></p>
+
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="width:225.4pt">
+			<p style="text-align:justify">&nbsp;</p>
+
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img id="Picture_x0020_1" src="https://static.pib.gov.in/WriteReadData/userfiles/image/image003FSX3.jpg" /></span></span></p>
+
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Scan to download Ayushman App for creating Ayushman Card</strong></span></span></p>
+			</td>
+			<td style="width:225.4pt">
+			<p style="text-align:justify">&nbsp;</p>
+
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img id="Picture_x0020_2" src="https://static.pib.gov.in/WriteReadData/userfiles/image/image004K8VL.jpg" /></span></span></p>
+
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Scan to watch Ayushman Card creation process </strong></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">****</span></span></span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">MV/RDJ</span></span></span></span></strong></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">HFW/30 crore Ayushman Cards created underAB PM-JAY/14thJan2024/1</span></span></span></strong></p>
+
+
+                        
+                        <div id="reel_pic">
+                        </div>
+
+
+
+                        
+                        <br />
+                        <span id="ReleaseId">(रिलीज़ आईडी: 1996010)</span>
+                        <span id="lblViews">	आगंतुक पटल  : 13815</span>
+                        <div>
+                              
+                        </div>
+                        
+
+                        <span id="lblRefPhoto"></span>
+
+                        <div class="BackgroundRelease">
+                              
+                        </div>
+                        <div>
+                              
+                        </div>
+                        <div class="ReleaseLang">इस विज्ञप्ति को इन भाषाओं में पढ़ें: 
+                        
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1996075' target="_blank">
+                                          Urdu </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1996083' target="_blank">
+                                          Marathi </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1996053' target="_blank">
+                                          हिन्दी </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1996196' target="_blank">
+                                          Manipuri </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1996311' target="_blank">
+                                          Bengali </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1996603' target="_blank">
+                                          Assamese </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1996094' target="_blank">
+                                          Odia </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1996114' target="_blank">
+                                          Telugu </a>
+                              
+                                    ,
+                              
+                                    
+                                    <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=1996061' target="_blank">
+                                          Kannada </a>
+                              
+                        </div>
+
+                        <div class="RelTag">
+                              <ul>
+                                    
+                              </ul>
+                        </div>
+                        <div class="clear">
+                        </div>
+                        <div id="RelLink" class="RelLink">
+                              <ul>
+                                    
+                                    
+                              </ul>
+                        </div>
+                        <center>
+                              
+                        </center>
+                  </div>
+
+                  <div id="update12">
+	
+                              
+                              <input type="hidden" name="Hidden" id="Hidden" />
+                              <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                                    <div>
+                                          <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                                    </div>
+                                    <div id="description">
+                                    </div>
+                                    <div class="text-center">
+                                          <h2>
+                                                
+                                                <br>
+                                                
+                                          </h2>
+                                    </div>
+                                    <br />
+                                    <div class="clear">
+                                    </div>
+                                    
+                              
+	</div>
+                        
+</div>
+            </div>
+            
+            <div id="PdfDiv" style="display: none;">
+                  <table width="100%">
+                        <tr>
+                              <td style="font-weight: 200; text-align: center">
+                                    Ministry of Health and Family Welfare
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          30 crore Ayushman Cards created under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                                          <div style='height:30px;width:100%;'></div>6.2 crore free hospital admissions under scheme have saved out-of-pocket-expenditure of more than 1.25 lakh crore of poor and vulnerable population <div style='height:30px;width:100%;'></div><div style='height:30px;width:100%;'></div>Beneficiaries can create Ayushman Card from their Mobile Phone using Ayushman Appwhich has been downloaded 52 lakh times since its launch on 13thSeptember 2023
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="text-align: center; font-size: 14px;">
+                                          प्रविष्टि तिथि:
+                        14 JAN 2024 5:20PM by PIB Delhi
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                                          <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Ayushman Bharat Pradhan Mantri - Jan Arogya Yojana (AB PM-JAY) has crossed the milestone of 30 crore Ayushman cards on 12<sup>th</sup>January2024. The flagship scheme being implemented by the National Health Authority (NHA) aims to provide health cover of Rs. 5 lakhs per family per year for secondary and tertiary care hospitalization to 12 Crore beneficiary families.</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Ayushman card creation is the most fundamental activity under Ayushman Bharat PM-JAY and concerted efforts are being continuously made to ensure that every beneficiary under the scheme has Ayushman card. As a result of the persistent efforts, the scheme has reached the feat of 30 crore Ayushman cards created.More than 16.7 crore Ayushman cardshave been created only during the last two financial years. As on date, during 2023-24, more than 7.5 crore Ayushman cards have been created. This implies that approximately 181 Ayushman cards are created everyminute. </span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Ayushman card creation is included in on-spot services being offered duringViksit Bharat Sankalp Yatra launchedon 15<sup>th</sup>November 2023 with the intent to ensure saturation of different schemes of Government of India. This campaign has significantly helped expedite card creation at the grassroot level. More than 2.43 Cr Ayushman cards have been created during the Yatra. Further, more than 5.6 Cr Ayushman cards (launched on 17<sup>th</sup> Sep 2023) have been created during Ayushman Bhava campaign launched by Ministry of Health and Family Welfare to achieve saturation of different health schemes. </span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">The financial year wise total Ayushman cards created are as follows:</span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img id="Chart_x0020_1" src="https://static.pib.gov.in/WriteReadData/userfiles/image/image00283PL.png" /> </span></span></p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Data as on 12.01.2023 January,2</span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">In order to reach out to the last mile, NHA has launched &lsquo;Ayushman App&rsquo; for Ayushman Card creation. The app has a unique feature of self-verification. In simple 4 steps, this feature enables users to create Ayushman Card using an android mobile phone. Further, any person can help beneficiaries to create Ayushman card. Thus, the Ayushman App enables Jan Bhagidari in its spirit. The success of this application can be measured from the fact that the app has been downloaded for more than 52 lakh times, since itslaunch on 13th September 2023.</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">With 4.83 crore Ayushman Cards, Uttar Pradesh tops the list of States with the highest number of Ayushman Cards crated. Madhya Pradesh and Maharashtrastand at number two and three positions with 3.78 crore and 2.39 crore Ayushman cards respectively. 11 States have more than 1 crore Ayushman cards holders.Top ten States with highest number of Ayushman cards are as below: </span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<div>
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="GridTable4Accent3" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="background-color:#a5a5a5; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">State</span></strong></span></span></p>
+			</td>
+			<td style="background-color:#a5a5a5; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">No. of Ayushman cards created</span></strong></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ededed; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">Uttar Pradesh </span></strong></span></span></p>
+			</td>
+			<td style="background-color:#ededed; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">4.8 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Madhya Pradesh </span></strong></span></span></p>
+			</td>
+			<td style="width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">3.8 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ededed; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Maharashtra </span></strong></span></span></p>
+			</td>
+			<td style="background-color:#ededed; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">2.4 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Gujarat </span></strong></span></span></p>
+			</td>
+			<td style="width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">2.3 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ededed; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Chhattisgarh</span></strong></span></span></p>
+			</td>
+			<td style="background-color:#ededed; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">2.1 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Assam </span></strong></span></span></p>
+			</td>
+			<td style="width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1.6 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ededed; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Rajasthan </span></strong></span></span></p>
+			</td>
+			<td style="background-color:#ededed; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1.6 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Karnataka </span></strong></span></span></p>
+			</td>
+			<td style="width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1.5 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ededed; width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Andhra Pradesh </span></strong></span></span></p>
+			</td>
+			<td style="background-color:#ededed; width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1.5 Cr</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:155.7pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong><span style="color:black">&nbsp;Jharkhand </span></strong></span></span></p>
+			</td>
+			<td style="width:170.1pt">
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="color:black">1.2 Cr</span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Further, as on date, approximately 14.6 crore Ayushman cards have been created for females. Scheme is striving to achieve gender parity along with regional parity and income parity in access to healthcare services with 49% Ayushman Cards issued to female beneficiaries. Also, 48% of treatment provided under the scheme has been availed by the female; thus, gender equity is part of core design of the scheme.</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Today, Ayushman Card has become a symbol of equity, entitlement and empowerment. It gives an assurance to the poor and deprived family that they will be protected against the double-burden of disease and the debilitating impact of catastrophic expenditure incurred during treatment. Underscoring this fact, Government is making all efforts to ensure that all eligible beneficiaries possess Ayushman Card.</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">Further, Ayushman Bharat PM-JAY has successfully catered to 6.2 crore hospital admissions worth more than Rs. 79,157crores. If the beneficiary would have availed the same treatment on their own outside the ambit of AB PM-JAY, the total cost of the treatment would have gone nearly 2 times higher, thus, saving more than 1.25 lakh crore out of pocket expenditure of poor and deprived families.</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:black">More detail updates about the scheme available here: </span><a href="https://dashboard.pmjay.gov.in/pmj/#/" target="_blank"><span style="color:#055193">https://dashboard.pmjay.gov.in/pmj/#/</span></a></span></span></span></p>
+
+<table align="center" border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="width:225.4pt">
+			<p style="text-align:justify">&nbsp;</p>
+
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img id="Picture_x0020_1" src="https://static.pib.gov.in/WriteReadData/userfiles/image/image003FSX3.jpg" /></span></span></p>
+
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Scan to download Ayushman App for creating Ayushman Card</strong></span></span></p>
+			</td>
+			<td style="width:225.4pt">
+			<p style="text-align:justify">&nbsp;</p>
+
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><img id="Picture_x0020_2" src="https://static.pib.gov.in/WriteReadData/userfiles/image/image004K8VL.jpg" /></span></span></p>
+
+			<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><strong>Scan to watch Ayushman Card creation process </strong></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">****</span></span></span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white"><span style="color:#333333">MV/RDJ</span></span></span></span></strong></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px"><span style="background-color:white">HFW/30 crore Ayushman Cards created underAB PM-JAY/14thJan2024/1</span></span></span></strong></p>
+
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                                    <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                                          (रिलीज़ आईडी: 1996010)
+                                    </div>
+                                    <div style="height: 30px; width: 100%;">
+                                    </div>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                        </tr>
+                  </table>
+            </div>
+            <div class="clearfix">
+            </div>
+
+            
+
+            <div class="section1">
+                  <div id="frst_t">
+                        <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=1996010' target='_blank'><li class='fb_b'   ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/facebook.jpg' alt='Share on facebook'  width='40' /></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=1996010&text=30 crore Ayushman Cards created under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana' target='_blank'><li class='twitter_r'  ><img  src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2023/aug/ph2023818240601.jpg' alt='Share on twitter' width='40' /> </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=1996010' target='_blank'><li class='whatsapp_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/whatsapp1.png' alt='Share on whatsapp' width='40' /></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=30 crore Ayushman Cards created under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana&body=https://pib.gov.in/PressReleasePage.aspx?PRID=1996010&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/email1.png' alt='Share on email'  width='40' /></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=1996010&title=30 crore Ayushman Cards created under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/linkedin.png' alt='Share on linkedin' width='40' /></li></a></ul></div></div>
+                  </div>
+                  <div id="second_t">
+                        <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=1996010' target='_blank'><li class='fb_b'   ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/facebook.jpg' alt='Share on facebook'  width='35' /></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=1996010&text=30 crore Ayushman Cards created under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana' target='_blank'><li class='twitter_r'  ><img  src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2023/aug/ph2023818240601.jpg' alt='Share on twitter' width='35' /> </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=1996010' target='_blank'><li class='whatsapp_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/whatsapp1.png' alt='Share on whatsapp' width='35' /></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=30 crore Ayushman Cards created under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana&body=https://pib.gov.in/PressReleasePage.aspx?PRID=1996010&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/email1.png' alt='Share on email'  width='35' /></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=1996010&title=30 crore Ayushman Cards created under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ><img  src='https://static.pib.gov.in/WriteReadData/userfiles/socialmedianew/linkedin.png' alt='Share on linkedin' width='35' /></li></a></ul></div></div>
+                  </div>
+            </div>
+            <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="30 crore Ayushman Cards created under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana" />
+            <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" value="&lt;br/>6.2 crore free hospital admissions under scheme have saved out-of-pocket-expenditure of more than 1.25 lakh crore of poor and vulnerable population &lt;br/>&lt;br/>Beneficiaries can create Ayushman Card from their Mobile Phone using Ayushman Appwhich has been downloaded 52 lakh times since its launch on 13thSeptember 2023" />
+            <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>Ayushman Bharat Pradhan Mantri - Jan Arogya Yojana (AB PM-JAY) has crossed the milestone of 30 crore Ayushman cards on 12thJanuary2024. The flagship scheme being implemented by the National Health Authority (NHA) aims to provide health cover of Rs. 5 lakhs per family per year for secondary and tertiary care hospitalization to 12 Crore beneficiary families.&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>Ayushman card creation is the most fundamental activity under Ayushman Bharat PM-JAY and concerted efforts are being continuously made to ensure that every beneficiary under the scheme has Ayushman card. As a result of the persistent efforts, the scheme has reached the feat of 30 crore Ayushman cards created.More than 16.7 crore Ayushman cardshave been created only during the last two financial years. As on date, during 2023-24, more than 7.5 crore Ayushman cards have been created. This implies that approximately 181 Ayushman cards are created everyminute. &lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>Ayushman card creation is included in on-spot services being offered duringViksit Bharat Sankalp Yatra launchedon 15thNovember 2023 with the intent to ensure saturation of different schemes of Government of India. This campaign has significantly helped expedite card creation at the grassroot level. More than 2.43 Cr Ayushman cards have been created during the Yatra. Further, more than 5.6 Cr Ayushman cards (launched on 17th Sep 2023) have been created during Ayushman Bhava campaign launched by Ministry of Health and Family Welfare to achieve saturation of different health schemes. &lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>The financial year wise total Ayushman cards created are as follows:&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;img id=&quot;Chart_x0020_1&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/image00283PL.png&quot; /> &lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Data as on 12.01.2023 January,2&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>In order to reach out to the last mile, NHA has launched &amp;lsquo;Ayushman App&amp;rsquo; for Ayushman Card creation. The app has a unique feature of self-verification. In simple 4 steps, this feature enables users to create Ayushman Card using an android mobile phone. Further, any person can help beneficiaries to create Ayushman card. Thus, the Ayushman App enables Jan Bhagidari in its spirit. The success of this application can be measured from the fact that the app has been downloaded for more than 52 lakh times, since itslaunch on 13th September 2023.&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>With 4.83 crore Ayushman Cards, Uttar Pradesh tops the list of States with the highest number of Ayushman Cards crated. Madhya Pradesh and Maharashtrastand at number two and three positions with 3.78 crore and 2.39 crore Ayushman cards respectively. 11 States have more than 1 crore Ayushman cards holders.Top ten States with highest number of Ayushman cards are as below: &lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;div>
+&lt;table align=&quot;center&quot; border=&quot;1&quot; bordercolor=&quot;#ccc&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;GridTable4Accent3&quot; style=&quot;border-collapse:collapse&quot;>
+	&lt;tbody>
+		&lt;tr>
+			&lt;td style=&quot;background-color:#a5a5a5; width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>State&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;background-color:#a5a5a5; width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>No. of Ayushman cards created&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;background-color:#ededed; width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>Uttar Pradesh &lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;background-color:#ededed; width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>4.8 Cr&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Madhya Pradesh &lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>3.8 Cr&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;background-color:#ededed; width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Maharashtra &lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;background-color:#ededed; width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>2.4 Cr&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Gujarat &lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>2.3 Cr&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;background-color:#ededed; width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Chhattisgarh&lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;background-color:#ededed; width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>2.1 Cr&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Assam &lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>1.6 Cr&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;background-color:#ededed; width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Rajasthan &lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;background-color:#ededed; width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>1.6 Cr&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Karnataka &lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>1.5 Cr&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;background-color:#ededed; width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Andhra Pradesh &lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;background-color:#ededed; width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>1.5 Cr&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+		&lt;tr>
+			&lt;td style=&quot;width:155.7pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>&lt;span style=&quot;color:black&quot;>&amp;nbsp;Jharkhand &lt;/span>&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:170.1pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;color:black&quot;>1.2 Cr&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+	&lt;/tbody>
+&lt;/table>
+&lt;/div>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>Further, as on date, approximately 14.6 crore Ayushman cards have been created for females. Scheme is striving to achieve gender parity along with regional parity and income parity in access to healthcare services with 49% Ayushman Cards issued to female beneficiaries. Also, 48% of treatment provided under the scheme has been availed by the female; thus, gender equity is part of core design of the scheme.&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>Today, Ayushman Card has become a symbol of equity, entitlement and empowerment. It gives an assurance to the poor and deprived family that they will be protected against the double-burden of disease and the debilitating impact of catastrophic expenditure incurred during treatment. Underscoring this fact, Government is making all efforts to ensure that all eligible beneficiaries possess Ayushman Card.&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>Further, Ayushman Bharat PM-JAY has successfully catered to 6.2 crore hospital admissions worth more than Rs. 79,157crores. If the beneficiary would have availed the same treatment on their own outside the ambit of AB PM-JAY, the total cost of the treatment would have gone nearly 2 times higher, thus, saving more than 1.25 lakh crore out of pocket expenditure of poor and deprived families.&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:black&quot;>More detail updates about the scheme available here: &lt;/span>&lt;a href=&quot;https://dashboard.pmjay.gov.in/pmj/#/&quot; target=&quot;_blank&quot;>&lt;span style=&quot;color:#055193&quot;>https://dashboard.pmjay.gov.in/pmj/#/&lt;/span>&lt;/a>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;table align=&quot;center&quot; border=&quot;1&quot; bordercolor=&quot;#ccc&quot; cellpadding=&quot;5&quot; cellspacing=&quot;0&quot; class=&quot;MsoTableGrid&quot; style=&quot;border-collapse:collapse&quot;>
+	&lt;tbody>
+		&lt;tr>
+			&lt;td style=&quot;width:225.4pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;img id=&quot;Picture_x0020_1&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/image003FSX3.jpg&quot; />&lt;/span>&lt;/span>&lt;/p>
+
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>Scan to download Ayushman App for creating Ayushman Card&lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+			&lt;td style=&quot;width:225.4pt&quot;>
+			&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;img id=&quot;Picture_x0020_2&quot; src=&quot;https://static.pib.gov.in/WriteReadData/userfiles/image/image004K8VL.jpg&quot; />&lt;/span>&lt;/span>&lt;/p>
+
+			&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;strong>Scan to watch Ayushman Card creation process &lt;/strong>&lt;/span>&lt;/span>&lt;/p>
+			&lt;/td>
+		&lt;/tr>
+	&lt;/tbody>
+&lt;/table>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>****&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>&lt;span style=&quot;color:#333333&quot;>MV/RDJ&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&lt;span style=&quot;background-color:white&quot;>HFW/30 crore Ayushman Cards created underAB PM-JAY/14thJan2024/1&lt;/span>&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+" />
+            <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+                  //function HandleAudio() {
+                  //    if (isPlaying == true) {
+                  //        //Playing already Pause it
+                  //        pauseAudio();
+                  //    } else {
+                  //        //Play the music
+                  //        playAudio();
+                  //    }
+                  //}
+            </script>
+            <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+            
+                  function CleanHtml(html) {
+
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+            </script>
+            <script type="text/javascript">
+                  $(document).ready(function () {
+                        //for responsive tables
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+
+                              // Extra Small Device
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                              // Small Device
+
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Medium Device
+
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Large Device
+
+                        }
+                  });
+            </script>
+            <script type="text/javascript">
+                  $(document).ready(function () {
+                        var width = $(window).width();
+                        if (width < 768) {
+
+                              // Extra Small Device
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                              // Small Device
+
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Medium Device
+
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                              // Large Device
+
+                        }
+                  });
+            </script>
+            
+            <style type="text/css">
+                  @media print {
+                        .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                              display: none !important;
+                        }
+                  }
+
+                  .f_vl {
+                        padding-right: 30px;
+                        font-size: 17px;
+                        cursor: pointer;
+                  }
+
+                  .log_oo {
+                        // width: 20%;
+                        display: flex;
+                        justify-content: space-between;
+                  }
+
+                        .log_oo img {
+                              width: 150px;
+                              /*width: 100%;
+                    height: auto;*/
+                        }
+
+                  .sticky-social_mb {
+                        position: fixed;
+                        bottom: 0px;
+                        padding: 0px;
+                        margin: 0px;
+                        width: 100%;
+                  }
+
+                  .social_mb {
+                        list-style: none;
+                        display: flex;
+                        width: 100%;
+                        margin-bottom: -8px;
+                  }
+
+                        .social_mb a {
+                              padding: 8px 0px;
+                              font-size: 30px;
+                              transition: all 0.8s ease-in-out;
+                              width: 20% !important;
+                              text-align: center;
+                        }
+            </style>
+            <style type="text/css">
+                  .section1 {
+                        position: relative;
+                        padding: 10px 0px;
+                        width: 100%;
+                  }
+
+
+
+                  .sticky-social {
+                        position: fixed;
+                        top: 20px;
+                        left: 0px;
+                        padding: 0px;
+                        margin: 0px;
+                  }
+
+                  .social {
+                        list-style: none;
+                  }
+
+                        .social a li {
+                              padding: 8px 12px;
+                              font-size: 25px;
+                              transition: all 0.8s ease-in-out;
+                        }
+
+                              .social a li:hover {
+                                    margin-right: -30px;
+                                    box-shadow: 2px 5px 10px grey;
+                              }
+
+                                    .social a li:hover .fa {
+                                          margin-left: 20px;
+                                    }
+
+                  .fb_b {
+                        /* background-color: rgb(59, 89, 152);*/
+                        background-color: rgba(65,103,178,255);
+                  }
+
+                  .twitter_r {
+                        /* background-color: rgb(29, 161, 242);*/
+                        background-color: #000000;
+                  }
+
+                  .whatsapp_r {
+                        /* background-color: rgb(77, 194, 71);*/
+                        background-color: rgba(13,191,67,255);
+                  }
+
+                  .fa-envelope_r {
+                        /* background-color: rgb(219, 68, 55);*/
+                        background-color: #e2123d;
+                  }
+
+                  .fa-linkedin_r {
+                        background-color: rgb(0, 119, 181);
+                  }
+            </style>
+            <style type="text/css">
+                  @media only screen and (max-device-width: 767px) {
+                        p span img {
+                              max-width: 90% !important;
+                              height: auto !important;
+                        }
+
+                        p img {
+                              max-width: 90% !important;
+                              height: auto !important;
+                        }
+
+                        h2 {
+                              font-size: 20px !important;
+                              font-weight: 600 !important;
+                        }
+
+                        h3 {
+                              font-size: 18px !important;
+                              font-weight: 600 !important;
+                        }
+                  }
+            </style>
+            <style type="text/css">
+                  /* === Film Roll Badge Styling(IFFI2025 countdown) === */
+                  .film-roll-badge {
+                        position: absolute;
+                        top:82%;
+                        right: 20px;
+                        width: 230px;
+                        height: 70px;
+                        background: repeating-linear-gradient( to right, #9a2375 0px, #9a2375 18px, #6e2b8b 18px, #6e2b8b 36px );
+                        border-top: 8px solid #9a2375;
+                        border-bottom: 8px solid #9a2375;
+                        border-radius: 8px;
+                        overflow: hidden;
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                        animation: moveFilm 8s linear infinite;
+                        z-index: 10;
+                  }
+
+                        /* film sprocket holes */
+                        .film-roll-badge::before,
+                        .film-roll-badge::after {
+                              content: "";
+                              position: absolute;
+                              width: 100%;
+                              height: 10px;
+                              background: repeating-linear-gradient( to right, #9a2375 0px, #9a2375 10px, #fff 10px, #fff 20px );
+                              left: 0;
+                              z-index: 2;
+                        }
+
+                        .film-roll-badge::before {
+                              top: -4px;
+                        }
+
+                        .film-roll-badge::after {
+                              bottom: -4px;
+                        }
+
+                  .film-roll-inner {
+                        position: relative;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        animation: flicker 2s infinite ease-in-out;
+                  }
+
+                  .countdown-text {
+                        font-size: 1.3rem;
+                        font-weight: 700;
+                        color: #fff;
+                        text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                        white-space: nowrap;
+                  }
+
+                  /* === Animations === */
+                  @keyframes moveFilm {
+                        0% {
+                              background-position: 0 0;
+                        }
+
+                        100% {
+                              background-position: 120px 0;
+                        }
+                  }
+
+                  @keyframes flicker {
+                        0%, 100% {
+                              opacity: 1;
+                        }
+
+                        50% {
+                              opacity: 0.9;
+                        }
+
+                        25% {
+                              opacity: 0.95;
+                        }
+
+                        75% {
+                              opacity: 0.85;
+                        }
+                  }
+
+                  /* === Responsive Adjustments === */
+                  @media (max-width: 1500px) {
+                        .film-roll-badge {
+                              top: 68%;
+                              right: 18px;
+                              /* width: 220px; */
+                              height: 65px;
+                              font-size: 0.85rem;
+                        }
+
+                        .press-section {
+                              margin-top: 35px;
+                        }
+                  }
+
+                  @media (max-width: 992px) {
+                        .film-roll-badge {
+                              top: 52%;
+                              right: 10px;
+                               width: 200px; 
+                              height: 60px;
+                        }
+                  }
+
+                  @media (max-width: 768px) {
+                        .film-roll-badge {
+                              top: 56%;
+                              right: 10px;
+                               width: 124px; 
+                              height: 55px;
+                        }
+
+                        .countdown-text {
+                              font-size: 0.9rem;
+                        }
+                  }
+
+                  @media (max-width: 576px) {
+                        .film-roll-badge {
+                              top: 59%;
+                              right: 5px;
+                              /* width: 160px; */
+                              height: 50px;
+                        }
+
+                        .countdown-text {
+                              font-size: 0.85rem;
+                        }
+                  }
+            </style>
+                        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+
+                  const countdownElement = document.getElementById("countdown");
+
+                  const interval = setInterval(() => {
+                        const now = new Date().getTime();
+
+                        // BEFORE FESTIVAL — show days + hours left
+                        if (now < festivalStart) {
+                              const diff = festivalStart - now;
+                              const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                              const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                              countdownElement.innerHTML = `
+                ${days} Day${days !== 1 ? 's' : ''} 
+                ${hours} Hour${hours !== 1 ? 's' : ''} to go
+            `;
+
+                        }
+
+                        // DURING FESTIVAL — show 56th IFFI - Day X
+                        else if (now >= festivalStart && now <= festivalEnd) {
+                              const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                              countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                        }
+
+                        // AFTER FESTIVAL — new message
+                        else {
+                              countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+
+                              // Width change logic
+                              const elements = document.querySelectorAll('.film-roll-badge');
+                              elements.forEach(el => el.style.width = "350px");
+
+                              clearInterval(interval);
+                        }
+
+                  }, 1000);
+            </script>
+
+      
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleaseIframePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "source": "https://hospitals.pmjay.gov.in/Search/empnlWorkFlow.htm?actionFlag=ViewRegisteredHosptlsNew&&search=Y&applSearch=N&appReadOnly=Y&draftMenu=N&invalidMenu=N&export=E",
+  "pulled": "2026-07-16",
+  "method": "no-login Excel export (fn_openExcel) of the Registered Hospitals view, all-India (searchState=-1); POST form replicated in fetch_pmjay_hospitals.py",
+  "files": {
+    "PMJAY_empanelled_hospitals_2026-07-16.xls": {
+      "state": "ALL-INDIA",
+      "bytes": 13084160,
+      "rows": 35286,
+      "sha256": "a7ad22f106c54258eff61e01e98e8314c3b9d96b9ba0c48fad9cfc39ea5960d6"
+    }
+  },
+  "notes": [
+    "all rows are Application Status approved (34,523 Approved for Empanelment + 763 Approved for Re-Empanelment)",
+    "Empanelment Type: 31,198 PMJAY-scope (PMJAY / PMJAY and CGHS / PMJAY and CAPF); 3,125 Only CGHS; 938 State Specific; 25 Only CAPF",
+    "district names are current-vintage (post-2020 districts present)"
+  ]
+}
