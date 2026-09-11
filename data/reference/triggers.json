@@ -1,0 +1,184 @@
+[
+ {
+  "trigger_id": 2,
+  "name": "High number of cases for zero Length of Stay (LOS) for major surgical procedure code",
+  "severity": 2,
+  "channels": [
+   "desk_audit"
+  ],
+  "checklist": [
+   "Cross Match the procedure performed with day care procedure list in reference of package master",
+   "Verify LOS as per surgical package blocked in reference to standard guidelines",
+   "Verify mandatory documents for blocked procedure",
+   "Cross Check whether patient has been released on DOR or LAMA or DAMA?",
+   "Did the patient visit hospital in emergency or OPD for treatment?",
+   "Was the patient hospitalized or not?",
+   "Was any surgery done or not? Ask details in simpler language",
+   "Was the patient conscious during surgery?"
+  ],
+  "source": "NHA Anti-Fraud Framework Practitioners' Guidebook, Annexure 2"
+ },
+ {
+  "trigger_id": 3,
+  "name": "High number of cases for zero Length of Stay (LOS) for Non Day Care Medical Packages (M1 and M2)",
+  "severity": 2,
+  "channels": [
+   "desk_audit",
+   "hospital_visit",
+   "beneficiary_call",
+   "beneficiary_visit"
+  ],
+  "checklist": [
+   "Cross Check whether patient has been released on DOR or LAMA or DAMA?",
+   "Cross check OPD with IPD entry records and find proportion of OPD to IPD conversion ratio",
+   "Verify whether the diagnosis were in sync with supportive investigation reports, treatment and vitals with progress notes * Detailed check for quality of care given may also be done",
+   "Did the patient visit hospital in emergency or OPD for treatment?",
+   "Was the patient hospitalized or not?",
+   "Did you stay in the hospital for more than 24 hours or were only given medication in OPD/ Emergency and released from the hospital?",
+   "Did the patient feel better at the time of discharge?",
+   "Verify the facts provided on call (Do voice/video recording/written signed statement with permission of beneficiary)"
+  ],
+  "source": "NHA Anti-Fraud Framework Practitioners' Guidebook, Annexure 2"
+ },
+ {
+  "trigger_id": 4,
+  "name": "Cases where medical management exceeds more than 10 days in non-critical cases",
+  "severity": 1,
+  "channels": [
+   "desk_audit"
+  ],
+  "checklist": [
+   "Cross check all day wise indoor case papers (Repeated Lab investigation, progress notes, vitals chart and treatment chart) to Justify the prolonged LOS",
+   "Verify the above with progress notes by treating doctor, nursing notes for the successive days of admission",
+   "Cross check the patient shifting register and Discharge Register with actual number of days admitted in ICU/general ward",
+   "Did the patient visit hospital in emergency or OPD for treatment?",
+   "Was the patient hospitalized or not?",
+   "For How many days were you admitted in the hospital? Days in ICU/ Days in general ward? (Ask in local and simpler language)",
+   "Did the patient feel better at the time of discharge?",
+   "Verify the facts provided on call (Do voice/video recording/written signed statement with permission of beneficiary)"
+  ],
+  "source": "NHA Anti-Fraud Framework Practitioners' Guidebook, Annexure 2"
+ },
+ {
+  "trigger_id": 5,
+  "name": "Highlight cases where a same doctor is performing surgery/ treatment in the far-away districts",
+  "severity": 3,
+  "channels": [
+   "desk_audit",
+   "hospital_visit",
+   "beneficiary_call",
+   "beneficiary_visit"
+  ],
+  "checklist": [
+   "Pull out the data related to doctor who has performed surgeries in different hospitals on same day",
+   "Ask for registration certificate of Treating Doctor and cross match with HR records also",
+   "Did the patient visit hospital in emergency or OPD for treatment?",
+   "Was the patient hospitalized or not?",
+   "Was any kind of surgery done or not? Ask details in simpler language",
+   "Verify the facts provided on call (Do voice/video recording/written signed statement with permission of beneficiary)",
+   "Ask for Discharge Summary and take a scan copy",
+   "Cross check registration as well as date and time of admission of all admitted patient on the same day"
+  ],
+  "source": "NHA Anti-Fraud Framework Practitioners' Guidebook, Annexure 2"
+ },
+ {
+  "trigger_id": 6,
+  "name": "Same document/ images used in more than one case",
+  "severity": 3,
+  "channels": [
+   "desk_audit",
+   "hospital_visit",
+   "beneficiary_call",
+   "beneficiary_visit"
+  ],
+  "checklist": [
+   "Verify the claims set where same document/ image has been used (with special emphasis on DOA, Same Family, Same First Name, Same member)",
+   "Verify whether the undertaken treatment was in sync with all hospital entry registers (OPD, IPD, Patient shifting record, Lab, Radiology and Pharmacy)",
+   "Did the patient visit hospital in emergency or OPD for treatment?",
+   "Was the patient hospitalized or not?",
+   "Were you admitted for medical management or surgical?",
+   "Verify the facts provided on call (Do voice/video recording/written signed statement with permission of beneficiary)",
+   "Follow general guidelines/steps in all process as mentioned in Medical Audit Manual",
+   "Ask for implant register of particular trendy cases and match their BAR CODE or PRODUCT CODE to one another (in case of surgery)"
+  ],
+  "source": "NHA Anti-Fraud Framework Practitioners' Guidebook, Annexure 2"
+ },
+ {
+  "trigger_id": 7,
+  "name": "Multiple cases for acute medical illness for same patient",
+  "severity": 2,
+  "channels": [
+   "desk_audit",
+   "hospital_visit",
+   "beneficiary_call",
+   "beneficiary_visit"
+  ],
+  "checklist": [
+   "Verify the indication for hospitalization on each admission with reference to supportive mandatory documents submitted",
+   "Verify whether the undertaken treatment was in sync with all hospital entry registers (OPD, IPD, Patient shifting record, Lab, Radiology and Pharmacy)",
+   "Compare IPD records across all suspected set of claims where same member was hospitalized",
+   "Cross check Nursing staff Roster with nursing notes found on IPD files",
+   "Cross Check Treating doctor availability with HR",
+   "Did you visit hospital in emergency or OPD for treatment?",
+   "Were you admitted in the hospital or not?",
+   "How many days did you stay in the hospital?"
+  ],
+  "source": "NHA Anti-Fraud Framework Practitioners' Guidebook, Annexure 2"
+ },
+ {
+  "trigger_id": 10,
+  "name": "Highlight cases of admission/ discharge/ surgery after death of the patient",
+  "severity": 3,
+  "channels": [
+   "desk_audit"
+  ],
+  "checklist": [
+   "Cross match DOA and Date of death on TMS",
+   "Cross check date of admission and date of death in all hospital entry records",
+   "Mortality report from the hospital * Detailed check for quality of care given may also be done",
+   "Ask for exact date, time and place of death from the relative of patient",
+   "Ask for Death certificate and Death Summary provided by Hospital",
+   "Follow general guidelines/steps in all process as mentioned in Medical Audit Manual",
+   "Check procedure performed as per Guidance Documents if available"
+  ],
+  "source": "NHA Anti-Fraud Framework Practitioners' Guidebook, Annexure 2"
+ },
+ {
+  "trigger_id": "R1",
+  "name": "Package billed for a specialty the hospital is not empanelled for",
+  "severity": 2,
+  "channels": [
+   "desk_audit"
+  ],
+  "checklist": [
+   "Compare package specialty against the hospital's registry specialty list"
+  ],
+  "source": "Derived: PM-JAY empanelled hospital registry"
+ },
+ {
+  "trigger_id": "R2",
+  "name": "Claimed amount exceeds the published package rate",
+  "severity": 2,
+  "channels": [
+   "desk_audit"
+  ],
+  "checklist": [
+   "Compare amount_claimed against package_amount_rs",
+   "Check whether an implant add-on is separately justified"
+  ],
+  "source": "Derived: Punjab SHA published HBP package master"
+ },
+ {
+  "trigger_id": "R3",
+  "name": "Government-reserved package billed by a private hospital",
+  "severity": 2,
+  "channels": [
+   "desk_audit"
+  ],
+  "checklist": [
+   "Check govt_reserved flag against hospital type",
+   "Check whether a referral was recorded"
+  ],
+  "source": "Derived: Punjab SHA published HBP package master"
+ }
+]

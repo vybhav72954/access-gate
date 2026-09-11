@@ -1,0 +1,125 @@
+package_code,specialty_code,package_name,package_amount_rs,daycare_reason
+ER001A,ER,Laceration - Suturing / Dressing,2000,ER: <12hr stay by definition
+ER002A,ER,Emergency with stable cardiopulmonary status,2000,ER: <12hr stay by definition
+ER002B,ER,Emergency with unstable cardiopulmonary status with resuccitation,10000,ER: <12hr stay by definition
+ER003A,ER,Animal bites (Excluding Snake Bite),1700,ER: <12hr stay by definition
+SB001A,ER,"Fracture - Conservative Management - 
+Without plaster",2000,ER: <12hr stay by definition
+SU073A,ER,Emergency management of Hematuria,0,ER: <12hr stay by definition
+BM001A,BM,"% Total Body Surface Area Burns (TBSA) - any % 
+(not requiring admission). 
+Needs at least 5-6 dressing",7000,name implies same-day care
+BM002A,BM,"% Total Body Surface Area Burns (TBSA) - any % 
+(not requiring admission). 
+Needs at least 5-6 dressing",7000,name implies same-day care
+BM003A,BM,"% Total Body Surface Area Burns (TBSA) - any % 
+(not requiring admission). 
+Needs at least 5-6 dressing",7000,name implies same-day care
+MG072A,MG,Haemodialysis,1500,name implies same-day care
+MG072B,MG,Peritoneal Dialysis,1500,name implies same-day care
+MG074A,MG,Whole Blood transfusion,2000,name implies same-day care
+MG074B,MG,"Blood component including platelet transfusion (RDP, PC, SDP)",2000,name implies same-day care
+SB052A,SB,Anti-biotic + dressing - minimum of 5 sessions,10900,name implies same-day care
+SB052B,SB,Anti-biotic + dressing - minimum of 2 sessions,3000,name implies same-day care
+SE012B,SE,Corneal Graft - Follow Up,2000,name implies same-day care
+SG097A,SG,Stoma Management follow up of Ileostomy,4500,name implies same-day care
+SG097B,SG,Stoma Management follow up of Colostomy,4500,name implies same-day care
+SL035C,SL,Intratympanic injections,1200,name implies same-day care
+SO021A,SO,Intrauterine transfusions,11000,name implies same-day care
+SU006A,SU,Open Nephrolithotomy - Follow Up,1000,name implies same-day care
+SU009A,SU,Nephrostomy (PCN) - Follow Up,1200,name implies same-day care
+SU015A,SU,URSL / URSL - Laser - Follow Up,1000,name implies same-day care
+SU017A,SU,ESWL - Follow Up,1000,name implies same-day care
+SU019A,SU,Lap Ureterolithotomy - Follow Up,1000,name implies same-day care
+SU020A,SU,Open Ureterolithotomy - Follow Up,1000,name implies same-day care
+SU022A,SU,Pyeloplasty - Follow Up,1500,name implies same-day care
+SU039A,SU,Open Pyelolithotomy - Follow Up,1200,name implies same-day care
+SU044A,SU,Partial Cystectomy - Follow Up,1000,name implies same-day care
+SU047A,SU,Bladder Diverticulectomy - Follow Up,1000,name implies same-day care
+SU059A,SU,VVF Repair - Follow Up,1500,name implies same-day care
+SU063A,SU,Repair of stress incontinence - Follow Up,1000,name implies same-day care
+SU067A,SU,Urethroplasty Follow Up,1000,name implies same-day care
+SU072A,SU,Hypospadias Repair - Follow Up,1000,name implies same-day care
+SU084A,SU,Surgery for Priaprism - Follow Up,1000,name implies same-day care
+SU093A,SU,PCNL - Follow Up,1200,name implies same-day care
+MG073A,MG,Plasmapheresis,2000,"low value, not inpatient surgery"
+MM009A,MM,Electro Convulsive Therapy (ECT) - per session,3000,"low value, not inpatient surgery"
+MM010A,MM,Transcranial Magnetic Stimulation (TMS) - per session,1000,"low value, not inpatient surgery"
+MN007A,MN,"High Risk Newborn Post Discharge Care Package 
+(Protocol Driven)",2400,"low value, not inpatient surgery"
+MN008A,MN,"Laser Therapy for Retinopathy of Prematurity 
+(Irrespective of no. of eyes affected) - per session",1500,"low value, not inpatient surgery"
+MO001G,MO,"Tamoxifen
+Tamoxifem 20 mg orally daily",1200,"low value, not inpatient surgery"
+MO005C,MO,"Methotrexate
+Methotrexate 1/mg/kg IM every other day x 4 days D1 3 D5 D7
+Alternating every other day with
+Leucovorin 15 mg PO repeat every 14 days",1100,"low value, not inpatient surgery"
+MO006B,MO,"Cisplatin
+Cisplatin 40 mg/m2 every week",2200,"low value, not inpatient surgery"
+MO008B,MO,"Cisplatin
+Cisplatin 40 mg/m2 every week",2200,"low value, not inpatient surgery"
+MO024O,MO,"Carboplatin
+Carboplatin AUC 2 every week",2400,"low value, not inpatient surgery"
+MO024P,MO,"Cisplatin
+Cisplatin 40mg/m2 every week",2200,"low value, not inpatient surgery"
+MO045A,MO,"Hydroxurea
+Hydroxurea daily
+(Dose will be based on blood counts)",2200,"low value, not inpatient surgery"
+MO055B,MO,"Vinblastin
+Vinblastine 6 mg/m2 every week",1900,"low value, not inpatient surgery"
+MO057C,MO,"13-cis retinoic acid 160mg/m2 per day for 2 weeks
+Each cycle given 4 weekly",2000,"low value, not inpatient surgery"
+MO061A,MO,"Vincristine + Actinomycin D
+Vincristine 1.5 mg/m2 weekly for 12 weeks and then 3 weekly
+Actinomycin D 45 microgram / kg 3 weekly for 24 weeks",3000,"low value, not inpatient surgery"
+MO062C,MO,"6 - Mercaptopurine 75mg/m2 daily
+Methotrexate 20mg/m2 weekly
+Vincristine 1.5mg/m2 monthly
+Intrathecal methotrexate 12 mg 3 monthly ",2500,"low value, not inpatient surgery"
+MO063C,MO,"6 - Mercaptopurine 75mg/m2 daily
+Methotrexate 20mg/m2 weekly
+Vincristine 1.5mg/m2 monthly
+Intrathecal methotrexate 12 mg 3 monthly ",2500,"low value, not inpatient surgery"
+SB002A,SB,Skeletal Tractions with pin,2000,"low value, not inpatient surgery"
+SB002B,SB,Skin Traction,700,"low value, not inpatient surgery"
+SB003A,SB,Upper Limbs,3000,"low value, not inpatient surgery"
+SB003B,SB,Lower Limbs,3000,"low value, not inpatient surgery"
+SB006A,SB,Percutaneous - Fixation of Fracture,3000,"low value, not inpatient surgery"
+SB062A,SB,Correction of club foot per cast,3000,"low value, not inpatient surgery"
+SB065A,SB,Excision of Bursa,3000,"low value, not inpatient surgery"
+SB068A,SB,Nerve root block,3000,"low value, not inpatient surgery"
+SE005A,SE,Lid Abscess Drainage,3000,"low value, not inpatient surgery"
+SE007A,SE,Chalazion Removal,2000,"low value, not inpatient surgery"
+SE016A,SE,Corneal / Scleral Patch Graft,3000,"low value, not inpatient surgery"
+SE019A,SE,Limbal Dermoid Removal,1000,"low value, not inpatient surgery"
+SE022A,SE,Capsulotomy (YAG),1500,"low value, not inpatient surgery"
+SE024A,SE,Secondary IOL / IOL Exchange / Explant,2000,"low value, not inpatient surgery"
+SE026A,SE,Iridectomy,2000,"low value, not inpatient surgery"
+SE028A,SE,EUA for Confirmation of Pediatric Glaucoma,3000,"low value, not inpatient surgery"
+SE029A,SE,For retinal tear repair Per Eye Per Sitting,1500,"low value, not inpatient surgery"
+SE040A,SE,GA / EUA separate add on package,3000,"low value, not inpatient surgery"
+SG054A,SG,Single Cyst,2000,"low value, not inpatient surgery"
+SG096B,SG,Endometrial Aspiration,2000,"low value, not inpatient surgery"
+SG096C,SG,Cervix Cancer screening (PAP + Colposcopy),1000,"low value, not inpatient surgery"
+SG096D,SG,Cervical (Neck),1500,"low value, not inpatient surgery"
+SG096E,SG,Vulval,1500,"low value, not inpatient surgery"
+SL035A,SL,Turbinate reduction,1200,"low value, not inpatient surgery"
+SL035B,SL,Biopsy,1200,"low value, not inpatient surgery"
+SL035D,SL,Wide bore aspiration,1200,"low value, not inpatient surgery"
+SM001A,SM,Extraction of impacted tooth under LA,500,"low value, not inpatient surgery"
+SM002A,SM,Sequestrectomy ,1500,"low value, not inpatient surgery"
+SM005A,SM,Enucleation / excision / marsupialization for cyst & tumour of Maxilla under LA,2500,"low value, not inpatient surgery"
+SM005B,SM,Enucleation / excision / marsupialization for cyst & tumour of Mandible under LA,2500,"low value, not inpatient surgery"
+SM007A,SM,Release of fibrous bands & grafting - in (OSMF) treatment under GA,3000,"low value, not inpatient surgery"
+SO008A,SO,Polypectomy,1500,"low value, not inpatient surgery"
+SO018A,SO,D&C (Dilatation&curretage),3000,"low value, not inpatient surgery"
+SO029A,SO,Hymenectomy for imperforate hymen,3000,"low value, not inpatient surgery"
+SO034A,SO,Vulval Hamatoma drainage,3000,"low value, not inpatient surgery"
+SO038A,SO,Pelvic Abscess Management including Colpotomy,1200,"low value, not inpatient surgery"
+SO045A,SO,EUA for (minor girls / unmarried sexually inactive / victims of sexual abuse) ,2000,"low value, not inpatient surgery"
+SO056A,SO,Secondary suturing of episiotomy,2500,"low value, not inpatient surgery"
+SP008A,SP,NPWT,2000,"low value, not inpatient surgery"
+SU071C,SP,Two or more stage (Intermediate Stage),2,"low value, not inpatient surgery"
+SU068A,SS,Non endocopic as an independent procedure,2000,"low value, not inpatient surgery"
+SU046A,SU,Deflux for VUR,1200,"low value, not inpatient surgery"

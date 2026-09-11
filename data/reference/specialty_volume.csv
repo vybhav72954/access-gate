@@ -1,0 +1,24 @@
+specialty,official_label,admissions,amount_cr,basis,share_pct,avg_claim_rs
+general_medicine,General Medicine,29609000,18963.52,2024-06-30 answer,43.41,6405.0
+medical_oncology,Medical Oncology,6129000,9090.75,2024-06-30 answer,8.99,14832.0
+obgyn,Obstetrics and Gynaecology,5176000,5284.55,2024-06-30 answer,7.59,10210.0
+ophthalmology,Ophthalmology,4765000,3925.38,2024-06-30 answer,6.99,8238.0
+general_surgery,General Surgery,3997000,8401.65,2024-06-30 answer,5.86,21020.0
+orthopaedics,Orthopedics,3397000,8934.55,2024-06-30 answer,4.98,26301.0
+urology,Urology,2594000,6363.1,2024-06-30 answer,3.8,24530.0
+cardiology,Cardiology,1999000,10834.11,2024-06-30 answer,2.93,54198.0
+emergency_room,Emergency Room Packages,1786000,421.72,2024-06-30 answer,2.62,2361.0
+paediatric_medicine,Pediatric Medical Management,1434000,2189.69,2024-06-30 answer,2.1,15270.0
+neonatal,Neo - natal Care,1296000,3168.95,2024-06-30 answer,1.9,24452.0
+ctvs,Cardiothoracic Vascular Surgery,1031000,5594.47,2024-06-30 answer,1.51,54263.0
+oral_maxillofacial,Oral and Maxillofacial Surgery,966101,320.6,2021-02-02 answer x 5.17,1.42,3318.0
+radiation_oncology,Radiation Oncology,852000,5830.05,2024-06-30 answer,1.25,68428.0
+ent,ENT,735000,1320.1,2024-06-30 answer,1.08,17961.0
+paediatric_surgery,Pediatric Surgery,729000,1052.96,2024-06-30 answer,1.07,14444.0
+neurosurgery,Neurosurgery,557000,2906.84,2024-06-30 answer,0.82,52187.0
+surgical_oncology,Surgical Oncology,500000,2428.58,2024-06-30 answer,0.73,48572.0
+polytrauma,Polytrauma,368000,848.04,2024-06-30 answer,0.54,23045.0
+plastic_surgery,Plastic and Reconstructive Surgery,123000,281.72,2024-06-30 answer,0.18,22904.0
+burns,Burns Management,80948,346.4,2021-02-02 answer x 5.17,0.12,42793.0
+mental_disorders,Mental Disorders Packages,55234,46.5,2021-02-02 answer x 5.17,0.08,8419.0
+interventional_neuroradiology,Interventional Neuroradiology,29877,227.5,2021-02-02 answer x 5.17,0.04,76146.0

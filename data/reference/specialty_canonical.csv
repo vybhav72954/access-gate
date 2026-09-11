@@ -1,0 +1,25 @@
+specialty,name,registry_codes,tertiary
+general_medicine,General Medicine,M1|MG,False
+paediatric_medicine,Paediatric Medical Management,M2|MP,False
+neonatal,Neo-natal Care,M3|MN,False
+paediatric_cancer,Paediatric Cancer,M4|NA,False
+medical_oncology,Medical Oncology,M5|MO,False
+radiation_oncology,Radiation Oncology,M6|MR,True
+emergency_room,Emergency Room Packages,M7|ER,False
+mental_disorders,Mental Disorders,M8|MM,False
+general_surgery,General Surgery,S1|SG,False
+ent,Otorhinolaryngology (ENT),S2|SL,False
+ophthalmology,Ophthalmology,S3|SE,False
+obgyn,Obstetrics & Gynaecology,S4|SO,False
+orthopaedics,Orthopaedics,S5|SB,False
+polytrauma,Polytrauma,S6|ST,False
+urology,Urology,S7|SU,False
+neurosurgery,Neurosurgery,S8|SN,True
+interventional_neuroradiology,Interventional Neuroradiology,S9|IN,True
+plastic_surgery,Plastic & Reconstructive Surgery,S10|SP,False
+burns,Burns Management,S11|BM,False
+cardiology,Cardiology,S12|MC,True
+ctvs,Cardio-thoracic & Vascular Surgery,S13|SV,True
+paediatric_surgery,Paediatric Surgery,S14|SS,False
+surgical_oncology,Surgical Oncology,S15|SC,False
+oral_maxillofacial,Oral & Maxillofacial Surgery,S16|SM,False

@@ -1,0 +1,507 @@
+{
+ "hospitals_scope": 30858,
+ "cells": 11528,
+ "sole_cells": 2202,
+ "sole_share_pct": 19.1,
+ "le2_share_pct": 30.7,
+ "le5_share_pct": 50.9,
+ "ge10_share_pct": 33.3,
+ "ge20_share_pct": 16.8,
+ "aspirational_sole_pct": 27.0,
+ "other_sole_pct": 17.9,
+ "km_rows": 2185,
+ "km_percentiles": {
+  "p25": 36.8,
+  "p50": 50.7,
+  "p75": 66.2,
+  "p90": 86.4,
+  "p95": 104.0
+ },
+ "gt50km": {
+  "cells": 1108,
+  "share_pct": 50.7,
+  "districts": 310,
+  "population_M": 584.0
+ },
+ "gt100km": {
+  "cells": 130,
+  "share_pct": 5.9,
+  "districts": 52,
+  "population_M": 79.0
+ },
+ "gt150km": {
+  "cells": 54,
+  "share_pct": 2.5,
+  "districts": 12,
+  "population_M": 12.0
+ },
+ "by_specialty": [
+  {
+   "specialty": "general_medicine",
+   "name": "General Medicine",
+   "districts": 663,
+   "sole": 32,
+   "sole_share_pct": 4.8,
+   "ge15": 339
+  },
+  {
+   "specialty": "obgyn",
+   "name": "Obstetrics & Gynaecology",
+   "districts": 648,
+   "sole": 34,
+   "sole_share_pct": 5.2,
+   "ge15": 232
+  },
+  {
+   "specialty": "emergency_room",
+   "name": "Emergency Room Packages",
+   "districts": 657,
+   "sole": 40,
+   "sole_share_pct": 6.1,
+   "ge15": 286
+  },
+  {
+   "specialty": "general_surgery",
+   "name": "General Surgery",
+   "districts": 635,
+   "sole": 42,
+   "sole_share_pct": 6.6,
+   "ge15": 234
+  },
+  {
+   "specialty": "orthopaedics",
+   "name": "Orthopaedics",
+   "districts": 618,
+   "sole": 58,
+   "sole_share_pct": 9.4,
+   "ge15": 177
+  },
+  {
+   "specialty": "paediatric_medicine",
+   "name": "Paediatric Medical Management",
+   "districts": 619,
+   "sole": 64,
+   "sole_share_pct": 10.3,
+   "ge15": 151
+  },
+  {
+   "specialty": "urology",
+   "name": "Urology",
+   "districts": 499,
+   "sole": 77,
+   "sole_share_pct": 15.4,
+   "ge15": 120
+  },
+  {
+   "specialty": "ent",
+   "name": "Otorhinolaryngology (ENT)",
+   "districts": 574,
+   "sole": 94,
+   "sole_share_pct": 16.4,
+   "ge15": 105
+  },
+  {
+   "specialty": "ophthalmology",
+   "name": "Ophthalmology",
+   "districts": 607,
+   "sole": 100,
+   "sole_share_pct": 16.5,
+   "ge15": 109
+  },
+  {
+   "specialty": "neonatal",
+   "name": "Neo-natal Care",
+   "districts": 473,
+   "sole": 110,
+   "sole_share_pct": 23.3,
+   "ge15": 72
+  },
+  {
+   "specialty": "neurosurgery",
+   "name": "Neurosurgery",
+   "districts": 428,
+   "sole": 100,
+   "sole_share_pct": 23.4,
+   "ge15": 85
+  },
+  {
+   "specialty": "oral_maxillofacial",
+   "name": "Oral & Maxillofacial Surgery",
+   "districts": 532,
+   "sole": 130,
+   "sole_share_pct": 24.4,
+   "ge15": 72
+  },
+  {
+   "specialty": "polytrauma",
+   "name": "Polytrauma",
+   "districts": 431,
+   "sole": 105,
+   "sole_share_pct": 24.4,
+   "ge15": 79
+  },
+  {
+   "specialty": "interventional_neuroradiology",
+   "name": "Interventional Neuroradiology",
+   "districts": 376,
+   "sole": 92,
+   "sole_share_pct": 24.5,
+   "ge15": 67
+  },
+  {
+   "specialty": "burns",
+   "name": "Burns Management",
+   "districts": 451,
+   "sole": 111,
+   "sole_share_pct": 24.6,
+   "ge15": 62
+  },
+  {
+   "specialty": "cardiology",
+   "name": "Cardiology",
+   "districts": 432,
+   "sole": 107,
+   "sole_share_pct": 24.8,
+   "ge15": 67
+  },
+  {
+   "specialty": "plastic_surgery",
+   "name": "Plastic & Reconstructive Surgery",
+   "districts": 442,
+   "sole": 114,
+   "sole_share_pct": 25.8,
+   "ge15": 64
+  },
+  {
+   "specialty": "paediatric_surgery",
+   "name": "Paediatric Surgery",
+   "districts": 407,
+   "sole": 108,
+   "sole_share_pct": 26.5,
+   "ge15": 56
+  },
+  {
+   "specialty": "ctvs",
+   "name": "Cardio-thoracic & Vascular Surgery",
+   "districts": 306,
+   "sole": 83,
+   "sole_share_pct": 27.1,
+   "ge15": 39
+  },
+  {
+   "specialty": "medical_oncology",
+   "name": "Medical Oncology",
+   "districts": 380,
+   "sole": 107,
+   "sole_share_pct": 28.2,
+   "ge15": 52
+  },
+  {
+   "specialty": "surgical_oncology",
+   "name": "Surgical Oncology",
+   "districts": 377,
+   "sole": 114,
+   "sole_share_pct": 30.2,
+   "ge15": 59
+  },
+  {
+   "specialty": "paediatric_cancer",
+   "name": "Paediatric Cancer",
+   "districts": 292,
+   "sole": 100,
+   "sole_share_pct": 34.2,
+   "ge15": 37
+  },
+  {
+   "specialty": "radiation_oncology",
+   "name": "Radiation Oncology",
+   "districts": 308,
+   "sole": 108,
+   "sole_share_pct": 35.1,
+   "ge15": 35
+  },
+  {
+   "specialty": "mental_disorders",
+   "name": "Mental Disorders",
+   "districts": 373,
+   "sole": 172,
+   "sole_share_pct": 46.1,
+   "ge15": 34
+  }
+ ],
+ "fairness": {
+  "Public": {
+   "network_pct": 54.6,
+   "sole_pct": 65.3
+  },
+  "Private(For Profit)": {
+   "network_pct": 40.7,
+   "sole_pct": 26.1
+  },
+  "Private(Not For Profit)": {
+   "network_pct": 4.1,
+   "sole_pct": 7.1
+  },
+  "GOI": {
+   "network_pct": 0.6,
+   "sole_pct": 1.6
+  }
+ },
+ "phantom": {
+  "basic_tier_hospitals": 12187,
+  "basic_listing_tertiary": 1559,
+  "basic_listing_tertiary_pct": 12.8,
+  "top3_states": [
+   "Punjab",
+   "Gujarat",
+   "Telangana"
+  ],
+  "top3_share_pct": 95.4,
+  "by_state": [
+   {
+    "state": "Punjab",
+    "basic": 136,
+    "tertiary_pct": 94.9
+   },
+   {
+    "state": "Gujarat",
+    "basic": 1531,
+    "tertiary_pct": 82.7
+   },
+   {
+    "state": "Telangana",
+    "basic": 735,
+    "tertiary_pct": 12.5
+   },
+   {
+    "state": "Himachal Pradesh",
+    "basic": 49,
+    "tertiary_pct": 4.1
+   },
+   {
+    "state": "Tripura",
+    "basic": 99,
+    "tertiary_pct": 3.0
+   },
+   {
+    "state": "Assam",
+    "basic": 46,
+    "tertiary_pct": 2.2
+   },
+   {
+    "state": "Haryana",
+    "basic": 396,
+    "tertiary_pct": 2.0
+   },
+   {
+    "state": "Jammu And Kashmir",
+    "basic": 53,
+    "tertiary_pct": 1.9
+   },
+   {
+    "state": "Madhya Pradesh",
+    "basic": 311,
+    "tertiary_pct": 1.9
+   },
+   {
+    "state": "Uttarakhand",
+    "basic": 59,
+    "tertiary_pct": 1.7
+   },
+   {
+    "state": "Mizoram",
+    "basic": 64,
+    "tertiary_pct": 1.6
+   },
+   {
+    "state": "Chhattisgarh",
+    "basic": 909,
+    "tertiary_pct": 1.4
+   },
+   {
+    "state": "Bihar",
+    "basic": 396,
+    "tertiary_pct": 1.0
+   },
+   {
+    "state": "Tamil Nadu",
+    "basic": 104,
+    "tertiary_pct": 1.0
+   },
+   {
+    "state": "Karnataka",
+    "basic": 2245,
+    "tertiary_pct": 0.9
+   },
+   {
+    "state": "Meghalaya",
+    "basic": 140,
+    "tertiary_pct": 0.7
+   },
+   {
+    "state": "Uttar Pradesh",
+    "basic": 2531,
+    "tertiary_pct": 0.3
+   },
+   {
+    "state": "Andhra Pradesh",
+    "basic": 1293,
+    "tertiary_pct": 0.2
+   },
+   {
+    "state": "Jharkhand",
+    "basic": 166,
+    "tertiary_pct": 0.0
+   },
+   {
+    "state": "Kerala",
+    "basic": 43,
+    "tertiary_pct": 0.0
+   },
+   {
+    "state": "Rajasthan",
+    "basic": 764,
+    "tertiary_pct": 0.0
+   }
+  ],
+  "sole_tertiary_cells_held_by_basic": 40,
+  "sole_tertiary_cells_held_by_basic_outside_bulk_states": 32
+ },
+ "demo_escalate": {
+  "district": "Bahraich",
+  "state": "Uttar Pradesh",
+  "district_code": 125,
+  "specialty": "cardiology",
+  "providers": 1,
+  "population_M": 4.16,
+  "aspirational": true,
+  "post2011": false,
+  "hospitals_in_district": 87,
+  "specialties_available": 17,
+  "sole_provider_specialties": 3,
+  "km_to_alternative": 83.3,
+  "nearest_alternative": "Gonda",
+  "providers_by_specialty": {
+   "General Medicine": 80,
+   "Emergency Room Packages": 35,
+   "Obstetrics & Gynaecology": 17,
+   "Paediatric Medical Management": 13,
+   "General Surgery": 13,
+   "Orthopaedics": 11,
+   "Neo-natal Care": 8,
+   "Urology": 7,
+   "Otorhinolaryngology (ENT)": 5,
+   "Paediatric Surgery": 4,
+   "Ophthalmology": 4,
+   "Oral & Maxillofacial Surgery": 4,
+   "Neurosurgery": 3,
+   "Polytrauma": 2,
+   "Cardiology": 1,
+   "Plastic & Reconstructive Surgery": 1,
+   "Surgical Oncology": 1
+  }
+ },
+ "demo_contrast": {
+  "district": "Ahmedabad",
+  "state": "Gujarat",
+  "district_code": 438,
+  "specialty": "cardiology",
+  "providers": 101,
+  "population_M": 9.41,
+  "aspirational": false,
+  "post2011": false,
+  "hospitals_in_district": 208,
+  "specialties_available": 24,
+  "sole_provider_specialties": 0,
+  "km_to_alternative": null,
+  "nearest_alternative": null,
+  "providers_by_specialty": {
+   "Orthopaedics": 146,
+   "General Medicine": 129,
+   "Urology": 126,
+   "Polytrauma": 121,
+   "General Surgery": 109,
+   "Paediatric Medical Management": 103,
+   "Cardiology": 101,
+   "Cardio-thoracic & Vascular Surgery": 96,
+   "Obstetrics & Gynaecology": 94,
+   "Emergency Room Packages": 91,
+   "Surgical Oncology": 90,
+   "Otorhinolaryngology (ENT)": 89,
+   "Neo-natal Care": 89,
+   "Medical Oncology": 86,
+   "Ophthalmology": 85,
+   "Neurosurgery": 84,
+   "Interventional Neuroradiology": 82,
+   "Paediatric Surgery": 80,
+   "Oral & Maxillofacial Surgery": 80,
+   "Burns Management": 75,
+   "Plastic & Reconstructive Surgery": 75,
+   "Radiation Oncology": 73,
+   "Paediatric Cancer": 67,
+   "Mental Disorders": 66
+  }
+ },
+ "official": {
+  "source": "data/external/ogd/_manifest.json (Rajya Sabha answers via data.gov.in)",
+  "fy": "2024-25",
+  "admissions": 18249611,
+  "amount_cr": 28714.9,
+  "avg_claim_rs": 15735,
+  "admissions_per_day": 49999,
+  "expected_confirmed_fraud": 32849,
+  "expected_confirmed_fraud_per_day": 90,
+  "expected_innocent_flags_at_1pct_fpr": 182168,
+  "expected_flags_per_day": 580,
+  "innocent_share_of_flags_pct": 86.0,
+  "hospitals_official_2025_03": 30957,
+  "hospitals_registry_pmjay_scope": 31196,
+  "registry_vs_official_pct": 0.8,
+  "states_exact_match": 21,
+  "states_within_10": 30,
+  "states_compared": 36,
+  "largest_registry_excess": {
+   "Telangana": 143,
+   "Tamil Nadu": 57,
+   "Maharashtra": 55
+  },
+  "deempanelled_2018_25": {
+   "public": 150,
+   "private": 2132,
+   "public_share_pct": 6.6
+  },
+  "deempanelled_peak_state_year": {
+   "state": "Madhya Pradesh",
+   "year": "2024-25",
+   "hospitals": 286
+  },
+  "opted_out_2019_25": 609,
+  "nonadmissible_private_cr_as_on_2025_01_14": 562.4,
+  "nonadmissible_states_reporting": 23,
+  "nonadmissible_top3": {
+   "Uttar Pradesh": 139.0,
+   "Chhattisgarh": 120.3,
+   "Madhya Pradesh": 119.3
+  },
+  "nonadmissible_top3_share_pct": 67.3,
+  "nonadmissible_share_range_pct_states_over_1000cr": {
+   "min_state": "Maharashtra",
+   "min": 0.0,
+   "max_state": "Uttar Pradesh",
+   "max": 1.584
+  },
+  "single_mobile_beneficiaries_2018_21": 777463,
+  "authorised_series_vs_yearwise_ratio": 0.783,
+  "specialty_missing_from_official_tables": [
+   "paediatric_cancer"
+  ],
+  "specialty_2021_scale": 5.171,
+  "demo_districts": {
+   "bahraich_admissions_2021_22": 8990,
+   "gonda_admissions_2021_22": 8085,
+   "up_district_admissions_2021_22_median": 4741,
+   "ahmedabad_admissions_as_of_2023_08": 292857,
+   "gujarat_outside_state_admissions_as_of_2023_08": 1815873
+  }
+ }
+}

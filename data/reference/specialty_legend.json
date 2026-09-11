@@ -1,0 +1,447 @@
+{
+ "BM": {
+  "name": "Burns Management",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "CP": {
+  "name": "Consultations & Procedures",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "ER": {
+  "name": "Emergency Room Packages (care requiring less than 12 hrs stay)",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "IA": {
+  "name": "Name of Investigation",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IB": {
+  "name": "Laboratory Medicine",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IC": {
+  "name": "Nutritional Markers",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "ID": {
+  "name": "Infectious Diseases",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IE": {
+  "name": "Hormones",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IF": {
+  "name": "USG, X-Ray, CT, MRI, Bone Densitometry",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IG": {
+  "name": "X-Ray",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IH": {
+  "name": "X-Ray Contrast Studies",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "II": {
+  "name": "Mammography",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IJ": {
+  "name": "CT",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IK": {
+  "name": "MRI",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IL": {
+  "name": "Bone Densitometry (Dexa Scan)",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IM": {
+  "name": "Neurological investigations and procedures",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IMP": {
+  "name": "Implants",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IN": {
+  "name": "Interventional Neuroradiology",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "IO": {
+  "name": "Tests in Gastro-enterology",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IP": {
+  "name": "Tests in Endocrinology",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "IQ": {
+  "name": "CSF",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "JR": {
+  "name": "Joint Replacement",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "M1": {
+  "name": "General Medicine",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "M10": {
+  "name": "OPD Diagnostic",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "M2": {
+  "name": "Paediatric medical management",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "M3": {
+  "name": "Neo-natal",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "M4": {
+  "name": "Paediatric cancer",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "M5": {
+  "name": "Medical Oncology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "M6": {
+  "name": "Radiation Oncology",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "M7": {
+  "name": "Emergency Room Packages (care requiring less than 12 hrs stay)",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "M8": {
+  "name": "Mental Disorders Packages",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MA": {
+  "name": "Treatment Procedure Skin",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MB": {
+  "name": "Biopsies",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "MC": {
+  "name": "Cardiology",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "MD": {
+  "name": "Treatment procedure ICU / CCU (Special Care Cases)",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "ME": {
+  "name": "Treatment procedure Physiotherapy",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "MF": {
+  "name": "Nuclear Medicine / Brachytherapy - High Dose Radiation",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MG": {
+  "name": "General Medicine",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MJ": {
+  "name": "Nuclear Medicine / Chemotherapy",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MK": {
+  "name": "Gastroenterology / Endoscopic procedures",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MM": {
+  "name": "Mental Disorders Packages",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MN": {
+  "name": "Neo-natal care Packages",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MO": {
+  "name": "Medical Oncology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MP": {
+  "name": "Paediatric Medical Management",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MQ": {
+  "name": "Nuclear Medicine / Radiotherapy and Chemotherapy",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "MR": {
+  "name": "Radiation Oncology",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "NA": {
+  "name": "Paediatric Cancer",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "OA": {
+  "name": "Others",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "OC": {
+  "name": "OPD - Consultations, Procedures & Investigations",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "OT": {
+  "name": "Organ & Tissue transplant",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "PH": {
+  "name": "Preventive Health Check Up",
+  "non_inpatient": true,
+  "tertiary": false
+ },
+ "S1": {
+  "name": "General Surgery",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S10": {
+  "name": "Plastic & reconstructive",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S11": {
+  "name": "Burns management",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S12": {
+  "name": "Cardiology",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "S13": {
+  "name": "Cardio-thoracic & Vascular surgery",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "S14": {
+  "name": "Paediatric surgery",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S15": {
+  "name": "Surgical Oncology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S16": {
+  "name": "Oral and Maxillofacial Surgery",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S2": {
+  "name": "Otorhinolaryngology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S3": {
+  "name": "Ophthalmology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S4": {
+  "name": "Obstetrics & Gynaecology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S5": {
+  "name": "Orthopaedics",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S6": {
+  "name": "Polytrauma",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S7": {
+  "name": "Urology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "S8": {
+  "name": "Neurosurgery",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "S9": {
+  "name": "Interventional Neuroradiology",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "SA": {
+  "name": "Treatment procedure Head & Neck",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SB": {
+  "name": "Orthopaedics",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SC": {
+  "name": "Surgical Oncology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SD": {
+  "name": "Treatment procedure Oesophagus",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SE": {
+  "name": "Ophthalmology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SF": {
+  "name": "Treatment procedure Abdomen / GI Surgery",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SG": {
+  "name": "General Surgery",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SH": {
+  "name": "Treatment Procedure Burns and Plastic Surgery",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SI": {
+  "name": "Treatment Procedure Nephrology and Urology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SJ": {
+  "name": "Head and Neck cancer",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SK": {
+  "name": "Treatment Procedure Breast",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SL": {
+  "name": "Otorhinolaryngology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SM": {
+  "name": "Oral and Maxillofacial Surgery",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SN": {
+  "name": "Neurosurgery",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "SO": {
+  "name": "Obstetrics & Gynaecology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SP": {
+  "name": "Plastic & reconstructive Surgery",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SS": {
+  "name": "Paediatric surgery",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "ST": {
+  "name": "Polytrauma",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SU": {
+  "name": "Urology",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "SV": {
+  "name": "Cardio-thoracic & Vascular Surgery",
+  "non_inpatient": false,
+  "tertiary": true
+ },
+ "TG": {
+  "name": "Gender Affirming Medical and Surgical Treatments",
+  "non_inpatient": false,
+  "tertiary": false
+ },
+ "UP": {
+  "name": "Unspecified Package",
+  "non_inpatient": true,
+  "tertiary": false
+ }
+}

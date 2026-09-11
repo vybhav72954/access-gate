@@ -1,0 +1,42 @@
+sno,hospital_id,hospital_name,state,district,hospital_type,status
+1,HOSP6P66487,AHUJA HOSPITAL PVT LTD,HARYANA,PANIPAT,Private(For Profit),DE-Empanelment of Hospital
+2,HOSP6P03460,C K MEMORIAL KAPOOR HOSPITAL,HARYANA,FARIDABAD,Private(For Profit),DE-Empanelment of Hospital
+3,HOSP6P06103,SETHI NURSING HOME,HARYANA,KURUKSHETRA,Private(For Profit),DE-Empanelment of Hospital
+4,HOSP6P07219,ARVIND HOSPITAL,HARYANA,KARNAL,Private(For Profit),DE-Empanelment of Hospital
+5,HOSP6P102802,Bansal Hospital & Heart Care Centre,HARYANA,FATEHABAD,Private(For Profit),DE-Empanelment of Hospital
+6,HOSP6P90637,KBM Hospital,HARYANA,AMBALA,Private(For Profit),DE-Empanelment of Hospital
+7,HOSP6P22389,mittal chest and allergy center,HARYANA,PANIPAT,Private(For Profit),DE-Empanelment of Hospital
+8,HOSP6P73199,IBM HOSPITAL & TRAUMA CENTRE,HARYANA,PANIPAT,Private(For Profit),DE-Empanelment of Hospital
+9,HOSP6P123065,J.P.HOSPITAL,HARYANA,Yamuna Nagar,Private(For Profit),DE-Empanelment of Hospital
+10,HOSP6P84376,Maan Multispeciality Hospital,HARYANA,BHIWANI,Private(For Profit),DE-Empanelment of Hospital
+11,HOSP6P02487,Batra Hospital,HARYANA,FATEHABAD,Private(For Profit),DE-Empanelment of Hospital
+12,HOSP6P90109,7 Med India Private Limited,HARYANA,GURUGRAM,Private(For Profit),DE-Empanelment of Hospital
+13,HOSP6P03926,SINGLA HOSPITAL,HARYANA,REWARI,Private(For Profit),DE-Empanelment of Hospital
+14,HOSP6P04707,LALITA MEMORIAL HOSPITAL PVT LTD,HARYANA,REWARI,Private(For Profit),DE-Empanelment of Hospital
+15,HOSP6P02117,ADVANTA SUPER SPECIALITY,HARYANA,ROHTAK,Private(For Profit),DE-Empanelment of Hospital
+16,HOSP6P02375,R P WELLTAR HOSPITAL HARYANA KARNAL 17 HOSP6G124154 SAPPHIRE DENTAL CARE HARYANA,GURUGRAM,Public,Private(Not For Profit),DE-Empanelment of Hospital
+18,HOSP6P06234,DHIR HOSPITAL HISAR,HARYANA,HISAR,Private(Not For Profit),DE-Empanelment of Hospital
+19,HOSP6P11425,Kare Partners Heart Centre,HARYANA,Yamuna Nagar,Private(For Profit),DE-Empanelment of Hospital
+20,HOSP6P04003,kalawati anand hospital,HARYANA,SONIPAT,Private(For Profit),DE-Empanelment of Hospital
+21,HOSP6P03057,Sunrise Hospital,HARYANA,GURUGRAM,Private(For Profit),DE-Empanelment of Hospital
+22,HOSP6P03841,RAWAL MULTISPECIALITY,HARYANA,SONIPAT,Private(For Profit),DE-Empanelment of Hospital
+23,HOSP6P02036,ganpati surgical and trauma hospital HARYANA KAITHAL 24 HOSP6P124844 SPARSH SURGICAL LAPAROSCOPIC &,HARYANA,KURUKSHETRA,Private(For Profit),DE-Empanelment of Hospital
+25,HOSP6P114629,SUNFLAG GLOBAL HOSPITAL,HARYANA,ROHTAK,Private(For Profit),DE-Empanelment of Hospital
+26,HOSP6G03291,District Civil Hospital Gurugram,HARYANA,GURUGRAM,Public,DE-Empanelment of Hospital
+27,HOSP6G74440,CHC KHARAKRAMJI,HARYANA,JIND,Public,DE-Empanelment of Hospital
+28,HOSP6G178475,PHC Rasina,HARYANA,KAITHAL,Public,DE-Empanelment of Hospital
+29,HOSP6P28309,JEEVAN NURSING HOME BHIWANI,HARYANA,BHIWANI,Private(For Profit),DE-Empanelment of Hospital
+30,HOSP6P02017,Capital superspeciality,HARYANA,Yamuna Nagar,Private(For Profit),DE-Empanelment of Hospital
+31,HOSP6G176934,CHC KANINA,HARYANA,MAHENDRAGARH,Public,DE-Empanelment of Hospital
+32,HOSP6P04377,SANJIVNI HEALTH CARE,HARYANA,AMBALA,Private(For Profit),DE-Empanelment of Hospital
+33,HOSP6P03891,METRO HOSPITAL AND HEART HARYANA,GURUGRAM,List of De-Empanelled Hospitals Under AB-PMJAY As on 24/03/2025,Private(For Profit),DE-Empanelment of Hospital
+34,HOSP6P03725,Vijay Hospital,HARYANA,MAHENDRAGARH,Private(For Profit),DE-Empanelment of Hospital
+35,HOSP6P160217,Shree Gyani Ram Memorial Hospital,HARYANA,JIND,Private(For Profit),DE-Empanelment of Hospital
+36,HOSP6P03496,dr sombir hospital,HARYANA,PANIPAT,Private(For Profit),DE-Empanelment of Hospital
+37,HOSP6P123407,Orthomed Hospital,HARYANA,HISAR,Private(For Profit),DE-Empanelment of Hospital
+38,HOSP6P159830,MEMORIAL HOSPITAL,HARYANA,SONIPAT,Private(For Profit),DE-Empanelment of Hospital
+39,HOSP6P01428,Ojas Super Speciality Hospital,HARYANA,PANCHKULA,Private(For Profit),DE-Empanelment of Hospital
+40,HOSP6P99716,ARSH HOSPITAL,HARYANA,KARNAL,Private(For Profit),DE-Empanelment of Hospital
+41,HOSP6P03064,SIDHARTH HOSPITAL,HARYANA,KURUKSHETRA,Private(For Profit),DE-Empanelment of Hospital
+42,HOSP6P134774,MALIK MULTISPECIALITY,HARYANA,BHIWANI,Private(For Profit),DE-Empanelment of Hospital
+43,HOSP6P02122,CYGNUS SUPERSPECIALITY,HARYANA,KAITHAL,Private(Not For Profit),DE-Empanelment of Hospital

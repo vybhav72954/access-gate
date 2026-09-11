@@ -1,0 +1,3059 @@
+package_code,specialty_code,specialty_name,hbp1_code,registry_code
+BM001A,BM,HBP 2.0 Procedure Code HBP 1.0 Burns Management,S1100001,S11
+BM001B,BM,Burns Management,S1100002,S11
+BM001C,BM,Burns Management,S1100003,S11
+BM001D,BM,Burns Management,S1100004,S11
+BM002A,BM,Burns Management,S1100001,S11
+BM002B,BM,Burns Management,S1100002,S11
+BM002C,BM,Burns Management,S1100003,S11
+BM002D,BM,Burns Management,S1100004,S11
+BM003A,BM,Burns Management,S1100001,S11
+BM003B,BM,Burns Management,S1100002,S11
+BM003C,BM,Burns Management,S1100003,S11
+BM003D,BM,Burns Management,S1100004,S11
+BM004A,BM,Burns Management,S1100005,S11
+BM004B,BM,Burns Management,S1100006,S11
+BM004C,BM,Burns Management,S1100006,S11
+BM004D,BM,Burns Management,S1100007,S11
+BM005A,BM,Burns Management,S1100009,S11
+BM005B,BM,Burns Management,S1100010,S11
+BM006A,BM,Burns Management,S1100011,S11
+BM006B,BM,Burns Management,S1100012,S11
+ER001A,ER,Emergency Room Packages,,
+ER002A,ER,Emergency Room Packages,M700001,M7
+ER002B,ER,Emergency Room Packages,,
+ER003A,ER,Emergency Room Packages,M700004,M7
+SB001A,ER,"Orthopedics, Emergency Room Packages",,
+SU073A,ER,"Urology, Pediatric Surgery, Emergency",S700157,S7
+ID001A,ID,"Infectious Diseases, General Medicine",,
+ID001B,ID,"Infectious Diseases, General Medicine",,
+ID003A,ID,"Infectious Diseases, General Medicine",,
+ID005A,ID,"Infectious Diseases, General Medicine",,
+IN004A,IN,Not available Interventional Radiology,S900005,S9
+IN006A,IN,Not available Interventional Radiology,S900012,S9
+IN007A,IN,Not available Interventional Radiology,S900013,S9
+IN008A,IN,Interventional Radiology,S900011,S9
+IN009A,IN,Interventional Radiology,S900008,S9
+MC002A,IN,"Cardiology, Interventional Radiology",S1200039,S12
+MC002B,IN,"Cardiology, Interventional Radiology",S1200039,S12
+MC002C,IN,"Cardiology, Interventional Radiology",S1200039,S12
+SU008A,IN,"Urology, Pediatric Surgery, Interventional Neuroradiology",S700036,S7
+MC001A,MC,Cardiology,,
+MC001B,MC,Cardiology,,
+MC003A,MC,Cardiology,S1200012,S12
+MC003B,MC,Cardiology,,
+MC004A,MC,None Cardiology,S1200004,S12
+MC004B,MC,Cardiology,S1200002,S12
+MC005A,MC,Cardiology,S1200003,S12
+MC006A,MC,Cardiology,S1200001,S12
+MC007A,MC,Cardiology,S1200014,S12
+MC008A,MC,Cardiology,S1200015,S12
+MC009A,MC,Cardiology,S1200016,S12
+MC010A,MC,Cardiology,S1200019,S12
+MC011A,MC,Cardiology,S1200024,S12
+MC012A,MC,Cardiology,,
+MC012B,MC,Cardiology,,
+MC013A,MC,Cardiology,S1200027,S12
+MC014A,MC,"Cardiology, CTVS",S1200021,S12
+MC015A,MC,"Cardiology, CTVS",S1200023,S12
+MC016A,MC,"Cardiology, CTVS",S1200022,S12
+MC017A,MC,Cardiology,S1200011,S12
+MC018A,MC,Cardiology,S1200035,S12
+MC019A,MC,"Cardiology, General Surgery",S1200020,S12
+MC020A,MC,Cardiology,S1200013,S12
+MC021A,MC,Cardiology,,
+MG037A,MC,"General Medicine, Cardiology",,
+MG031A,MC,"General Medicine, Pediatric Medical Management, Cardiology",M100031,M1
+MG031B,MC,"General Medicine, Pediatric Medical Management, Cardiology",M100031,M1
+MG036A,MC,"General Medicine, Pediatric Medical Management, Cardiology",,
+MG038A,MC,"General Medicine, Pediatric Medical Management, Cardiology",M100008,M1
+MG075A,MC,"General Medicine, Pediatric Medical Management, Cardiology",M100071,M1
+MG076A,MC,"General Medicine, Pediatric Medical Management, Cardiology",M100072,M1
+MG001A,MG,"General Medicine, Pediatric Medical Management",M100011,M1
+MG002A,MG,"General Medicine, Pediatric Medical Management",M100055,M1
+MG002B,MG,"General Medicine, Pediatric Medical Management",M100055,M1
+MG003A,MG,"General Medicine, Pediatric Medical Management",M100014,M1
+MG003B,MG,"General Medicine, Pediatric Medical Management",M100051,M1
+MG004A,MG,"General Medicine, Pediatric Medical Management",M100015,M1
+MG004B,MG,"General Medicine, Pediatric Medical Management",M100050,M1
+MG004C,MG,"General Medicine, Pediatric Medical Management",M100050,M1
+MG005A,MG,"General Medicine, Pediatric Medical Management",M100016,M1
+MG006A,MG,"General Medicine, Pediatric Medical Management",M100018,M1
+MG007A,MG,"General Medicine, Pediatric Medical Management",M100039,M1
+MG008A,MG,"General Medicine, Pediatric Medical Management",M100017,M1
+MG009A,MG,"General Medicine, Pediatric Medical Management, Gastroenterology",M100001,M1
+MG009B,MG,"General Medicine, Pediatric Medical Management, Gastroenterology",M100048,M1
+MG010A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100036,M1
+MG010B,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100036,M1
+MG011A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100003,M1
+MG012A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100022,M1
+MG013A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100022,M1
+MG014A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100021,M1
+MG015A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100038,M1
+MG016A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100019,M1
+MG017A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100047,M1
+MG018A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M200043,M2
+MG019A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100033,M1
+MG020A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100027,M1
+MG020B,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100027,M1
+MG021A,MG,"General Medicine, Pediatric Medical Management",M100013,M1
+MG022A,MG,"General Medicine, Pediatric Medical Management",M100035,M1
+MG023A,MG,"General Medicine, Pediatric Medical Management",,
+MG024A,MG,"General Medicine, Pediatric Medical Management",,
+MG025A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100002,M1
+MG026A,MG,"General Medicine, Pediatric Medical Management",M100026,M1
+MG027A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",,
+MG028A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100005,M1
+MG029A,MG,"General Medicine,Pulmonology",M100012,M1
+MG030A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100020,M1
+MG032A,MG,"General Medicine, Pediatric Medical Management",M100029,M1
+MG033A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100037,M1
+MG033B,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100037,M1
+MG034A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",,
+MG035A,MG,"General Medicine, Pediatric Medical Management",M100060,M1
+MG039A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100045,M1
+MG039B,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100066,M1
+MG040A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100044,M1
+MG040B,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100044,M1
+MG040C,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100044,M1
+MG041A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100056,M1
+MG041B,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100057,M1
+MG042A,MG,"General Medicine, Pediatric Medical Management,Gastroenter ology",M100058,M1
+MG043A,MG,"General Medicine, Pediatric Medical Management,Endocrinolo",,
+MG044A,MG,"General Medicine, General Surgery,Nephrology",M100004,M1
+MG045A,MG,"General Medicine, General Surgery,Nephrology",M100064,M1
+MG047A,MG,"Pediatric Medical Management,Neurology",M100065,M1
+MG049C,MG,Pediatric Medical Management,M100063,M1
+MG049D,MG,"General Medicine,Neurology",M100063,M1
+MG050A,MG,"General Medicine, Pediatric Medical Management",M100059,M1
+MG051A,MG,"General Medicine, Pediatric Medical Management",M100062,M1
+MG052A,MG,"General Medicine, Pediatric Medical Management,Endocrinolo",,
+MG053A,MG,"General Medicine, Pediatric Medical Management,Endocrinolo",,
+MG054A,MG,General Medicine,,
+MG055A,MG,"General Medicine, Pediatric Medical Management,Pulmonolog",M100006,M1
+MG056A,MG,"General Medicine, Pediatric Medical Management,Neurology",M100040,M1
+MG057A,MG,"General Medicine, Pediatric Medical Management,Endocrinolo",,
+MG058A,MG,"General Medicine, General Surgery,Endocrinology",,
+MG059A,MG,"General Medicine, Pediatric Medical Management,Endocrinolo",M100010,M1
+MG060A,MG,"General Medicine, Pediatric Medical Management",,
+MG060B,MG,"General Medicine, Pediatric Medical Management",,
+MG060C,MG,"General Medicine, Pediatric Medical Management",,
+MG060D,MG,"General Medicine, Pediatric Medical Management",,
+MG060E,MG,General Medicine,,
+MG060F,MG,General Medicine,,
+MG061A,MG,"General Medicine, Pediatric Medical Management",M100053,M1
+MG062A,MG,"General Medicine, Pediatric Medical Management",M100007,M1
+MG063A,MG,"General Medicine, Pediatric Medical Management",M100049,M1
+MG064A,MG,"General Medicine, Pediatric Medical Management",M100009,M1
+MG065A,MG,"General Medicine, Pediatric Medical Management",M100042,M1
+MG066A,MG,"General Medicine, Pediatric Medical Management",,
+MG067A,MG,"General Medicine, Pediatric Medical Management",M100052,M1
+MG068A,MG,"General Medicine, Pediatric Medical Management",M100028,M1
+MG069A,MG,"General  Medicine, neurology, pediatric medicine",M100061,M1
+MG070A,MG,"General Medicine, Pediatric Medical Management",M100023,M1
+MG071A,MG,"General Medicine, Pediatric Medical Management",M100024,M1
+MG071B,MG,"General Medicine, Pediatric Medical Management",M100043,M1
+MG072B,MG,"General Medicine, Nephrology",M100070,M1
+MG072C,MG,"General Medicine, Nephrology, Organ transplantation",M100070,M1
+MG072D,MG,"General Medicine, Nephrology, Organ transplantation",M100070,M1
+MG073A,MG,"General Medicine, Pediatric Medical Management",M100069,M1
+MG074A,MG,"General Medicine, Pediatric Medical Management",M100068,M1
+MG074B,MG,"General Medicine, Pediatric Medical Management",M100068,M1
+MG077A,MG,"Pediatric Medical Management, General Medicine,Nephrology",,
+MG078A,MG,"General Medicine,Gastroenterolog",,
+MG079A,MG,General Medicine,,
+MG081A,MG,General Medicine,,
+MG081B,MG,General Medicine,,
+MP001D,MG,"Pediatric Medical Management, General Medicine",,
+MP003A,MG,"Pediatric Medical Management, General Medicine",M200090,M2
+MP003B,MG,"Pediatric Medical Management, General Medicine",M200090,M2
+MP004A,MG,"Pediatric Medical Management, General Medicine",M200078,M2
+MP005A,MG,"Pediatric Medical Management, General Medicine",M200048,M2
+MP005B,MG,"Pediatric Medical Management, General Medicine",M200012,M2
+MP005D,MG,"Pediatric Medical Management, General Medicine",M200097,M2
+MP005G,MG,"Pediatric Medical Management, General Medicine",,
+MP006B,MG,"Pediatric Medical Management, General Medicine",M200027,M2
+MP006C,MG,"Pediatric Medical Management, General Medicine",M200035,M2
+MP006D,MG,"Pediatric Medical Management, General Medicine",M200095,M2
+MP006E,MG,"Pediatric Medical Management, General Medicine",M200012,M2
+MP008A,MG,"Pediatric Medical Management, General Medicine",,
+MP011A,MG,"Pediatric Medical Management, General Medicine",M200050,M2
+MP015A,MG,"Pediatric Medical Management, General Medicine",M200040,M2
+MP018A,MG,"Pediatric Medical Management, General Medicine",M200016,M2
+MP020B,MG,"Pediatric Medical Management, General Medicine",M200007,M2
+MP021A,MG,"Pediatric Medical Management, General Medicine",M200072,M2
+MP023A,MG,"Pediatric Medical Management, General Medicine",M200064,M2
+MP024A,MG,"Pediatric Medical Management, General Medicine",M200037,M2
+MP026A,MG,"Pediatric Medical Management, General Medicine",M200026,M2
+MP027A,MG,"Pediatric Medical Management, General Medicine",M200038,M2
+MP039A,MG,"Pediatric Medical Management, General Medicine",M200046,M2
+MP040A,MG,"Pediatric Medical Management, General Medicine",M200045,M2
+MP043A,MG,"Pediatric Medical Management, General Medicine",M200041,M2
+MP047A,MG,"Pediatric Medical Management, General Medicine",,
+MM001A,MM,Not available Mental Disorders,M800007,M8
+MM002A,MM,Mental Disorders,M800001,M8
+MM003A,MM,Mental Disorders,M800003,M8
+MM004A,MM,Mental Disorders,M800012,M8
+MM005A,MM,Mental Disorders,M800011,M8
+MM006A,MM,Mental Disorders,M800013,M8
+MM007A,MM,Mental Disorders,M800009,M8
+MM008A,MM,Mental Disorders,M800015,M8
+MM009A,MM,Mental Disorders,M800016,M8
+MM010A,MM,Mental Disorders,M800017,M8
+MN001A,MN,Neo - natal Care,M300001,M3
+MN002A,MN,Neo - natal Care,M300002,M3
+MN003A,MN,Neo - natal Care,M300003,M3
+MN004A,MN,Neo - natal Care,M300004,M3
+MN005A,MN,Neo - natal Care,M300005,M3
+MN006A,MN,Neo - natal Care,M300006,M3
+MN007A,MN,Neo - natal Care,M300007,M3
+MN008A,MN,Neo - natal Care/opthalmology,M300008,M3
+MN009A,MN,Neo - natal Care,M300009,M3
+MN010A,MN,Neo - natal Care,M300010,M3
+MO001A,MO,Medical Oncology,,
+MO001B,MO,Medical Oncology,,
+MO001C,MO,Medical Oncology,,
+MO001D,MO,Medical Oncology,,
+MO001E,MO,Medical Oncology,,
+MO001F,MO,Medical Oncology,,
+MO001G,MO,Medical Oncology,,
+MO001H,MO,Medical Oncology,,
+MO001I,MO,Medical Oncology,,
+MO001J,MO,Medical Oncology,,
+MO001K,MO,Medical Oncology,,
+MO001L,MO,Medical Oncology,,
+MO001M,MO,Medical Oncology,,
+MO001N,MO,Medical Oncology,,
+MO001O,MO,Medical Oncology,,
+MO002A,MO,Medical Oncology,,
+MO003A,MO,Medical Oncology,,
+MO003B,MO,Medical Oncology,,
+MO003C,MO,Medical Oncology,,
+MO003D,MO,Medical Oncology,,
+MO003E,MO,Medical Oncology,,
+MO003F,MO,Medical Oncology,,
+MO003G,MO,Medical Oncology,,
+MO004A,MO,Medical Oncology,,
+MO004B,MO,Medical Oncology,,
+MO004C,MO,Medical Oncology,,
+MO004D,MO,Medical Oncology,,
+MO004E,MO,Medical Oncology,,
+MO004F,MO,Medical Oncology,,
+MO004G,MO,Medical Oncology,,
+MO005A,MO,Medical Oncology,,
+MO005B,MO,Medical Oncology,,
+MO005C,MO,Medical Oncology,,
+MO006A,MO,Medical Oncology,,
+MO006B,MO,Medical Oncology,,
+MO007A,MO,Medical Oncology,,
+MO007B,MO,Medical Oncology,,
+MO008A,MO,Medical Oncology,,
+MO008B,MO,Medical Oncology,,
+MO009A,MO,Medical Oncology,,
+MO009B,MO,Medical Oncology,,
+MO009C,MO,Medical Oncology,,
+MO010A,MO,Medical Oncology,,
+MO010B,MO,Medical Oncology,,
+MO010C,MO,Medical Oncology,,
+MO010D,MO,Medical Oncology,,
+MO011A,MO,Medical Oncology,,
+MO011B,MO,Medical Oncology,,
+MO012A,MO,Medical Oncology,,
+MO012B,MO,Medical Oncology,,
+MO013A,MO,Medical Oncology,,
+MO013B,MO,Medical Oncology,,
+MO013C,MO,Medical Oncology,,
+MO013D,MO,Medical Oncology,,
+MO013E,MO,Medical Oncology,,
+MO014A,MO,Medical Oncology,,
+MO014B,MO,Medical Oncology,,
+MO014C,MO,Medical Oncology,,
+MO014D,MO,Medical Oncology,,
+MO014E,MO,Medical Oncology,,
+MO014F,MO,Medical Oncology,,
+MO014G,MO,Medical Oncology,,
+MO014H,MO,Medical Oncology,,
+MO015A,MO,Medical Oncology,,
+MO015B,MO,Medical Oncology,,
+MO015C,MO,Medical Oncology,,
+MO015D,MO,Medical Oncology,,
+MO015E,MO,Medical Oncology,,
+MO016A,MO,Medical Oncology,,
+MO016B,MO,Medical Oncology,,
+MO016C,MO,Medical Oncology,,
+MO016D,MO,Medical Oncology,,
+MO016E,MO,Medical Oncology,,
+MO016F,MO,Medical Oncology,,
+MO016G,MO,Medical Oncology,,
+MO016H,MO,Medical Oncology,,
+MO016I,MO,Medical Oncology,,
+MO016J,MO,Medical Oncology,,
+MO016K,MO,Medical Oncology,,
+MO016L,MO,Medical Oncology,,
+MO017A,MO,Medical Oncology,,
+MO017B,MO,Medical Oncology,,
+MO018A,MO,Medical Oncology,,
+MO018B,MO,Medical Oncology,,
+MO018C,MO,Medical Oncology,,
+MO018D,MO,Medical Oncology,,
+MO018E,MO,Medical Oncology,,
+MO018F,MO,Medical Oncology,,
+MO019A,MO,Medical Oncology,,
+MO019B,MO,Medical Oncology,,
+MO019C,MO,Medical Oncology,,
+MO019D,MO,Medical Oncology,,
+MO019E,MO,Medical Oncology,,
+MO019F,MO,Medical Oncology,,
+MO019G,MO,Medical Oncology,,
+MO019H,MO,Medical Oncology,,
+MO020A,MO,Medical Oncology,,
+MO020B,MO,Medical Oncology,,
+MO021A,MO,Medical Oncology,,
+MO021B,MO,Medical Oncology,,
+MO022A,MO,Medical Oncology,,
+MO022B,MO,Medical Oncology,,
+MO022C,MO,Medical Oncology,,
+MO023A,MO,Medical Oncology,,
+MO023B,MO,Medical Oncology,,
+MO024A,MO,Medical Oncology,,
+MO024B,MO,Medical Oncology,,
+MO024C,MO,Medical Oncology,,
+MO024D,MO,Medical Oncology,,
+MO024E,MO,Medical Oncology,,
+MO024F,MO,Medical Oncology,,
+MO024G,MO,Medical Oncology,,
+MO024H,MO,Medical Oncology,,
+MO024I,MO,Medical Oncology,,
+MO024J,MO,Medical Oncology,,
+MO024K,MO,Medical Oncology,,
+MO024L,MO,Medical Oncology,,
+MO024M,MO,Medical Oncology,,
+MO024N,MO,Medical Oncology,,
+MO024O,MO,Medical Oncology,,
+MO024P,MO,Medical Oncology,,
+MO025A,MO,Medical Oncology,,
+MO026A,MO,Medical Oncology,,
+MO026B,MO,Medical Oncology,,
+MO026C,MO,Medical Oncology,,
+MO026D,MO,Medical Oncology,,
+MO026E,MO,Medical Oncology,,
+MO026F,MO,Medical Oncology,,
+MO026G,MO,Medical Oncology,,
+MO026H,MO,Medical Oncology,,
+MO026I,MO,Medical Oncology,,
+MO026J,MO,Medical Oncology,,
+MO026K,MO,Medical Oncology,,
+MO027A,MO,Medical Oncology,,
+MO027B,MO,Medical Oncology,,
+MO027C,MO,Medical Oncology,,
+MO027D,MO,Medical Oncology,,
+MO027E,MO,Medical Oncology,,
+MO027F,MO,Medical Oncology,,
+MO027G,MO,Medical Oncology,,
+MO028A,MO,Medical Oncology,,
+MO028B,MO,Medical Oncology,,
+MO028C,MO,Medical Oncology,,
+MO028D,MO,Medical Oncology,,
+MO028E,MO,Medical Oncology,,
+MO028F,MO,Medical Oncology,,
+MO028G,MO,Medical Oncology,,
+MO028H,MO,Medical Oncology,,
+MO029A,MO,Medical Oncology,,
+MO029B,MO,Medical Oncology,,
+MO030A,MO,Medical Oncology,,
+MO031A,MO,Medical Oncology,,
+MO031B,MO,Medical Oncology,,
+MO032A,MO,Medical Oncology,,
+MO033A,MO,Medical Oncology,,
+MO034A,MO,Medical Oncology,,
+MO034B,MO,Medical Oncology,,
+MO035A,MO,Medical Oncology,,
+MO035B,MO,Medical Oncology,,
+MO036A,MO,Medical Oncology,,
+MO036B,MO,Medical Oncology,,
+MO036C,MO,Medical Oncology,,
+MO036D,MO,Medical Oncology,,
+MO037A,MO,Medical Oncology,,
+MO037B,MO,Medical Oncology,,
+MO037C,MO,Medical Oncology,,
+MO038A,MO,Medical Oncology,,
+MO038B,MO,Medical Oncology,,
+MO039A,MO,Medical Oncology,,
+MO039B,MO,Medical Oncology,,
+MO039C,MO,Medical Oncology,,
+MO040A,MO,Medical Oncology,,
+MO040B,MO,Medical Oncology,,
+MO040C,MO,Medical Oncology,,
+MO041A,MO,Medical Oncology,,
+MO042A,MO,Medical Oncology,,
+MO042B,MO,Medical Oncology,,
+MO043A,MO,Medical Oncology,,
+MO043B,MO,Medical Oncology,,
+MO043C,MO,Medical Oncology,,
+MO043D,MO,Medical Oncology,,
+MO043E,MO,Medical Oncology,,
+MO043F,MO,Medical Oncology,,
+MO043G,MO,Medical Oncology,,
+MO044A,MO,Medical Oncology,,
+MO045A,MO,Medical Oncology,,
+MO046A,MO,Medical Oncology,,
+MO046B,MO,Medical Oncology,,
+MO047A,MO,Medical Oncology,,
+MO047B,MO,Medical Oncology,,
+MO047C,MO,Medical Oncology,,
+MO048A,MO,Medical Oncology,,
+MO048B,MO,Medical Oncology,,
+MO048C,MO,Medical Oncology,,
+MO049A,MO,Medical Oncology,,
+MO049B,MO,Medical Oncology,,
+MO049C,MO,Medical Oncology,,
+MO050A,MO,Medical Oncology,,
+MO050B,MO,Medical Oncology,,
+MO051A,MO,Medical Oncology,,
+MO051B,MO,Medical Oncology,,
+MO052A,MO,Medical Oncology,,
+MO053A,MO,Medical Oncology,,
+MO054A,MO,Medical Oncology,,
+MO054B,MO,Medical Oncology,,
+MO055A,MO,Medical Oncology,,
+MO055B,MO,Medical Oncology,,
+MO056A,MO,Medical Oncology,,
+MO056B,MO,Medical Oncology,,
+MO057A,MO,Medical Oncology,,
+MO057B,MO,Medical Oncology,,
+MO057C,MO,Medical Oncology,,
+MO058A,MO,Medical Oncology,,
+MO059A,MO,Medical Oncology,,
+MO059B,MO,Medical Oncology,,
+MO060A,MO,Medical Oncology,,
+MO061A,MO,Medical Oncology,,
+MO061B,MO,Medical Oncology,,
+MO061C,MO,Medical Oncology,,
+MO062A,MO,Medical Oncology,,
+MO062B,MO,Medical Oncology,,
+MO062C,MO,Medical Oncology,,
+MO063A,MO,Medical Oncology,,
+MO063B,MO,Medical Oncology,,
+MO063C,MO,Medical Oncology,,
+MO064A,MO,Medical Oncology,,
+MO064B,MO,Medical Oncology,,
+MO064C,MO,Medical Oncology,,
+MO065A,MO,Medical Oncology,,
+MO065B,MO,Medical Oncology,,
+MO065C,MO,Medical Oncology,,
+MO066A,MO,Medical Oncology,,
+MO066B,MO,Medical Oncology,,
+MO067A,MO,Medical Oncology,,
+MO067B,MO,Medical Oncology,,
+MO067C,MO,Medical Oncology,,
+MO068A,MO,Medical Oncology,,
+MO068B,MO,Medical Oncology,,
+MO068C,MO,Medical Oncology,,
+MO068D,MO,Medical Oncology,,
+MO069A,MO,Medical Oncology,,
+MO070A,MO,Medical Oncology,,
+MO070B,MO,Medical Oncology,,
+MO071A,MO,Medical Oncology,,
+MO071B,MO,Medical Oncology,,
+MO071C,MO,Medical Oncology,,
+MO071D,MO,Medical Oncology,,
+MO071E,MO,Medical Oncology,,
+MO071F,MO,Medical Oncology,,
+MO071G,MO,Medical Oncology,,
+MO071H,MO,Medical Oncology,,
+MO071I,MO,Medical Oncology,,
+MO071J,MO,Medical Oncology,,
+MO071K,MO,Medical Oncology,,
+MO071L,MO,Medical Oncology,,
+MO071M,MO,Medical Oncology,,
+MO071N,MO,Medical Oncology,,
+MO071O,MO,Medical Oncology,,
+MO071P,MO,Medical Oncology,,
+MO071Q,MO,Medical Oncology,,
+MO071R,MO,Medical Oncology,,
+MO071S,MO,Medical Oncology,,
+MO071T,MO,Medical Oncology,,
+MO072A,MO,Medical Oncology,,
+SU060A,MO,"Urology, Medical Oncology",S700064,S7
+MP001A,MP,Pediatric Medical Management,M200009,M2
+MP002A,MP,Pediatric Medical Management,M200010,M2
+MP005C,MP,Pediatric Medical Management,M200027,M2
+MP005E,MP,Pediatric Medical Management,M200058,M2
+MP006A,MP,Pediatric Medical Management,M200049,M2
+MP009A,MP,Pediatric Medical Management,M200093,M2
+MP010A,MP,Pediatric Medical Management,M200084,M2
+MP016A,MP,Pediatric Medical Management,M200056,M2
+MP020A,MP,Pediatric Medical Management,M200007,M2
+MP022A,MP,Pediatric Medical Management,M200062,M2
+MP025A,MP,Pediatric Medical Management,M200006,M2
+MP029A,MP,Pediatric Medical Management,M200018,M2
+MP030A,MP,Pediatric Medical Management,M200020,M2
+MP031A,MP,Pediatric Medical Management,M200029,M2
+MP032A,MP,Pediatric Medical Management,M200024,M2
+MP033A,MP,Pediatric Medical Management,M200022,M2
+MP034A,MP,Pediatric Medical Management,M200019,M2
+MP035A,MP,Pediatric Medical Management,M200052,M2
+MP036A,MP,Pediatric Medical Management,M200060,M2
+MP037A,MP,Pediatric Medical Management,M200061,M2
+MP038A,MP,Pediatric Medical Management,M200047,M2
+MP040B,MP,Pediatric Medical Management,M200045,M2
+MP041A,MP,Pediatric Medical Management,M200044,M2
+MP042A,MP,Pediatric Medical Management,M200039,M2
+MP044A,MP,Pediatric Medical Management,M200057,M2
+MP046A,MP,Pediatric Medical Management,M200059,M2
+MP048A,MP,Pediatric Medical Management,,
+MR001A,MR,Radiation Oncology,M600004,M6
+MR001B,MR,Radiation Oncology,M600004,M6
+MR001C,MR,Radiation Oncology,M600004,M6
+MR001D,MR,Radiation Oncology,,
+MR002A,MR,Radiation Oncology,,
+MR003A,MR,Radiation Oncology,,
+MR003B,MR,Radiation Oncology,,
+MR003C,MR,Radiation Oncology,,
+MR003D,MR,Radiation Oncology,,
+MR004A,MR,Radiation Oncology,M600004,M6
+MR004B,MR,Radiation Oncology,M600004,M6
+MR004C,MR,Radiation Oncology,M600004,M6
+MR004D,MR,Radiation Oncology,,
+MR005A,MR,Radiation Oncology,,
+MR005B,MR,Radiation Oncology,,
+MR005C,MR,Radiation Oncology,,
+MR005D,MR,Radiation Oncology,,
+MR006A,MR,Radiation Oncology,M600005,M6
+MR006B,MR,Radiation Oncology,M600005,M6
+MR006C,MR,Radiation Oncology,M600005,M6
+MR006D,MR,Radiation Oncology,,
+MR007A,MR,Radiation Oncology,,
+MR007B,MR,Radiation Oncology,,
+MR007C,MR,Radiation Oncology,,
+MR007D,MR,Radiation Oncology,,
+MR008A,MR,Radiation Oncology,M600006,M6
+MR008B,MR,Radiation Oncology,M600006,M6
+MR008C,MR,Radiation Oncology,M600006,M6
+MR008D,MR,Radiation Oncology,,
+MR009A,MR,Radiation Oncology,,
+MR009B,MR,Radiation Oncology,,
+MR009C,MR,Radiation Oncology,,
+MR009D,MR,Radiation Oncology,,
+MR010A,MR,Radiation Oncology,M600007,M6
+MR010B,MR,Radiation Oncology,,
+MR011A,MR,Radiation Oncology,M600008,M6
+MR012A,MR,Radiation Oncology,M600009,M6
+MR012B,MR,Radiation Oncology,,
+MR013A,MR,Radiation Oncology,M600012,M6
+MR013B,MR,Radiation Oncology,M600014,M6
+MR013C,MR,Radiation Oncology,,
+MR013D,MR,Radiation Oncology,,
+MR013E,MR,Radiation Oncology,,
+MR014A,MR,Radiation Oncology,M600012,M6
+MR014B,MR,Radiation Oncology,M600012,M6
+MR014C,MR,Radiation Oncology,,
+SE040A,MR,"Ophthalmology, ENT, General Surgery, Radiation Oncology",,
+OT001A,OT,Organ and Tissue Transplant,,
+OT001D,OT,Not available Not available Organ and Tissue Transplant,,
+OT001E,OT,Organ and Tissue Transplant,,
+OT001F,OT,Organ and Tissue Transplant,,
+SB002A,SB,Orthopedics,S500084,S5
+SB002B,SB,Orthopedics,S500085,S5
+SB003A,SB,Orthopedics,S500082,S5
+SB003B,SB,Orthopedics,S500082,S5
+SB004A,SB,Orthopedics,S500083,S5
+SB004B,SB,Orthopedics,S500083,S5
+SB005A,SB,Orthopedics,S500070,S5
+SB005B,SB,Orthopedics,S500069,S5
+SB005C,SB,Orthopedics,S500043,S5
+SB005D,SB,Orthopedics,S500087,S5
+SB006A,SB,Orthopedics,S500073,S5
+SB007A,SB,Orthopedics,,
+SB007B,SB,Orthopedics,,
+SB007C,SB,Orthopedics,,
+SB008A,SB,Orthopedics,S500058,S5
+SB009A,SB,Orthopedics,S500052,S5
+SB010A,SB,Orthopedics,,
+SB010B,SB,Orthopedics,,
+SB011A,SB,Orthopedics,,
+SB012A,SB,Orthopedics,S500086,S5
+SB012B,SB,Orthopedics,S1000003,S10
+SB013A,SB,Orthopedics,,
+SB014A,SB,Orthopedics,,
+SB015A,SB,Orthopedics,,
+SB015B,SB,Orthopedics,,
+SB016A,SB,Orthopedics,S500088,S5
+SB017A,SB,Orthopedics,S500023,S5
+SB018A,SB,Orthopedics,S500046,S5
+SB018B,SB,Orthopedics,S500046,S5
+SB019A,SB,Orthopedics,S500031,S5
+SB019B,SB,Orthopedics,S500031,S5
+SB019C,SB,Orthopedics,S500031,S5
+SB020A,SB,Orthopedics,,
+SB021A,SB,Orthopedics,,
+SB022A,SB,Orthopedics,,
+SB022B,SB,Orthopedics,,
+SB023A,SB,Orthopedics,S500068,S5
+SB024A,SB,Orthopedics,S500016,S5
+SB025A,SB,Orthopedics,S500015,S5
+SB025B,SB,Orthopedics,S500099,S5
+SB025C,SB,Orthopedics,S500015,S5
+SB026A,SB,Orthopedics,S500101,S5
+SB026B,SB,Orthopedics,S500098,S5
+SB026C,SB,Orthopedics,S500100,S5
+SB026D,SB,Orthopedics,S500099,S5
+SB026E,SB,"Orthopedics, Surgical Oncology",S500004,S5
+SB026F,SB,"Orthopedics, Surgical Oncology",,
+SB026G,SB,Orthopedics,,
+SB027A,SB,Orthopedics,S500011,S5
+SB027B,SB,Orthopedics,S500011,S5
+SB028A,SB,Orthopedics,S500037,S5
+SB028B,SB,Orthopedics,S500098,S5
+SB028C,SB,Orthopedics,S500015,S5
+SB028D,SB,Orthopedics,S500099,S5
+SB029A,SB,Orthopedics,S500067,S5
+SB030A,SB,Orthopedics,,
+SB031A,SB,Orthopedics,S500095,S5
+SB031B,SB,Orthopedics,S500094,S5
+SB031C,SB,Orthopedics,S500094,S5
+SB032A,SB,Orthopedics,S500001,S5
+SB032B,SB,Orthopedics,S500001,S5
+SB032C,SB,Orthopedics,S500001,S5
+SB032D,SB,Orthopedics,S500001,S5
+SB032E,SB,Orthopedics,S500001,S5
+SB032F,SB,Orthopedics,S500001,S5
+SB033A,SB,Orthopedics,S500018,S5
+SB034A,SB,Orthopedics,S500066,S5
+SB035A,SB,Orthopedics,S500071,S5
+SB036A,SB,Orthopedics,S500090,S5
+SB037A,SB,Orthopedics,S500097,S5
+SB038A,SB,Orthopedics,S500091,S5
+SB038B,SB,Orthopedics,S500092,S5
+SB038C,SB,Orthopedics,S500093,S5
+SB038D,SB,Orthopedics,,
+SB039A,SB,Orthopedics,S500096,S5
+SB039B,SB,Orthopedics,,
+SB040A,SB,Orthopedics,S500022,S5
+SB041A,SB,"Orthopedics, Surgical Oncology",S500020,S5
+SB042A,SB,Orthopedics,,
+SB043A,SB,Orthopedics,S500004,S5
+SB043B,SB,Orthopedics,S500003,S5
+SB043C,SB,Orthopedics,S500009,S5
+SB043D,SB,Orthopedics,S500004,S5
+SB043E,SB,Orthopedics,,
+SB043F,SB,Orthopedics,S500004,S5
+SB043G,SB,Orthopedics,S500100,S5
+SB044A,SB,Orthopedics,S500004,S5
+SB044B,SB,Orthopedics,S500003,S5
+SB044C,SB,Orthopedics,S500009,S5
+SB044D,SB,Orthopedics,S500004,S5
+SB044E,SB,Orthopedics,,
+SB044F,SB,Orthopedics,S500004,S5
+SB044G,SB,Orthopedics,S500100,S5
+SB045A,SB,Orthopedics,S500005,S5
+SB045B,SB,Orthopedics,S500007,S5
+SB046A,SB,Orthopedics,S500078,S5
+SB046B,SB,Orthopedics,S500061,S5
+SB047A,SB,Orthopedics,S500079,S5
+SB048A,SB,Orthopedics,S500080,S5
+SB049A,SB,Orthopedics,,
+SB049B,SB,Orthopedics,,
+SB050A,SB,Orthopedics,S500044,S5
+SB051A,SB,Orthopedics,S500039,S5
+SB052A,SB,Orthopedics,,
+SB052B,SB,Orthopedics,,
+SB053A,SB,Orthopedics,,
+SB054A,SB,Orthopedics,,
+SB055A,SB,Orthopedics,S500070,S5
+SB055B,SB,Orthopedics,S500069,S5
+SB056A,SB,Orthopedics,S500072,S5
+SB057A,SB,Orthopedics,S500055,S5
+SB058A,SB,Orthopedics,S500060,S5
+SB059A,SB,Orthopedics,S500059,S5
+SB060A,SB,Orthopedics,,
+SB061A,SB,Orthopedics,,
+SB061B,SB,Orthopedics,,
+SB062A,SB,Orthopedics,S500089,S5
+SB063A,SB,Orthopedics,S500089,S5
+SB064A,SB,Orthopedics,S500014,S5
+SB064B,SB,Orthopedics,S500014,S5
+SB065A,SB,"Orthopedics, General Surgery",S500074,S5
+SB066A,SB,Orthopedics,S500063,S5
+SB066B,SB,Orthopedics,S500063,S5
+SB066C,SB,Orthopedics,S500063,S5
+SB067A,SB,Orthopedics,S500062,S5
+SB068A,SB,"Orthopedics, Neurosurgery",,
+SB069A,SB,Orthopedics,S500040,S5
+SB070A,SB,Orthopedics,,
+SB070B,SB,Orthopedics,,
+SB071A,SB,Orthopedics,,
+SB071B,SB,Orthopedics,,
+SB072A,SB,Orthopedics,,
+SB074A,SB,Orthopedics,,
+SC070A,SB,"Surgical Oncology, Orthopedics",,
+SG092A,SB,"General Surgery, Orthopedics",S100246,S1
+SN032A,SB,"Neurosurgery, Orthopedics",,
+SN034A,SB,"Neurosurgery, Orthopedics",S800016,S8
+SN034B,SB,"Neurosurgery, Orthopedics",S800015,S8
+SN046A,SB,"Neurosurgery, Orthopedics",S800004,S8
+ST001A,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",,
+ST001B,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S800047,S8
+ST002A,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery, Oral & Maxillofacial Surgery",S600004,S6
+ST003A,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600006,S6
+ST003B,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600006,S6
+ST003C,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600007,S6
+ST003D,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600007,S6
+ST004A,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",,
+ST004B,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",,
+ST005A,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600010,S6
+ST005B,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600011,S6
+ST006A,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600005,S6
+ST007A,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600003,S6
+ST008A,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600012,S6
+ST009A,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600001,S6
+ST009B,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600001,S6
+ST009C,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600001,S6
+ST009D,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600001,S6
+ST009E,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600001,S6
+ST010A,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600002,S6
+ST010B,SB,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S600002,S6
+SC001A,SC,Surgical Oncology,,
+SC001B,SC,Surgical Oncology,,
+SC002A,SC,"Surgical Oncology, ENT",,
+SC002B,SC,"Surgical Oncology, ENT",,
+SC003A,SC,Surgical Oncology,,
+SC003B,SC,Surgical Oncology,,
+SC003C,SC,Surgical Oncology,,
+SC004A,SC,Surgical Oncology,,
+SC005A,SC,Surgical Oncology,,
+SC005B,SC,Surgical Oncology,,
+SC006A,SC,Surgical Oncology,,
+SC006B,SC,Surgical Oncology,,
+SC007A,SC,Surgical Oncology,,
+SC008A,SC,Surgical Oncology,,
+SC008B,SC,Surgical Oncology,,
+SC009A,SC,Surgical Oncology,,
+SC009B,SC,Surgical Oncology,,
+SC010A,SC,Surgical Oncology,,
+SC010B,SC,Surgical Oncology,,
+SC011A,SC,Surgical Oncology,,
+SC011B,SC,Surgical Oncology,,
+SC012A,SC,Surgical Oncology,,
+SC012B,SC,Surgical Oncology,,
+SC013A,SC,Surgical Oncology,,
+SC014A,SC,Surgical Oncology,,
+SC015A,SC,Surgical Oncology,,
+SC016A,SC,Surgical Oncology,,
+SC016B,SC,Surgical Oncology,,
+SC017A,SC,Surgical Oncology,,
+SC018A,SC,"Surgical Oncology, Pediatric Surgery",,
+SC019A,SC,Surgical Oncology,,
+SC020A,SC,Surgical Oncology,,
+SC020B,SC,Surgical Oncology,,
+SC020C,SC,Surgical Oncology,,
+SC020D,SC,Surgical Oncology,,
+SC021A,SC,"Surgical Oncology, Pediatric Surgery",,
+SC022A,SC,Surgical Oncology,,
+SC023A,SC,"Surgical Oncology, Urology",,
+SC024A,SC,"Surgical Oncology, Urology",,
+SC024B,SC,"Surgical Oncology, Urology",,
+SC024C,SC,"Surgical Oncology, Urology",,
+SC024D,SC,"Surgical Oncology, Urology",,
+SC024E,SC,"Surgical Oncology, Urology",,
+SC024F,SC,"Surgical Oncology, Urology",,
+SC024G,SC,"Surgical Oncology, Urology",,
+SC024H,SC,"Surgical Oncology, Urology",,
+SC024I,SC,"Surgical Oncology, Urology",,
+SC025A,SC,Surgical Oncology,,
+SC026A,SC,"Surgical Oncology, Urology",,
+SC027A,SC,"Surgical Oncology, Urology",,
+SC028A,SC,Surgical Oncology,,
+SC029A,SC,Surgical Oncology,,
+SG081A,SC,"General Surgery, Pediatric Surgery, Surgical Oncology",S100236,S1
+SG081B,SC,"General Surgery, Pediatric Surgery, Surgical Oncology",S100236,S1
+SC031A,SC,Surgical Oncology,,
+SC031B,SC,Surgical Oncology,,
+SC032A,SC,"Surgical Oncology, Obstetrics & Gynecology",,
+SC032B,SC,"Surgical Oncology, Obstetrics & Gynecology",,
+SC032C,SC,"Surgical Oncology, Obstetrics & Gynecology",,
+SC032D,SC,"Surgical Oncology, Obstetrics & Gynecology",,
+SC032E,SC,"Surgical Oncology, Obstetrics & Gynecology",,
+SC032F,SC,"Surgical Oncology, Obstetrics & Gynecology",,
+SC032G,SC,"Surgical Oncology, Obstetrics & Gynecology",,
+SC033A,SC,Surgical Oncology,,
+SC034A,SC,"Surgical Oncology, Obstetrics & Gynecology",,
+SC035A,SC,Surgical Oncology,,
+SC036A,SC,Surgical Oncology,,
+SC036B,SC,Surgical Oncology,,
+SC037A,SC,Surgical Oncology,,
+SC038A,SC,Surgical Oncology,,
+SC039A,SC,Surgical Oncology,,
+SC040A,SC,Surgical Oncology,,
+SC040B,SC,Surgical Oncology,,
+SC041A,SC,Surgical Oncology,,
+SC042A,SC,Surgical Oncology,,
+SC043A,SC,Surgical Oncology,,
+SC044A,SC,Surgical Oncology,,
+SC045A,SC,Surgical Oncology,,
+SC046A,SC,Surgical Oncology,,
+SC047A,SC,Surgical Oncology,,
+SC047B,SC,Surgical Oncology,,
+SC048A,SC,Surgical Oncology,,
+SC048B,SC,Surgical Oncology,,
+SC049A,SC,Surgical Oncology,,
+SC050A,SC,Surgical Oncology,,
+SC051A,SC,Surgical Oncology,,
+SC052A,SC,Surgical Oncology,,
+SC053A,SC,Surgical Oncology,,
+SC053B,SC,Surgical Oncology,,
+SC054A,SC,Surgical Oncology,,
+SC055A,SC,Surgical Oncology,,
+SC055B,SC,Surgical Oncology,,
+SC056A,SC,Surgical Oncology,,
+SC057A,SC,Surgical Oncology,,
+SC057B,SC,Surgical Oncology,,
+SC058A,SC,Surgical Oncology,,
+SC058B,SC,Surgical Oncology,,
+SC059A,SC,Surgical Oncology,,
+SC059B,SC,Surgical Oncology,,
+SC060A,SC,Surgical Oncology,,
+SC061A,SC,Surgical Oncology,,
+SC062A,SC,Surgical Oncology,,
+SC063A,SC,Surgical Oncology,,
+SC064A,SC,"Surgical Oncology, ENT",,
+SC064B,SC,"Surgical Oncology, ENT",,
+SC064C,SC,"Surgical Oncology, ENT",,
+SC065A,SC,Surgical Oncology,,
+SC066A,SC,Surgical Oncology,,
+SC067A,SC,Surgical Oncology,,
+SC068A,SC,"Surgical Oncology, Plastic & Reconstructive Surgery",,
+SC068B,SC,"Surgical Oncology, Plastic & Reconstructive Surgery",,
+SC069A,SC,Surgical Oncology,,
+SC071A,SC,Surgical Oncology,,
+SC071B,SC,Surgical Oncology,,
+SC072A,SC,Surgical Oncology,,
+SC073A,SC,"Surgical Oncology, Plastic & Reconstructive Surgery",,
+SC074A,SC,"Surgical Oncology, CTVS, Plastic & Reconstructive Surgery",,
+SC075A,SC,Surgical Oncology,,
+SC076A,SC,Surgical Oncology,,
+SC077A,SC,Surgical Oncology,,
+SC078A,SC,Surgical Oncology,,
+SC079A,SC,Surgical Oncology,,
+SC081A,SC,Surgical Oncology,,
+SE037A,SC,"Ophthalmology, Surgical Oncology",S300011,S3
+SG001A,SC,"General Surgery, Surgical Oncology",S100103,S1
+SG003C,SC,"General Surgery, Surgical Oncology",S100009,S1
+SG003D,SC,"General Surgery, Surgical Oncology",S100009,S1
+SG003E,SC,"General Surgery, Surgical Oncology",,
+SG003F,SC,"General Surgery, Surgical Oncology",S100009,S1
+SG010A,SC,"General Surgery, Surgical Oncology",S100063,S1
+SG012A,SC,"General Surgery, Surgical Oncology, Pediatric Surgery",S100088,S1
+SG020A,SC,"General Surgery, Surgical Oncology",,
+SG020B,SC,"General Surgery, Surgical Oncology",S100174,S1
+SG021A,SC,"General Surgery, Surgical Oncology",,
+SG021B,SC,"General Surgery, Surgical Oncology",S100172,S1
+SG021C,SC,"General Surgery, Surgical Oncology",,
+SG021D,SC,"General Surgery, Surgical Oncology",S100171,S1
+SG023A,SC,"General Surgery, Surgical Oncology, Pediatric Surgery",S100018,S1
+SG024A,SC,"General Surgery, Surgical Oncology, Pediatric Surgery",S100202,S1
+SG028A,SC,"General Surgery, Surgical Oncology",S100108,S1
+SG029A,SC,"General Surgery, Surgical Oncology",,
+SG029B,SC,"General Surgery, Surgical Oncology",,
+SG037A,SC,"General Surgery, Surgical Oncology, Pediatric Surgery",S100070,S1
+SG037B,SC,"General Surgery, Surgical Oncology, Pediatric Surgery",S100177,S1
+SG043A,SC,"General Surgery, Surgical Oncology",S100016,S1
+SG044A,SC,"General Surgery, Surgical Oncology, Pediatric Surgery",S100107,S1
+SG045A,SC,"General Surgery, Surgical Oncology",S100106,S1
+SG049A,SC,"General Surgery, Surgical Oncology, Pediatric Surgery",S100122,S1
+SG059A,SC,"General Surgery, Surgical Oncology, Pediatric Surgery",S100031,S1
+SG061A,SC,"General Surgery, Surgical Oncology",S100160,S1
+SG062A,SC,"General Surgery, Surgical Oncology",S100198,S1
+SG062B,SC,"General Surgery, Surgical Oncology",,
+SG062C,SC,"General Surgery, Surgical Oncology",S100209,S1
+SG063A,SC,"General Surgery, Surgical Oncology, Pediatric Surgery",S100044,S1
+SG064A,SC,"General Surgery, Surgical Oncology",S100045,S1
+SG066A,SC,"General Surgery, Surgical Oncology",S100134,S1
+SG067A,SC,"General Surgery, Surgical Oncology, ENT",S100114,S1
+SG069A,SC,"General Surgery, Surgical Oncology, CTVS",S100152,S1
+SG070A,SC,"General Surgery, Surgical Oncology, Pediatric Surgery, ENT",S100168,S1
+SG070B,SC,"General Surgery, Surgical Oncology, Pediatric Surgery, ENT",S100169,S1
+SG070C,SC,"General Surgery, Surgical Oncology, Pediatric Surgery, ENT",S100242,S1
+SG071A,SC,"General Surgery, Surgical Oncology, Pediatric Surgery",S100162,S1
+SG074A,SC,"General Surgery, Surgical Oncology",S100012,S1
+SG075A,SC,"General Surgery, Surgical Oncology",S100098,S1
+SG075B,SC,"General Surgery, Surgical Oncology",S100113,S1
+SG087A,SC,"General Surgery, Surgical Oncology",S100163,S1
+SG091A,SC,"General Surgery, Surgical Oncology, Plastic & Reconstructive Surgery",S100225,S1
+SL004A,SC,"ENT, Surgical Oncology",S200003,S2
+SL004B,SC,"ENT, Surgical Oncology",S200004,S2
+SL005A,SC,"ENT, Surgical Oncology",S200009,S2
+SL005B,SC,"ENT, Surgical Oncology",S200008,S2
+SL021A,SC,"ENT, Surgical Oncology, General Surgery",S200075,S2
+SL021B,SC,"ENT, Surgical Oncology, General Surgery",S200076,S2
+SL027A,SC,"ENT,General Surgery, Surgical Oncology",S200067,S2
+SL027B,SC,"ENT,General Surgery, Surgical Oncology",S200067,S2
+SL027C,SC,"ENT,General Surgery, Surgical Oncology",S200067,S2
+SL027D,SC,"ENT,General Surgery, Surgical Oncology",S200067,S2
+SL020A,SC,"ENT,Surgical Oncology",,
+SL020B,SC,"ENT,Surgical Oncology",,
+SL020C,SC,"ENT,Surgical Oncology",,
+SL025A,SC,"ENT,Surgical Oncology",,
+SL029A,SC,"ENT,Surgical Oncology,Neurosurgery",S800073,S8
+SL029B,SC,"ENT,Surgical Oncology,Neurosurgery",S200032,S2
+SL029C,SC,"ENT,Surgical Oncology,Neurosurgery",S200032,S2
+SL029D,SC,"ENT,Surgical Oncology,Neurosurgery",S200050,S2
+SL029E,SC,"ENT,Surgical Oncology,Neurosurgery",,
+SL030A,SC,"ENT,Surgical Oncology",S200052,S2
+SL030B,SC,"ENT,Surgical Oncology",,
+SL031A,SC,"ENT,Surgical Oncology",S200050,S2
+SL031B,SC,"ENT,Surgical Oncology",S200050,S2
+SL031C,SC,"ENT,Surgical Oncology",S200050,S2
+SL032A,SC,"ENT,Surgical Oncology",S200002,S2
+SL032B,SC,"ENT,Surgical Oncology",S200002,S2
+SL032C,SC,"ENT,Surgical Oncology",S200002,S2
+SL032D,SC,"ENT,Surgical Oncology",S200002,S2
+SO002A,SC,"Obstetrics & Gynecology, Surgical Oncology, Pediatric Surgery",S400008,S4
+SO003A,SC,"Obstetrics & Gynecology, Surgical Oncology",S400028,S4
+SO004A,SC,"Obstetrics & Gynecology, Surgical Oncology",,
+SU075A,SC,"Urology, Obstetrics & Gynecology, Pediatric Surgery",S700087,S7
+SU090A,SC,"Urology, Surgical Oncology, Obstetrics & Gynecology",S700142,S7
+SU090B,SC,"Urology, Surgical Oncology, Obstetrics & Gynecology",S700143,S7
+SU003A,SC,"Urology, Pediatric Surgery, Surgical Oncology",,
+SU003B,SC,"Urology, Pediatric Surgery, Surgical Oncology",,
+SU003C,SC,"Urology, Pediatric Surgery, Surgical Oncology",S700008,S7
+SU003D,SC,"Urology, Pediatric Surgery, Surgical Oncology",S700009,S7
+SU004A,SC,"Urology, Pediatric Surgery, Surgical Oncology",S700010,S7
+SU004B,SC,"Urology, Pediatric Surgery, Surgical Oncology",S700011,S7
+SU010A,SC,"Urology, Pediatric Surgery, Surgical Oncology",S700012,S7
+SU010B,SC,"Urology, Pediatric Surgery, Surgical Oncology",S700013,S7
+SU011A,SC,"Urology, Pediatric Surgery, Surgical Oncology",S700014,S7
+SU011B,SC,"Urology, Pediatric Surgery, Surgical Oncology",S700015,S7
+SE001A,SE,Ophthalmology,S300019,S3
+SE002A,SE,Ophthalmology,S300034,S3
+SE003A,SE,Ophthalmology,S300035,S3
+SE004A,SE,Ophthalmology,S300038,S3
+SE005A,SE,Ophthalmology,,
+SE006A,SE,Ophthalmology,S300022,S3
+SE007A,SE,Ophthalmology,,
+SE008A,SE,Ophthalmology,S300040,S3
+SE008B,SE,Ophthalmology,S300040,S3
+SE009A,SE,Ophthalmology,S300033,S3
+SE010A,SE,Ophthalmology,S300008,S3
+SE010B,SE,Ophthalmology,S300002,S3
+SE010C,SE,Ophthalmology,S300002,S3
+SE010D,SE,Ophthalmology,,
+SE011A,SE,Ophthalmology,,
+SE012A,SE,Ophthalmology,S300004,S3
+SE012C,SE,Ophthalmology,,
+SE013A,SE,Ophthalmology,,
+SE014A,SE,Ophthalmology,S300007,S3
+SE015A,SE,Ophthalmology,,
+SE016A,SE,Ophthalmology,,
+SE017A,SE,Ophthalmology,S300021,S3
+SE018A,SE,Ophthalmology,S300001,S3
+SE019A,SE,Ophthalmology,S300016,S3
+SE020A,SE,Ophthalmology,S300031,S3
+SE020B,SE,Ophthalmology,S300030,S3
+SE021A,SE,Ophthalmology,S300015,S3
+SE021B,SE,Ophthalmology,S300015,S3
+SE021C,SE,Ophthalmology,,
+SE022A,SE,Ophthalmology,S300003,S3
+SE023A,SE,Ophthalmology,,
+SE024A,SE,Ophthalmology,,
+SE025A,SE,Ophthalmology,S300020,S3
+SE026A,SE,Ophthalmology,S300024,S3
+SE027A,SE,Ophthalmology,S300006,S3
+SE027B,SE,Ophthalmology,,
+SE027C,SE,Ophthalmology,S300006,S3
+SE027D,SE,Ophthalmology,S300006,S3
+SE028A,SE,Ophthalmology,,
+SE029A,SE,Ophthalmology,,
+SE029B,SE,Ophthalmology,,
+SE030A,SE,Ophthalmology,,
+SE031A,SE,Ophthalmology,S300005,S3
+SE032A,SE,Ophthalmology,S300028,S3
+SE033A,SE,Ophthalmology,S300027,S3
+SE034A,SE,Ophthalmology,,
+SE035A,SE,Ophthalmology,S300009,S3
+SE035B,SE,Ophthalmology,S300010,S3
+SE036A,SE,Ophthalmology,S300036,S3
+SE038A,SE,Ophthalmology,S300023,S3
+SE039A,SE,Ophthalmology,S300039,S3
+SE041A,SE,Ophthalmology,,
+SG002A,SG,"General Surgery, Pediatric Surgery",S100213,S1
+SG003A,SG,General Surgery,S100009,S1
+SG003B,SG,General Surgery,S100008,S1
+SG004A,SG,"General Surgery, Pediatric Surgery",S100064,S1
+SG005A,SG,General Surgery,S100060,S1
+SG005B,SG,General Surgery,S100060,S1
+SG006A,SG,General Surgery,S100196,S1
+SG007A,SG,General Surgery,S100089,S1
+SG007B,SG,General Surgery,S100065,S1
+SG008A,SG,"General Surgery, Pediatric Surgery",S100112,S1
+SG009A,SG,"General Surgery, Pediatric Surgery",S100185,S1
+SG011A,SG,"General Surgery, Pediatric Surgery",S100205,S1
+SG011B,SG,"General Surgery, Pediatric Surgery",S100205,S1
+SG011C,SG,"General Surgery, Pediatric Surgery",S100205,S1
+SG011D,SG,"General Surgery, Pediatric Surgery",S100182,S1
+SG013A,SG,"General Surgery, Pediatric Surgery",S100095,S1
+SG014A,SG,"General Surgery, Pediatric Surgery",S100204,S1
+SG015A,SG,"General Surgery, Pediatric Surgery",S100030,S1
+SG016A,SG,General Surgery,S100028,S1
+SG016B,SG,"General Surgery, Pediatric Surgery",S100028,S1
+SG017A,SG,"General Surgery, Pediatric Surgery",S100003,S1
+SG017B,SG,"General Surgery, Pediatric Surgery",S100180,S1
+SG018A,SG,"General Surgery, Pediatric Surgery",S100091,S1
+SG019A,SG,"General Surgery, Pediatric Surgery",S100004,S1
+SG022A,SG,"General Surgery, Pediatric Surgery",S100144,S1
+SG025A,SG,General Surgery,S100127,S1
+SG026A,SG,General Surgery,S100117,S1
+SG027A,SG,General Surgery,,
+SG027B,SG,General Surgery,,
+SG030A,SG,"General Surgery, Pediatric Surgery",S100090,S1
+SG030B,SG,"General Surgery, Pediatric Surgery",S100090,S1
+SG031A,SG,General Surgery,S100053,S1
+SG032A,SG,General Surgery,S100123,S1
+SG032B,SG,General Surgery,S100123,S1
+SG033A,SG,General Surgery,S100042,S1
+SG034A,SG,General Surgery,S100050,S1
+SG035A,SG,"General Surgery, Pediatric Surgery",S100190,S1
+SG036A,SG,"General Surgery, Pediatric Surgery, Obstetrics & Gynecology",S100092,S1
+SG038A,SG,"General Surgery, Pediatric Surgery",S100079,S1
+SG039A,SG,"General Surgery, Pediatric Surgery",,
+SG039B,SG,"General Surgery, Pediatric Surgery",S100153,S1
+SG039C,SG,"General Surgery, Pediatric Surgery",,
+SG039D,SG,"General Surgery, Pediatric Surgery",,
+SG040A,SG,"General Surgery, Pediatric Surgery",S100154,S1
+SG040B,SG,"General Surgery, Pediatric Surgery",S100154,S1
+SG041A,SG,"General Surgery, Pediatric Surgery",S100211,S1
+SG042A,SG,"General Surgery, Pediatric Surgery",S100132,S1
+SG042B,SG,"General Surgery, Pediatric Surgery",S100132,S1
+SG046A,SG,General Surgery,S100111,S1
+SG047A,SG,General Surgery,S100100,S1
+SG048A,SG,"General Surgery, Pediatric Surgery",S100099,S1
+SG050A,SG,General Surgery,,
+SG050B,SG,General Surgery,,
+SG050C,SG,General Surgery,,
+SG050D,SG,General Surgery,,
+SG050E,SG,"General Surgery, Pediatric Surgery",,
+SG051A,SG,"General Surgery, Pediatric Surgery",S100074,S1
+SG051B,SG,"General Surgery, Pediatric Surgery",S100074,S1
+SG051C,SG,"General Surgery, Pediatric Surgery",,
+SG051D,SG,"General Surgery, Pediatric Surgery",S100115,S1
+SG052A,SG,"General Surgery, Pediatric Surgery",S100072,S1
+SG053A,SG,"General Surgery, Pediatric Surgery",S100078,S1
+SG053B,SG,"General Surgery, Pediatric Surgery",S100184,S1
+SG053C,SG,"General Surgery, Pediatric Surgery",S100059,S1
+SG054A,SG,General Surgery,,
+SG054B,SG,General Surgery,,
+SG055A,SG,General Surgery,S100039,S1
+SG056A,SG,"General Surgery, Pediatric Surgery",S100080,S1
+SG057A,SG,"General Surgery, Pediatric Surgery",S100033,S1
+SG057B,SG,"General Surgery, Pediatric Surgery",S100033,S1
+SG058A,SG,"General Surgery, Urology",S100143,S1
+SG060A,SG,"General Surgery, Pediatric Surgery",S100084,S1
+SG065A,SG,General Surgery,S100101,S1
+SG068A,SG,"General Surgery, ENT",S100014,S1
+SG072A,SG,"General Surgery, Pediatric Surgery",S100210,S1
+SG073A,SG,"General Surgery, Pediatric Surgery",S100239,S1
+SG076A,SG,General Surgery,S100040,S1
+SG077A,SG,"General Surgery, Pediatric Surgery, CTVS",S100208,S1
+SG078A,SG,"General Surgery, Pediatric Surgery",S100224,S1
+SG079A,SG,"General Surgery, Pediatric Surgery",S100233,S1
+SG080A,SG,"General Surgery, Pediatric Surgery",S100157,S1
+SG082A,SG,"General Surgery, Pediatric Surgery",S100238,S1
+SG083A,SG,"General Surgery, Pediatric Surgery",S100235,S1
+SG084A,SG,"General Surgery, Pediatric Surgery",S100024,S1
+SG085A,SG,General Surgery,S100096,S1
+SG085B,SG,General Surgery,,
+SG085C,SG,General Surgery,,
+SG086A,SG,General Surgery,S100244,S1
+SG088A,SG,"General Surgery, Plastic & Reconstructive Surgery",S100167,S1
+SG089A,SG,General Surgery,S100245,S1
+SG090A,SG,"General Surgery, Plastic & Reconstructive Surgery, Pediatric Surgery",S100164,S1
+SG090B,SG,"General Surgery, Plastic & Reconstructive Surgery, Pediatric Surgery",S100165,S1
+SG090C,SG,"General Surgery, Plastic & Reconstructive Surgery, Pediatric Surgery",S100166,S1
+SG093A,SG,General Surgery,S100192,S1
+SG094A,SG,General Surgery,S100251,S1
+SG095A,SG,General Surgery,S100142,S1
+SG096A,SG,"General Surgery, Pediatric Surgery, Obstetrics & Gynecology",,
+SG096B,SG,"General Surgery, Pediatric Surgery, Obstetrics & Gynecology",,
+SG096C,SG,"General Surgery, Pediatric Surgery, Obstetrics & Gynecology",,
+SG096E,SG,"General Surgery, Pediatric Surgery, Obstetrics & Gynecology",,
+SG097A,SG,General Surgery,,
+SG097B,SG,General Surgery,,
+SG098A,SG,"General Surgery, Pediatric Surgery, ENT",S100058,S1
+SG099A,SG,General Surgery,,
+SG100A,SG,General Surgery,,
+SG101A,SG,General Surgery,,
+SG102A,SG,General Surgery,,
+SG103A,SG,General Surgery,,
+SG104A,SG,General Surgery,,
+SG105A,SG,Interventional Radiology/General surgery,,
+SL026A,SG,"ENT,General Surgery,Peadiatric Surgery",S1500021,S15
+SL026B,SG,"ENT,General Surgery,Peadiatric Surgery",,
+SL028A,SG,"ENT,General Surgery,Peadiatric Surgery",S200068,S2
+SL028B,SG,"ENT,General Surgery,Peadiatric Surgery",,
+SL001A,SL,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S200020,S2
+SL001B,SL,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S200020,S2
+SL002A,SL,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S200017,S2
+SL003A,SL,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S200025,S2
+SL003B,SL,"Polytrauma, Orthopedics, Neurosurgery, General Surgery",S200016,S2
+SL006A,SL,"ENT, Surgical Oncology",S200051,S2
+SL007A,SL,"ENT, Surgical Oncology",,
+SL008A,SL,"ENT, Surgical Oncology",S200055,S2
+SL009A,SL,"ENT, Surgical Oncology",S200047,S2
+SL010A,SL,"ENT, Surgical Oncology",S200037,S2
+SL011A,SL,"ENT, Surgical Oncology",S200043,S2
+SL012A,SL,"ENT, Surgical Oncology",S200040,S2
+SL013A,SL,"ENT, Surgical Oncology",S200038,S2
+SL014A,SL,"ENT, Surgical Oncology",S200028,S2
+SL014B,SL,"ENT, Surgical Oncology",S200028,S2
+SL014C,SL,"ENT, Surgical Oncology",S200028,S2
+SL014D,SL,"ENT, Surgical Oncology",S200028,S2
+SL015A,SL,"ENT, Surgical Oncology",S200057,S2
+SL016A,SL,"ENT, Surgical Oncology",S200074,S2
+SL016B,SL,"ENT, Surgical Oncology",S200074,S2
+SL017A,SL,"ENT,Pediatric Surgery",S200069,S2
+SL017B,SL,"ENT,Pediatric Surgery",S200069,S2
+SL018A,SL,"ENT,Pediatric Surgery",S200073,S2
+SL018B,SL,"ENT,Pediatric Surgery",S200073,S2
+SL018C,SL,"ENT,Pediatric Surgery",S200073,S2
+SL018D,SL,"ENT,Pediatric Surgery",S200079,S2
+SL018E,SL,"ENT,Pediatric Surgery",S200079,S2
+SL019A,SL,"ENT,Pediatric Surgery",S200077,S2
+SL022A,SL,"ENT, Surgical Oncology, General Surgery",S200089,S2
+SL022B,SL,"ENT, Surgical Oncology, General Surgery",S200089,S2
+SL023A,SL,"ENT,Pediatric Surgery",,
+SL023B,SL,"ENT,Pediatric Surgery",,
+SL023C,SL,"ENT,Pediatric Surgery",,
+SL024A,SL,"ENT,Pediatric Surgery",S200058,S2
+SL033A,SL,"ENT,Surgical Oncology",S200036,S2
+SL033B,SL,"ENT,Surgical Oncology",S200036,S2
+SL033C,SL,"ENT,Surgical Oncology",S200036,S2
+SL033D,SL,"ENT,Surgical Oncology",S200036,S2
+SL034A,SL,"ENT,Oral & Maxillofacial Surgery,Plastic & Reconstructive Surgery",S200036,S2
+SL034B,SL,"ENT,Oral & Maxillofacial Surgery,Plastic & Reconstructive Surgery",S200036,S2
+SL034C,SL,"ENT,Oral & Maxillofacial Surgery,Plastic & Reconstructive Surgery",S200036,S2
+SL035A,SL,"ENT,Oral & Maxillofacial Surgery,Plastic & Reconstructive Surgery",,
+SL035B,SL,"ENT,Oral & Maxillofacial Surgery,Plastic & Reconstructive Surgery",,
+SL035C,SL,"ENT,Oral & Maxillofacial Surgery,Plastic & Reconstructive Surgery",,
+SL035D,SL,"ENT,Oral & Maxillofacial Surgery,Plastic & Reconstructive Surgery",,
+SN035B,SL,"Neurosurgery, ENT, Oral & Maxillofacial Surgery",S800049,S8
+SM001A,SM,Oral & Maxillofacial Surgery,,
+SM002A,SM,Oral & Maxillofacial Surgery,S500076,S5
+SM003A,SM,Oral & Maxillofacial Surgery,S1600004,S16
+SM004A,SM,Oral & Maxillofacial Surgery,S1600001,S16
+SM004B,SM,Oral & Maxillofacial Surgery,S1600002,S16
+SM005A,SM,Oral & Maxillofacial Surgery,S1600007,S16
+SM005B,SM,Oral & Maxillofacial Surgery,S1600007,S16
+SM006A,SM,Oral & Maxillofacial Surgery,S1600008,S16
+SM007A,SM,Oral & Maxillofacial Surgery,S1600005,S16
+SM008A,SM,Oral & Maxillofacial Surgery,,
+SM009A,SM,Oral & Maxillofacial Surgery,,
+SM010A,SM,Oral & Maxillofacial Surgery,,
+SM010C,SM,Oral & Maxillofacial Surgery,,
+SM011A,SM,Oral & Maxillofacial Surgery,,
+SM012A,SM,Oral & Maxillofacial Surgery,,
+SM012B,SM,Oral & Maxillofacial Surgery,,
+SM013A,SM,Oral & Maxillofacial Surgery,,
+SM014A,SM,Oral & Maxillofacial Surgery,,
+SS001A,SM,"Pediatric Surgery, Oral & Maxillofacial Surgery, Plastic & Reconstructive Surgery",S1400034,S14
+SN001A,SN,Neurosurgery,S800047,S8
+SN002A,SN,Neurosurgery,S800007,S8
+SN002B,SN,Neurosurgery,S800008,S8
+SN003A,SN,Neurosurgery,S800051,S8
+SN004A,SN,Neurosurgery,S800009,S8
+SN005A,SN,Neurosurgery,S800019,S8
+SN005B,SN,Neurosurgery,S800020,S8
+SN005C,SN,Neurosurgery,,
+SN006A,SN,Neurosurgery,S800042,S8
+SN006B,SN,Neurosurgery,S800043,S8
+SN007A,SN,Neurosurgery,S800011,S8
+SN007B,SN,Neurosurgery,S800010,S8
+SN008A,SN,Neurosurgery,S800002,S8
+SN008B,SN,Neurosurgery,S800003,S8
+SN009A,SN,Neurosurgery,S800012,S8
+SN009B,SN,Neurosurgery,S800013,S8
+SN009C,SN,Neurosurgery,S800014,S8
+SN010A,SN,Neurosurgery,S800059,S8
+SN011A,SN,Neurosurgery,S800058,S8
+SN012A,SN,Neurosurgery,S800078,S8
+SN013A,SN,Neurosurgery,S800045,S8
+SN014A,SN,Neurosurgery,S800082,S8
+SN015A,SN,Neurosurgery,S800052,S8
+SN015B,SN,Neurosurgery,S800053,S8
+SN015C,SN,Neurosurgery,S800054,S8
+SN015D,SN,Neurosurgery,S800055,S8
+SN015E,SN,Neurosurgery,S800056,S8
+SN016A,SN,Neurosurgery,S800065,S8
+SN017A,SN,Neurosurgery,S800040,S8
+SN018A,SN,Neurosurgery,S800071,S8
+SN019A,SN,Neurosurgery,S800070,S8
+SN020A,SN,Neurosurgery,S800062,S8
+SN021A,SN,Neurosurgery,S800044,S8
+SN022A,SN,Neurosurgery,S800025,S8
+SN022B,SN,Neurosurgery,,
+SN022C,SN,Neurosurgery,S800025,S8
+SN022D,SN,Neurosurgery,S800025,S8
+SN023A,SN,Neurosurgery,S800060,S8
+SN024A,SN,Neurosurgery,S800081,S8
+SN025A,SN,Neurosurgery,,
+SN025B,SN,Neurosurgery,,
+SN025C,SN,Neurosurgery,S800080,S8
+SN026A,SN,Neurosurgery,S800072,S8
+SN027A,SN,Neurosurgery,S800026,S8
+SN028A,SN,Neurosurgery,S800066,S8
+SN029A,SN,Neurosurgery,S800067,S8
+SN030A,SN,Neurosurgery,S800068,S8
+SN031A,SN,Neurosurgery,S800006,S8
+SN033A,SN,Neurosurgery,,
+SN035A,SN,Neurosurgery,S800017,S8
+SN036A,SN,Neurosurgery,S800022,S8
+SN039A,SN,Neurosurgery,S800032,S8
+SN041A,SN,Neurosurgery,S800030,S8
+SN041B,SN,Neurosurgery,S800031,S8
+SN042A,SN,Neurosurgery,S800034,S8
+SN042B,SN,Neurosurgery,S800035,S8
+SN043A,SN,Neurosurgery,S800038,S8
+SN043B,SN,Neurosurgery,S800039,S8
+SN044A,SN,Neurosurgery,S800050,S8
+SN045A,SN,Neurosurgery,S800024,S8
+SN047A,SN,Neurosurgery,S800075,S8
+SN048A,SN,Neurosurgery,S800046,S8
+SN049B,SN,Neurosurgery,S800076,S8
+SN050A,SN,Neurosurgery,S800048,S8
+SN051A,SN,Neurosurgery,S800074,S8
+SN054A,SN,Neurosurgery,S800083,S8
+SN057A,SN,Neurosurgery,,
+SN059A,SN,Neurosurgery,,
+SN059B,SN,Neurosurgery,,
+SN060A,SN,Neurosurgery,,
+SN061A,SN,Neurosurgery,,
+SN062A,SN,Neurosurgery,,
+SN063A,SN,Neurosurgery,,
+SN063B,ST,Polytrauma,,
+SN063C,SN,Neurosurgery,,
+SN063D,ST,Polytrauma,,
+SO006A,SO,OBG & Gynec,S400002,S4
+SO007A,SO,OBG & Gynec,S400030,S4
+SO009A,SO,OBG & Gynec,S400032,S4
+SO010A,SO,OBG & Gynec,,
+SO010B,SO,OBG & Gynec,S400001,S4
+SO010C,SO,OBG & Gynec,S400009,S4
+SO010D,SO,OBG & Gynec,S400010,S4
+SO010E,SO,OBG & Gynec,S400023,S4
+SO010F,SO,OBG & Gynec,,
+SO011A,SO,OBG & Gynec,S400035,S4
+SO012A,SO,OBG & Gynec,,
+SO013A,SO,OBG & Gynec,S400003,S4
+SO014A,SO,OBG & Gynec,,
+SO015A,SO,OBG & Gynec,,
+SO016A,SO,OBG & Gynec,,
+SO016B,SO,OBG & Gynec,,
+SO017A,SO,OBG & Gynec,S400033,S4
+SO018A,SO,OBG & Gynec,S400068,S4
+SO019A,SO,OBG & Gynec,S400017,S4
+SO020A,SO,OBG & Gynec,,
+SO021A,SO,OBG & Gynec,S400079,S4
+SO022A,SO,OBG & Gynec,S400031,S4
+SO023A,SO,OBG & Gynec,S400027,S4
+SO024A,SO,OBG & Gynec,S400052,S4
+SO024B,SO,OBG & Gynec,S400052,S4
+SO025A,SO,OBG & Gynec,S400012,S4
+SO025B,SO,OBG & Gynec,S400012,S4
+SO026A,SO,OBG & Gynec,S400015,S4
+SO027A,SO,OBG & Gynec,,
+SO028A,SO,OBG & Gynec,S400074,S4
+SO029A,SO,OBG & Gynec,S400075,S4
+SO030A,SO,OBG & Gynec,,
+SO031A,SO,OBG & Gynec,S400014,S4
+SO032A,SO,OBG & Gynec,S400011,S4
+SO033A,SO,OBG & Gynec,S400013,S4
+SO034A,SO,OBG & Gynec,,
+SO035A,SO,OBG & Gynec,S400020,S4
+SO036A,SO,OBG & Gynec,S1500044,S15
+SO037A,SO,OBG & Gynec,,
+SO038A,SO,OBG & Gynec,S100105,S1
+SO039A,SO,OBG & Gynec,,
+SO040A,SO,OBG & Gynec,,
+SO040B,SO,OBG & Gynec,,
+SO041A,SO,OBG & Gynec,S400025,S4
+SO042A,SO,OBG & Gynec,S400065,S4
+SO043A,SO,OBG & Gynec,S400004,S4
+SO043B,SO,OBG & Gynec,S400004,S4
+SO044A,SO,OBG & Gynec,S400070,S4
+SO045A,SO,OBG & Gynec,,
+SO046A,SO,OBG & Gynec,,
+SO047A,SO,OBG & Gynec,S400076,S4
+SO048A,SO,OBG & Gynec,S400077,S4
+SO049A,SO,OBG & Gynec,S400078,S4
+SO050A,SO,OBG & Gynec,S400048,S4
+SO051A,SO,OBG & Gynec,S400049,S4
+SO052A,SO,OBG & Gynec,,
+SO053A,SO,OBG & Gynec,S400047,S4
+SO053B,SO,OBG & Gynec,S400046,S4
+SO053C,SO,OBG & Gynec,S400045,S4
+SO054B,SO,OBG & Gynec,S400038,S4
+SO054C,SO,OBG & Gynec,S400040,S4
+SO054D,SO,OBG & Gynec,S400041,S4
+SO054E,SO,OBG & Gynec,S400042,S4
+SO055A,SO,OBG & Gynec,S400043,S4
+SO056A,SO,OBG & Gynec,S400073,S4
+SO057A,SO,OBG & Gynec,S400034,S4
+SO059A,SO,OBG & Gynec,S400063,S4
+SO059B,SO,OBG & Gynec,,
+SO060A,SO,OBG & Gynec,,
+SC030A,SO,OBG & Gynec,,
+SC030B,SO,OBG & Gynec,,
+SU029A,SO,"Urology , Obstetrics & Gynecology",S700048,S7
+SU029B,SO,"Urology , Obstetrics & Gynecology",S700048,S7
+SU029C,SO,"Urology , Obstetrics & Gynecology",S700049,S7
+SU029D,SO,"Urology , Obstetrics & Gynecology",S700049,S7
+SU071A,SU,"Urology, Pediatric Surgery, Plastic & Reconstructive Surgery",S700124,S7
+SU071B,SU,"Urology, Pediatric Surgery, Plastic & Reconstructive Surgery",S700125,S7
+SU071D,SU,"Urology, Pediatric Surgery, Plastic & Reconstructive Surgery",S700125,S7
+SP001A,SP,Plastic & Reconstructive Surgery,S1000008,S10
+SP002A,SP,Plastic & Reconstructive Surgery,S1000009,S10
+SP003A,SP,Plastic & Reconstructive Surgery,S1000002,S10
+SP004A,SP,Not available Plastic & Reconstructive Surgery,S1000001,S10
+SP005A,SP,Plastic & Reconstructive Surgery,S1000006,S10
+SP006A,SP,Plastic & Reconstructive Surgery,S1000005,S10
+SP006B,SP,Plastic & Reconstructive Surgery,S1000005,S10
+SP006C,SP,Plastic & Reconstructive Surgery,S1000005,S10
+SP007A,SP,Plastic & Reconstructive Surgery,S1000003,S10
+SP007B,SP,Plastic & Reconstructive Surgery,S1000004,S10
+SP007C,SP,Plastic & Reconstructive Surgery,S1000004,S10
+SP008A,SP,Plastic & Reconstructive Surgery,S1000007,S10
+SS002A,SS,Pediatric Surgery,S1400002,S14
+SS002B,SS,Pediatric Surgery,S1400001,S14
+SS003A,SS,Pediatric Surgery,S1400016,S14
+SS004A,SS,Pediatric Surgery,S1400019,S14
+SS005A,SS,Pediatric Surgery,S1400028,S14
+SS006A,SS,Pediatric Surgery,S1400017,S14
+SS007A,SS,Pediatric Surgery,S1400026,S14
+SS007B,SS,Pediatric Surgery,S1400027,S14
+SS008A,SS,Pediatric Surgery,S1400021,S14
+SS008B,SS,Pediatric Surgery,S1400022,S14
+SS008C,SS,Pediatric Surgery,S1400023,S14
+SS008D,SS,Pediatric Surgery,S1400024,S14
+SS008E,SS,Pediatric Surgery,S1400025,S14
+SS009A,SS,Pediatric Surgery,S1400029,S14
+SS010A,SS,Pediatric Surgery,S1400010,S14
+SS010B,SS,Pediatric Surgery,S1400011,S14
+SS010C,SS,Pediatric Surgery,S1400012,S14
+SS010D,SS,Pediatric Surgery,S1400013,S14
+SS010E,SS,Pediatric Surgery,S1400014,S14
+SS010F,SS,Pediatric Surgery,S500063,S5
+SS011A,SS,Pediatric Surgery,S1400018,S14
+SS012A,SS,Pediatric Surgery,S1400020,S14
+SS013A,SS,Pediatric Surgery,S1400031,S14
+SS014A,SS,Pediatric Surgery,S1400033,S14
+SS014B,SS,Pediatric Surgery,S1400033,S14
+SS015A,SS,Pediatric Surgery,S1400003,S14
+SS016A,SS,Pediatric Surgery,S1400030,S14
+SS017A,SS,Pediatric Surgery,S1400004,S14
+SS018A,SS,Pediatric Surgery,S1400032,S14
+SS019A,SS,Pediatric Surgery,S1400005,S14
+SS019B,SS,Pediatric Surgery,S1400006,S14
+SS019C,SS,Pediatric Surgery,S1400007,S14
+SS019D,SS,Pediatric Surgery,S1400009,S14
+SS019E,SS,Pediatric Surgery,S1400008,S14
+SU001A,SS,Urology & Pediatric Surgery,S700003,S7
+SU001B,SS,Urology & Pediatric Surgery,S700004,S7
+SU018A,SS,"Urology, Pediatric Surgery",S700037,S7
+SU018B,SS,"Urology, Pediatric Surgery",S700038,S7
+SU021A,SS,"Urology, Pediatric Surgery",S700016,S7
+SU021B,SS,"Urology, Pediatric Surgery",S700017,S7
+SU021C,SS,"Urology, Pediatric Surgery",S700016,S7
+SU021D,SS,"Urology, Pediatric Surgery",S700017,S7
+SU021E,SS,"Urology, Pediatric Surgery",S700016,S7
+SU021F,SS,"Urology, Pediatric Surgery",S700017,S7
+SU023A,SS,"Urology, Pediatric Surgery",S700020,S7
+SU023B,SS,"Urology, Pediatric Surgery",S700021,S7
+SU024A,SS,"Urology, Pediatric Surgery",S700028,S7
+SU024B,SS,"Urology, Pediatric Surgery",S700029,S7
+SU027A,SS,"Urology, Pediatric Surgery",S700042,S7
+SU028A,SS,"Urology, Pediatric Surgery",S700022,S7
+SU028B,SS,"Urology, Pediatric Surgery",S700023,S7
+SU030A,SS,"Urology, Pediatric Surgery",S700044,S7
+SU030B,SS,"Urology, Pediatric Surgery",S700045,S7
+SU033A,SS,"Urology, Pediatric Surgery",S700055,S7
+SU037A,SS,"Urology, Pediatric Surgery",S700159,S7
+SU040A,SS,"Urology, Pediatric Surgery",S700060,S7
+SU041A,SS,"Urology, Pediatric Surgery",S700061,S7
+SU041B,SS,"Urology, Pediatric Surgery",S700061,S7
+SU043A,SS,"Urology, Surgical Oncology, Pediatric Surgery",S700073,S7
+SU043B,SS,"Urology, Surgical Oncology, Pediatric Surgery",S700074,S7
+SU045A,SS,"Urology, Pediatric Surgery",S700089,S7
+SU045B,SS,"Urology, Pediatric Surgery",S700090,S7
+SU048A,SS,"Urology, Pediatric Surgery",S700091,S7
+SU049A,SS,"Urology, Pediatric Surgery",S700070,S7
+SU050A,SS,"Urology, Pediatric Surgery",S700072,S7
+SU051A,SS,"Urology, Pediatric Surgery",S700069,S7
+SU052A,SS,"Urology, Pediatric Surgery",S700154,S7
+SU061A,SS,"Urology, Pediatric Surgery",S700082,S7
+SU064A,SS,"Urology, Pediatric Surgery",S700158,S7
+SU065A,SS,"Urology, Pediatric Surgery",S700112,S7
+SU065B,SS,"Urology, Pediatric Surgery",S700111,S7
+SU066A,SS,"Urology, Pediatric Surgery",S700114,S7
+SU066B,SS,"Urology, Pediatric Surgery",S700115,S7
+SU066C,SS,"Urology, Pediatric Surgery",S700116,S7
+SU066D,SS,"Urology, Pediatric Surgery",S700117,S7
+SU068A,SS,"Urology, Pediatric Surgery",S700121,S7
+SU068B,SS,"Urology, Pediatric Surgery",,
+SU069A,SS,"Urology, Pediatric Surgery",S700119,S7
+SU070A,SS,"Urology, Pediatric Surgery",S700113,S7
+SU076A,SS,"Urology, Pediatric Surgery",S700120,S7
+SU086A,SS,"Urology, Surgical Oncology, Pediatric Surgery",S700139,S7
+SU088A,SS,"Urology, Pediatric Surgery",S700129,S7
+SU088B,SS,"Urology, Pediatric Surgery",S700126,S7
+SU088C,SS,"Urology, Pediatric Surgery",S700127,S7
+SU094A,SS,"Urology, Pediatric Surgery",S700156,S7
+SU005A,SU,Urology,S700030,S7
+SU005B,SU,Urology,S700031,S7
+SU007A,SU,Urology,S700025,S7
+SU013A,SU,Urology,S700033,S7
+SU013B,SU,Urology,S700032,S7
+SU014A,SU,Urology,S700039,S7
+SU014B,SU,Urology,S700040,S7
+SU016A,SU,Urology,S700027,S7
+SU025A,SU,Urology,S700123,S7
+SU026A,SU,Urology,S700050,S7
+SU026B,SU,Urology,S700051,S7
+SU031A,SU,Urology,S700052,S7
+SU031B,SU,Urology,S700053,S7
+SU032A,SU,Urology,S700054,S7
+SU034A,SU,Urology,,
+SU035A,SU,Urology,S700057,S7
+SU036A,SU,Urology,S700057,S7
+SU038A,SU,Urology,S700018,S7
+SU038B,SU,Urology,S700019,S7
+SU046A,SU,Urology,,
+SU054A,SU,Urology,S700068,S7
+SU055A,SU,"Urology, Surgical Oncology",S700062,S7
+SU056A,SU,"Urology, Surgical Oncology",,
+SU057A,SU,Urology,,
+SU058A,SU,Urology,S700059,S7
+SU058B,SU,Urology,,
+SU062A,SU,"Urology, Surgical Oncology",S700130,S7
+SU074A,SU,Urology,S700110,S7
+SU077A,SU,Urology,S700092,S7
+SU078A,SU,Urology,S700106,S7
+SU078B,SU,Urology,S700107,S7
+SU080A,SU,Urology,S700093,S7
+SU080B,SU,Urology,S700093,S7
+SU081A,SU,Urology,S700108,S7
+SU082A,SU,"Urology, Surgical Oncology",S700133,S7
+SU082B,SU,"Urology, Surgical Oncology",S700134,S7
+SU083A,SU,Urology,S700153,S7
+SU083B,SU,Urology,S700153,S7
+SU085A,SU,Urology,S700152,S7
+SU087A,SU,"Urology, Surgical Oncology",,
+SU089A,SU,Urology,S700150,S7
+SU089B,SU,Urology,S700151,S7
+SU091A,SU,"Urology, Surgical Oncology",S700136,S7
+SU095A,SU,Urology,,
+SU096B,SU,Urology,,
+SU097A,SU,Urology,,
+SU098A,SU,"Surgical Oncology,Urology",,
+SU098B,SU,Urology,,
+SV001A,SV,CTVS,,
+SV001B,SV,CTVS,,
+SV001C,SV,CTVS,S1300050,S13
+SV001D,SV,CTVS,,
+SV001E,SV,CTVS,,
+SV001F,SV,CTVS,,
+SV001G,SV,CTVS,S1300047,S13
+SV002A,SV,CTVS,,
+SV002B,SV,CTVS,,
+SV002C,SV,CTVS,,
+SV002D,SV,CTVS,,
+SV002E,SV,CTVS,,
+SV002F,SV,CTVS,S1200015,S12
+SV002G,SV,CTVS,,
+SV002H,SV,CTVS,,
+SV002I,SV,CTVS,S1300026,S13
+SV002J,SV,CTVS,S1300026,S13
+SV002K,SV,CTVS,,
+SV002L,SV,CTVS,,
+SV002M,SV,CTVS,,
+SV002N,SV,CTVS,,
+SV002O,SV,CTVS,,
+SV003A,SV,CTVS,S1300031,S13
+SV003B,SV,CTVS,S1300036,S13
+SV003C,SV,CTVS,,
+SV003D,SV,CTVS,S1300032,S13
+SV003E,SV,CTVS,S1300029,S13
+SV003F,SV,CTVS,,
+SV003G,SV,CTVS,,
+SV003H,SV,CTVS,,
+SV003I,SV,CTVS,,
+SV003J,SV,CTVS,,
+SV003K,SV,CTVS,,
+SV003L,SV,CTVS,,
+SV003M,SV,CTVS,,
+SV003N,SV,CTVS,,
+SV003O,SV,CTVS,,
+SV003P,SV,CTVS,,
+SV003Q,SV,CTVS,,
+SV003R,SV,CTVS,,
+SV003S,SV,CTVS,,
+SV003T,SV,CTVS,,
+SV003U,SV,CTVS,,
+SV003V,SV,CTVS,S1300026,S13
+SV003W,SV,CTVS,S1300035,S13
+SV003X,SV,CTVS,S1300037,S13
+SV003Y,SV,CTVS,S1300038,S13
+SV003Z,SV,CTVS,,
+SV004A,SV,CTVS,S1300001,S13
+SV005A,SV,CTVS,S1300013,S13
+SV005B,SV,CTVS,S1300011,S13
+SV005C,SV,CTVS,S1300012,S13
+SV006A,SV,CTVS,,
+SV007A,SV,CTVS,,
+SV008A,SV,CTVS,S1300009,S13
+SV009A,SV,CTVS,S1300023,S13
+SV010A,SV,CTVS,S1300030,S13
+SV011A,SV,CTVS,,
+SV012A,SV,CTVS,S1300052,S13
+SV013A,SV,CTVS,S1300046,S13
+SV014A,SV,CTVS,S1300040,S13
+SV014B,SV,CTVS,,
+SV014C,SV,CTVS,,
+SV014D,SV,CTVS,,
+SV014E,SV,CTVS,,
+SV015A,SV,CTVS,,
+SV015B,SV,CTVS,,
+SV016A,SV,CTVS,S1300042,S13
+SV016B,SV,CTVS,,
+SV016C,SV,CTVS,S1300043,S13
+SV016D,SV,CTVS,,
+SV017A,SV,CTVS,S1300092,S13
+SV017B,SV,CTVS,S1300092,S13
+SV017C,SV,CTVS,S1300079,S13
+SV017D,SV,CTVS,S1300079,S13
+SV018A,SV,CTVS,S1300044,S13
+SV018B,SV,CTVS,,
+SV019A,SV,CTVS,,
+SV019B,SV,CTVS,,
+SV019C,SV,CTVS,S100152,S1
+SV019D,SV,CTVS,,
+SV019E,SV,CTVS,S100151,S1
+SV019F,SV,CTVS,,
+SV019G,SV,CTVS,,
+SV019H,SV,CTVS,,
+SV019I,SV,CTVS,,
+SV019J,SV,CTVS,,
+SV019K,SV,CTVS,S1300081,S13
+SV019L,SV,CTVS,S1300082,S13
+SV019M,SV,CTVS,,
+SV019N,SV,CTVS,,
+SV019O,SV,CTVS,,
+SV019P,SV,CTVS,S1300092,S13
+SV019Q,SV,CTVS,S1300079,S13
+SV019R,SV,CTVS,S1300085,S13
+SV019S,SV,CTVS,,
+SV019T,SV,CTVS,,
+SV019U,SV,CTVS,,
+SV019V,SV,CTVS,,
+SV019W,SV,CTVS,,
+SV019X,SV,CTVS,,
+SV019Y,SV,CTVS,,
+SV019Z,SV,CTVS,,
+SV020A,SV,CTVS,S1300072,S13
+SV021A,SV,CTVS,,
+SV022A,SV,CTVS,S1300060,S13
+SV023A,SV,CTVS,S1300054,S13
+SV023B,SV,CTVS,S100157,S1
+SV023C,SV,CTVS,S100079,S1
+SV023D,SV,CTVS,,
+SV023E,SV,CTVS,,
+SV024A,SV,CTVS,,
+SV025A,SV,CTVS,S1300061,S13
+SV026A,SV,CTVS,S1300056,S13
+SV027A,SV,CTVS,S1300055,S13
+SV028A,SV,CTVS,S1300066,S13
+SV029A,SV,CTVS,S1300059,S13
+SV030A,SV,CTVS,S1300045,S13
+SV031A,SV,CTVS,,
+SV031B,SV,CTVS,,
+SV031C,SV,CTVS,,
+SV031D,SV,CTVS,,
+SV031E,SV,CTVS,,
+SV031F,SV,CTVS,,
+SV032A,SV,CTVS,,
+SV033A,SV,CTVS,,
+SV034A,SV,CTVS,,
+SV035A,SV,CTVS,,
+US001A,US,Unspecified Surgical Package,,
+BM001,HP,High end procedures,,
+BM002,HP,High end procedures,,
+BM003,HP,High end procedures,,
+BM004,HP,High end procedures,,
+BM005,HP,High end procedures,,
+BM006,HP,High end procedures,,
+ER001,HP,High end procedures,,
+ER002,HP,High end procedures,,
+ER003,HP,High end procedures,,
+SB001,HP,High end procedures,,
+SU073,HP,High end procedures,,
+ID001,HP,High end procedures,,
+ID003,HP,High end procedures,,
+ID005,HP,High end procedures,,
+IN001,HP,High end procedures,,
+IN002,HP,High end procedures,,
+IN003,HP,High end procedures,,
+IN004,HP,High end procedures,,
+IN005,HP,High end procedures,,
+IN006,HP,High end procedures,,
+IN007,HP,High end procedures,,
+IN008,HP,High end procedures,,
+IN009,HP,High end procedures,,
+IN010,HP,High end procedures,,
+IN011,HP,High end procedures,,
+IN012,HP,High end procedures,,
+IN013,HP,High end procedures,,
+IN014,HP,High end procedures,,
+IN015,HP,High end procedures,,
+IN016,HP,High end procedures,,
+IN017,HP,High end procedures,,
+IN018,HP,High end procedures,,
+IN019,HP,High end procedures,,
+IN020,HP,High end procedures,,
+IN021,HP,High end procedures,,
+IN022,HP,High end procedures,,
+IN023,HP,High end procedures,,
+IN024,HP,High end procedures,,
+IN025,HP,High end procedures,,
+IN026,HP,High end procedures,,
+IN027,HP,High end procedures,,
+IN028,HP,High end procedures,,
+IN029,HP,High end procedures,,
+IN030,HP,High end procedures,,
+IN031,HP,High end procedures,,
+IN032,HP,High end procedures,,
+IN033,HP,High end procedures,,
+IN034,HP,High end procedures,,
+IN035,HP,High end procedures,,
+IN036,HP,High end procedures,,
+IN037,HP,High end procedures,,
+IN038,HP,High end procedures,,
+IN039,HP,High end procedures,,
+IN040,HP,High end procedures,,
+IN041,HP,High end procedures,,
+IN042,HP,High end procedures,,
+IN043,HP,High end procedures,,
+IN044,HP,High end procedures,,
+IN045,HP,High end procedures,,
+IN046,HP,High end procedures,,
+IN047,HP,High end procedures,,
+IN048,HP,High end procedures,,
+IN049,HP,High end procedures,,
+IN050,HP,High end procedures,,
+IN051,HP,High end procedures,,
+IN052,HP,High end procedures,,
+IN053,HP,High end procedures,,
+IN054,HP,High end procedures,,
+IN055,HP,High end procedures,,
+IN056,HP,High end procedures,,
+IN057,HP,High end procedures,,
+IN058,HP,High end procedures,,
+IN059,HP,High end procedures,,
+IN060,HP,High end procedures,,
+IN061,HP,High end procedures,,
+IN062,HP,High end procedures,,
+IN063,HP,High end procedures,,
+IN064,HP,High end procedures,,
+IN065,HP,High end procedures,,
+IN066,HP,High end procedures,,
+IN067,HP,High end procedures,,
+IN068,HP,High end procedures,,
+IN069,HP,High end procedures,,
+IN070,HP,High end procedures,,
+IN071,HP,High end procedures,,
+IN072,HP,High end procedures,,
+IN073,HP,High end procedures,,
+IN074,HP,High end procedures,,
+IN075,HP,High end procedures,,
+IN076,HP,High end procedures,,
+IN077,HP,High end procedures,,
+IN078,HP,High end procedures,,
+MC002,HP,High end procedures,,
+MG010,HP,High end procedures,,
+MG082,HP,High end procedures,,
+MG083,HP,High end procedures,,
+MG084,HP,High end procedures,,
+MG085,HP,High end procedures,,
+MG097,HP,High end procedures,,
+SU008,HP,High end procedures,,
+MC001,HP,High end procedures,,
+MC003,HP,High end procedures,,
+MC004,HP,High end procedures,,
+MC005,HP,High end procedures,,
+MC006,HP,High end procedures,,
+MC007,HP,High end procedures,,
+MC008,HP,High end procedures,,
+MC009,HP,High end procedures,,
+MC010,HP,High end procedures,,
+MC011,HP,High end procedures,,
+MC012,HP,High end procedures,,
+MC013,HP,High end procedures,,
+MC014,HP,High end procedures,,
+MC015,HP,High end procedures,,
+MC016,HP,High end procedures,,
+MC017,HP,High end procedures,,
+MC018,HP,High end procedures,,
+MC019,HP,High end procedures,,
+MC020,HP,High end procedures,,
+MC021,HP,High end procedures,,
+MC022,HP,High end procedures,,
+MG037,HP,High end procedures,,
+MG031,HP,High end procedures,,
+MG036,HP,High end procedures,,
+MG038,HP,High end procedures,,
+MG075,HP,High end procedures,,
+MG076,HP,High end procedures,,
+MG098,HP,High end procedures,,
+MG001,HP,High end procedures,,
+MG002,HP,High end procedures,,
+MG003,HP,High end procedures,,
+MG004,HP,High end procedures,,
+MG005,HP,High end procedures,,
+MG006,HP,High end procedures,,
+MG007,HP,High end procedures,,
+MG008,HP,High end procedures,,
+MG009,HP,High end procedures,,
+MG011,HP,High end procedures,,
+MG012,HP,High end procedures,,
+MG013,HP,High end procedures,,
+MG014,HP,High end procedures,,
+MG015,HP,High end procedures,,
+MG016,HP,High end procedures,,
+MG017,HP,High end procedures,,
+MG018,HP,High end procedures,,
+MG019,HP,High end procedures,,
+MG020,HP,High end procedures,,
+MG021,HP,High end procedures,,
+MG022,HP,High end procedures,,
+MG023,HP,High end procedures,,
+MG024,HP,High end procedures,,
+MG025,HP,High end procedures,,
+MG026,HP,High end procedures,,
+MG027,HP,High end procedures,,
+MG028,HP,High end procedures,,
+MG029,HP,High end procedures,,
+MG030,HP,High end procedures,,
+MG032,HP,High end procedures,,
+MG033,HP,High end procedures,,
+MG034,HP,High end procedures,,
+MG035,HP,High end procedures,,
+MG039,HP,High end procedures,,
+MG040,HP,High end procedures,,
+MG041,HP,High end procedures,,
+MG042,HP,High end procedures,,
+MG043,HP,High end procedures,,
+MG044,HP,High end procedures,,
+MG045,HP,High end procedures,,
+MG047,HP,High end procedures,,
+MG049,HP,High end procedures,,
+MG050,HP,High end procedures,,
+MG051,HP,High end procedures,,
+MG052,HP,High end procedures,,
+MG053,HP,High end procedures,,
+MG054,HP,High end procedures,,
+MG055,HP,High end procedures,,
+MG056,HP,High end procedures,,
+MG057,HP,High end procedures,,
+MG058,HP,High end procedures,,
+MG059,HP,High end procedures,,
+MG060,HP,High end procedures,,
+MG061,HP,High end procedures,,
+MG062,HP,High end procedures,,
+MG063,HP,High end procedures,,
+MG064,HP,High end procedures,,
+MG065,HP,High end procedures,,
+MG066,HP,High end procedures,,
+MG067,HP,High end procedures,,
+MG068,HP,High end procedures,,
+MG069,HP,High end procedures,,
+MG070,HP,High end procedures,,
+MG071,HP,High end procedures,,
+MG072,HP,High end procedures,,
+MG073,HP,High end procedures,,
+MG074,HP,High end procedures,,
+MG077,HP,High end procedures,,
+MG078,HP,High end procedures,,
+MG079,HP,High end procedures,,
+MG081,HP,High end procedures,,
+MG086,HP,High end procedures,,
+MG087,HP,High end procedures,,
+MG088,HP,High end procedures,,
+MG089,HP,High end procedures,,
+MG090,HP,High end procedures,,
+MG091,HP,High end procedures,,
+MG092,HP,High end procedures,,
+MG093,HP,High end procedures,,
+MG094,HP,High end procedures,,
+MG095,HP,High end procedures,,
+MG096,HP,High end procedures,,
+MG099,HP,High end procedures,,
+MP001,HP,High end procedures,,
+MP003,HP,High end procedures,,
+MP004,HP,High end procedures,,
+MP005,HP,High end procedures,,
+MP006,HP,High end procedures,,
+MP008,HP,High end procedures,,
+MP011,HP,High end procedures,,
+MP015,HP,High end procedures,,
+MP018,HP,High end procedures,,
+MP020,HP,High end procedures,,
+MP021,HP,High end procedures,,
+MP023,HP,High end procedures,,
+MP024,HP,High end procedures,,
+MP026,HP,High end procedures,,
+MP027,HP,High end procedures,,
+MP039,HP,High end procedures,,
+MP040,HP,High end procedures,,
+MP043,HP,High end procedures,,
+MP047,HP,High end procedures,,
+MP050,HP,High end procedures,,
+SE043,HP,High end procedures,,
+SE044,HP,High end procedures,,
+SE042,HP,High end procedures,,
+MM001,HP,High end procedures,,
+MM002,HP,High end procedures,,
+MM003,HP,High end procedures,,
+MM004,HP,High end procedures,,
+MM005,HP,High end procedures,,
+MM006,HP,High end procedures,,
+MM007,HP,High end procedures,,
+MM008,HP,High end procedures,,
+MM009,HP,High end procedures,,
+MM010,HP,High end procedures,,
+MM011,HP,High end procedures,,
+MM012,HP,High end procedures,,
+MM013,HP,High end procedures,,
+MM014,HP,High end procedures,,
+MN001,HP,High end procedures,,
+MN002,HP,High end procedures,,
+MN003,HP,High end procedures,,
+MN004,HP,High end procedures,,
+MN005,HP,High end procedures,,
+MN006,HP,High end procedures,,
+MN007,HP,High end procedures,,
+MN008,HP,High end procedures,,
+MN009,HP,High end procedures,,
+MN010,HP,High end procedures,,
+MN011,HP,High end procedures,,
+MN012,HP,High end procedures,,
+MN013,HP,High end procedures,,
+MO001,HP,High end procedures,,
+MO002,HP,High end procedures,,
+MO003,HP,High end procedures,,
+MO004,HP,High end procedures,,
+MO005,HP,High end procedures,,
+MO006,HP,High end procedures,,
+MO007,HP,High end procedures,,
+MO008,HP,High end procedures,,
+MO009,HP,High end procedures,,
+MO010,HP,High end procedures,,
+MO011,HP,High end procedures,,
+MO012,HP,High end procedures,,
+MO013,HP,High end procedures,,
+MO014,HP,High end procedures,,
+MO015,HP,High end procedures,,
+MO016,HP,High end procedures,,
+MO017,HP,High end procedures,,
+MO018,HP,High end procedures,,
+MO019,HP,High end procedures,,
+MO020,HP,High end procedures,,
+MO021,HP,High end procedures,,
+MO022,HP,High end procedures,,
+MO023,HP,High end procedures,,
+MO024,HP,High end procedures,,
+MO025,HP,High end procedures,,
+MO026,HP,High end procedures,,
+MO027,HP,High end procedures,,
+MO028,HP,High end procedures,,
+MO029,HP,High end procedures,,
+MO030,HP,High end procedures,,
+MO031,HP,High end procedures,,
+MO032,HP,High end procedures,,
+MO033,HP,High end procedures,,
+MO034,HP,High end procedures,,
+MO035,HP,High end procedures,,
+MO036,HP,High end procedures,,
+MO037,HP,High end procedures,,
+MO038,HP,High end procedures,,
+MO039,HP,High end procedures,,
+MO040,HP,High end procedures,,
+MO041,HP,High end procedures,,
+MO042,HP,High end procedures,,
+MO043,HP,High end procedures,,
+MO044,HP,High end procedures,,
+MO045,HP,High end procedures,,
+MO046,HP,High end procedures,,
+MO047,HP,High end procedures,,
+MO048,HP,High end procedures,,
+MO049,HP,High end procedures,,
+MO050,HP,High end procedures,,
+MO051,HP,High end procedures,,
+MO052,HP,High end procedures,,
+MO053,HP,High end procedures,,
+MO054,HP,High end procedures,,
+MO055,HP,High end procedures,,
+MO056,HP,High end procedures,,
+MO057,HP,High end procedures,,
+MO058,HP,High end procedures,,
+MO059,HP,High end procedures,,
+MO060,HP,High end procedures,,
+MO061,HP,High end procedures,,
+MO062,HP,High end procedures,,
+MO063,HP,High end procedures,,
+MO064,HP,High end procedures,,
+MO065,HP,High end procedures,,
+MO066,HP,High end procedures,,
+MO067,HP,High end procedures,,
+MO068,HP,High end procedures,,
+MO069,HP,High end procedures,,
+MO070,HP,High end procedures,,
+MO071,HP,High end procedures,,
+MO072,HP,High end procedures,,
+MO073,HP,High end procedures,,
+MO074,HP,High end procedures,,
+MO075,HP,High end procedures,,
+MO076,HP,High end procedures,,
+SU060,HP,High end procedures,,
+MP002,HP,High end procedures,,
+MP009,HP,High end procedures,,
+MP010,HP,High end procedures,,
+MP016,HP,High end procedures,,
+MP022,HP,High end procedures,,
+MP025,HP,High end procedures,,
+MP029,HP,High end procedures,,
+MP030,HP,High end procedures,,
+MP031,HP,High end procedures,,
+MP032,HP,High end procedures,,
+MP033,HP,High end procedures,,
+MP034,HP,High end procedures,,
+MP035,HP,High end procedures,,
+MP036,HP,High end procedures,,
+MP037,HP,High end procedures,,
+MP038,HP,High end procedures,,
+MP041,HP,High end procedures,,
+MP042,HP,High end procedures,,
+MP044,HP,High end procedures,,
+MP046,HP,High end procedures,,
+MP048,HP,High end procedures,,
+MP051,HP,High end procedures,,
+MR001,HP,High end procedures,,
+MR002,HP,High end procedures,,
+MR003,HP,High end procedures,,
+MR004,HP,High end procedures,,
+MR005,HP,High end procedures,,
+MR006,HP,High end procedures,,
+MR007,HP,High end procedures,,
+MR008,HP,High end procedures,,
+MR009,HP,High end procedures,,
+MR010,HP,High end procedures,,
+MR011,HP,High end procedures,,
+MR012,HP,High end procedures,,
+MR013,HP,High end procedures,,
+MR014,HP,High end procedures,,
+MR015,HP,High end procedures,,
+MR016,HP,High end procedures,,
+MR017,HP,High end procedures,,
+MR018,HP,High end procedures,,
+MR019,HP,High end procedures,,
+MR020,HP,High end procedures,,
+SE040,HP,High end procedures,,
+OT001,HP,High end procedures,,
+OT002,HP,High end procedures,,
+PM001,HP,High end procedures,,
+PM002,HP,High end procedures,,
+PM003,HP,High end procedures,,
+PM004,HP,High end procedures,,
+PM005,HP,High end procedures,,
+PM006,HP,High end procedures,,
+PM007,HP,High end procedures,,
+PM008,HP,High end procedures,,
+PM009,HP,High end procedures,,
+PM010,HP,High end procedures,,
+PM011,HP,High end procedures,,
+PM012,HP,High end procedures,,
+PM013,HP,High end procedures,,
+PM014,HP,High end procedures,,
+PM015,HP,High end procedures,,
+PM016,HP,High end procedures,,
+PM017,HP,High end procedures,,
+PM018,HP,High end procedures,,
+PM019,HP,High end procedures,,
+PM020,HP,High end procedures,,
+PM021,HP,High end procedures,,
+PM022,HP,High end procedures,,
+PM023,HP,High end procedures,,
+PM024,HP,High end procedures,,
+PM025,HP,High end procedures,,
+PM026,HP,High end procedures,,
+PM027,HP,High end procedures,,
+PM028,HP,High end procedures,,
+PM029,HP,High end procedures,,
+PM030,HP,High end procedures,,
+PM031,HP,High end procedures,,
+PM032,HP,High end procedures,,
+PM033,HP,High end procedures,,
+PM034,HP,High end procedures,,
+PM035,HP,High end procedures,,
+PM036,HP,High end procedures,,
+PM037,HP,High end procedures,,
+PM038,HP,High end procedures,,
+PM039,HP,High end procedures,,
+PM040,HP,High end procedures,,
+PM041,HP,High end procedures,,
+SB002,HP,High end procedures,,
+SB003,HP,High end procedures,,
+SB004,HP,High end procedures,,
+SB005,HP,High end procedures,,
+SB006,HP,High end procedures,,
+SB007,HP,High end procedures,,
+SB008,HP,High end procedures,,
+SB009,HP,High end procedures,,
+SB010,HP,High end procedures,,
+SB011,HP,High end procedures,,
+SB012,HP,High end procedures,,
+SB013,HP,High end procedures,,
+SB014,HP,High end procedures,,
+SB015,HP,High end procedures,,
+SB016,HP,High end procedures,,
+SB017,HP,High end procedures,,
+SB018,HP,High end procedures,,
+SB019,HP,High end procedures,,
+SB020,HP,High end procedures,,
+SB021,HP,High end procedures,,
+SB022,HP,High end procedures,,
+SB023,HP,High end procedures,,
+SB024,HP,High end procedures,,
+SB025,HP,High end procedures,,
+SB026,HP,High end procedures,,
+SB027,HP,High end procedures,,
+SB028,HP,High end procedures,,
+SB029,HP,High end procedures,,
+SB030,HP,High end procedures,,
+SB031,HP,High end procedures,,
+SB032,HP,High end procedures,,
+SB033,HP,High end procedures,,
+SB034,HP,High end procedures,,
+SB035,HP,High end procedures,,
+SB036,HP,High end procedures,,
+SB037,HP,High end procedures,,
+SB038,HP,High end procedures,,
+SB039,HP,High end procedures,,
+SB040,HP,High end procedures,,
+SB041,HP,High end procedures,,
+SB042,HP,High end procedures,,
+SB043,HP,High end procedures,,
+SB044,HP,High end procedures,,
+SB045,HP,High end procedures,,
+SB046,HP,High end procedures,,
+SB047,HP,High end procedures,,
+SB048,HP,High end procedures,,
+SB049,HP,High end procedures,,
+SB050,HP,High end procedures,,
+SB051,HP,High end procedures,,
+SB052,HP,High end procedures,,
+SB053,HP,High end procedures,,
+SB054,HP,High end procedures,,
+SB055,HP,High end procedures,,
+SB056,HP,High end procedures,,
+SB057,HP,High end procedures,,
+SB058,HP,High end procedures,,
+SB059,HP,High end procedures,,
+SB060,HP,High end procedures,,
+SB061,HP,High end procedures,,
+SB062,HP,High end procedures,,
+SB063,HP,High end procedures,,
+SB064,HP,High end procedures,,
+SB065,HP,High end procedures,,
+SB066,HP,High end procedures,,
+SB067,HP,High end procedures,,
+SB068,HP,High end procedures,,
+SB069,HP,High end procedures,,
+SB070,HP,High end procedures,,
+SB071,HP,High end procedures,,
+SB072,HP,High end procedures,,
+SB074,HP,High end procedures,,
+SC070,HP,High end procedures,,
+SG092,HP,High end procedures,,
+SN032,HP,High end procedures,,
+SN034,HP,High end procedures,,
+SN046,HP,High end procedures,,
+ST001,HP,High end procedures,,
+ST002,HP,High end procedures,,
+ST003,HP,High end procedures,,
+ST004,HP,High end procedures,,
+ST005,HP,High end procedures,,
+ST006,HP,High end procedures,,
+ST007,HP,High end procedures,,
+ST008,HP,High end procedures,,
+ST009,HP,High end procedures,,
+ST010,HP,High end procedures,,
+SC001,HP,High end procedures,,
+SC002,HP,High end procedures,,
+SC003,HP,High end procedures,,
+SC004,HP,High end procedures,,
+SC005,HP,High end procedures,,
+SC006,HP,High end procedures,,
+SC007,HP,High end procedures,,
+SC008,HP,High end procedures,,
+SC009,HP,High end procedures,,
+SC010,HP,High end procedures,,
+SC011,HP,High end procedures,,
+SC012,HP,High end procedures,,
+SC013,HP,High end procedures,,
+SC014,HP,High end procedures,,
+SC015,HP,High end procedures,,
+SC016,HP,High end procedures,,
+SC017,HP,High end procedures,,
+SC018,HP,High end procedures,,
+SC019,HP,High end procedures,,
+SC020,HP,High end procedures,,
+SC021,HP,High end procedures,,
+SC022,HP,High end procedures,,
+SC023,HP,High end procedures,,
+SC024,HP,High end procedures,,
+SC025,HP,High end procedures,,
+SC026,HP,High end procedures,,
+SC027,HP,High end procedures,,
+SC028,HP,High end procedures,,
+SC029,HP,High end procedures,,
+SG081,HP,High end procedures,,
+SC031,HP,High end procedures,,
+SC032,HP,High end procedures,,
+SC033,HP,High end procedures,,
+SC034,HP,High end procedures,,
+SC035,HP,High end procedures,,
+SC036,HP,High end procedures,,
+SC037,HP,High end procedures,,
+SC038,HP,High end procedures,,
+SC039,HP,High end procedures,,
+SC040,HP,High end procedures,,
+SC041,HP,High end procedures,,
+SC042,HP,High end procedures,,
+SC043,HP,High end procedures,,
+SC044,HP,High end procedures,,
+SC045,HP,High end procedures,,
+SC046,HP,High end procedures,,
+SC047,HP,High end procedures,,
+SC048,HP,High end procedures,,
+SC049,HP,High end procedures,,
+SC050,HP,High end procedures,,
+SC051,HP,High end procedures,,
+SC052,HP,High end procedures,,
+SC053,HP,High end procedures,,
+SC054,HP,High end procedures,,
+SC055,HP,High end procedures,,
+SC056,HP,High end procedures,,
+SC057,HP,High end procedures,,
+SC058,HP,High end procedures,,
+SC059,HP,High end procedures,,
+SC060,HP,High end procedures,,
+SC061,HP,High end procedures,,
+SC062,HP,High end procedures,,
+SC063,HP,High end procedures,,
+SC064,HP,High end procedures,,
+SC065,HP,High end procedures,,
+SC066,HP,High end procedures,,
+SC067,HP,High end procedures,,
+SC068,HP,High end procedures,,
+SC069,HP,High end procedures,,
+SC071,HP,High end procedures,,
+SC072,HP,High end procedures,,
+SC073,HP,High end procedures,,
+SC074,HP,High end procedures,,
+SC075,HP,High end procedures,,
+SC076,HP,High end procedures,,
+SC077,HP,High end procedures,,
+SC078,HP,High end procedures,,
+SC079,HP,High end procedures,,
+SC081,HP,High end procedures,,
+SC082,HP,High end procedures,,
+SE037,HP,High end procedures,,
+SG001,HP,High end procedures,,
+SG003,HP,High end procedures,,
+SG010,HP,High end procedures,,
+SG012,HP,High end procedures,,
+SG020,HP,High end procedures,,
+SG021,HP,High end procedures,,
+SG023,HP,High end procedures,,
+SG024,HP,High end procedures,,
+SG028,HP,High end procedures,,
+SG029,HP,High end procedures,,
+SG037,HP,High end procedures,,
+SG043,HP,High end procedures,,
+SG044,HP,High end procedures,,
+SG045,HP,High end procedures,,
+SG049,HP,High end procedures,,
+SG059,HP,High end procedures,,
+SG061,HP,High end procedures,,
+SG062,HP,High end procedures,,
+SG063,HP,High end procedures,,
+SG064,HP,High end procedures,,
+SG066,HP,High end procedures,,
+SG067,HP,High end procedures,,
+SG069,HP,High end procedures,,
+SG070,HP,High end procedures,,
+SG071,HP,High end procedures,,
+SG074,HP,High end procedures,,
+SG075,HP,High end procedures,,
+SG087,HP,High end procedures,,
+SG091,HP,High end procedures,,
+SL004,HP,High end procedures,,
+SL005,HP,High end procedures,,
+SL021,HP,High end procedures,,
+SL027,HP,High end procedures,,
+SL020,HP,High end procedures,,
+SL025,HP,High end procedures,,
+SL029,HP,High end procedures,,
+SL030,HP,High end procedures,,
+SL031,HP,High end procedures,,
+SL032,HP,High end procedures,,
+SO002,HP,High end procedures,,
+SO003,HP,High end procedures,,
+SO004,HP,High end procedures,,
+SU075,HP,High end procedures,,
+SU090,HP,High end procedures,,
+SU003,HP,High end procedures,,
+SU004,HP,High end procedures,,
+SU010,HP,High end procedures,,
+SU011,HP,High end procedures,,
+SE001,HP,High end procedures,,
+SE002,HP,High end procedures,,
+SE003,HP,High end procedures,,
+SE004,HP,High end procedures,,
+SE005,HP,High end procedures,,
+SE006,HP,High end procedures,,
+SE007,HP,High end procedures,,
+SE008,HP,High end procedures,,
+SE009,HP,High end procedures,,
+SE010,HP,High end procedures,,
+SE011,HP,High end procedures,,
+SE012,HP,High end procedures,,
+SE013,HP,High end procedures,,
+SE014,HP,High end procedures,,
+SE015,HP,High end procedures,,
+SE016,HP,High end procedures,,
+SE017,HP,High end procedures,,
+SE018,HP,High end procedures,,
+SE019,HP,High end procedures,,
+SE020,HP,High end procedures,,
+SE021,HP,High end procedures,,
+SE022,HP,High end procedures,,
+SE023,HP,High end procedures,,
+SE024,HP,High end procedures,,
+SE025,HP,High end procedures,,
+SE026,HP,High end procedures,,
+SE027,HP,High end procedures,,
+SE028,HP,High end procedures,,
+SE029,HP,High end procedures,,
+SE030,HP,High end procedures,,
+SE031,HP,High end procedures,,
+SE032,HP,High end procedures,,
+SE033,HP,High end procedures,,
+SE034,HP,High end procedures,,
+SE035,HP,High end procedures,,
+SE036,HP,High end procedures,,
+SE038,HP,High end procedures,,
+SE039,HP,High end procedures,,
+SE041,HP,High end procedures,,
+SG002,HP,High end procedures,,
+SG004,HP,High end procedures,,
+SG005,HP,High end procedures,,
+SG006,HP,High end procedures,,
+SG007,HP,High end procedures,,
+SG008,HP,High end procedures,,
+SG009,HP,High end procedures,,
+SG056,HP,High end procedures,,
+SG073,HP,High end procedures,,
+SG011,HP,High end procedures,,
+SG013,HP,High end procedures,,
+SG014,HP,High end procedures,,
+SG015,HP,High end procedures,,
+SG016,HP,High end procedures,,
+SG017,HP,High end procedures,,
+SG018,HP,High end procedures,,
+SG019,HP,High end procedures,,
+SG022,HP,High end procedures,,
+SG025,HP,High end procedures,,
+SG026,HP,High end procedures,,
+SG027,HP,High end procedures,,
+SG030,HP,High end procedures,,
+SG031,HP,High end procedures,,
+SG032,HP,High end procedures,,
+SG033,HP,High end procedures,,
+SG034,HP,High end procedures,,
+SG035,HP,High end procedures,,
+SG036,HP,High end procedures,,
+SG038,HP,High end procedures,,
+SG039,HP,High end procedures,,
+SG040,HP,High end procedures,,
+SG041,HP,High end procedures,,
+SG042,HP,High end procedures,,
+SG046,HP,High end procedures,,
+SG047,HP,High end procedures,,
+SG048,HP,High end procedures,,
+SG050,HP,High end procedures,,
+SG051,HP,High end procedures,,
+SG052,HP,High end procedures,,
+SG053,HP,High end procedures,,
+SG054,HP,High end procedures,,
+SG055,HP,High end procedures,,
+SG057,HP,High end procedures,,
+SG058,HP,High end procedures,,
+SG060,HP,High end procedures,,
+SG065,HP,High end procedures,,
+SG068,HP,High end procedures,,
+SG072,HP,High end procedures,,
+SG076,HP,High end procedures,,
+SG077,HP,High end procedures,,
+SG078,HP,High end procedures,,
+SG079,HP,High end procedures,,
+SG080,HP,High end procedures,,
+SG082,HP,High end procedures,,
+SG083,HP,High end procedures,,
+SG084,HP,High end procedures,,
+SG085,HP,High end procedures,,
+SG086,HP,High end procedures,,
+SG088,HP,High end procedures,,
+SG089,HP,High end procedures,,
+SG090,HP,High end procedures,,
+SG093,HP,High end procedures,,
+SG094,HP,High end procedures,,
+SG095,HP,High end procedures,,
+SG096,HP,High end procedures,,
+SG097,HP,High end procedures,,
+SG098,HP,High end procedures,,
+SG099,HP,High end procedures,,
+SG100,HP,High end procedures,,
+SG101,HP,High end procedures,,
+SG102,HP,High end procedures,,
+SG103,HP,High end procedures,,
+SG104,HP,High end procedures,,
+SG105,HP,High end procedures,,
+SL026,HP,High end procedures,,
+SL028,HP,High end procedures,,
+SL001,HP,High end procedures,,
+SL002,HP,High end procedures,,
+SL003,HP,High end procedures,,
+SL006,HP,High end procedures,,
+SL007,HP,High end procedures,,
+SL008,HP,High end procedures,,
+SL009,HP,High end procedures,,
+SL010,HP,High end procedures,,
+SL011,HP,High end procedures,,
+SL012,GA,Inferior turbinate reduction under,,
+SL013,GA,Inferior turbinate reduction under,,
+SL014,GA,Inferior turbinate reduction under,,
+SL015,GA,Inferior turbinate reduction under,,
+SL016,GA,Inferior turbinate reduction under,,
+SL017,GA,Inferior turbinate reduction under,,
+SL018,GA,Inferior turbinate reduction under,,
+SL019,GA,Inferior turbinate reduction under,,
+SL022,GA,Inferior turbinate reduction under,,
+SL023,GA,Inferior turbinate reduction under,,
+SL024,GA,Inferior turbinate reduction under,,
+SL033,GA,Inferior turbinate reduction under,,
+SL034,GA,Inferior turbinate reduction under,,
+SL035,GA,Inferior turbinate reduction under,,
+SL036,GA,Inferior turbinate reduction under,,
+SN035,GA,Inferior turbinate reduction under,,
+SM001,GA,Inferior turbinate reduction under,,
+SM002,LA,Extraction of impacted tooth under,,
+SM003,LA,Extraction of impacted tooth under,,
+SM004,LA,Extraction of impacted tooth under,,
+SM005,LA,Extraction of impacted tooth under,,
+SM006,LA,Extraction of impacted tooth under,,
+SM007,LA,Extraction of impacted tooth under,,
+SM008,LA,Extraction of impacted tooth under,,
+SM009,LA,Extraction of impacted tooth under,,
+SM010,LA,Extraction of impacted tooth under,,
+SM011,LA,Extraction of impacted tooth under,,
+SM012,LA,Extraction of impacted tooth under,,
+SM013,LA,Extraction of impacted tooth under,,
+SM014,LA,Extraction of impacted tooth under,,
+SS001,LA,Extraction of impacted tooth under,,
+SN001,LA,Extraction of impacted tooth under,,
+SN002,LA,Extraction of impacted tooth under,,
+SN003,LA,Extraction of impacted tooth under,,
+SN004,LA,Extraction of impacted tooth under,,
+SN005,LA,Extraction of impacted tooth under,,
+SN006,LA,Extraction of impacted tooth under,,
+SN007,LA,Extraction of impacted tooth under,,
+SN008,LA,Extraction of impacted tooth under,,
+SN009,LA,Extraction of impacted tooth under,,
+SN010,LA,Extraction of impacted tooth under,,
+SN011,LA,Extraction of impacted tooth under,,
+SN012,LA,Extraction of impacted tooth under,,
+SN013,LA,Extraction of impacted tooth under,,
+SN014,LA,Extraction of impacted tooth under,,
+SN015,LA,Extraction of impacted tooth under,,
+SN016,LA,Extraction of impacted tooth under,,
+SN017,LA,Extraction of impacted tooth under,,
+SN018,LA,Extraction of impacted tooth under,,
+SN019,LA,Extraction of impacted tooth under,,
+SN020,LA,Extraction of impacted tooth under,,
+SN021,LA,Extraction of impacted tooth under,,
+SN022,LA,Extraction of impacted tooth under,,
+SN023,LA,Extraction of impacted tooth under,,
+SN024,LA,Extraction of impacted tooth under,,
+SN025,LA,Extraction of impacted tooth under,,
+SN026,LA,Extraction of impacted tooth under,,
+SN027,LA,Extraction of impacted tooth under,,
+SN028,LA,Extraction of impacted tooth under,,
+SN029,LA,Extraction of impacted tooth under,,
+SN030,LA,Extraction of impacted tooth under,,
+SN031,LA,Extraction of impacted tooth under,,
+SN033,LA,Extraction of impacted tooth under,,
+SN036,LA,Extraction of impacted tooth under,,
+SN039,LA,Extraction of impacted tooth under,,
+SN041,LA,Extraction of impacted tooth under,,
+SN042,LA,Extraction of impacted tooth under,,
+SN043,LA,Extraction of impacted tooth under,,
+SN044,LA,Extraction of impacted tooth under,,
+SN045,LA,Extraction of impacted tooth under,,
+SN047,LA,Extraction of impacted tooth under,,
+SN048,LA,Extraction of impacted tooth under,,
+SN049,LA,Extraction of impacted tooth under,,
+SN050,LA,Extraction of impacted tooth under,,
+SN051,LA,Extraction of impacted tooth under,,
+SN054,LA,Extraction of impacted tooth under,,
+SN057,LA,Extraction of impacted tooth under,,
+SN059,LA,Extraction of impacted tooth under,,
+SN060,LA,Extraction of impacted tooth under,,
+SN061,LA,Extraction of impacted tooth under,,
+SN062,LA,Extraction of impacted tooth under,,
+SN063,LA,Extraction of impacted tooth under,,
+SN064,LA,Extraction of impacted tooth under,,
+SN065,LA,Extraction of impacted tooth under,,
+SN066,LA,Extraction of impacted tooth under,,
+SO006,LA,Extraction of impacted tooth under,,
+SO007,LA,Extraction of impacted tooth under,,
+SO009,LA,Extraction of impacted tooth under,,
+SO010,LA,Extraction of impacted tooth under,,
+SO011,LA,Extraction of impacted tooth under,,
+SO012,LA,Extraction of impacted tooth under,,
+SO013,LA,Extraction of impacted tooth under,,
+SO014,LA,Extraction of impacted tooth under,,
+SO015,LA,Extraction of impacted tooth under,,
+SO016,LA,Extraction of impacted tooth under,,
+SO017,LA,Extraction of impacted tooth under,,
+SO018,LA,Extraction of impacted tooth under,,
+SO019,LA,Extraction of impacted tooth under,,
+SO020,LA,Extraction of impacted tooth under,,
+SO021,LA,Extraction of impacted tooth under,,
+SO022,LA,Extraction of impacted tooth under,,
+SO023,LA,Extraction of impacted tooth under,,
+SO024,LA,Extraction of impacted tooth under,,
+SO025,LA,Extraction of impacted tooth under,,
+SO026,LA,Extraction of impacted tooth under,,
+SO027,LA,Extraction of impacted tooth under,,
+SO028,LA,Extraction of impacted tooth under,,
+SO029,LA,Extraction of impacted tooth under,,
+SO030,LA,Extraction of impacted tooth under,,
+SO031,LA,Extraction of impacted tooth under,,
+SO032,LA,Extraction of impacted tooth under,,
+SO033,LA,Extraction of impacted tooth under,,
+SO034,LA,Extraction of impacted tooth under,,
+SO035,LA,Extraction of impacted tooth under,,
+SO036,LA,Extraction of impacted tooth under,,
+SO037,LA,Extraction of impacted tooth under,,
+SO038,LA,Extraction of impacted tooth under,,
+SO039,LA,Extraction of impacted tooth under,,
+SO040,LA,Extraction of impacted tooth under,,
+SO041,LA,Extraction of impacted tooth under,,
+SO042,LA,Extraction of impacted tooth under,,
+SO043,LA,Extraction of impacted tooth under,,
+SO044,LA,Extraction of impacted tooth under,,
+SO045,LA,Extraction of impacted tooth under,,
+SO046,LA,Extraction of impacted tooth under,,
+SO047,LA,Extraction of impacted tooth under,,
+SO048,LA,Extraction of impacted tooth under,,
+SO049,LA,Extraction of impacted tooth under,,
+SO050,LA,Extraction of impacted tooth under,,
+SO051,LA,Extraction of impacted tooth under,,
+SO052,LA,Extraction of impacted tooth under,,
+SO053,LA,Extraction of impacted tooth under,,
+SO054,LA,Extraction of impacted tooth under,,
+SO055,LA,Extraction of impacted tooth under,,
+SO056,LA,Extraction of impacted tooth under,,
+SO057,LA,Extraction of impacted tooth under,,
+SO059,LA,Extraction of impacted tooth under,,
+SO060,LA,Extraction of impacted tooth under,,
+SO061,LA,Extraction of impacted tooth under,,
+SO062,LA,Extraction of impacted tooth under,,
+SO063,LA,Extraction of impacted tooth under,,
+SO064,LA,Extraction of impacted tooth under,,
+SO065,LA,Extraction of impacted tooth under,,
+SO066,LA,Extraction of impacted tooth under,,
+SO067,LA,Extraction of impacted tooth under,,
+SO068,LA,Extraction of impacted tooth under,,
+SO069,LA,Extraction of impacted tooth under,,
+SO070,LA,Extraction of impacted tooth under,,
+SO071,LA,Extraction of impacted tooth under,,
+SO072,LA,Extraction of impacted tooth under,,
+SO073,LA,Extraction of impacted tooth under,,
+SO074,LA,Extraction of impacted tooth under,,
+SO075,LA,Extraction of impacted tooth under,,
+SO076,LA,Extraction of impacted tooth under,,
+SC030,LA,Extraction of impacted tooth under,,
+SU029,LA,Extraction of impacted tooth under,,
+SU071,LA,Extraction of impacted tooth under,,
+SP001,LA,Extraction of impacted tooth under,,
+SP002,LA,Extraction of impacted tooth under,,
+SP003,LA,Extraction of impacted tooth under,,
+SP004,LA,Extraction of impacted tooth under,,
+SP005,LA,Extraction of impacted tooth under,,
+SP006,LA,Extraction of impacted tooth under,,
+SP007,LA,Extraction of impacted tooth under,,
+SP008,LA,Extraction of impacted tooth under,,
+SP009,LA,Extraction of impacted tooth under,,
+SS002,LA,Extraction of impacted tooth under,,
+SS003,LA,Extraction of impacted tooth under,,
+SS004,LA,Extraction of impacted tooth under,,
+SS005,LA,Extraction of impacted tooth under,,
+SS006,LA,Extraction of impacted tooth under,,
+SS007,LA,Extraction of impacted tooth under,,
+SS008,LA,Extraction of impacted tooth under,,
+SS009,LA,Extraction of impacted tooth under,,
+SS010,LA,Extraction of impacted tooth under,,
+SS011,LA,Extraction of impacted tooth under,,
+SS012,LA,Extraction of impacted tooth under,,
+SS013,LA,Extraction of impacted tooth under,,
+SS014,LA,Extraction of impacted tooth under,,
+SS015,LA,Extraction of impacted tooth under,,
+SS016,LA,Extraction of impacted tooth under,,
+SS017,LA,Extraction of impacted tooth under,,
+SS018,LA,Extraction of impacted tooth under,,
+SS019,LA,Extraction of impacted tooth under,,
+SS020,LA,Extraction of impacted tooth under,,
+SS021,LA,Extraction of impacted tooth under,,
+SS022,LA,Extraction of impacted tooth under,,
+SS023,LA,Extraction of impacted tooth under,,
+SS024,LA,Extraction of impacted tooth under,,
+SS025,LA,Extraction of impacted tooth under,,
+SS026,LA,Extraction of impacted tooth under,,
+SS027,LA,Extraction of impacted tooth under,,
+SS028,LA,Extraction of impacted tooth under,,
+SS029,LA,Extraction of impacted tooth under,,
+SS030,LA,Extraction of impacted tooth under,,
+SS031,LA,Extraction of impacted tooth under,,
+SS032,LA,Extraction of impacted tooth under,,
+SS033,LA,Extraction of impacted tooth under,,
+SS034,LA,Extraction of impacted tooth under,,
+SS035,LA,Extraction of impacted tooth under,,
+SS036,LA,Extraction of impacted tooth under,,
+SS037,LA,Extraction of impacted tooth under,,
+SS038,LA,Extraction of impacted tooth under,,
+SS039,LA,Extraction of impacted tooth under,,
+SS040,LA,Extraction of impacted tooth under,,
+SS041,LA,Extraction of impacted tooth under,,
+SS042,LA,Extraction of impacted tooth under,,
+SU001,LA,Extraction of impacted tooth under,,
+SU018,LA,Extraction of impacted tooth under,,
+SU021,LA,Extraction of impacted tooth under,,
+SU023,LA,Extraction of impacted tooth under,,
+SU024,LA,Extraction of impacted tooth under,,
+SU027,LA,Extraction of impacted tooth under,,
+SU028,LA,Extraction of impacted tooth under,,
+SU030,LA,Extraction of impacted tooth under,,
+SU033,LA,Extraction of impacted tooth under,,
+SU037,LA,Extraction of impacted tooth under,,
+SU040,LA,Extraction of impacted tooth under,,
+SU041,LA,Extraction of impacted tooth under,,
+SU043,LA,Extraction of impacted tooth under,,
+SU045,LA,Extraction of impacted tooth under,,
+SU048,LA,Extraction of impacted tooth under,,
+SU049,LA,Extraction of impacted tooth under,,
+SU050,LA,Extraction of impacted tooth under,,
+SU051,LA,Extraction of impacted tooth under,,
+SU052,LA,Extraction of impacted tooth under,,
+SU061,LA,Extraction of impacted tooth under,,
+SU064,LA,Extraction of impacted tooth under,,
+SU065,LA,Extraction of impacted tooth under,,
+SU066,LA,Extraction of impacted tooth under,,
+SU068,LA,Extraction of impacted tooth under,,
+SU069,LA,Extraction of impacted tooth under,,
+SU070,LA,Extraction of impacted tooth under,,
+SU076,LA,Extraction of impacted tooth under,,
+SU086,LA,Extraction of impacted tooth under,,
+SU088,LA,Extraction of impacted tooth under,,
+SU094,LA,Extraction of impacted tooth under,,
+SU005,LA,Extraction of impacted tooth under,,
+SU007,LA,Extraction of impacted tooth under,,
+SU013,LA,Extraction of impacted tooth under,,
+SU014,LA,Extraction of impacted tooth under,,
+SU016,LA,Extraction of impacted tooth under,,
+SU025,LA,Extraction of impacted tooth under,,
+SU026,LA,Extraction of impacted tooth under,,
+SU031,LA,Extraction of impacted tooth under,,
+SU032,LA,Extraction of impacted tooth under,,
+SU034,LA,Extraction of impacted tooth under,,
+SU035,LA,Extraction of impacted tooth under,,
+SU036,LA,Extraction of impacted tooth under,,
+SU038,LA,Extraction of impacted tooth under,,
+SU046,LA,Extraction of impacted tooth under,,
+SU054,LA,Extraction of impacted tooth under,,
+SU055,LA,Extraction of impacted tooth under,,
+SU056,LA,Extraction of impacted tooth under,,
+SU057,LA,Extraction of impacted tooth under,,
+SU058,LA,Extraction of impacted tooth under,,
+SU062,LA,Extraction of impacted tooth under,,
+SU074,LA,Extraction of impacted tooth under,,
+SU077,LA,Extraction of impacted tooth under,,
+SU078,BPH,Open simple prostatetctomy for,,
+SU080,BPH,Open simple prostatetctomy for,,
+SU081,BPH,Open simple prostatetctomy for,,
+SU082,BPH,Open simple prostatetctomy for,,
+SU083,BPH,Open simple prostatetctomy for,,
+SU085,BPH,Open simple prostatetctomy for,,
+SU087,BPH,Open simple prostatetctomy for,,
+SU089,BPH,Open simple prostatetctomy for,,
+SU091,BPH,Open simple prostatetctomy for,,
+SU095,BPH,Open simple prostatetctomy for,,
+SU096,BPH,Open simple prostatetctomy for,,
+SU097,BPH,Open simple prostatetctomy for,,
+SU098,BPH,Open simple prostatetctomy for,,
+SU099,BPH,Open simple prostatetctomy for,,
+SV001,BPH,Open simple prostatetctomy for,,
+SV002,BPH,Open simple prostatetctomy for,,
+SV003,BPH,Open simple prostatetctomy for,,
+SV004,BPH,Open simple prostatetctomy for,,
+SV005,BPH,Open simple prostatetctomy for,,
+SV006,BPH,Open simple prostatetctomy for,,
+SV007,BPH,Open simple prostatetctomy for,,
+SV008,BPH,Open simple prostatetctomy for,,
+SV009,BPH,Open simple prostatetctomy for,,
+SV010,BPH,Open simple prostatetctomy for,,
+SV011,BPH,Open simple prostatetctomy for,,
+SV012,BPH,Open simple prostatetctomy for,,
+SV013,BPH,Open simple prostatetctomy for,,
+SV014,BPH,Open simple prostatetctomy for,,
+SV015,BPH,Open simple prostatetctomy for,,
+SV016,BPH,Open simple prostatetctomy for,,
+SV017,BPH,Open simple prostatetctomy for,,
+SV018,BPH,Open simple prostatetctomy for,,
+SV019,BPH,Open simple prostatetctomy for,,
+SV020,BPH,Open simple prostatetctomy for,,
+SV021,BPH,Open simple prostatetctomy for,,
+SV022,BPH,Open simple prostatetctomy for,,
+SV023,BPH,Open simple prostatetctomy for,,
+SV024,BPH,Open simple prostatetctomy for,,
+SV025,BPH,Open simple prostatetctomy for,,
+SV026,BPH,Open simple prostatetctomy for,,
+SV027,BPH,Open simple prostatetctomy for,,
+SV028,BPH,Open simple prostatetctomy for,,
+SV029,BPH,Open simple prostatetctomy for,,
+SV030,BPH,Open simple prostatetctomy for,,
+SV031,BPH,Open simple prostatetctomy for,,
+SV032,BPH,Open simple prostatetctomy for,,
+SV033,BPH,Open simple prostatetctomy for,,
+SV034,BPH,Open simple prostatetctomy for,,
+SV035,BPH,Open simple prostatetctomy for,,
+SV036,BPH,Open simple prostatetctomy for,,
+SV037,BPH,Open simple prostatetctomy for,,
+SV038,BPH,Open simple prostatetctomy for,,
+SV039,BPH,Open simple prostatetctomy for,,
+SV040,BPH,Open simple prostatetctomy for,,
+SV041,BPH,Open simple prostatetctomy for,,
+US001,BPH,Open simple prostatetctomy for,,
+HM011,BPH,Open simple prostatetctomy for,,
+HM013,BPH,Open simple prostatetctomy for,,
+HM022,BPH,Open simple prostatetctomy for,,
+HM020,BPH,Open simple prostatetctomy for,,
+HD008,BPH,Open simple prostatetctomy for,,
+HD009,BPH,Open simple prostatetctomy for,,
+HD010,BPH,Open simple prostatetctomy for,,
+HD002,BPH,Open simple prostatetctomy for,,
+HD004,BPH,Open simple prostatetctomy for,,
+HM005,BPH,Open simple prostatetctomy for,,
+HD011,BPH,Open simple prostatetctomy for,,
+HM003,BPH,Open simple prostatetctomy for,,
+HM012,BPH,Open simple prostatetctomy for,,
+HM017,BPH,Open simple prostatetctomy for,,
+HM007,BPH,Open simple prostatetctomy for,,
+HM009,BPH,Open simple prostatetctomy for,,
+HM010,BPH,Open simple prostatetctomy for,,
+HM008,BPH,Open simple prostatetctomy for,,
+HD003,BPH,Open simple prostatetctomy for,,
+HM006,BPH,Open simple prostatetctomy for,,
+HD001,BPH,Open simple prostatetctomy for,,
+HM018,BPH,Open simple prostatetctomy for,,
+HD012,BPH,Open simple prostatetctomy for,,
+HM004,BPH,Open simple prostatetctomy for,,
+HM019,BPH,Open simple prostatetctomy for,,
+HM001,BPH,Open simple prostatetctomy for,,
+HM002,BPH,Open simple prostatetctomy for,,
+HD005,BPH,Open simple prostatetctomy for,,
+HD006,BPH,Open simple prostatetctomy for,,
+HD007,BPH,Open simple prostatetctomy for,,
+HM021,BPH,Open simple prostatetctomy for,,
+HD013,BPH,Open simple prostatetctomy for,,
+HP008,BPH,Open simple prostatetctomy for,,
+HP007,BPH,Open simple prostatetctomy for,,
+HP006,BPH,Open simple prostatetctomy for,,
+HP004,BPH,Open simple prostatetctomy for,,
+HP003,BPH,Open simple prostatetctomy for,,
+HP010,BPH,Open simple prostatetctomy for,,
+HP009,BPH,Open simple prostatetctomy for,,
+HP005,BPH,Open simple prostatetctomy for,,
+HP002,BPH,Open simple prostatetctomy for,,
+HP001,BPH,Open simple prostatetctomy for,,
+BM001E,BPH,Open simple prostatetctomy for,,
+BM002E,BPH,Open simple prostatetctomy for,,
+IN001A,BPH,Open simple prostatetctomy for,,
+IN001B,BPH,Open simple prostatetctomy for,,
+IN002A,BPH,Open simple prostatetctomy for,,
+IN003A,BPH,Open simple prostatetctomy for,,
+IN005A,BPH,Open simple prostatetctomy for,,
+IN006B,BPH,Open simple prostatetctomy for,,
+IN010A,BPH,Open simple prostatetctomy for,,
+IN011A,BPH,Open simple prostatetctomy for,,
+IN012A,BPH,Open simple prostatetctomy for,,
+IN013A,BPH,Open simple prostatetctomy for,,
+IN014A,BPH,Open simple prostatetctomy for,,
+IN015A,BPH,Open simple prostatetctomy for,,
+IN016A,BPH,Open simple prostatetctomy for,,
+IN017A,BPH,Open simple prostatetctomy for,,
+IN017B,BPH,Open simple prostatetctomy for,,
+IN018A,BPH,Open simple prostatetctomy for,,
+IN018B,BPH,Open simple prostatetctomy for,,
+IN019A,BPH,Open simple prostatetctomy for,,
+IN019B,BPH,Open simple prostatetctomy for,,
+IN020A,BPH,Open simple prostatetctomy for,,
+IN020B,BPH,Open simple prostatetctomy for,,
+IN021A,BPH,Open simple prostatetctomy for,,
+IN022A,BPH,Open simple prostatetctomy for,,
+IN023A,BPH,Open simple prostatetctomy for,,
+IN023B,BPH,Open simple prostatetctomy for,,
+IN023C,BPH,Open simple prostatetctomy for,,
+IN023D,BPH,Open simple prostatetctomy for,,
+IN023E,BPH,Open simple prostatetctomy for,,
+IN024A,BPH,Open simple prostatetctomy for,,
+IN025A,BPH,Open simple prostatetctomy for,,
+IN026A,BPH,Open simple prostatetctomy for,,
+IN026B,BPH,Open simple prostatetctomy for,,
+IN026C,BPH,Open simple prostatetctomy for,,
+IN026D,BPH,Open simple prostatetctomy for,,
+IN026E,BPH,Open simple prostatetctomy for,,
+IN027A,BPH,Open simple prostatetctomy for,,
+IN028A,BPH,Open simple prostatetctomy for,,
+IN029A,BPH,Open simple prostatetctomy for,,
+IN030A,BPH,Open simple prostatetctomy for,,
+IN031A,BPH,Open simple prostatetctomy for,,
+IN032A,BPH,Open simple prostatetctomy for,,
+IN033A,BPH,Open simple prostatetctomy for,,
+IN034A,BPH,Open simple prostatetctomy for,,
+IN034B,BPH,Open simple prostatetctomy for,,
+IN034C,BPH,Open simple prostatetctomy for,,
+IN035A,BPH,Open simple prostatetctomy for,,
+IN036A,BPH,Open simple prostatetctomy for,,
+IN037A,BPH,Open simple prostatetctomy for,,
+IN038A,BPH,Open simple prostatetctomy for,,
+IN039A,BPH,Open simple prostatetctomy for,,
+IN040A,BPH,Open simple prostatetctomy for,,
+IN041A,BPH,Open simple prostatetctomy for,,
+IN042A,BPH,Open simple prostatetctomy for,,
+IN043A,BPH,Open simple prostatetctomy for,,
+IN044A,BPH,Open simple prostatetctomy for,,
+IN045A,BPH,Open simple prostatetctomy for,,
+IN046A,BPH,Open simple prostatetctomy for,,
+IN046B,BPH,Open simple prostatetctomy for,,
+IN047A,BPH,Open simple prostatetctomy for,,
+IN048A,BPH,Open simple prostatetctomy for,,
+IN048B,BPH,Open simple prostatetctomy for,,
+IN048C,BPH,Open simple prostatetctomy for,,
+IN048D,BPH,Open simple prostatetctomy for,,
+IN048E,BPH,Open simple prostatetctomy for,,
+IN048F,BPH,Open simple prostatetctomy for,,
+IN048G,BPH,Open simple prostatetctomy for,,
+IN048H,BPH,Open simple prostatetctomy for,,
+IN049A,BPH,Open simple prostatetctomy for,,
+IN049B,BPH,Open simple prostatetctomy for,,
+IN049C,AVF,Open simple prostatetctomy for,,
+IN050A,AVF,Open simple prostatetctomy for,,
+IN050B,AVF,Open simple prostatetctomy for,,
+IN051A,AVF,Open simple prostatetctomy for,,
+IN052A,AVF,Open simple prostatetctomy for,,
+IN053A,AVF,Open simple prostatetctomy for,,
+IN054A,AVF,Open simple prostatetctomy for,,
+IN055A,AVF,Open simple prostatetctomy for,,
+IN056A,AVF,Open simple prostatetctomy for,,
+IN057A,AVF,Open simple prostatetctomy for,,
+IN058A,AVF,Open simple prostatetctomy for,,
+IN059A,AVF,Open simple prostatetctomy for,,
+IN060A,AVF,Open simple prostatetctomy for,,
+IN061A,AVF,Open simple prostatetctomy for,,
+IN061B,AVF,Open simple prostatetctomy for,,
+IN062A,AVF,Open simple prostatetctomy for,,
+IN063A,AVF,Open simple prostatetctomy for,,
+IN064A,AVF,Open simple prostatetctomy for,,
+IN065A,AVF,Open simple prostatetctomy for,,
+IN066A,AVF,Open simple prostatetctomy for,,
+IN067A,AVF,Open simple prostatetctomy for,,
+IN068A,AVF,Open simple prostatetctomy for,,
+IN069A,AVF,Open simple prostatetctomy for,,
+IN070A,AVF,Open simple prostatetctomy for,,
+IN071A,AVF,Open simple prostatetctomy for,,
+IN072A,AVF,Open simple prostatetctomy for,,
+IN073A,AVF,Open simple prostatetctomy for,,
+IN074A,AVF,Open simple prostatetctomy for,,
+IN075A,AVF,Open simple prostatetctomy for,,
+IN076A,AVF,Open simple prostatetctomy for,,
+IN077A,AVF,Open simple prostatetctomy for,,
+IN077B,AVF,Open simple prostatetctomy for,,
+IN077C,AVF,Open simple prostatetctomy for,,
+IN078A,AVF,Open simple prostatetctomy for,,
+MG082A,AVF,Open simple prostatetctomy for,,
+MG083A,AVF,Open simple prostatetctomy for,,
+MG084A,AVF,Open simple prostatetctomy for,,
+MG085A,AVF,Open simple prostatetctomy for,,
+MG097A,AVF,Open simple prostatetctomy for,,
+MC022A,AVF,Open simple prostatetctomy for,,
+MC022B,AVF,Open simple prostatetctomy for,,
+MC022C,AVF,Open simple prostatetctomy for,,
+MC022D,AVF,Open simple prostatetctomy for,,
+MC022E,AVF,Open simple prostatetctomy for,,
+MG098A,AVF,Open simple prostatetctomy for,,
+MG086A,CAD,Open simple prostatetctomy for,,
+MG086B,CAD,Open simple prostatetctomy for,,
+MG086C,CAD,Open simple prostatetctomy for,,
+MG087A,CAD,Open simple prostatetctomy for,,
+MG088A,CAD,Open simple prostatetctomy for,,
+MG089A,CAD,Open simple prostatetctomy for,,
+MG090A,CAD,Open simple prostatetctomy for,,
+MG090B,CAD,Open simple prostatetctomy for,,
+MG090C,CAD,Open simple prostatetctomy for,,
+MG091A,CAD,Open simple prostatetctomy for,,
+MG091B,CAD,Open simple prostatetctomy for,,
+MG092B,CAD,Open simple prostatetctomy for,,
+MG093A,CAD,Open simple prostatetctomy for,,
+MG094A,CAD,Open simple prostatetctomy for,,
+MG095A,CAD,Open simple prostatetctomy for,,
+MG096A,CAD,Open simple prostatetctomy for,,
+MG096B,CAD,Open simple prostatetctomy for,,
+MG099A,CAD,Open simple prostatetctomy for,,
+MP026B,CAD,Open simple prostatetctomy for,,
+MP039B,CAD,Open simple prostatetctomy for,,
+MP050A,CAD,Open simple prostatetctomy for,,
+SE043A,CAD,Open simple prostatetctomy for,,
+SE043B,CAD,Open simple prostatetctomy for,,
+SE044A,CAD,Open simple prostatetctomy for,,
+SE042A,CAD,Open simple prostatetctomy for,,
+MM010B,CAD,Open simple prostatetctomy for,,
+MM010C,CAD,Open simple prostatetctomy for,,
+MM010D,CAD,Open simple prostatetctomy for,,
+MM010E,CAD,Open simple prostatetctomy for,,
+MM011A,CAD,Open simple prostatetctomy for,,
+MM011B,CAD,Open simple prostatetctomy for,,
+MM011C,CAD,Open simple prostatetctomy for,,
+MM011D,CAD,Open simple prostatetctomy for,,
+MM011E,CAD,Open simple prostatetctomy for,,
+MM012A,CAD,Open simple prostatetctomy for,,
+MM013A,CAD,Open simple prostatetctomy for,,
+MM014A,CAD,Open simple prostatetctomy for,,
+MN011A,CAD,Open simple prostatetctomy for,,
+MN012A,CAD,Open simple prostatetctomy for,,
+MN013A,CAD,Open simple prostatetctomy for,,
+MO001P,CAD,Open simple prostatetctomy for,,
+MO003H,CAD,Open simple prostatetctomy for,,
+MO003I,CAD,Open simple prostatetctomy for,,
+MO003J,CAD,Open simple prostatetctomy for,,
+MO003K,CAD,Open simple prostatetctomy for,,
+MO003L,CAD,Open simple prostatetctomy for,,
+MO005D,CAD,Open simple prostatetctomy for,,
+MO007C,CAD,Open simple prostatetctomy for,,
+MO007D,CAD,Open simple prostatetctomy for,,
+MO007E,CAD,Open simple prostatetctomy for,,
+MO008C,CAD,Open simple prostatetctomy for,,
+MO011C,CAD,Open simple prostatetctomy for,,
+MO012C,CAD,Open simple prostatetctomy for,,
+MO017C,CAD,Open simple prostatetctomy for,,
+MO025B,CAD,Open simple prostatetctomy for,,
+MO028I,CAD,Open simple prostatetctomy for,,
+MO044B,ICE,Open simple prostatetctomy for,,
+MO062D,ICE,Open simple prostatetctomy for,,
+MO062E,ICE,Open simple prostatetctomy for,,
+MO073A,ICE,Open simple prostatetctomy for,,
+MO074A,ICE,Open simple prostatetctomy for,,
+MO075A,ICE,Open simple prostatetctomy for,,
+MO076A,ICE,Open simple prostatetctomy for,,
+MO076B,ICE,Open simple prostatetctomy for,,
+MP041B,ICE,Open simple prostatetctomy for,,
+MP041D,ICE,Open simple prostatetctomy for,,
+MP048B,ICE,Open simple prostatetctomy for,,
+MP051A,ICE,Open simple prostatetctomy for,,
+MR015A,CVS,Open simple prostatetctomy for,,
+MR015B,CVS,Open simple prostatetctomy for,,
+MR016A,CVS,Open simple prostatetctomy for,,
+MR017A,CVS,Open simple prostatetctomy for,,
+MR018A,CVS,Open simple prostatetctomy for,,
+MR019A,CVS,Open simple prostatetctomy for,,
+MR020A,CVS,Open simple prostatetctomy for,,
+OT001C,CVS,Open simple prostatetctomy for,,
+OT002A,CVS,Open simple prostatetctomy for,,
+OT002B,CVS,Open simple prostatetctomy for,,
+OT002C,CVS,Open simple prostatetctomy for,,
+PM001A,CVS,Open simple prostatetctomy for,,
+PM002A,CVS,Open simple prostatetctomy for,,
+PM003A,CVS,Open simple prostatetctomy for,,
+PM004A,CVS,Open simple prostatetctomy for,,
+PM005A,CVS,Open simple prostatetctomy for,,
+PM006A,CVS,Open simple prostatetctomy for,,
+PM007A,CVS,Open simple prostatetctomy for,,
+PM008A,CVS,Open simple prostatetctomy for,,
+PM009A,CVS,Open simple prostatetctomy for,,
+PM010A,CVS,Open simple prostatetctomy for,,
+PM011A,CVS,Open simple prostatetctomy for,,
+PM012A,CVS,Open simple prostatetctomy for,,
+PM013A,CVS,Open simple prostatetctomy for,,
+PM014A,CVS,Open simple prostatetctomy for,,
+PM015A,CVS,Open simple prostatetctomy for,,
+PM016A,CVS,Open simple prostatetctomy for,,
+PM017A,CVS,Open simple prostatetctomy for,,
+PM018A,CVS,Open simple prostatetctomy for,,
+PM019A,CVS,Open simple prostatetctomy for,,
+PM020A,CVS,Open simple prostatetctomy for,,
+PM021A,CVS,Open simple prostatetctomy for,,
+PM022A,CVS,Open simple prostatetctomy for,,
+PM023A,CVS,Open simple prostatetctomy for,,
+PM024A,CVS,Open simple prostatetctomy for,,
+PM025A,CVS,Open simple prostatetctomy for,,
+PM026A,CVS,Open simple prostatetctomy for,,
+PM027A,CVS,Open simple prostatetctomy for,,
+PM028A,CVS,Open simple prostatetctomy for,,
+PM029A,CVS,Open simple prostatetctomy for,,
+PM030A,CVS,Open simple prostatetctomy for,,
+PM031A,CVS,Open simple prostatetctomy for,,
+PM032A,CVS,Open simple prostatetctomy for,,
+PM033A,CVS,Open simple prostatetctomy for,,
+PM034A,CVS,Open simple prostatetctomy for,,
+PM035A,CVS,Open simple prostatetctomy for,,
+PM036A,CVS,Open simple prostatetctomy for,,
+PM036B,CVS,Open simple prostatetctomy for,,
+PM037A,CVS,Open simple prostatetctomy for,,
+PM038A,CVS,Open simple prostatetctomy for,,
+PM039A,CVS,Open simple prostatetctomy for,,
+PM040A,CVS,Open simple prostatetctomy for,,
+PM041A,CVS,Open simple prostatetctomy for,,
+SB002C,CVS,Open simple prostatetctomy for,,
+SB002D,CVS,Open simple prostatetctomy for,,
+SB003C,CVS,Open simple prostatetctomy for,,
+SB012C,CVS,Open simple prostatetctomy for,,
+SB015C,CVS,Open simple prostatetctomy for,,
+SB038E,CVS,Open simple prostatetctomy for,,
+SB054B,CVS,Open simple prostatetctomy for,,
+SC082A,MIS,Open simple prostatetctomy for,,
+SG056B,MIS,Open simple prostatetctomy for,,
+SG073B,MIS,Open simple prostatetctomy for,,
+SG095B,LA,SG0113A Mole Excision SG0114A Neurofibroma Excision under,,
+SL036A,LA,SG0113A Mole Excision SG0114A Neurofibroma Excision under,,
+SM002B,LA,SG0113A Mole Excision SG0114A Neurofibroma Excision under,,
+SM003B,LA,SG0113A Mole Excision SG0114A Neurofibroma Excision under,,
+SM007B,LA,SG0113A Mole Excision SG0114A Neurofibroma Excision under,,
+SM014B,LA,Osteoradionecrosis of jaws management by excision under,,
+SN064A,LA,Osteoradionecrosis of jaws management by excision under,,
+SN065A,OMY,EMBOLISATION/THROMBECT,,
+SN066A,OMY,EMBOLISATION/THROMBECT,,
+SO061A,PID,EMBOLISATION/THROMBECT,,
+SO062A,PID,EMBOLISATION/THROMBECT,,
+SO063A,PID,EMBOLISATION/THROMBECT,,
+SO064A,PID,EMBOLISATION/THROMBECT,,
+SO064B,PID,EMBOLISATION/THROMBECT,,
+SO065A,PID,EMBOLISATION/THROMBECT,,
+SO066A,PID,EMBOLISATION/THROMBECT,,
+SO067A,PID,EMBOLISATION/THROMBECT,,
+SO068A,PID,EMBOLISATION/THROMBECT,,
+SO069A,PID,EMBOLISATION/THROMBECT,,
+SO070A,PID,EMBOLISATION/THROMBECT,,
+SO071A,PID,EMBOLISATION/THROMBECT,,
+SO072A,PID,EMBOLISATION/THROMBECT,,
+SO073A,PID,EMBOLISATION/THROMBECT,,
+SO074A,PID,EMBOLISATION/THROMBECT,,
+SO075A,PID,EMBOLISATION/THROMBECT,,
+SO076A,PID,EMBOLISATION/THROMBECT,,
+SP004B,PID,EMBOLISATION/THROMBECT,,
+SP009A,PID,EMBOLISATION/THROMBECT,,
+SP009B,PID,EMBOLISATION/THROMBECT,,
+SS020A,PID,EMBOLISATION/THROMBECT,,
+SS021A,PID,EMBOLISATION/THROMBECT,,
+SS022A,PID,EMBOLISATION/THROMBECT,,
+SS023A,PID,EMBOLISATION/THROMBECT,,
+SS024A,PID,EMBOLISATION/THROMBECT,,
+SS025A,PID,EMBOLISATION/THROMBECT,,
+SS026A,PID,EMBOLISATION/THROMBECT,,
+SS027A,PID,EMBOLISATION/THROMBECT,,
+SS028A,PID,EMBOLISATION/THROMBECT,,
+SS029A,PID,EMBOLISATION/THROMBECT,,
+SS030A,PID,EMBOLISATION/THROMBECT,,
+SS031A,PID,EMBOLISATION/THROMBECT,,
+SS032A,PID,EMBOLISATION/THROMBECT,,
+SS033A,PID,EMBOLISATION/THROMBECT,,
+SS034A,PID,EMBOLISATION/THROMBECT,,
+SS035A,PID,EMBOLISATION/THROMBECT,,
+SS036A,PID,EMBOLISATION/THROMBECT,,
+SS037A,PID,EMBOLISATION/THROMBECT,,
+SS038A,PID,EMBOLISATION/THROMBECT,,
+SS039A,PID,EMBOLISATION/THROMBECT,,
+SS040A,PID,EMBOLISATION/THROMBECT,,
+SS041A,PID,EMBOLISATION/THROMBECT,,
+SS042A,PID,EMBOLISATION/THROMBECT,,
+SU099A,BPH,Open simple prostatetctomy for,,
+SV036A,BPH,Open simple prostatetctomy for,,
+SV037A,BPH,Open simple prostatetctomy for,,
+SV038A,BPH,Open simple prostatetctomy for,,
+SV039A,BPH,Open simple prostatetctomy for,,
+SV040A,BPH,Open simple prostatetctomy for,,
+SV041A,BPH,Open simple prostatetctomy for,,
+SV041B,BPH,Open simple prostatetctomy for,,
+SV041C,BPH,Open simple prostatetctomy for,,
+SV041D,BPH,Open simple prostatetctomy for,,
+SV041E,BPH,Open simple prostatetctomy for,,
+US001B,BPH,Open simple prostatetctomy for,,
+HM011A,BPH,Open simple prostatetctomy for,,
+HM013A,BPH,Open simple prostatetctomy for,,
+HM022A,BPH,Open simple prostatetctomy for,,
+HM020A,BPH,Open simple prostatetctomy for,,
+HD008A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD009A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD010A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD002A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD004A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM005A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD011A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM003A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM012A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM017A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM007A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM009A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM010A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM008A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD003A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM006A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD001A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM018A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD012A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM004A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM019A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM001A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM002A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD005A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD006A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD007A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HM021A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HD013A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HP008A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HP007A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HP006A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HP004A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HP003A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HP010A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HP009A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HP005A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HP002A,MU,Colistin - 1 MU 73.92. Dose 9,,
+HP001A,MU,Colistin - 1 MU 73.92. Dose 9,,
