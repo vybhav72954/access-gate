@@ -1,0 +1,328 @@
+{
+ "title": "District-wise Authorized Hospital Admission under Ayushman Bharat-pradhan Mantri Jan Aarogya Yojana (AB-PMJAY) in Uttar Pradesh during 2021-22",
+ "desc": "District-wise Authorized Hospital Admission under Ayushman Bharat-pradhan Mantri Jan Aarogya Yojana (AB-PMJAY) in Uttar Pradesh during 2021-22",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "4367dc29-493d-4076-9521-a6dec4ecc3a7",
+ "created_date": "2023-11-17T18:25:26Z",
+ "updated_date": "2023-11-19T19:02:30Z",
+ "field": [
+  {
+   "id": "district",
+   "name": "District",
+   "type": "keyword"
+  },
+  {
+   "id": "no__of_authorized_hospital_admissions",
+   "name": "No. of Authorized Hospital Admissions",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "district": "Agra",
+   "no__of_authorized_hospital_admissions": 4196
+  },
+  {
+   "district": "Aligarh",
+   "no__of_authorized_hospital_admissions": 21644
+  },
+  {
+   "district": "Allahabad",
+   "no__of_authorized_hospital_admissions": 3710
+  },
+  {
+   "district": "Ambedkar Nagar",
+   "no__of_authorized_hospital_admissions": 3597
+  },
+  {
+   "district": "Amethi",
+   "no__of_authorized_hospital_admissions": 5007
+  },
+  {
+   "district": "Amroha",
+   "no__of_authorized_hospital_admissions": 3823
+  },
+  {
+   "district": "Auraiya",
+   "no__of_authorized_hospital_admissions": 3394
+  },
+  {
+   "district": "Azamgarh",
+   "no__of_authorized_hospital_admissions": 6605
+  },
+  {
+   "district": "Baghpat",
+   "no__of_authorized_hospital_admissions": 2870
+  },
+  {
+   "district": "Bahraich",
+   "no__of_authorized_hospital_admissions": 8990
+  },
+  {
+   "district": "Ballia",
+   "no__of_authorized_hospital_admissions": 3871
+  },
+  {
+   "district": "Balrampur",
+   "no__of_authorized_hospital_admissions": 2565
+  },
+  {
+   "district": "Banda",
+   "no__of_authorized_hospital_admissions": 2779
+  },
+  {
+   "district": "Barabanki",
+   "no__of_authorized_hospital_admissions": 5635
+  },
+  {
+   "district": "Bareilly",
+   "no__of_authorized_hospital_admissions": 28201
+  },
+  {
+   "district": "Basti",
+   "no__of_authorized_hospital_admissions": 5338
+  },
+  {
+   "district": "Bhadohi",
+   "no__of_authorized_hospital_admissions": 4845
+  },
+  {
+   "district": "Bijnor",
+   "no__of_authorized_hospital_admissions": 18415
+  },
+  {
+   "district": "Budaun",
+   "no__of_authorized_hospital_admissions": 6137
+  },
+  {
+   "district": "Bulandshahr",
+   "no__of_authorized_hospital_admissions": 13588
+  },
+  {
+   "district": "Chandauli",
+   "no__of_authorized_hospital_admissions": 6354
+  },
+  {
+   "district": "Chitrakoot",
+   "no__of_authorized_hospital_admissions": 1027
+  },
+  {
+   "district": "Deoria",
+   "no__of_authorized_hospital_admissions": 6273
+  },
+  {
+   "district": "Etah",
+   "no__of_authorized_hospital_admissions": 2184
+  },
+  {
+   "district": "Etawah",
+   "no__of_authorized_hospital_admissions": 3690
+  },
+  {
+   "district": "Faizabad",
+   "no__of_authorized_hospital_admissions": 5047
+  },
+  {
+   "district": "Farrukhabad",
+   "no__of_authorized_hospital_admissions": 2302
+  },
+  {
+   "district": "Fatehpur",
+   "no__of_authorized_hospital_admissions": 2471
+  },
+  {
+   "district": "Firozabad",
+   "no__of_authorized_hospital_admissions": 2715
+  },
+  {
+   "district": "Gautam Buddha Nagar",
+   "no__of_authorized_hospital_admissions": 3197
+  },
+  {
+   "district": "Ghaziabad",
+   "no__of_authorized_hospital_admissions": 4072
+  },
+  {
+   "district": "Ghazipur",
+   "no__of_authorized_hospital_admissions": 5471
+  },
+  {
+   "district": "Gonda",
+   "no__of_authorized_hospital_admissions": 8085
+  },
+  {
+   "district": "Gorakhpur",
+   "no__of_authorized_hospital_admissions": 16169
+  },
+  {
+   "district": "Hamirpur",
+   "no__of_authorized_hospital_admissions": 1570
+  },
+  {
+   "district": "Hapur",
+   "no__of_authorized_hospital_admissions": 2245
+  },
+  {
+   "district": "Hardoi",
+   "no__of_authorized_hospital_admissions": 4228
+  },
+  {
+   "district": "Hathras",
+   "no__of_authorized_hospital_admissions": 3313
+  },
+  {
+   "district": "Jalaun",
+   "no__of_authorized_hospital_admissions": 5006
+  },
+  {
+   "district": "Jaunpur",
+   "no__of_authorized_hospital_admissions": 5597
+  },
+  {
+   "district": "Jhansi",
+   "no__of_authorized_hospital_admissions": 3652
+  },
+  {
+   "district": "Kannauj",
+   "no__of_authorized_hospital_admissions": 3472
+  },
+  {
+   "district": "Kanpur Dehat",
+   "no__of_authorized_hospital_admissions": 4204
+  },
+  {
+   "district": "Kanpur Nagar",
+   "no__of_authorized_hospital_admissions": 5752
+  },
+  {
+   "district": "Kasganj",
+   "no__of_authorized_hospital_admissions": 2981
+  },
+  {
+   "district": "Kaushambi",
+   "no__of_authorized_hospital_admissions": 1079
+  },
+  {
+   "district": "Kheri",
+   "no__of_authorized_hospital_admissions": 5527
+  },
+  {
+   "district": "Kushi Nagar",
+   "no__of_authorized_hospital_admissions": 7452
+  },
+  {
+   "district": "Lalitpur",
+   "no__of_authorized_hospital_admissions": 1674
+  },
+  {
+   "district": "Lucknow",
+   "no__of_authorized_hospital_admissions": 10881
+  },
+  {
+   "district": "Maharajganj",
+   "no__of_authorized_hospital_admissions": 5363
+  },
+  {
+   "district": "Mahoba",
+   "no__of_authorized_hospital_admissions": 1972
+  },
+  {
+   "district": "Mainpuri",
+   "no__of_authorized_hospital_admissions": 2755
+  },
+  {
+   "district": "Mathura",
+   "no__of_authorized_hospital_admissions": 2973
+  },
+  {
+   "district": "Mau",
+   "no__of_authorized_hospital_admissions": 4741
+  },
+  {
+   "district": "Meerut",
+   "no__of_authorized_hospital_admissions": 7070
+  },
+  {
+   "district": "Mirzapur",
+   "no__of_authorized_hospital_admissions": 5640
+  },
+  {
+   "district": "Moradabad",
+   "no__of_authorized_hospital_admissions": 15592
+  },
+  {
+   "district": "Muzaffarnagar",
+   "no__of_authorized_hospital_admissions": 6670
+  },
+  {
+   "district": "Pilibhit",
+   "no__of_authorized_hospital_admissions": 10548
+  },
+  {
+   "district": "Pratapgarh",
+   "no__of_authorized_hospital_admissions": 7860
+  },
+  {
+   "district": "Rae Bareli",
+   "no__of_authorized_hospital_admissions": 4452
+  },
+  {
+   "district": "Rampur",
+   "no__of_authorized_hospital_admissions": 6604
+  },
+  {
+   "district": "Saharanpur",
+   "no__of_authorized_hospital_admissions": 13591
+  },
+  {
+   "district": "Sambhal",
+   "no__of_authorized_hospital_admissions": 3320
+  },
+  {
+   "district": "Sant Kabeer Nagar",
+   "no__of_authorized_hospital_admissions": 4775
+  },
+  {
+   "district": "Shahjahanpur",
+   "no__of_authorized_hospital_admissions": 10595
+  },
+  {
+   "district": "Shamli",
+   "no__of_authorized_hospital_admissions": 6368
+  },
+  {
+   "district": "Shravasti",
+   "no__of_authorized_hospital_admissions": 1510
+  },
+  {
+   "district": "Siddharth Nagar",
+   "no__of_authorized_hospital_admissions": 3142
+  },
+  {
+   "district": "Sitapur",
+   "no__of_authorized_hospital_admissions": 7296
+  },
+  {
+   "district": "Sonbhadra",
+   "no__of_authorized_hospital_admissions": 2999
+  },
+  {
+   "district": "Sultanpur",
+   "no__of_authorized_hospital_admissions": 4187
+  },
+  {
+   "district": "Unnao",
+   "no__of_authorized_hospital_admissions": 4210
+  },
+  {
+   "district": "Varanasi",
+   "no__of_authorized_hospital_admissions": 18611
+  }
+ ]
+}

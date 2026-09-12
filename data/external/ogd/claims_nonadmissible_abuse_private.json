@@ -1,0 +1,153 @@
+{
+ "title": "State/UT-wise Details of Claims Found Non-admissible on Account of Abuse, Misuse, or Incorrect Entries in Private Hospitals under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) as on 14-01-2025",
+ "desc": "State/UT-wise Details of Claims Found Non-admissible on Account of Abuse, Misuse, or Incorrect Entries in Private Hospitals under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) as on 14-01-2025",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "e3b19e4d-e287-4d32-b53d-70e9617c7770",
+ "created_date": "2025-08-07T18:39:48Z",
+ "updated_date": "2025-08-07T18:39:48Z",
+ "field": [
+  {
+   "id": "_sl__no_",
+   "name": "Sl. No.",
+   "type": "double"
+  },
+  {
+   "id": "state_ut",
+   "name": "State/UT",
+   "type": "keyword"
+  },
+  {
+   "id": "claim__rs__in_lakhs_",
+   "name": "Claim (Rs. In Lakhs)",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "_sl__no_": 1,
+   "state_ut": "Assam",
+   "claim__rs__in_lakhs_": 48.29
+  },
+  {
+   "_sl__no_": 2,
+   "state_ut": "Bihar",
+   "claim__rs__in_lakhs_": 726.13
+  },
+  {
+   "_sl__no_": 3,
+   "state_ut": "Chandigarh",
+   "claim__rs__in_lakhs_": 4.04
+  },
+  {
+   "_sl__no_": 4,
+   "state_ut": "Chhattisgarh",
+   "claim__rs__in_lakhs_": 12034.28
+  },
+  {
+   "_sl__no_": 5,
+   "state_ut": "Dadra and Nagar Haveli",
+   "claim__rs__in_lakhs_": 0.98
+  },
+  {
+   "_sl__no_": 6,
+   "state_ut": "Daman and Diu",
+   "claim__rs__in_lakhs_": 1.39
+  },
+  {
+   "_sl__no_": 7,
+   "state_ut": "Gujarat",
+   "claim__rs__in_lakhs_": 3158.18
+  },
+  {
+   "_sl__no_": 8,
+   "state_ut": "Haryana",
+   "claim__rs__in_lakhs_": 4503.74
+  },
+  {
+   "_sl__no_": 9,
+   "state_ut": "Himachal Pradesh",
+   "claim__rs__in_lakhs_": 75.65
+  },
+  {
+   "_sl__no_": 10,
+   "state_ut": "Jammu and Kashmir",
+   "claim__rs__in_lakhs_": 1180.21
+  },
+  {
+   "_sl__no_": 11,
+   "state_ut": "Jharkhand",
+   "claim__rs__in_lakhs_": 878.06
+  },
+  {
+   "_sl__no_": 12,
+   "state_ut": "Kerala",
+   "claim__rs__in_lakhs_": 3495.06
+  },
+  {
+   "_sl__no_": 13,
+   "state_ut": "Ladakh",
+   "claim__rs__in_lakhs_": 0.5
+  },
+  {
+   "_sl__no_": 14,
+   "state_ut": "Madhya Pradesh",
+   "claim__rs__in_lakhs_": 11934.11
+  },
+  {
+   "_sl__no_": 15,
+   "state_ut": "Maharashtra",
+   "claim__rs__in_lakhs_": 0.19
+  },
+  {
+   "_sl__no_": 16,
+   "state_ut": "Manipur",
+   "claim__rs__in_lakhs_": 21.62
+  },
+  {
+   "_sl__no_": 17,
+   "state_ut": "Meghalaya",
+   "claim__rs__in_lakhs_": 237.36
+  },
+  {
+   "_sl__no_": 18,
+   "state_ut": "Mizoram",
+   "claim__rs__in_lakhs_": 10.2
+  },
+  {
+   "_sl__no_": 19,
+   "state_ut": "Nagaland",
+   "claim__rs__in_lakhs_": 16.72
+  },
+  {
+   "_sl__no_": 20,
+   "state_ut": "Puducherry",
+   "claim__rs__in_lakhs_": 22.79
+  },
+  {
+   "_sl__no_": 21,
+   "state_ut": "Punjab",
+   "claim__rs__in_lakhs_": 2870.72
+  },
+  {
+   "_sl__no_": 22,
+   "state_ut": "Tripura",
+   "claim__rs__in_lakhs_": 60.89
+  },
+  {
+   "_sl__no_": 23,
+   "state_ut": "Uttar Pradesh",
+   "claim__rs__in_lakhs_": 13902.94
+  },
+  {
+   "_sl__no_": 24,
+   "state_ut": "Uttarakhand",
+   "claim__rs__in_lakhs_": 1057.39
+  }
+ ]
+}

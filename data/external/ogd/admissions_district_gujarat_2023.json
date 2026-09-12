@@ -1,0 +1,203 @@
+{
+ "title": "District-wise Number of Authorized Hospital Admissions under Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) in the State of Gujarat (in Reply to Unstarred Question on 8 August, 2023)",
+ "desc": "District-wise Number of Authorized Hospital Admissions under Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) in the State of Gujarat (in Reply to Unstarred Question on 8 August, 2023)",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "ee69ffd5-5bab-4b16-8f55-30ec0b3e4918",
+ "created_date": "2024-03-22T14:06:54Z",
+ "updated_date": "2024-03-27T12:05:54Z",
+ "field": [
+  {
+   "id": "_sl__no_",
+   "name": "Sl. No.",
+   "type": "double"
+  },
+  {
+   "id": "district",
+   "name": "District",
+   "type": "keyword"
+  },
+  {
+   "id": "number_of_authorized_hospital_admissions",
+   "name": "Number of Authorized Hospital Admissions",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "_sl__no_": 1,
+   "district": "Ahmadabad",
+   "number_of_authorized_hospital_admissions": 292857
+  },
+  {
+   "_sl__no_": 2,
+   "district": "Amreli",
+   "number_of_authorized_hospital_admissions": 78506
+  },
+  {
+   "_sl__no_": 3,
+   "district": "Anand",
+   "number_of_authorized_hospital_admissions": 87465
+  },
+  {
+   "_sl__no_": 4,
+   "district": "Arvalli",
+   "number_of_authorized_hospital_admissions": 31636
+  },
+  {
+   "_sl__no_": 5,
+   "district": "Banas Kantha",
+   "number_of_authorized_hospital_admissions": 127157
+  },
+  {
+   "_sl__no_": 6,
+   "district": "Bharuch",
+   "number_of_authorized_hospital_admissions": 56608
+  },
+  {
+   "_sl__no_": 7,
+   "district": "Bhavnagar",
+   "number_of_authorized_hospital_admissions": 86639
+  },
+  {
+   "_sl__no_": 8,
+   "district": "Botad",
+   "number_of_authorized_hospital_admissions": 25873
+  },
+  {
+   "_sl__no_": 9,
+   "district": "Chhotaudepur",
+   "number_of_authorized_hospital_admissions": 21309
+  },
+  {
+   "_sl__no_": 10,
+   "district": "Dang",
+   "number_of_authorized_hospital_admissions": 3289
+  },
+  {
+   "_sl__no_": 11,
+   "district": "Devbhumi Dwarka",
+   "number_of_authorized_hospital_admissions": 24689
+  },
+  {
+   "_sl__no_": 12,
+   "district": "Dohad",
+   "number_of_authorized_hospital_admissions": 43699
+  },
+  {
+   "_sl__no_": 13,
+   "district": "Gandhinagar",
+   "number_of_authorized_hospital_admissions": 50041
+  },
+  {
+   "_sl__no_": 14,
+   "district": "Gir Somnath",
+   "number_of_authorized_hospital_admissions": 58789
+  },
+  {
+   "_sl__no_": 15,
+   "district": "Jamnagar",
+   "number_of_authorized_hospital_admissions": 61421
+  },
+  {
+   "_sl__no_": 16,
+   "district": "Junagadh",
+   "number_of_authorized_hospital_admissions": 90586
+  },
+  {
+   "_sl__no_": 17,
+   "district": "Kachchh",
+   "number_of_authorized_hospital_admissions": 85043
+  },
+  {
+   "_sl__no_": 18,
+   "district": "Kheda",
+   "number_of_authorized_hospital_admissions": 67273
+  },
+  {
+   "_sl__no_": 19,
+   "district": "Mahesana",
+   "number_of_authorized_hospital_admissions": 101973
+  },
+  {
+   "_sl__no_": 20,
+   "district": "Mahisagar",
+   "number_of_authorized_hospital_admissions": 23772
+  },
+  {
+   "_sl__no_": 21,
+   "district": "Morbi",
+   "number_of_authorized_hospital_admissions": 46651
+  },
+  {
+   "_sl__no_": 22,
+   "district": "Narmada",
+   "number_of_authorized_hospital_admissions": 16248
+  },
+  {
+   "_sl__no_": 23,
+   "district": "Navsari",
+   "number_of_authorized_hospital_admissions": 56510
+  },
+  {
+   "_sl__no_": 24,
+   "district": "Outside State",
+   "number_of_authorized_hospital_admissions": 1815873
+  },
+  {
+   "_sl__no_": 25,
+   "district": "Panch Mahals",
+   "number_of_authorized_hospital_admissions": 36477
+  },
+  {
+   "_sl__no_": 26,
+   "district": "Patan",
+   "number_of_authorized_hospital_admissions": 67653
+  },
+  {
+   "_sl__no_": 27,
+   "district": "Porbandar",
+   "number_of_authorized_hospital_admissions": 26083
+  },
+  {
+   "_sl__no_": 28,
+   "district": "Rajkot",
+   "number_of_authorized_hospital_admissions": 178247
+  },
+  {
+   "_sl__no_": 29,
+   "district": "Sabar Kantha",
+   "number_of_authorized_hospital_admissions": 65968
+  },
+  {
+   "_sl__no_": 30,
+   "district": "Surat",
+   "number_of_authorized_hospital_admissions": 195036
+  },
+  {
+   "_sl__no_": 31,
+   "district": "Surendranagar",
+   "number_of_authorized_hospital_admissions": 69431
+  },
+  {
+   "_sl__no_": 32,
+   "district": "Tapi",
+   "number_of_authorized_hospital_admissions": 26087
+  },
+  {
+   "_sl__no_": 33,
+   "district": "Vadodara",
+   "number_of_authorized_hospital_admissions": 111592
+  },
+  {
+   "_sl__no_": 34,
+   "district": "Valsad",
+   "number_of_authorized_hospital_admissions": 48198
+  }
+ ]
+}

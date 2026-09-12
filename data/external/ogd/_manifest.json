@@ -1,0 +1,517 @@
+{
+ "claims_nonadmissible_abuse_private": {
+  "resource_id": "410b3af5-0f61-474b-94d9-ba6dbe00238b",
+  "title": "State/UT-wise Details of Claims Found Non-admissible on Account of Abuse, Misuse, or Incorrect Entries in Private Hospitals under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) as on 14-01-2025",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2025-08-07T18:39:48Z",
+  "catalog_updated": "2025-08-07T18:39:48Z",
+  "records": 24,
+  "total_reported": 24,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "Claim (Rs. In Lakhs)"
+  ],
+  "csv_sha256": "12e65b4d61cfa24a189a46b86f0aa9cb2fed8991951aba1b58407801419be296",
+  "request": "https://api.data.gov.in/resource/410b3af5-0f61-474b-94d9-ba6dbe00238b?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:19Z",
+  "purpose": "Claims found non-admissible for abuse, misuse or incorrect entries in private hospitals, by state"
+ },
+ "hospitals_deempanelled_by_ownership": {
+  "resource_id": "bc39f5a9-eaec-417f-bde3-a5d2892622be",
+  "title": "State/ UT-wise Number of Public and Private Hospitals de-empaneled under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2018-19 to 2024-25",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2025-05-20T14:16:29Z",
+  "catalog_updated": "2025-05-20T14:16:29Z",
+  "records": 33,
+  "total_reported": 33,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "2018-19 - Public",
+   "2018-19 - Private",
+   "2019-20 - Public",
+   "2019-20 - Private",
+   "2020-21 - Public",
+   "2020-21 - Private",
+   "2021-22 - Public",
+   "2021-22 - Private",
+   "2022-23 - Public",
+   "2022-23 - Private",
+   "2023-24 - Public",
+   "2023-24 - Private",
+   "2024-25 - Public",
+   "2024-25 - Private"
+  ],
+  "csv_sha256": "537a8e8ac83477457310e1df1e45b170fe504ca4dd89cdd5422691e3ae80b2d3",
+  "request": "https://api.data.gov.in/resource/bc39f5a9-eaec-417f-bde3-a5d2892622be?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:21Z",
+  "purpose": "Public vs private hospitals de-empanelled 2018-19 to 2024-25: whom enforcement falls on"
+ },
+ "hospitals_empanelled_by_ownership": {
+  "resource_id": "ee5d9a44-d0bf-4e58-b2bd-410ab830f8d9",
+  "title": "State/ UT-wise Number of Public and Private Hospitals empaneled under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2018-19 to 2024-25",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2026-02-26T12:30:56Z",
+  "catalog_updated": "2026-02-26T12:30:56Z",
+  "records": 37,
+  "total_reported": 37,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "2018-19 - Public",
+   "2018-19 - Private",
+   "2019-20 - Public",
+   "2019-20 - Private",
+   "2020-21 - Public",
+   "2020-21 - Private",
+   "2021-22 - Public",
+   "2021-22 - Private",
+   "2022-23 - Public",
+   "2022-23 - Private",
+   "2023-24 - Public",
+   "2023-24 - Private",
+   "2024-25 - Public",
+   "2024-25 - Private"
+  ],
+  "csv_sha256": "ddbba14615372925b96e54b8c9e16e07b20d8234820652fc5def25c1f8fa4a1a",
+  "request": "https://api.data.gov.in/resource/ee5d9a44-d0bf-4e58-b2bd-410ab830f8d9?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:22Z",
+  "purpose": "Public vs private hospitals empanelled 2018-19 to 2024-25: denominators for de-empanelment rates"
+ },
+ "hospitals_opted_out": {
+  "resource_id": "82572ca2-cf19-4b8e-bc4e-a2e0f2fe12ca",
+  "title": "State/UT-wise Number of Hospitals that have Opted Out under Ayushman Bharat Pradhan Mantri Jan Arogaya Yojana (AB-PMJAY) from 2019-20 to 2024-25",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2025-06-27T08:24:12Z",
+  "catalog_updated": "2025-06-27T08:24:12Z",
+  "records": 16,
+  "total_reported": 16,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "2019-20",
+   "2020-21",
+   "2021-22",
+   "2022-23",
+   "2023-24",
+   "2024-25"
+  ],
+  "csv_sha256": "3d33f96dca6a5be5a6926dee9241a52c914b9dc6a1e63e2339bd4c566f1d9590",
+  "request": "https://api.data.gov.in/resource/82572ca2-cf19-4b8e-bc4e-a2e0f2fe12ca?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:23Z",
+  "purpose": "Hospitals that left the scheme voluntarily 2019-20 to 2024-25: network loss that is not enforcement"
+ },
+ "beneficiaries_single_mobile": {
+  "resource_id": "b63c7b68-8f0d-410c-b994-efc77fa81f58",
+  "title": "State/UT-wise, the number of beneficiaries under Aayushman Bharat Pradhan Mantri Jan Arogaya Yojana (AB-PMJAY) who were linked to a single mobile number during 2018-21",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2026-02-25T05:36:13Z",
+  "catalog_updated": "2026-02-25T05:36:13Z",
+  "records": 22,
+  "total_reported": 22,
+  "columns": [
+   "Sl. No.",
+   "State / UT",
+   "Number of beneficiaries"
+  ],
+  "csv_sha256": "0e9bcf1cfdf8dc1c8e8f2c99c2e197c5f3f37bbc780f69caeb795e160ce5f9f7",
+  "request": "https://api.data.gov.in/resource/b63c7b68-8f0d-410c-b994-efc77fa81f58?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:24Z",
+  "purpose": "Beneficiaries linked to a single mobile number 2018-21 (the CAG identity finding)"
+ },
+ "admissions_authorised_2019_2025": {
+  "resource_id": "564d94de-0b69-4a85-9fbd-9972c51f7799",
+  "title": "State/UT-wise Number of Authorized Hospital Admissions under Ayushman Bharat Pradhan Mantri-Jan Arogya Yojana (AB PM-JAY) from 2019-20 to 2024-25",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2025-04-24T19:46:03Z",
+  "catalog_updated": "2025-04-24T19:46:03Z",
+  "records": 33,
+  "total_reported": 33,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "Number of Hospital Admissions"
+  ],
+  "csv_sha256": "fd0dc14749143079b0501ff1774b96e53cd67034a2e2d08023d5a2daa8846ea3",
+  "request": "https://api.data.gov.in/resource/564d94de-0b69-4a85-9fbd-9972c51f7799?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:26Z",
+  "purpose": "Authorised hospital admissions by state 2019-20 to 2024-25: claim volume per state"
+ },
+ "admissions_2018_2025": {
+  "resource_id": "e2292d55-71c5-416a-8a72-c7d63661b7a2",
+  "title": "State/UT-wise Number of Hospital Admissions under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2018-19 to 2024-25",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2025-06-02T12:07:34Z",
+  "catalog_updated": "2025-06-02T12:07:34Z",
+  "records": 33,
+  "total_reported": 33,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "2018-19",
+   "2019-20",
+   "2020-21",
+   "2021-22",
+   "2022-23",
+   "2023-24",
+   "2024-25"
+  ],
+  "csv_sha256": "1b5c76b34cd4725f5705e045e9f1ae69491dd65ac67b03855fbb3c71d9611a10",
+  "request": "https://api.data.gov.in/resource/e2292d55-71c5-416a-8a72-c7d63661b7a2?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:28Z",
+  "purpose": "Hospital admissions by state 2018-19 to 2024-25: cross-check of the series above"
+ },
+ "admissions_amount_2018_2025": {
+  "resource_id": "c665d927-454f-4323-81d7-1b64b049c3ae",
+  "title": "State/UT-wise Details of Amount for Hospital Admissions under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2018-19 to 2024-25",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2025-06-02T12:08:05Z",
+  "catalog_updated": "2025-06-02T12:08:05Z",
+  "records": 33,
+  "total_reported": 33,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "2018-19",
+   "2019-20",
+   "2020-21",
+   "2021-22",
+   "2022-23",
+   "2023-24",
+   "2024-25"
+  ],
+  "csv_sha256": "73f03e788cebc28ce599b5ad4d9fc7f6b1209e5d6805ee0ac4088a624de57cd8",
+  "request": "https://api.data.gov.in/resource/c665d927-454f-4323-81d7-1b64b049c3ae?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:30Z",
+  "purpose": "Amount for hospital admissions by state 2018-19 to 2024-25: money at stake per state"
+ },
+ "admissions_count_amount_2021_2024": {
+  "resource_id": "b4de3b6a-cfb2-423b-a04b-4b5cb8260140",
+  "title": "State/UT-wise Details of Hospital Admission Count and Amount under Ayushman Bharat- Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2021-22 to 2023-24",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2026-02-26T12:29:42Z",
+  "catalog_updated": "2026-02-26T12:29:42Z",
+  "records": 33,
+  "total_reported": 33,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "2021-22 - Count",
+   "2021-22 - Amount",
+   "2022-23 - Count",
+   "2022-23 - Amount",
+   "2023-24 - Count",
+   "2023-24 - Amount"
+  ],
+  "csv_sha256": "7e5bad824580863763b3da0ac49068f4f3e541b106b2e804fec4f3aac207417d",
+  "request": "https://api.data.gov.in/resource/b4de3b6a-cfb2-423b-a04b-4b5cb8260140?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:31Z",
+  "purpose": "Admission count and amount by state 2021-22 to 2023-24: average claim value per state"
+ },
+ "claims_submitted_paid_pending": {
+  "resource_id": "a7984e3b-c712-4aff-9d38-d46bc8f0be80",
+  "title": "State/UT-wise Details of Claims Submitted, Claims Paid and Pending Claims under Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2020-21 to 2022-23",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2025-03-27T19:30:31Z",
+  "catalog_updated": "2025-03-27T19:30:31Z",
+  "records": 34,
+  "total_reported": 34,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "Claims Submitted Count - 2020-21",
+   "Claims Paid Count - 2020-21",
+   "Claims Pending Count - 2020-21",
+   "Claims Submitted Count - 2021-22",
+   "Claims Paid Count - 2021-22",
+   "Claims Pending Count - 2021-22",
+   "Claims Submitted Count - 2022-23",
+   "Claims Paid Count - 2022-23",
+   "Claims Pending Count - 2022-23"
+  ],
+  "csv_sha256": "8f8e98993eed1311cee2a08523e5de9a7b9a41c66c971ebde2d29a772ff73472",
+  "request": "https://api.data.gov.in/resource/a7984e3b-c712-4aff-9d38-d46bc8f0be80?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:32Z",
+  "purpose": "Claims submitted, paid and pending by state 2020-21 to 2022-23: the payment pipeline"
+ },
+ "admissions_by_specialty_2024": {
+  "resource_id": "1739b151-c629-4383-aa98-496c09ba3c0f",
+  "title": "Specialty-wise Details of Authorized Hospital Admissions under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) as on 30-06-2024",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2024-11-03T05:43:08Z",
+  "catalog_updated": "2024-11-03T05:43:08Z",
+  "records": 20,
+  "total_reported": 20,
+  "columns": [
+   "Sl. No.",
+   "Specialty",
+   "Authorized Hospital Admissions Count (in lakh)",
+   "Authorized Hospital Admissions Amount (Rs. In Crore)"
+  ],
+  "csv_sha256": "a3483354729e678a465605081e38d68e463e9e35d0db471658bfba57aaf03b87",
+  "request": "https://api.data.gov.in/resource/1739b151-c629-4383-aa98-496c09ba3c0f?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:33Z",
+  "purpose": "Authorised admissions by specialty as on 30-06-2024: specialty mix of the claim corpus"
+ },
+ "admissions_by_specialty_2021": {
+  "resource_id": "eb5def2c-a944-4518-b966-6877435fc395",
+  "title": "Specialty-wise Hospital Admissions and Hospital Amount (in reply to Unstarred Question on 2 February, 2021) (From: Ministry of Health and Family Welfare)",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2021-11-23T05:00:14Z",
+  "catalog_updated": "2022-02-28T10:22:24Z",
+  "records": 26,
+  "total_reported": 26,
+  "columns": [
+   "Specialty",
+   "Authorized Hospital Admissions (Count)",
+   "Authorized Hospital Admissions (Amount in Crores of Rupees)"
+  ],
+  "csv_sha256": "97a22f14ddf7ffc4f49516f681fd58fd729a8cc2d3318619c1bb01f36b2bad79",
+  "request": "https://api.data.gov.in/resource/eb5def2c-a944-4518-b966-6877435fc395?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:35Z",
+  "purpose": "Admissions and amount by specialty (reply of 2 Feb 2021): second specialty mix, amounts"
+ },
+ "admissions_mental_health": {
+  "resource_id": "7d71043c-1a45-412c-b649-e0f8c8d89a65",
+  "title": "State/UTs-wise Authorized Hospital Admission for Mental Health Issues under Ayushman Bharat Yojna or Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) (in reply to Unstarred Question on 15 March, 2022)",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2023-11-17T18:30:13Z",
+  "catalog_updated": "2023-11-19T19:02:40Z",
+  "records": 29,
+  "total_reported": 29,
+  "columns": [
+   "State/UT",
+   "No. of Authorized Hospital Admission"
+  ],
+  "csv_sha256": "5b8fa0ac74211b5fb73f984b1d4d5d92d3d84fcce88c6c98980d0f9c508e7245",
+  "request": "https://api.data.gov.in/resource/7d71043c-1a45-412c-b649-e0f8c8d89a65?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:36Z",
+  "purpose": "Mental-health admissions by state (reply of 15 Mar 2022): the most concentrated specialty"
+ },
+ "beneficiaries_treated_since_inception": {
+  "resource_id": "b1b803c9-e6d6-40b1-bd71-a17888fc5110",
+  "title": "State/UT-wise Details of Total Number of Beneficiaries who have Received Treatment under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) Since its Inception from 2018-19 to 2024-25",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2024-11-03T05:42:42Z",
+  "catalog_updated": "2024-11-03T05:42:42Z",
+  "records": 33,
+  "total_reported": 33,
+  "columns": [
+   "State/UT",
+   "2018-19",
+   "2019-20",
+   "2020-21",
+   "2021-22",
+   "2022-23",
+   "2023-24",
+   "2024-25"
+  ],
+  "csv_sha256": "940d01703e74c5da8fe36995570f219174500655b74fcb74eb6b2f52345ff31f",
+  "request": "https://api.data.gov.in/resource/b1b803c9-e6d6-40b1-bd71-a17888fc5110?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:37Z",
+  "purpose": "Beneficiaries treated by state since inception to 2024-25: scale"
+ },
+ "treatment_expenditure_since_inception": {
+  "resource_id": "62748b15-796c-427d-99db-667ca0ec8fd4",
+  "title": "State/UT-wise Details of Total Expenditure Incurred Towards the Treatment of Beneficiaries under Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) Since its Inception from 2018-19 to 2024-25",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2024-11-03T05:45:24Z",
+  "catalog_updated": "2024-11-03T05:45:24Z",
+  "records": 33,
+  "total_reported": 33,
+  "columns": [
+   "State/UT",
+   "2018-19",
+   "2019-20",
+   "2020-21",
+   "2021-22",
+   "2022-23",
+   "2023-24",
+   "2024-25"
+  ],
+  "csv_sha256": "844a165d43d6650e72b682fc16412175286a37b777321cb3d578ce231ca82329",
+  "request": "https://api.data.gov.in/resource/62748b15-796c-427d-99db-667ca0ec8fd4?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:38Z",
+  "purpose": "Treatment expenditure by state since inception to 2024-25: scale"
+ },
+ "funds_released_2019_2025": {
+  "resource_id": "2e6e5402-c86e-421e-a7e2-5e761251e3aa",
+  "title": "State/UT-wise Details of Fund Released under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2019-20 to 2024-25",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2026-02-26T13:06:40Z",
+  "catalog_updated": "2026-02-26T13:06:40Z",
+  "records": 33,
+  "total_reported": 33,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "Central Share Released - 2019-20",
+   "Central Share Released - 2020-21",
+   "Central Share Released - 2021-22",
+   "Central Share Released - 2022-23",
+   "Central Share Released - 2023-24",
+   "Central Share Released - 2024-25"
+  ],
+  "csv_sha256": "828afe39edc9be04d6a1132be9ff37fc8c71e11d69205a1dadcfb017f0387a6b",
+  "request": "https://api.data.gov.in/resource/2e6e5402-c86e-421e-a7e2-5e761251e3aa?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:39Z",
+  "purpose": "Funds released by state 2019-20 to 2024-25"
+ },
+ "hospitals_empanelled_2025_03": {
+  "resource_id": "e7255d28-1378-4984-ae22-0784e4e0f599",
+  "title": "State/UT wise Number of Hospitals Empanelled under Ayushman Bharat Pradhan Mantri Jan Arogaya Yojana (AB PMJAY) and Operational Ayushman Arogya Mandirs during as on 28-02-2025 and as on 01-03-2025",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2025-07-20T12:51:08Z",
+  "catalog_updated": "2025-07-20T12:51:08Z",
+  "records": 37,
+  "total_reported": 37,
+  "columns": [
+   "Sl. No.",
+   "State/UT",
+   "Number of Empanelled Hospitals under PMJAY (as on 01-03-2025)",
+   "Total Operational Ayushman Arogya Mandir (AAM) (as on 28-02-2025)"
+  ],
+  "csv_sha256": "c7c00d19dba96b6f6d986ca1a2fecfef0024e6da66b2f2e56f48268a7aafa54d",
+  "request": "https://api.data.gov.in/resource/e7255d28-1378-4984-ae22-0784e4e0f599?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:40Z",
+  "purpose": "Empanelled hospitals by state as on 01-03-2025: validates the registry snapshot"
+ },
+ "hospitals_empanelled_ne_wb_2024": {
+  "resource_id": "f5cddeb1-88c7-43fc-8a83-a216b7a3f3fd",
+  "title": "State-wise Details of Total Number of Public and Private Hospitals Empanelled in North-East and West Bengal under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) as on 30-06-2024",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2024-11-03T05:45:48Z",
+  "catalog_updated": "2024-11-03T05:45:48Z",
+  "records": 132,
+  "total_reported": 132,
+  "columns": [
+   "State",
+   "District",
+   "Number of Hospitals Empanelled - Private",
+   "Number of Hospitals Empanelled - Public",
+   "Number of Hospitals Empanelled - Total"
+  ],
+  "csv_sha256": "d6d76de2d52b1fe5e0df20a4565f5c1b3ef2c1b41c42d548f8a3859770146c47",
+  "request": "https://api.data.gov.in/resource/f5cddeb1-88c7-43fc-8a83-a216b7a3f3fd?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:42Z",
+  "purpose": "Public/private empanelled hospitals in the North-East and West Bengal as on 30-06-2024"
+ },
+ "admissions_district_up_2021_22": {
+  "resource_id": "34f5b40a-5ca1-42e6-8523-5ea929684cc7",
+  "title": "District-wise Authorized Hospital Admission under Ayushman Bharat-pradhan Mantri Jan Aarogya Yojana (AB-PMJAY) in Uttar Pradesh during 2021-22",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2023-11-17T18:25:26Z",
+  "catalog_updated": "2023-11-19T19:02:30Z",
+  "records": 75,
+  "total_reported": 75,
+  "columns": [
+   "District",
+   "No. of Authorized Hospital Admissions"
+  ],
+  "csv_sha256": "c468d0738b265559407a05cf117c1448c760a9926f2989959e5b8aba7787bac2",
+  "request": "https://api.data.gov.in/resource/34f5b40a-5ca1-42e6-8523-5ea929684cc7?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:43Z",
+  "purpose": "District-wise authorised admissions in Uttar Pradesh 2021-22: Bahraich (S2)"
+ },
+ "admissions_district_gujarat_2023": {
+  "resource_id": "a96f2450-dcac-4e83-98f6-8e5c4de39850",
+  "title": "District-wise Number of Authorized Hospital Admissions under Ayushman Bharat-Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) in the State of Gujarat (in Reply to Unstarred Question on 8 August, 2023)",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2024-03-22T14:06:54Z",
+  "catalog_updated": "2024-03-27T12:05:54Z",
+  "records": 34,
+  "total_reported": 34,
+  "columns": [
+   "Sl. No.",
+   "District",
+   "Number of Authorized Hospital Admissions"
+  ],
+  "csv_sha256": "4b3ac8090b99fe509769c5586075eed0505e7c174ad109cd94a5b4e42ad93a7c",
+  "request": "https://api.data.gov.in/resource/a96f2450-dcac-4e83-98f6-8e5c4de39850?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:45Z",
+  "purpose": "District-wise authorised admissions in Gujarat (reply of 8 Aug 2023): Ahmedabad (S1)"
+ },
+ "hospitals_district_gujarat_2022": {
+  "resource_id": "e58b952c-dbcf-472d-be05-3aaee16b2462",
+  "title": "District-wise Eligible Beneficiaries Number of Hospitals Empanelled in Gujarat as per SECC 2011 Database (in reply to Unstarred Question on 28 March, 2022)",
+  "org": [
+   "Rajya Sabha"
+  ],
+  "source": "data.gov.in",
+  "catalog_created": "2022-09-15T07:16:09Z",
+  "catalog_updated": "2022-09-15T12:34:57Z",
+  "records": 33,
+  "total_reported": 33,
+  "columns": [
+   "District",
+   "Number of Eligible Families",
+   "Private Hospitals",
+   "Public Hospitals"
+  ],
+  "csv_sha256": "64019a208703899536bef6717bd4b2b00fae72ff4994a2a35096792631b0b3f5",
+  "request": "https://api.data.gov.in/resource/e58b952c-dbcf-472d-be05-3aaee16b2462?api-key=<REDACTED>&format=json&limit=500",
+  "fetched_utc": "2026-09-16T11:37:46Z",
+  "purpose": "District-wise eligible beneficiaries and empanelled hospitals in Gujarat (reply of 28 Mar 2022)"
+ }
+}

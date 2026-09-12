@@ -1,0 +1,144 @@
+{
+ "title": "State/UTs-wise Authorized Hospital Admission for Mental Health Issues under Ayushman Bharat Yojna or Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) (in reply to Unstarred Question on 15 March, 2022)",
+ "desc": "State/UTs-wise Authorized Hospital Admission for Mental Health Issues under Ayushman Bharat Yojna or Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) (in reply to Unstarred Question on 15 March, 2022)",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "4367dc29-493d-4076-9521-a6dec4ecc3a7",
+ "created_date": "2023-11-17T18:30:13Z",
+ "updated_date": "2023-11-19T19:02:40Z",
+ "field": [
+  {
+   "id": "state_ut",
+   "name": "State/UT",
+   "type": "keyword"
+  },
+  {
+   "id": "no__of_authorized_hospital_admission",
+   "name": "No. of Authorized Hospital Admission",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "state_ut": "Andaman and Nicobar Islands",
+   "no__of_authorized_hospital_admission": 5
+  },
+  {
+   "state_ut": "Andhra Pradesh",
+   "no__of_authorized_hospital_admission": 129
+  },
+  {
+   "state_ut": "Arunachal Pradesh",
+   "no__of_authorized_hospital_admission": 24
+  },
+  {
+   "state_ut": "Assam",
+   "no__of_authorized_hospital_admission": 799
+  },
+  {
+   "state_ut": "Bihar",
+   "no__of_authorized_hospital_admission": 139
+  },
+  {
+   "state_ut": "Chandigarh",
+   "no__of_authorized_hospital_admission": 23
+  },
+  {
+   "state_ut": "Chhattisgarh",
+   "no__of_authorized_hospital_admission": 2561
+  },
+  {
+   "state_ut": "Dadra and Nagar Haveli and Daman and Diu",
+   "no__of_authorized_hospital_admission": 123
+  },
+  {
+   "state_ut": "Gujarat",
+   "no__of_authorized_hospital_admission": 343
+  },
+  {
+   "state_ut": "Haryana",
+   "no__of_authorized_hospital_admission": 261
+  },
+  {
+   "state_ut": "Himachal Pradesh",
+   "no__of_authorized_hospital_admission": 513
+  },
+  {
+   "state_ut": "Jammu and Kashmir and Ladakh",
+   "no__of_authorized_hospital_admission": 767
+  },
+  {
+   "state_ut": "Jharkhand",
+   "no__of_authorized_hospital_admission": 179
+  },
+  {
+   "state_ut": "Karnataka",
+   "no__of_authorized_hospital_admission": 5477
+  },
+  {
+   "state_ut": "Kerala",
+   "no__of_authorized_hospital_admission": 2089
+  },
+  {
+   "state_ut": "Madhya Pradesh",
+   "no__of_authorized_hospital_admission": 2243
+  },
+  {
+   "state_ut": "Maharashtra",
+   "no__of_authorized_hospital_admission": 137
+  },
+  {
+   "state_ut": "Manipur",
+   "no__of_authorized_hospital_admission": 23
+  },
+  {
+   "state_ut": "Meghalaya",
+   "no__of_authorized_hospital_admission": 271
+  },
+  {
+   "state_ut": "Mizoram",
+   "no__of_authorized_hospital_admission": 100
+  },
+  {
+   "state_ut": "Nagaland",
+   "no__of_authorized_hospital_admission": 50
+  },
+  {
+   "state_ut": "Puducherry",
+   "no__of_authorized_hospital_admission": 5
+  },
+  {
+   "state_ut": "Punjab",
+   "no__of_authorized_hospital_admission": 929
+  },
+  {
+   "state_ut": "Rajasthan",
+   "no__of_authorized_hospital_admission": 9
+  },
+  {
+   "state_ut": "Sikkim",
+   "no__of_authorized_hospital_admission": 19
+  },
+  {
+   "state_ut": "Tamil Nadu",
+   "no__of_authorized_hospital_admission": 2691
+  },
+  {
+   "state_ut": "Tripura",
+   "no__of_authorized_hospital_admission": 43
+  },
+  {
+   "state_ut": "Uttar Pradesh",
+   "no__of_authorized_hospital_admission": 547
+  },
+  {
+   "state_ut": "Uttarakhand",
+   "no__of_authorized_hospital_admission": 428
+  }
+ ]
+}

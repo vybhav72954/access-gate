@@ -1,0 +1,163 @@
+{
+ "title": "Specialty-wise Hospital Admissions and Hospital Amount (in reply to Unstarred Question on 2 February, 2021) (From: Ministry of Health and Family Welfare)",
+ "desc": "Specialty-wise Hospital Admissions and Hospital Amount (in reply to Unstarred Question on 2 February, 2021) (From: Ministry of Health and Family Welfare)",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "88ec9509-df54-4c72-a623-f5d0183d2078",
+ "created_date": "2021-11-23T05:00:14Z",
+ "updated_date": "2022-02-28T10:22:24Z",
+ "field": [
+  {
+   "id": "specialty",
+   "name": "Specialty",
+   "type": "keyword"
+  },
+  {
+   "id": "authorized_hospital_admissions__count_",
+   "name": "Authorized Hospital Admissions (Count)",
+   "type": "double"
+  },
+  {
+   "id": "authorized_hospital_admissions__amount_in_crores_of_rupees_",
+   "name": "Authorized Hospital Admissions (Amount in Crores of Rupees)",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "specialty": "Burns Management",
+   "authorized_hospital_admissions__count_": 15655,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 67
+  },
+  {
+   "specialty": "Cardiology",
+   "authorized_hospital_admissions__count_": 296375,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 1479
+  },
+  {
+   "specialty": "Cardio-thoracic Vascular Surgery",
+   "authorized_hospital_admissions__count_": 84346,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 850
+  },
+  {
+   "specialty": "Diagnostics",
+   "authorized_hospital_admissions__count_": 363905,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 96
+  },
+  {
+   "specialty": "Emergency Room Packages",
+   "authorized_hospital_admissions__count_": 191487,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 108
+  },
+  {
+   "specialty": "General Surgery",
+   "authorized_hospital_admissions__count_": 1716386,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 1707
+  },
+  {
+   "specialty": "Infectious Diseases",
+   "authorized_hospital_admissions__count_": 811679,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 214
+  },
+  {
+   "specialty": "Interventional Neuroradiology",
+   "authorized_hospital_admissions__count_": 5778,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 44
+  },
+  {
+   "specialty": "Medical Management",
+   "authorized_hospital_admissions__count_": 3833011,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 2193
+  },
+  {
+   "specialty": "Mental Disorders Packages",
+   "authorized_hospital_admissions__count_": 10682,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 9
+  },
+  {
+   "specialty": "Multiple Specialties",
+   "authorized_hospital_admissions__count_": 472516,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 2084
+  },
+  {
+   "specialty": "Neo-natal care",
+   "authorized_hospital_admissions__count_": 229645,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 567
+  },
+  {
+   "specialty": "Neurosurgery",
+   "authorized_hospital_admissions__count_": 87081,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 408
+  },
+  {
+   "specialty": "Obstetrics and Gynaecology",
+   "authorized_hospital_admissions__count_": 1154482,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 1124
+  },
+  {
+   "specialty": "Oncology",
+   "authorized_hospital_admissions__count_": 1024425,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 1674
+  },
+  {
+   "specialty": "Ophthalmology",
+   "authorized_hospital_admissions__count_": 688016,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 544
+  },
+  {
+   "specialty": "Oral and Maxillofacial Surgery",
+   "authorized_hospital_admissions__count_": 186839,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 62
+  },
+  {
+   "specialty": "Organ Transplants",
+   "authorized_hospital_admissions__count_": 128,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 0.2
+  },
+  {
+   "specialty": "Orthopaedics",
+   "authorized_hospital_admissions__count_": 569804,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 1546
+  },
+  {
+   "specialty": "Otorhinolaryngology (ENT)",
+   "authorized_hospital_admissions__count_": 115969,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 155
+  },
+  {
+   "specialty": "Paediatric medical management",
+   "authorized_hospital_admissions__count_": 254738,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 480
+  },
+  {
+   "specialty": "Paediatric surgery",
+   "authorized_hospital_admissions__count_": 26919,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 91
+  },
+  {
+   "specialty": "Plastic and Reconstructive Surgery",
+   "authorized_hospital_admissions__count_": 6997,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 22
+  },
+  {
+   "specialty": "Polytrauma",
+   "authorized_hospital_admissions__count_": 20519,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 79
+  },
+  {
+   "specialty": "Unspecified Surgical Packages",
+   "authorized_hospital_admissions__count_": 1381,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 3
+  },
+  {
+   "specialty": "Urology",
+   "authorized_hospital_admissions__count_": 356570,
+   "authorized_hospital_admissions__amount_in_crores_of_rupees_": 670
+  }
+ ]
+}

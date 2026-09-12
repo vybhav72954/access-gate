@@ -1,0 +1,388 @@
+{
+ "title": "State/UT-wise Details of Fund Released under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2019-20 to 2024-25",
+ "desc": "State/UT-wise Details of Fund Released under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2019-20 to 2024-25",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "78889f83-0f96-484b-9fbc-5be92454446f",
+ "created_date": "2026-02-26T13:06:40Z",
+ "updated_date": "2026-02-26T13:06:40Z",
+ "field": [
+  {
+   "id": "_sl__no_",
+   "name": "Sl. No.",
+   "type": "double"
+  },
+  {
+   "id": "state_ut",
+   "name": "State/UT",
+   "type": "keyword"
+  },
+  {
+   "id": "central_share_released___2019_20",
+   "name": "Central Share Released - 2019-20",
+   "type": "double"
+  },
+  {
+   "id": "central_share_released___2020_21",
+   "name": "Central Share Released - 2020-21",
+   "type": "double"
+  },
+  {
+   "id": "central_share_released___2021_22",
+   "name": "Central Share Released - 2021-22",
+   "type": "double"
+  },
+  {
+   "id": "central_share_released___2022_23",
+   "name": "Central Share Released - 2022-23",
+   "type": "double"
+  },
+  {
+   "id": "central_share_released___2023_24",
+   "name": "Central Share Released - 2023-24",
+   "type": "double"
+  },
+  {
+   "id": "central_share_released___2024_25",
+   "name": "Central Share Released - 2024-25",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "_sl__no_": 1,
+   "state_ut": "Andaman and Nicobar Islands",
+   "central_share_released___2019_20": 0.41,
+   "central_share_released___2020_21": 0.27,
+   "central_share_released___2021_22": 0.76,
+   "central_share_released___2022_23": 1,
+   "central_share_released___2023_24": 0.59,
+   "central_share_released___2024_25": 0.77
+  },
+  {
+   "_sl__no_": 2,
+   "state_ut": "Andhra Pradesh",
+   "central_share_released___2019_20": 374.07,
+   "central_share_released___2020_21": 261.23,
+   "central_share_released___2021_22": 223.95,
+   "central_share_released___2022_23": 480.89,
+   "central_share_released___2023_24": 451.45,
+   "central_share_released___2024_25": 203.24
+  },
+  {
+   "_sl__no_": 3,
+   "state_ut": "Arunachal Pradesh",
+   "central_share_released___2019_20": "0",
+   "central_share_released___2020_21": 0.67,
+   "central_share_released___2021_22": "0",
+   "central_share_released___2022_23": 3.8,
+   "central_share_released___2023_24": 3.47,
+   "central_share_released___2024_25": 3.76
+  },
+  {
+   "_sl__no_": 4,
+   "state_ut": "Assam",
+   "central_share_released___2019_20": 133.23,
+   "central_share_released___2020_21": 12.1,
+   "central_share_released___2021_22": 87.91,
+   "central_share_released___2022_23": 209.33,
+   "central_share_released___2023_24": 292.06,
+   "central_share_released___2024_25": 289.68
+  },
+  {
+   "_sl__no_": 5,
+   "state_ut": "Bihar",
+   "central_share_released___2019_20": 82.49,
+   "central_share_released___2020_21": "0",
+   "central_share_released___2021_22": 59.77,
+   "central_share_released___2022_23": 145.51,
+   "central_share_released___2023_24": 172.5,
+   "central_share_released___2024_25": 300
+  },
+  {
+   "_sl__no_": 6,
+   "state_ut": "Chandigarh",
+   "central_share_released___2019_20": 3.82,
+   "central_share_released___2020_21": 1.84,
+   "central_share_released___2021_22": 2.49,
+   "central_share_released___2022_23": 6.41,
+   "central_share_released___2023_24": 8.96,
+   "central_share_released___2024_25": 4.51
+  },
+  {
+   "_sl__no_": 7,
+   "state_ut": "Chhattisgarh",
+   "central_share_released___2019_20": 280.37,
+   "central_share_released___2020_21": 112.62,
+   "central_share_released___2021_22": 66,
+   "central_share_released___2022_23": 352.94,
+   "central_share_released___2023_24": 195.47,
+   "central_share_released___2024_25": 242.31
+  },
+  {
+   "_sl__no_": 8,
+   "state_ut": "Dadra and Nagar Haveli and Daman and Diu",
+   "central_share_released___2019_20": 2.02,
+   "central_share_released___2020_21": 4.24,
+   "central_share_released___2021_22": 1.76,
+   "central_share_released___2022_23": 2.93,
+   "central_share_released___2023_24": 7.79,
+   "central_share_released___2024_25": 2.89
+  },
+  {
+   "_sl__no_": 9,
+   "state_ut": "Goa",
+   "central_share_released___2019_20": 0.06,
+   "central_share_released___2020_21": 0.49,
+   "central_share_released___2021_22": 0.6,
+   "central_share_released___2022_23": 0.53,
+   "central_share_released___2023_24": 1.2,
+   "central_share_released___2024_25": "0"
+  },
+  {
+   "_sl__no_": 10,
+   "state_ut": "Gujarat",
+   "central_share_released___2019_20": 212.33,
+   "central_share_released___2020_21": 99.84,
+   "central_share_released___2021_22": 330.55,
+   "central_share_released___2022_23": 660.15,
+   "central_share_released___2023_24": 267.48,
+   "central_share_released___2024_25": "0"
+  },
+  {
+   "_sl__no_": 11,
+   "state_ut": "Haryana",
+   "central_share_released___2019_20": 58.69,
+   "central_share_released___2020_21": 71.92,
+   "central_share_released___2021_22": 89.95,
+   "central_share_released___2022_23": 143.5,
+   "central_share_released___2023_24": 95.17,
+   "central_share_released___2024_25": 51.19
+  },
+  {
+   "_sl__no_": 12,
+   "state_ut": "Himachal Pradesh",
+   "central_share_released___2019_20": 19.12,
+   "central_share_released___2020_21": 32.93,
+   "central_share_released___2021_22": 33.71,
+   "central_share_released___2022_23": 64.32,
+   "central_share_released___2023_24": 47.91,
+   "central_share_released___2024_25": 49.71
+  },
+  {
+   "_sl__no_": 13,
+   "state_ut": "Jammu and Kashmir",
+   "central_share_released___2019_20": 33.44,
+   "central_share_released___2020_21": 22.7,
+   "central_share_released___2021_22": 75.12,
+   "central_share_released___2022_23": 85.62,
+   "central_share_released___2023_24": 42.22,
+   "central_share_released___2024_25": 3
+  },
+  {
+   "_sl__no_": 14,
+   "state_ut": "Jharkhand",
+   "central_share_released___2019_20": 126.5,
+   "central_share_released___2020_21": 100.32,
+   "central_share_released___2021_22": 7.98,
+   "central_share_released___2022_23": "0",
+   "central_share_released___2023_24": 83.55,
+   "central_share_released___2024_25": 270.63
+  },
+  {
+   "_sl__no_": 15,
+   "state_ut": "Karnataka",
+   "central_share_released___2019_20": 254.13,
+   "central_share_released___2020_21": 160.85,
+   "central_share_released___2021_22": 414.11,
+   "central_share_released___2022_23": 647.74,
+   "central_share_released___2023_24": 320.59,
+   "central_share_released___2024_25": 371.74
+  },
+  {
+   "_sl__no_": 16,
+   "state_ut": "Kerala",
+   "central_share_released___2019_20": 97.56,
+   "central_share_released___2020_21": 145.61,
+   "central_share_released___2021_22": 138.9,
+   "central_share_released___2022_23": 151.34,
+   "central_share_released___2023_24": 155.49,
+   "central_share_released___2024_25": 75.67
+  },
+  {
+   "_sl__no_": 17,
+   "state_ut": "Ladakh",
+   "central_share_released___2019_20": "0",
+   "central_share_released___2020_21": 1.62,
+   "central_share_released___2021_22": 0.51,
+   "central_share_released___2022_23": 1.92,
+   "central_share_released___2023_24": 1.93,
+   "central_share_released___2024_25": 1.15
+  },
+  {
+   "_sl__no_": 18,
+   "state_ut": "Lakshadweep",
+   "central_share_released___2019_20": "0",
+   "central_share_released___2020_21": "0",
+   "central_share_released___2021_22": 0.31,
+   "central_share_released___2022_23": 0.15,
+   "central_share_released___2023_24": 0.07,
+   "central_share_released___2024_25": "0"
+  },
+  {
+   "_sl__no_": 19,
+   "state_ut": "Madhya Pradesh",
+   "central_share_released___2019_20": 118.46,
+   "central_share_released___2020_21": 164.8,
+   "central_share_released___2021_22": 355.25,
+   "central_share_released___2022_23": 665.73,
+   "central_share_released___2023_24": 790.35,
+   "central_share_released___2024_25": 413.61
+  },
+  {
+   "_sl__no_": 20,
+   "state_ut": "Maharashtra",
+   "central_share_released___2019_20": 241.88,
+   "central_share_released___2020_21": 376.65,
+   "central_share_released___2021_22": 324.75,
+   "central_share_released___2022_23": 388.03,
+   "central_share_released___2023_24": 548.4,
+   "central_share_released___2024_25": 371.88
+  },
+  {
+   "_sl__no_": 21,
+   "state_ut": "Manipur",
+   "central_share_released___2019_20": 17.1,
+   "central_share_released___2020_21": 11.45,
+   "central_share_released___2021_22": 22.5,
+   "central_share_released___2022_23": 38.55,
+   "central_share_released___2023_24": 29.17,
+   "central_share_released___2024_25": "0"
+  },
+  {
+   "_sl__no_": 22,
+   "state_ut": "Meghalaya",
+   "central_share_released___2019_20": 18.07,
+   "central_share_released___2020_21": 49.52,
+   "central_share_released___2021_22": 22.28,
+   "central_share_released___2022_23": 47.31,
+   "central_share_released___2023_24": 49.74,
+   "central_share_released___2024_25": 3.65
+  },
+  {
+   "_sl__no_": 23,
+   "state_ut": "Mizoram",
+   "central_share_released___2019_20": 12.41,
+   "central_share_released___2020_21": 14.97,
+   "central_share_released___2021_22": 16.58,
+   "central_share_released___2022_23": 26.3,
+   "central_share_released___2023_24": 23.35,
+   "central_share_released___2024_25": 11.66
+  },
+  {
+   "_sl__no_": 24,
+   "state_ut": "Nagaland",
+   "central_share_released___2019_20": 10.89,
+   "central_share_released___2020_21": 12.27,
+   "central_share_released___2021_22": 14.09,
+   "central_share_released___2022_23": 21.69,
+   "central_share_released___2023_24": 28.6,
+   "central_share_released___2024_25": 11.05
+  },
+  {
+   "_sl__no_": 25,
+   "state_ut": "Puducherry",
+   "central_share_released___2019_20": "0",
+   "central_share_released___2020_21": 1.23,
+   "central_share_released___2021_22": 0.11,
+   "central_share_released___2022_23": 7.98,
+   "central_share_released___2023_24": 5.3,
+   "central_share_released___2024_25": 2.15
+  },
+  {
+   "_sl__no_": 26,
+   "state_ut": "Punjab",
+   "central_share_released___2019_20": 55.55,
+   "central_share_released___2020_21": 46.85,
+   "central_share_released___2021_22": 80.5,
+   "central_share_released___2022_23": 111.38,
+   "central_share_released___2023_24": 57.96,
+   "central_share_released___2024_25": 43.91
+  },
+  {
+   "_sl__no_": 27,
+   "state_ut": "Rajasthan",
+   "central_share_released___2019_20": 200.07,
+   "central_share_released___2020_21": 258.31,
+   "central_share_released___2021_22": 96.39,
+   "central_share_released___2022_23": 416.96,
+   "central_share_released___2023_24": 606.04,
+   "central_share_released___2024_25": 209.48
+  },
+  {
+   "_sl__no_": 28,
+   "state_ut": "Sikkim",
+   "central_share_released___2019_20": 0.09,
+   "central_share_released___2020_21": 1.85,
+   "central_share_released___2021_22": 1.04,
+   "central_share_released___2022_23": 2.3,
+   "central_share_released___2023_24": 6.01,
+   "central_share_released___2024_25": 2.95
+  },
+  {
+   "_sl__no_": 29,
+   "state_ut": "Tamil Nadu",
+   "central_share_released___2019_20": 441.77,
+   "central_share_released___2020_21": 359.81,
+   "central_share_released___2021_22": 75.14,
+   "central_share_released___2022_23": 578.67,
+   "central_share_released___2023_24": 681.74,
+   "central_share_released___2024_25": "0"
+  },
+  {
+   "_sl__no_": 30,
+   "state_ut": "Telangana",
+   "central_share_released___2019_20": "0",
+   "central_share_released___2020_21": "0",
+   "central_share_released___2021_22": 150.26,
+   "central_share_released___2022_23": 173.54,
+   "central_share_released___2023_24": 135.75,
+   "central_share_released___2024_25": 170.48
+  },
+  {
+   "_sl__no_": 31,
+   "state_ut": "Tripura",
+   "central_share_released___2019_20": 20.18,
+   "central_share_released___2020_21": 8.98,
+   "central_share_released___2021_22": 35.6,
+   "central_share_released___2022_23": 45.25,
+   "central_share_released___2023_24": 48.81,
+   "central_share_released___2024_25": 27.76
+  },
+  {
+   "_sl__no_": 32,
+   "state_ut": "Uttar Pradesh",
+   "central_share_released___2019_20": 147.49,
+   "central_share_released___2020_21": 167.63,
+   "central_share_released___2021_22": 157.56,
+   "central_share_released___2022_23": 501.78,
+   "central_share_released___2023_24": 841.11,
+   "central_share_released___2024_25": 933.5
+  },
+  {
+   "_sl__no_": 33,
+   "state_ut": "Uttarakhand",
+   "central_share_released___2019_20": 30.73,
+   "central_share_released___2020_21": 40.52,
+   "central_share_released___2021_22": 54.23,
+   "central_share_released___2022_23": 65.11,
+   "central_share_released___2023_24": 60.21,
+   "central_share_released___2024_25": 34.07
+  }
+ ]
+}

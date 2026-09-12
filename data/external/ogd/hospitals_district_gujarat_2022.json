@@ -1,0 +1,236 @@
+{
+ "title": "District-wise Eligible Beneficiaries Number of Hospitals Empanelled in Gujarat as per SECC 2011 Database (in reply to Unstarred Question on 28 March, 2022)",
+ "desc": "District-wise Eligible Beneficiaries Number of Hospitals Empanelled in Gujarat as per SECC 2011 Database (in reply to Unstarred Question on 28 March, 2022)",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "4367dc29-493d-4076-9521-a6dec4ecc3a7",
+ "created_date": "2022-09-15T07:16:09Z",
+ "updated_date": "2022-09-15T12:34:57Z",
+ "field": [
+  {
+   "id": "district",
+   "name": "District",
+   "type": "keyword"
+  },
+  {
+   "id": "number_of_eligible_families",
+   "name": "Number of Eligible Families",
+   "type": "double"
+  },
+  {
+   "id": "private_hospitals",
+   "name": "Private Hospitals",
+   "type": "double"
+  },
+  {
+   "id": "public_hospitals",
+   "name": "Public Hospitals",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "district": "Ahmadabad",
+   "number_of_eligible_families": 453160,
+   "private_hospitals": 118,
+   "public_hospitals": 151
+  },
+  {
+   "district": "Amreli",
+   "number_of_eligible_families": 96151,
+   "private_hospitals": 17,
+   "public_hospitals": 38
+  },
+  {
+   "district": "Anand",
+   "number_of_eligible_families": 155676,
+   "private_hospitals": 20,
+   "public_hospitals": 34
+  },
+  {
+   "district": "Arvalli",
+   "number_of_eligible_families": 70655,
+   "private_hospitals": 21,
+   "public_hospitals": 36
+  },
+  {
+   "district": "Banas Kantha",
+   "number_of_eligible_families": 224390,
+   "private_hospitals": 72,
+   "public_hospitals": 150
+  },
+  {
+   "district": "Bharuch",
+   "number_of_eligible_families": 114372,
+   "private_hospitals": 31,
+   "public_hospitals": 19
+  },
+  {
+   "district": "Bhavnagar",
+   "number_of_eligible_families": 136929,
+   "private_hospitals": 27,
+   "public_hospitals": 80
+  },
+  {
+   "district": "Botad",
+   "number_of_eligible_families": 28824,
+   "private_hospitals": 15,
+   "public_hospitals": 26
+  },
+  {
+   "district": "Chhotaudepur",
+   "number_of_eligible_families": 105196,
+   "private_hospitals": 9,
+   "public_hospitals": 31
+  },
+  {
+   "district": "Dang",
+   "number_of_eligible_families": 34898,
+   "private_hospitals": 1,
+   "public_hospitals": 7
+  },
+  {
+   "district": "Devbhumi Dwarka",
+   "number_of_eligible_families": 20026,
+   "private_hospitals": 2,
+   "public_hospitals": 31
+  },
+  {
+   "district": "Dohad",
+   "number_of_eligible_families": 208053,
+   "private_hospitals": 11,
+   "public_hospitals": 80
+  },
+  {
+   "district": "Gandhinagar",
+   "number_of_eligible_families": 82410,
+   "private_hospitals": 18,
+   "public_hospitals": 48
+  },
+  {
+   "district": "Gir Somnath",
+   "number_of_eligible_families": 42038,
+   "private_hospitals": 12,
+   "public_hospitals": 39
+  },
+  {
+   "district": "Jamnagar",
+   "number_of_eligible_families": 96533,
+   "private_hospitals": 10,
+   "public_hospitals": 48
+  },
+  {
+   "district": "Junagadh",
+   "number_of_eligible_families": 128001,
+   "private_hospitals": 21,
+   "public_hospitals": 52
+  },
+  {
+   "district": "Kachchh",
+   "number_of_eligible_families": 137475,
+   "private_hospitals": 25,
+   "public_hospitals": 95
+  },
+  {
+   "district": "Kheda",
+   "number_of_eligible_families": 182342,
+   "private_hospitals": 21,
+   "public_hospitals": 76
+  },
+  {
+   "district": "Mahesana",
+   "number_of_eligible_families": 138153,
+   "private_hospitals": 26,
+   "public_hospitals": 81
+  },
+  {
+   "district": "Mahisagar",
+   "number_of_eligible_families": 84839,
+   "private_hospitals": 10,
+   "public_hospitals": 40
+  },
+  {
+   "district": "Morbi",
+   "number_of_eligible_families": 28859,
+   "private_hospitals": 7,
+   "public_hospitals": 36
+  },
+  {
+   "district": "Narmada",
+   "number_of_eligible_families": 86963,
+   "private_hospitals": 3,
+   "public_hospitals": 13
+  },
+  {
+   "district": "Navsari",
+   "number_of_eligible_families": 120924,
+   "private_hospitals": 12,
+   "public_hospitals": 38
+  },
+  {
+   "district": "Panch Mahals",
+   "number_of_eligible_families": 125142,
+   "private_hospitals": 32,
+   "public_hospitals": 35
+  },
+  {
+   "district": "Patan",
+   "number_of_eligible_families": 124303,
+   "private_hospitals": 22,
+   "public_hospitals": 39
+  },
+  {
+   "district": "Porbandar",
+   "number_of_eligible_families": 38985,
+   "private_hospitals": 3,
+   "public_hospitals": 24
+  },
+  {
+   "district": "Rajkot",
+   "number_of_eligible_families": 205778,
+   "private_hospitals": 52,
+   "public_hospitals": 102
+  },
+  {
+   "district": "Sabar Kantha",
+   "number_of_eligible_families": 121152,
+   "private_hospitals": 33,
+   "public_hospitals": 63
+  },
+  {
+   "district": "Surat",
+   "number_of_eligible_families": 504295,
+   "private_hospitals": 71,
+   "public_hospitals": 117
+  },
+  {
+   "district": "Surendranagar",
+   "number_of_eligible_families": 130420,
+   "private_hospitals": 9,
+   "public_hospitals": 74
+  },
+  {
+   "district": "Tapi",
+   "number_of_eligible_families": 107430,
+   "private_hospitals": 7,
+   "public_hospitals": 42
+  },
+  {
+   "district": "Vadodara",
+   "number_of_eligible_families": 195363,
+   "private_hospitals": 38,
+   "public_hospitals": 89
+  },
+  {
+   "district": "Valsad",
+   "number_of_eligible_families": 140555,
+   "private_hospitals": 13,
+   "public_hospitals": 71
+  }
+ ]
+}

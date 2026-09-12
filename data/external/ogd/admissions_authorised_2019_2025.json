@@ -1,0 +1,198 @@
+{
+ "title": "State/UT-wise Number of Authorized Hospital Admissions under Ayushman Bharat Pradhan Mantri-Jan Arogya Yojana (AB PM-JAY) from 2019-20 to 2024-25",
+ "desc": "State/UT-wise Number of Authorized Hospital Admissions under Ayushman Bharat Pradhan Mantri-Jan Arogya Yojana (AB PM-JAY) from 2019-20 to 2024-25",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "78889f83-0f96-484b-9fbc-5be92454446f",
+ "created_date": "2025-04-24T19:46:03Z",
+ "updated_date": "2025-04-24T19:46:03Z",
+ "field": [
+  {
+   "id": "_sl__no_",
+   "name": "Sl. No.",
+   "type": "double"
+  },
+  {
+   "id": "state_ut",
+   "name": "State/UT",
+   "type": "keyword"
+  },
+  {
+   "id": "number_of_hospital_admissions",
+   "name": "Number of Hospital Admissions",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "_sl__no_": 1,
+   "state_ut": "Andaman and Nicobar Islands",
+   "number_of_hospital_admissions": 2655
+  },
+  {
+   "_sl__no_": 2,
+   "state_ut": "Andhra Pradesh",
+   "number_of_hospital_admissions": 5891958
+  },
+  {
+   "_sl__no_": 3,
+   "state_ut": "Arunachal Pradesh",
+   "number_of_hospital_admissions": 2410
+  },
+  {
+   "_sl__no_": 4,
+   "state_ut": "Assam",
+   "number_of_hospital_admissions": 1000966
+  },
+  {
+   "_sl__no_": 5,
+   "state_ut": "Bihar",
+   "number_of_hospital_admissions": 929878
+  },
+  {
+   "_sl__no_": 6,
+   "state_ut": "Chandigarh",
+   "number_of_hospital_admissions": 45277
+  },
+  {
+   "_sl__no_": 7,
+   "state_ut": "Chhattisgarh",
+   "number_of_hospital_admissions": 5220078
+  },
+  {
+   "_sl__no_": 8,
+   "state_ut": "Goa",
+   "number_of_hospital_admissions": 4855
+  },
+  {
+   "_sl__no_": 9,
+   "state_ut": "Gujarat",
+   "number_of_hospital_admissions": 4741715
+  },
+  {
+   "_sl__no_": 10,
+   "state_ut": "Haryana",
+   "number_of_hospital_admissions": 1330435
+  },
+  {
+   "_sl__no_": 11,
+   "state_ut": "Himachal Pradesh",
+   "number_of_hospital_admissions": 254606
+  },
+  {
+   "_sl__no_": 12,
+   "state_ut": "Jammu and Kashmir",
+   "number_of_hospital_admissions": 1197845
+  },
+  {
+   "_sl__no_": 13,
+   "state_ut": "Jharkhand",
+   "number_of_hospital_admissions": 1872507
+  },
+  {
+   "_sl__no_": 14,
+   "state_ut": "Karnataka",
+   "number_of_hospital_admissions": 7642623
+  },
+  {
+   "_sl__no_": 15,
+   "state_ut": "Kerala",
+   "number_of_hospital_admissions": 6016085
+  },
+  {
+   "_sl__no_": 16,
+   "state_ut": "Ladakh",
+   "number_of_hospital_admissions": 12485
+  },
+  {
+   "_sl__no_": 17,
+   "state_ut": "Lakshadweep",
+   "number_of_hospital_admissions": 952
+  },
+  {
+   "_sl__no_": 18,
+   "state_ut": "Madhya Pradesh",
+   "number_of_hospital_admissions": 3828214
+  },
+  {
+   "_sl__no_": 19,
+   "state_ut": "Maharashtra",
+   "number_of_hospital_admissions": 1517810
+  },
+  {
+   "_sl__no_": 20,
+   "state_ut": "Manipur",
+   "number_of_hospital_admissions": 143308
+  },
+  {
+   "_sl__no_": 21,
+   "state_ut": "Meghalaya",
+   "number_of_hospital_admissions": 766802
+  },
+  {
+   "_sl__no_": 22,
+   "state_ut": "Mizoram",
+   "number_of_hospital_admissions": 113411
+  },
+  {
+   "_sl__no_": 23,
+   "state_ut": "Nagaland",
+   "number_of_hospital_admissions": 65126
+  },
+  {
+   "_sl__no_": 24,
+   "state_ut": "Puducherry",
+   "number_of_hospital_admissions": 79438
+  },
+  {
+   "_sl__no_": 25,
+   "state_ut": "Punjab",
+   "number_of_hospital_admissions": 1987142
+  },
+  {
+   "_sl__no_": 26,
+   "state_ut": "Rajasthan",
+   "number_of_hospital_admissions": 4907118
+  },
+  {
+   "_sl__no_": 27,
+   "state_ut": "Sikkim",
+   "number_of_hospital_admissions": 18237
+  },
+  {
+   "_sl__no_": 28,
+   "state_ut": "Tamil Nadu",
+   "number_of_hospital_admissions": 9680501
+  },
+  {
+   "_sl__no_": 29,
+   "state_ut": "Telangana",
+   "number_of_hospital_admissions": 1495417
+  },
+  {
+   "_sl__no_": 30,
+   "state_ut": "Dadra and Nagar Haveli and Daman and Diu",
+   "number_of_hospital_admissions": 115657
+  },
+  {
+   "_sl__no_": 31,
+   "state_ut": "Tripura",
+   "number_of_hospital_admissions": 301874
+  },
+  {
+   "_sl__no_": 32,
+   "state_ut": "Uttar Pradesh",
+   "number_of_hospital_admissions": 3656035
+  },
+  {
+   "_sl__no_": 33,
+   "state_ut": "Uttarakhand",
+   "number_of_hospital_admissions": 1066804
+  }
+ ]
+}

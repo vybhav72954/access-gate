@@ -1,0 +1,388 @@
+{
+ "title": "State/UT-wise Details of Hospital Admission Count and Amount under Ayushman Bharat- Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2021-22 to 2023-24",
+ "desc": "State/UT-wise Details of Hospital Admission Count and Amount under Ayushman Bharat- Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) from 2021-22 to 2023-24",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "78889f83-0f96-484b-9fbc-5be92454446f",
+ "created_date": "2026-02-26T12:29:42Z",
+ "updated_date": "2026-02-26T12:29:42Z",
+ "field": [
+  {
+   "id": "_sl__no_",
+   "name": "Sl. No.",
+   "type": "double"
+  },
+  {
+   "id": "state_ut",
+   "name": "State/UT",
+   "type": "keyword"
+  },
+  {
+   "id": "_2021_22___count",
+   "name": "2021-22 - Count",
+   "type": "double"
+  },
+  {
+   "id": "_2021_22___amount",
+   "name": "2021-22 - Amount",
+   "type": "double"
+  },
+  {
+   "id": "_2022_23___count",
+   "name": "2022-23 - Count",
+   "type": "double"
+  },
+  {
+   "id": "_2022_23___amount",
+   "name": "2022-23 - Amount",
+   "type": "double"
+  },
+  {
+   "id": "_2023_24___count",
+   "name": "2023-24 - Count",
+   "type": "double"
+  },
+  {
+   "id": "_2023_24___amount",
+   "name": "2023-24 - Amount",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "_sl__no_": 1,
+   "state_ut": "Andaman and Nicobar Islands",
+   "_2021_22___count": 811,
+   "_2021_22___amount": 2.3,
+   "_2022_23___count": 704,
+   "_2022_23___amount": 2.7,
+   "_2023_24___count": 649,
+   "_2023_24___amount": 2.4
+  },
+  {
+   "_sl__no_": 2,
+   "state_ut": "Andhra Pradesh",
+   "_2021_22___count": 1136104,
+   "_2021_22___amount": 2717.3,
+   "_2022_23___count": 1501392,
+   "_2022_23___amount": 3356.1,
+   "_2023_24___count": 1842114,
+   "_2023_24___amount": 3892.7
+  },
+  {
+   "_sl__no_": 3,
+   "state_ut": "Arunachal Pradesh",
+   "_2021_22___count": 75,
+   "_2021_22___amount": 0.2,
+   "_2022_23___count": 1011,
+   "_2022_23___amount": 1.9,
+   "_2023_24___count": 1245,
+   "_2023_24___amount": 2.6
+  },
+  {
+   "_sl__no_": 4,
+   "state_ut": "Assam",
+   "_2021_22___count": 175306,
+   "_2021_22___amount": 267.4,
+   "_2022_23___count": 239899,
+   "_2022_23___amount": 392,
+   "_2023_24___count": 493215,
+   "_2023_24___amount": 898.2
+  },
+  {
+   "_sl__no_": 5,
+   "state_ut": "Bihar",
+   "_2021_22___count": 115867,
+   "_2021_22___amount": 137.2,
+   "_2022_23___count": 213025,
+   "_2022_23___amount": 231.8,
+   "_2023_24___count": 350476,
+   "_2023_24___amount": 424.2
+  },
+  {
+   "_sl__no_": 6,
+   "state_ut": "Chandigarh",
+   "_2021_22___count": 8346,
+   "_2021_22___amount": 5.5,
+   "_2022_23___count": 10403,
+   "_2022_23___amount": 9.5,
+   "_2023_24___count": 17352,
+   "_2023_24___amount": 17.7
+  },
+  {
+   "_sl__no_": 7,
+   "state_ut": "Chhattisgarh",
+   "_2021_22___count": 924658,
+   "_2021_22___amount": 997.6,
+   "_2022_23___count": 1324562,
+   "_2022_23___amount": 1542.5,
+   "_2023_24___count": 1584674,
+   "_2023_24___amount": 2199.1
+  },
+  {
+   "_sl__no_": 8,
+   "state_ut": "Dadra and Nagar Haveli and Daman and Diu",
+   "_2021_22___count": 20617,
+   "_2021_22___amount": 14.9,
+   "_2022_23___count": 21492,
+   "_2022_23___amount": 16.5,
+   "_2023_24___count": 18155,
+   "_2023_24___amount": 14.7
+  },
+  {
+   "_sl__no_": 9,
+   "state_ut": "Goa",
+   "_2021_22___count": 167,
+   "_2021_22___amount": 0.4,
+   "_2022_23___count": 409,
+   "_2022_23___amount": 0.8,
+   "_2023_24___count": 4088,
+   "_2023_24___amount": 1.5
+  },
+  {
+   "_sl__no_": 10,
+   "state_ut": "Gujarat",
+   "_2021_22___count": 566736,
+   "_2021_22___amount": 1620.6,
+   "_2022_23___count": 915284,
+   "_2022_23___amount": 2646.5,
+   "_2023_24___count": 1280684,
+   "_2023_24___amount": 3607
+  },
+  {
+   "_sl__no_": 11,
+   "state_ut": "Haryana",
+   "_2021_22___count": 185215,
+   "_2021_22___amount": 242.2,
+   "_2022_23___count": 283896,
+   "_2022_23___amount": 425.4,
+   "_2023_24___count": 623261,
+   "_2023_24___amount": 900.6
+  },
+  {
+   "_sl__no_": 12,
+   "state_ut": "Himachal Pradesh",
+   "_2021_22___count": 47280,
+   "_2021_22___amount": 70.8,
+   "_2022_23___count": 62967,
+   "_2022_23___amount": 80.7,
+   "_2023_24___count": 65760,
+   "_2023_24___amount": 90.2
+  },
+  {
+   "_sl__no_": 13,
+   "state_ut": "Jammu and Kashmir",
+   "_2021_22___count": 250953,
+   "_2021_22___amount": 454,
+   "_2022_23___count": 384580,
+   "_2022_23___amount": 715.4,
+   "_2023_24___count": 426754,
+   "_2023_24___amount": 833.3
+  },
+  {
+   "_sl__no_": 14,
+   "state_ut": "Jharkhand",
+   "_2021_22___count": 326475,
+   "_2021_22___amount": 446.1,
+   "_2022_23___count": 411797,
+   "_2022_23___amount": 499.2,
+   "_2023_24___count": 424305,
+   "_2023_24___amount": 583.7
+  },
+  {
+   "_sl__no_": 15,
+   "state_ut": "Karnataka",
+   "_2021_22___count": 1086297,
+   "_2021_22___amount": 1118.3,
+   "_2022_23___count": 2115912,
+   "_2022_23___amount": 1682.1,
+   "_2023_24___count": 3213349,
+   "_2023_24___amount": 2083.6
+  },
+  {
+   "_sl__no_": 16,
+   "state_ut": "Kerala",
+   "_2021_22___count": 1697442,
+   "_2021_22___amount": 1569.9,
+   "_2022_23___count": 1222441,
+   "_2022_23___amount": 1702.7,
+   "_2023_24___count": 1078041,
+   "_2023_24___amount": 1736.8
+  },
+  {
+   "_sl__no_": 17,
+   "state_ut": "Ladakh",
+   "_2021_22___count": 509,
+   "_2021_22___amount": 0.7,
+   "_2022_23___count": 5180,
+   "_2022_23___amount": 8.5,
+   "_2023_24___count": 6796,
+   "_2023_24___amount": 10.5
+  },
+  {
+   "_sl__no_": 18,
+   "state_ut": "Lakshadweep",
+   "_2021_22___count": 66,
+   "_2021_22___amount": 0.2,
+   "_2022_23___count": 424,
+   "_2022_23___amount": 1.3,
+   "_2023_24___count": 461,
+   "_2023_24___amount": 1.3
+  },
+  {
+   "_sl__no_": 19,
+   "state_ut": "Madhya Pradesh",
+   "_2021_22___count": 714846,
+   "_2021_22___amount": 1169.6,
+   "_2022_23___count": 1171947,
+   "_2022_23___amount": 1935.4,
+   "_2023_24___count": 1270848,
+   "_2023_24___amount": 1938.2
+  },
+  {
+   "_sl__no_": 20,
+   "state_ut": "Maharashtra",
+   "_2021_22___count": 321002,
+   "_2021_22___amount": 736,
+   "_2022_23___count": 326121,
+   "_2022_23___amount": 770,
+   "_2023_24___count": 394095,
+   "_2023_24___amount": 918.6
+  },
+  {
+   "_sl__no_": 21,
+   "state_ut": "Manipur",
+   "_2021_22___count": 24060,
+   "_2021_22___amount": 31,
+   "_2022_23___count": 38923,
+   "_2022_23___amount": 54,
+   "_2023_24___count": 50988,
+   "_2023_24___amount": 69.8
+  },
+  {
+   "_sl__no_": 22,
+   "state_ut": "Meghalaya",
+   "_2021_22___count": 145301,
+   "_2021_22___amount": 117.6,
+   "_2022_23___count": 185236,
+   "_2022_23___amount": 180.7,
+   "_2023_24___count": 187528,
+   "_2023_24___amount": 218.4
+  },
+  {
+   "_sl__no_": 23,
+   "state_ut": "Mizoram",
+   "_2021_22___count": 13855,
+   "_2021_22___amount": 17.7,
+   "_2022_23___count": 23261,
+   "_2022_23___amount": 31.4,
+   "_2023_24___count": 31506,
+   "_2023_24___amount": 40.1
+  },
+  {
+   "_sl__no_": 24,
+   "state_ut": "Nagaland",
+   "_2021_22___count": 5653,
+   "_2021_22___amount": 11.3,
+   "_2022_23___count": 12479,
+   "_2022_23___amount": 26.9,
+   "_2023_24___count": 29329,
+   "_2023_24___amount": 64.3
+  },
+  {
+   "_sl__no_": 25,
+   "state_ut": "Puducherry",
+   "_2021_22___count": 11920,
+   "_2021_22___amount": 7.5,
+   "_2022_23___count": 24885,
+   "_2022_23___amount": 20.4,
+   "_2023_24___count": 38674,
+   "_2023_24___amount": 33.9
+  },
+  {
+   "_sl__no_": 26,
+   "state_ut": "Punjab",
+   "_2021_22___count": 535403,
+   "_2021_22___amount": 668.8,
+   "_2022_23___count": 299478,
+   "_2022_23___amount": 381.1,
+   "_2023_24___count": 532680,
+   "_2023_24___amount": 729.8
+  },
+  {
+   "_sl__no_": 27,
+   "state_ut": "Rajasthan",
+   "_2021_22___count": 643824,
+   "_2021_22___amount": 826.3,
+   "_2022_23___count": 1633608,
+   "_2022_23___amount": 1717.9,
+   "_2023_24___count": 1978424,
+   "_2023_24___amount": 2124.3
+  },
+  {
+   "_sl__no_": 28,
+   "state_ut": "Sikkim",
+   "_2021_22___count": 2872,
+   "_2021_22___amount": 1.9,
+   "_2022_23___count": 4818,
+   "_2022_23___amount": 4.4,
+   "_2023_24___count": 7308,
+   "_2023_24___amount": 7.3
+  },
+  {
+   "_sl__no_": 29,
+   "state_ut": "Tamil Nadu",
+   "_2021_22___count": 4397356,
+   "_2021_22___amount": 1639.8,
+   "_2022_23___count": 1765711,
+   "_2022_23___amount": 1374.1,
+   "_2023_24___count": 1057878,
+   "_2023_24___amount": 1352.6
+  },
+  {
+   "_sl__no_": 30,
+   "state_ut": "Telangana",
+   "_2021_22___count": 323421,
+   "_2021_22___amount": 695.8,
+   "_2022_23___count": 553499,
+   "_2022_23___amount": 1146,
+   "_2023_24___count": 618497,
+   "_2023_24___amount": 1306.9
+  },
+  {
+   "_sl__no_": 31,
+   "state_ut": "Tripura",
+   "_2021_22___count": 46026,
+   "_2021_22___amount": 40.6,
+   "_2022_23___count": 76425,
+   "_2022_23___amount": 79,
+   "_2023_24___count": 98162,
+   "_2023_24___amount": 112.6
+  },
+  {
+   "_sl__no_": 32,
+   "state_ut": "Uttar Pradesh",
+   "_2021_22___count": 501095,
+   "_2021_22___amount": 576.8,
+   "_2022_23___count": 842749,
+   "_2022_23___amount": 1288.5,
+   "_2023_24___count": 1700537,
+   "_2023_24___amount": 3026.4
+  },
+  {
+   "_sl__no_": 33,
+   "state_ut": "Uttarakhand",
+   "_2021_22___count": 181835,
+   "_2021_22___amount": 401.1,
+   "_2022_23___count": 260694,
+   "_2022_23___amount": 594.8,
+   "_2023_24___count": 372473,
+   "_2023_24___amount": 816.4
+  }
+ ]
+}

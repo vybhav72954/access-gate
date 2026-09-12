@@ -1,0 +1,967 @@
+{
+ "title": "State-wise Details of Total Number of Public and Private Hospitals Empanelled in North-East and West Bengal under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) as on 30-06-2024",
+ "desc": "State-wise Details of Total Number of Public and Private Hospitals Empanelled in North-East and West Bengal under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) as on 30-06-2024",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "b63773fc-083b-40a0-8203-3de548241fc6",
+ "created_date": "2024-11-03T05:45:48Z",
+ "updated_date": "2024-11-03T05:45:48Z",
+ "field": [
+  {
+   "id": "state",
+   "name": "State",
+   "type": "keyword"
+  },
+  {
+   "id": "district",
+   "name": "District",
+   "type": "keyword"
+  },
+  {
+   "id": "number_of_hospitals_empanelled___private",
+   "name": "Number of Hospitals Empanelled - Private",
+   "type": "double"
+  },
+  {
+   "id": "number_of_hospitals_empanelled___public",
+   "name": "Number of Hospitals Empanelled - Public",
+   "type": "double"
+  },
+  {
+   "id": "number_of_hospitals_empanelled___total",
+   "name": "Number of Hospitals Empanelled - Total",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Anjaw",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Changlang",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 6
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "East Kameng",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "East Siang",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 4,
+   "number_of_hospitals_empanelled___total": 4
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Kamle",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Kra Daadi",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Kurung Kumey",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Leparada",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Lohit",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Longding",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Lower Dibang Valley",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Lower Siang",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Lower Subansiri",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Namsai",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 3,
+   "number_of_hospitals_empanelled___total": 3
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Pakke Kessang",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Papum Pare",
+   "number_of_hospitals_empanelled___private": 4,
+   "number_of_hospitals_empanelled___public": 9,
+   "number_of_hospitals_empanelled___total": 13
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "SHI YOMI",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Siang",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Tawang",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Tirap",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Upper Siang",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "Upper Subansiri",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "West Kameng",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 4,
+   "number_of_hospitals_empanelled___total": 4
+  },
+  {
+   "state": "Arunachal Pradesh",
+   "district": "West Siang",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Assam",
+   "district": "Baksa",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 3,
+   "number_of_hospitals_empanelled___total": 3
+  },
+  {
+   "state": "Assam",
+   "district": "Barpeta",
+   "number_of_hospitals_empanelled___private": 8,
+   "number_of_hospitals_empanelled___public": 9,
+   "number_of_hospitals_empanelled___total": 17
+  },
+  {
+   "state": "Assam",
+   "district": "Biswanath",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 3
+  },
+  {
+   "state": "Assam",
+   "district": "Bongaigaon",
+   "number_of_hospitals_empanelled___private": 3,
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 9
+  },
+  {
+   "state": "Assam",
+   "district": "Cachar",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "Assam",
+   "district": "Charaideo",
+   "number_of_hospitals_empanelled___private": 3,
+   "number_of_hospitals_empanelled___public": 10,
+   "number_of_hospitals_empanelled___total": 13
+  },
+  {
+   "state": "Assam",
+   "district": "Chirang",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "Assam",
+   "district": "Darrang",
+   "number_of_hospitals_empanelled___private": 3,
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 5
+  },
+  {
+   "state": "Assam",
+   "district": "Dhemaji",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 5,
+   "number_of_hospitals_empanelled___total": 6
+  },
+  {
+   "state": "Assam",
+   "district": "Dhubri",
+   "number_of_hospitals_empanelled___private": 3,
+   "number_of_hospitals_empanelled___public": 9,
+   "number_of_hospitals_empanelled___total": 12
+  },
+  {
+   "state": "Assam",
+   "district": "Dibrugarh",
+   "number_of_hospitals_empanelled___private": 14,
+   "number_of_hospitals_empanelled___public": 7,
+   "number_of_hospitals_empanelled___total": 21
+  },
+  {
+   "state": "Assam",
+   "district": "Dima Hasao",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "Assam",
+   "district": "Goalpara",
+   "number_of_hospitals_empanelled___private": 7,
+   "number_of_hospitals_empanelled___public": 7,
+   "number_of_hospitals_empanelled___total": 14
+  },
+  {
+   "state": "Assam",
+   "district": "Golaghat",
+   "number_of_hospitals_empanelled___private": 4,
+   "number_of_hospitals_empanelled___public": 5,
+   "number_of_hospitals_empanelled___total": 9
+  },
+  {
+   "state": "Assam",
+   "district": "Hailakandi",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 4,
+   "number_of_hospitals_empanelled___total": 4
+  },
+  {
+   "state": "Assam",
+   "district": "Hojai",
+   "number_of_hospitals_empanelled___private": 4,
+   "number_of_hospitals_empanelled___public": 7,
+   "number_of_hospitals_empanelled___total": 11
+  },
+  {
+   "state": "Assam",
+   "district": "Jorhat",
+   "number_of_hospitals_empanelled___private": 3,
+   "number_of_hospitals_empanelled___public": 3,
+   "number_of_hospitals_empanelled___total": 6
+  },
+  {
+   "state": "Assam",
+   "district": "Kamrup",
+   "number_of_hospitals_empanelled___private": 13,
+   "number_of_hospitals_empanelled___public": 13,
+   "number_of_hospitals_empanelled___total": 26
+  },
+  {
+   "state": "Assam",
+   "district": "Kamrup Metro",
+   "number_of_hospitals_empanelled___private": 48,
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 54
+  },
+  {
+   "state": "Assam",
+   "district": "Karbi Anglong",
+   "number_of_hospitals_empanelled___private": 3,
+   "number_of_hospitals_empanelled___public": 5,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "Assam",
+   "district": "Karimganj",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": 10,
+   "number_of_hospitals_empanelled___total": 12
+  },
+  {
+   "state": "Assam",
+   "district": "Kokrajhar",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 4,
+   "number_of_hospitals_empanelled___total": 5
+  },
+  {
+   "state": "Assam",
+   "district": "Lakhimpur",
+   "number_of_hospitals_empanelled___private": 8,
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 14
+  },
+  {
+   "state": "Assam",
+   "district": "Majuli",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Assam",
+   "district": "Marigaon",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 6
+  },
+  {
+   "state": "Assam",
+   "district": "Nagaon",
+   "number_of_hospitals_empanelled___private": 17,
+   "number_of_hospitals_empanelled___public": 13,
+   "number_of_hospitals_empanelled___total": 30
+  },
+  {
+   "state": "Assam",
+   "district": "Nalbari",
+   "number_of_hospitals_empanelled___private": 6,
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "Assam",
+   "district": "Sivasagar",
+   "number_of_hospitals_empanelled___private": 5,
+   "number_of_hospitals_empanelled___public": 3,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "Assam",
+   "district": "Sonitpur",
+   "number_of_hospitals_empanelled___private": 7,
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 13
+  },
+  {
+   "state": "Assam",
+   "district": "South Salmara Mancachar",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 4,
+   "number_of_hospitals_empanelled___total": 4
+  },
+  {
+   "state": "Assam",
+   "district": "Tinsukia",
+   "number_of_hospitals_empanelled___private": 3,
+   "number_of_hospitals_empanelled___public": 7,
+   "number_of_hospitals_empanelled___total": 10
+  },
+  {
+   "state": "Assam",
+   "district": "Udalguri",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 4,
+   "number_of_hospitals_empanelled___total": 4
+  },
+  {
+   "state": "Assam",
+   "district": "West Karbi Anglong",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 3,
+   "number_of_hospitals_empanelled___total": 3
+  },
+  {
+   "state": "Manipur",
+   "district": "Bishnupur",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 3,
+   "number_of_hospitals_empanelled___total": 3
+  },
+  {
+   "state": "Manipur",
+   "district": "Chandel",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "Manipur",
+   "district": "Churachandpur",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 3
+  },
+  {
+   "state": "Manipur",
+   "district": "Imphal East",
+   "number_of_hospitals_empanelled___private": 11,
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 13
+  },
+  {
+   "state": "Manipur",
+   "district": "Imphal West",
+   "number_of_hospitals_empanelled___private": 15,
+   "number_of_hospitals_empanelled___public": 5,
+   "number_of_hospitals_empanelled___total": 20
+  },
+  {
+   "state": "Manipur",
+   "district": "Jiribam",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Manipur",
+   "district": "Kakching",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 4
+  },
+  {
+   "state": "Manipur",
+   "district": "Kamjong",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Manipur",
+   "district": "Kangpokpi",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "Manipur",
+   "district": "Noney",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Manipur",
+   "district": "Pherzawl",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Manipur",
+   "district": "Senapati",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 3,
+   "number_of_hospitals_empanelled___total": 3
+  },
+  {
+   "state": "Manipur",
+   "district": "Tamenglong",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Manipur",
+   "district": "Tengnoupal",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "Manipur",
+   "district": "Thoubal",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": 5,
+   "number_of_hospitals_empanelled___total": 7
+  },
+  {
+   "state": "Manipur",
+   "district": "Ukhrul",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Meghalaya",
+   "district": "East Garo Hills",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 10,
+   "number_of_hospitals_empanelled___total": 10
+  },
+  {
+   "state": "Meghalaya",
+   "district": "East Jaintia Hills",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 8,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "Meghalaya",
+   "district": "East Khasi Hills",
+   "number_of_hospitals_empanelled___private": 8,
+   "number_of_hospitals_empanelled___public": 34,
+   "number_of_hospitals_empanelled___total": 42
+  },
+  {
+   "state": "Meghalaya",
+   "district": "North Garo Hills",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 12,
+   "number_of_hospitals_empanelled___total": 12
+  },
+  {
+   "state": "Meghalaya",
+   "district": "Ri Bhoi",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": 12,
+   "number_of_hospitals_empanelled___total": 14
+  },
+  {
+   "state": "Meghalaya",
+   "district": "South Garo Hills",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 8,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "Meghalaya",
+   "district": "South West Garo Hills",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 11,
+   "number_of_hospitals_empanelled___total": 11
+  },
+  {
+   "state": "Meghalaya",
+   "district": "South West Khasi Hills",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 5,
+   "number_of_hospitals_empanelled___total": 5
+  },
+  {
+   "state": "Meghalaya",
+   "district": "West Garo Hills",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": 19,
+   "number_of_hospitals_empanelled___total": 21
+  },
+  {
+   "state": "Meghalaya",
+   "district": "West Jaintia Hills",
+   "number_of_hospitals_empanelled___private": 3,
+   "number_of_hospitals_empanelled___public": 17,
+   "number_of_hospitals_empanelled___total": 20
+  },
+  {
+   "state": "Meghalaya",
+   "district": "West Khasi Hills",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": 18,
+   "number_of_hospitals_empanelled___total": 20
+  },
+  {
+   "state": "Mizoram",
+   "district": "Aizawl",
+   "number_of_hospitals_empanelled___private": 4,
+   "number_of_hospitals_empanelled___public": 19,
+   "number_of_hospitals_empanelled___total": 23
+  },
+  {
+   "state": "Mizoram",
+   "district": "Champhai",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 15,
+   "number_of_hospitals_empanelled___total": 16
+  },
+  {
+   "state": "Mizoram",
+   "district": "Kolasib",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 7,
+   "number_of_hospitals_empanelled___total": 7
+  },
+  {
+   "state": "Mizoram",
+   "district": "Lawngtlai",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "Mizoram",
+   "district": "Lunglei",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 13,
+   "number_of_hospitals_empanelled___total": 14
+  },
+  {
+   "state": "Mizoram",
+   "district": "Mamit",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 8,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "Mizoram",
+   "district": "Saiha",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 5,
+   "number_of_hospitals_empanelled___total": 5
+  },
+  {
+   "state": "Mizoram",
+   "district": "Serchhip",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 7,
+   "number_of_hospitals_empanelled___total": 7
+  },
+  {
+   "state": "Nagaland",
+   "district": "Mon",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 7,
+   "number_of_hospitals_empanelled___total": 7
+  },
+  {
+   "state": "Nagaland",
+   "district": "Dimapur",
+   "number_of_hospitals_empanelled___private": 13,
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 19
+  },
+  {
+   "state": "Nagaland",
+   "district": "Kiphire",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 3,
+   "number_of_hospitals_empanelled___total": 3
+  },
+  {
+   "state": "Nagaland",
+   "district": "Kohima",
+   "number_of_hospitals_empanelled___private": 5,
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 11
+  },
+  {
+   "state": "Nagaland",
+   "district": "Longleng",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "Nagaland",
+   "district": "Mokokchung",
+   "number_of_hospitals_empanelled___private": 3,
+   "number_of_hospitals_empanelled___public": 4,
+   "number_of_hospitals_empanelled___total": 7
+  },
+  {
+   "state": "Nagaland",
+   "district": "Peren",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 3,
+   "number_of_hospitals_empanelled___total": 3
+  },
+  {
+   "state": "Nagaland",
+   "district": "Phek",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 5,
+   "number_of_hospitals_empanelled___total": 6
+  },
+  {
+   "state": "Nagaland",
+   "district": "Tuensang",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "Nagaland",
+   "district": "Wokha",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 5,
+   "number_of_hospitals_empanelled___total": 6
+  },
+  {
+   "state": "Nagaland",
+   "district": "Zunheboto",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 3
+  },
+  {
+   "state": "Sikkim",
+   "district": "East District",
+   "number_of_hospitals_empanelled___private": 4,
+   "number_of_hospitals_empanelled___public": 3,
+   "number_of_hospitals_empanelled___total": 7
+  },
+  {
+   "state": "Sikkim",
+   "district": "North District",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "Sikkim",
+   "district": "Pakyong",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "Sikkim",
+   "district": "Soreng",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "Sikkim",
+   "district": "South District",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 4,
+   "number_of_hospitals_empanelled___total": 5
+  },
+  {
+   "state": "Sikkim",
+   "district": "West District",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "Tripura",
+   "district": "Dhalai",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 16,
+   "number_of_hospitals_empanelled___total": 16
+  },
+  {
+   "state": "Tripura",
+   "district": "Gomati",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 16,
+   "number_of_hospitals_empanelled___total": 16
+  },
+  {
+   "state": "Tripura",
+   "district": "Khowai",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 9,
+   "number_of_hospitals_empanelled___total": 9
+  },
+  {
+   "state": "Tripura",
+   "district": "North Tripura",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 17,
+   "number_of_hospitals_empanelled___total": 17
+  },
+  {
+   "state": "Tripura",
+   "district": "Sepahijala",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 19,
+   "number_of_hospitals_empanelled___total": 19
+  },
+  {
+   "state": "Tripura",
+   "district": "South Tripura",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 26,
+   "number_of_hospitals_empanelled___total": 26
+  },
+  {
+   "state": "Tripura",
+   "district": "Unakoti",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 8,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "Tripura",
+   "district": "West Tripura",
+   "number_of_hospitals_empanelled___private": 5,
+   "number_of_hospitals_empanelled___public": 22,
+   "number_of_hospitals_empanelled___total": 27
+  },
+  {
+   "state": "West Bengal",
+   "district": "24 Paraganas North",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "West Bengal",
+   "district": "24 Paraganas South",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": "NA",
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "West Bengal",
+   "district": "Alipurduar",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "West Bengal",
+   "district": "Coochbehar",
+   "number_of_hospitals_empanelled___private": 1,
+   "number_of_hospitals_empanelled___public": "NA",
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "West Bengal",
+   "district": "Darjeeling",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "West Bengal",
+   "district": "Howrah",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "West Bengal",
+   "district": "Jalpaiguri",
+   "number_of_hospitals_empanelled___private": 3,
+   "number_of_hospitals_empanelled___public": 4,
+   "number_of_hospitals_empanelled___total": 7
+  },
+  {
+   "state": "West Bengal",
+   "district": "Kolkata",
+   "number_of_hospitals_empanelled___private": 5,
+   "number_of_hospitals_empanelled___public": 4,
+   "number_of_hospitals_empanelled___total": 9
+  },
+  {
+   "state": "West Bengal",
+   "district": "Maldah",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "West Bengal",
+   "district": "Medinipur East",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "West Bengal",
+   "district": "Medinipur West",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "West Bengal",
+   "district": "Murshidabad",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  },
+  {
+   "state": "West Bengal",
+   "district": "Nadia",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 2,
+   "number_of_hospitals_empanelled___total": 2
+  },
+  {
+   "state": "West Bengal",
+   "district": "Paschim Bardhaman",
+   "number_of_hospitals_empanelled___private": 2,
+   "number_of_hospitals_empanelled___public": 6,
+   "number_of_hospitals_empanelled___total": 8
+  },
+  {
+   "state": "West Bengal",
+   "district": "Purulia",
+   "number_of_hospitals_empanelled___private": "NA",
+   "number_of_hospitals_empanelled___public": 1,
+   "number_of_hospitals_empanelled___total": 1
+  }
+ ]
+}

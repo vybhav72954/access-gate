@@ -1,0 +1,143 @@
+{
+ "title": "State/UT-wise, the number of beneficiaries under Aayushman Bharat Pradhan Mantri Jan Arogaya Yojana (AB-PMJAY) who were linked to a single mobile number during 2018-21",
+ "desc": "State/UT-wise, the number of beneficiaries under Aayushman Bharat Pradhan Mantri Jan Arogaya Yojana (AB-PMJAY) who were linked to a single mobile number during 2018-21",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "e3b19e4d-e287-4d32-b53d-70e9617c7770",
+ "created_date": "2026-02-25T05:36:13Z",
+ "updated_date": "2026-02-25T05:36:13Z",
+ "field": [
+  {
+   "id": "_sl__no_",
+   "name": "Sl. No.",
+   "type": "double"
+  },
+  {
+   "id": "state___ut",
+   "name": "State / UT",
+   "type": "keyword"
+  },
+  {
+   "id": "number_of_beneficiaries",
+   "name": "Number of beneficiaries",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "_sl__no_": 1,
+   "state___ut": "Assam",
+   "number_of_beneficiaries": 74
+  },
+  {
+   "_sl__no_": 2,
+   "state___ut": "Bihar",
+   "number_of_beneficiaries": 34057
+  },
+  {
+   "_sl__no_": 3,
+   "state___ut": "Chandigarh",
+   "number_of_beneficiaries": 2
+  },
+  {
+   "_sl__no_": 4,
+   "state___ut": "Chhattisgarh",
+   "number_of_beneficiaries": 5576
+  },
+  {
+   "_sl__no_": 5,
+   "state___ut": "Goa",
+   "number_of_beneficiaries": 5
+  },
+  {
+   "_sl__no_": 6,
+   "state___ut": "Gujarat",
+   "number_of_beneficiaries": 58060
+  },
+  {
+   "_sl__no_": 7,
+   "state___ut": "Haryana",
+   "number_of_beneficiaries": 13555
+  },
+  {
+   "_sl__no_": 8,
+   "state___ut": "Himachal Pradesh",
+   "number_of_beneficiaries": 2892
+  },
+  {
+   "_sl__no_": 9,
+   "state___ut": "Jammu and Kashmir",
+   "number_of_beneficiaries": 32900
+  },
+  {
+   "_sl__no_": 10,
+   "state___ut": "Jharkhand",
+   "number_of_beneficiaries": 98622
+  },
+  {
+   "_sl__no_": 11,
+   "state___ut": "Kerala",
+   "number_of_beneficiaries": 148581
+  },
+  {
+   "_sl__no_": 12,
+   "state___ut": "Madhya Pradesh",
+   "number_of_beneficiaries": 128804
+  },
+  {
+   "_sl__no_": 13,
+   "state___ut": "Maharashtra",
+   "number_of_beneficiaries": 57419
+  },
+  {
+   "_sl__no_": 14,
+   "state___ut": "Meghalaya",
+   "number_of_beneficiaries": 69337
+  },
+  {
+   "_sl__no_": 15,
+   "state___ut": "Mizoram",
+   "number_of_beneficiaries": 58
+  },
+  {
+   "_sl__no_": 16,
+   "state___ut": "Nagaland",
+   "number_of_beneficiaries": 2
+  },
+  {
+   "_sl__no_": 17,
+   "state___ut": "Puducherry",
+   "number_of_beneficiaries": 2735
+  },
+  {
+   "_sl__no_": 18,
+   "state___ut": "Punjab",
+   "number_of_beneficiaries": 30001
+  },
+  {
+   "_sl__no_": 19,
+   "state___ut": "Dadra and Nagar Haveli and Daman and Diu",
+   "number_of_beneficiaries": 2285
+  },
+  {
+   "_sl__no_": 20,
+   "state___ut": "Tripura",
+   "number_of_beneficiaries": 2687
+  },
+  {
+   "_sl__no_": 21,
+   "state___ut": "Uttar Pradesh",
+   "number_of_beneficiaries": 75240
+  },
+  {
+   "_sl__no_": 22,
+   "state___ut": "Uttarakhand",
+   "number_of_beneficiaries": 14571
+  }
+ ]
+}

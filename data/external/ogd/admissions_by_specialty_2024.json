@@ -1,0 +1,158 @@
+{
+ "title": "Specialty-wise Details of Authorized Hospital Admissions under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) as on 30-06-2024",
+ "desc": "Specialty-wise Details of Authorized Hospital Admissions under Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) as on 30-06-2024",
+ "org": [
+  "Rajya Sabha"
+ ],
+ "sector": [
+  "All"
+ ],
+ "source": "data.gov.in",
+ "catalog_uuid": "b63773fc-083b-40a0-8203-3de548241fc6",
+ "created_date": "2024-11-03T05:43:08Z",
+ "updated_date": "2024-11-03T05:43:08Z",
+ "field": [
+  {
+   "id": "_sl__no_",
+   "name": "Sl. No.",
+   "type": "double"
+  },
+  {
+   "id": "specialty",
+   "name": "Specialty",
+   "type": "keyword"
+  },
+  {
+   "id": "authorized_hospital_admissions_count__in_lakh_",
+   "name": "Authorized Hospital Admissions Count (in lakh)",
+   "type": "double"
+  },
+  {
+   "id": "authorized_hospital_admissions_amount__rs__in_crore_",
+   "name": "Authorized Hospital Admissions Amount (Rs. In Crore)",
+   "type": "double"
+  }
+ ],
+ "records": [
+  {
+   "_sl__no_": 1,
+   "specialty": "General Medicine",
+   "authorized_hospital_admissions_count__in_lakh_": 296.09,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 18963.52
+  },
+  {
+   "_sl__no_": 2,
+   "specialty": "Cardiology",
+   "authorized_hospital_admissions_count__in_lakh_": 19.99,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 10834.11
+  },
+  {
+   "_sl__no_": 3,
+   "specialty": "Medical Oncology",
+   "authorized_hospital_admissions_count__in_lakh_": 61.29,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 9090.75
+  },
+  {
+   "_sl__no_": 4,
+   "specialty": "Orthopedics",
+   "authorized_hospital_admissions_count__in_lakh_": 33.97,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 8934.55
+  },
+  {
+   "_sl__no_": 5,
+   "specialty": "General Surgery",
+   "authorized_hospital_admissions_count__in_lakh_": 39.97,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 8401.65
+  },
+  {
+   "_sl__no_": 6,
+   "specialty": "Urology",
+   "authorized_hospital_admissions_count__in_lakh_": 25.94,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 6363.1
+  },
+  {
+   "_sl__no_": 7,
+   "specialty": "Radiation Oncology",
+   "authorized_hospital_admissions_count__in_lakh_": 8.52,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 5830.05
+  },
+  {
+   "_sl__no_": 8,
+   "specialty": "Cardiothoracic Vascular Surgery",
+   "authorized_hospital_admissions_count__in_lakh_": 10.31,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 5594.47
+  },
+  {
+   "_sl__no_": 9,
+   "specialty": "Obstetrics and Gynaecology",
+   "authorized_hospital_admissions_count__in_lakh_": 51.76,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 5284.55
+  },
+  {
+   "_sl__no_": 10,
+   "specialty": "Ophthalmology",
+   "authorized_hospital_admissions_count__in_lakh_": 47.65,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 3925.38
+  },
+  {
+   "_sl__no_": 11,
+   "specialty": "Neo - natal Care",
+   "authorized_hospital_admissions_count__in_lakh_": 12.96,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 3168.95
+  },
+  {
+   "_sl__no_": 12,
+   "specialty": "Neurosurgery",
+   "authorized_hospital_admissions_count__in_lakh_": 5.57,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 2906.84
+  },
+  {
+   "_sl__no_": 13,
+   "specialty": "Surgical Oncology",
+   "authorized_hospital_admissions_count__in_lakh_": 5,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 2428.58
+  },
+  {
+   "_sl__no_": 14,
+   "specialty": "Pediatric Medical Management",
+   "authorized_hospital_admissions_count__in_lakh_": 14.34,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 2189.69
+  },
+  {
+   "_sl__no_": 15,
+   "specialty": "Infectious Diseases",
+   "authorized_hospital_admissions_count__in_lakh_": 5.76,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 1865.85
+  },
+  {
+   "_sl__no_": 16,
+   "specialty": "ENT",
+   "authorized_hospital_admissions_count__in_lakh_": 7.35,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 1320.1
+  },
+  {
+   "_sl__no_": 17,
+   "specialty": "Pediatric Surgery",
+   "authorized_hospital_admissions_count__in_lakh_": 7.29,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 1052.96
+  },
+  {
+   "_sl__no_": 18,
+   "specialty": "Polytrauma",
+   "authorized_hospital_admissions_count__in_lakh_": 3.68,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 848.04
+  },
+  {
+   "_sl__no_": 19,
+   "specialty": "Emergency Room Packages",
+   "authorized_hospital_admissions_count__in_lakh_": 17.86,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 421.72
+  },
+  {
+   "_sl__no_": 20,
+   "specialty": "Plastic and Reconstructive Surgery",
+   "authorized_hospital_admissions_count__in_lakh_": 1.23,
+   "authorized_hospital_admissions_amount__rs__in_crore_": 281.72
+  }
+ ]
+}
