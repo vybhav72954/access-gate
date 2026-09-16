@@ -1,0 +1,272 @@
+{
+ "config": {
+  "n_flagged": 5000,
+  "seed": 20260916,
+  "base_rate": 0.0018,
+  "fpr": 0.01,
+  "recall": 0.9,
+  "p_explained": 0.6,
+  "p_certificate": 0.8,
+  "field_accuracy": 0.85,
+  "field_conf": [
+   0.6,
+   0.95
+  ]
+ },
+ "summary": {
+  "flagged_cases": 5000,
+  "fraud_share_of_flags": 0.1396,
+  "auto_resolution_share": 0.8668,
+  "resolved_at_desk_share": 0.5648,
+  "field_audit_share": 0.4346,
+  "human_share": 0.1332,
+  "final_actions": {
+   "release_claim": 0.5258,
+   "show_cause_notice": 0.3054,
+   "no_action_review": 0.13,
+   "suspend_hospital": 0.0356,
+   "escalate_to_sec": 0.0032
+  },
+  "innocent": {
+   "cases": 3824,
+   "released": 0.6815,
+   "show_cause": 0.1713,
+   "suspended": 0.0063,
+   "to_human": 0.141
+  },
+  "fraud": {
+   "cases": 698,
+   "enforced": 0.8037,
+   "released": 0.033,
+   "to_human": 0.1819
+  },
+  "confirmed_egregious_share": 0.0388,
+  "per_year": {
+   "flags": 211732,
+   "flags_per_day": 580,
+   "field_audits": 92019,
+   "human_reviews": 28203,
+   "confirmed_egregious": 8215,
+   "suspensions": 7538,
+   "wrongful_suspensions": 1016,
+   "show_cause_notices": 64663,
+   "show_cause_to_innocent": 27737
+  }
+ },
+ "gate_at_chosen_km": {
+  "protect": 0.1081859816988232,
+  "phantom": 0.000726333929751557,
+  "removes_only_provider": 0.029487032285453286
+ },
+ "distance_material_km": 50.0,
+ "by_trigger": [
+  {
+   "trigger": "T2",
+   "cases": 548,
+   "fraud_share": 0.1277,
+   "field_audited": 0.4909,
+   "release_claim": 0.752,
+   "show_cause_notice": 0.084,
+   "order_field_audit": 0.0,
+   "suspend_hospital": 0.0,
+   "delist_specialty": 0.0,
+   "escalate_to_sec": 0.0,
+   "no_action_review": 0.164
+  },
+  {
+   "trigger": "T3",
+   "cases": 548,
+   "fraud_share": 0.1277,
+   "field_audited": 0.4489,
+   "release_claim": 0.786,
+   "show_cause_notice": 0.111,
+   "order_field_audit": 0.0,
+   "suspend_hospital": 0.0,
+   "delist_specialty": 0.0,
+   "escalate_to_sec": 0.0,
+   "no_action_review": 0.102
+  },
+  {
+   "trigger": "T4",
+   "cases": 548,
+   "fraud_share": 0.1277,
+   "field_audited": 0.0,
+   "release_claim": 0.516,
+   "show_cause_notice": 0.484,
+   "order_field_audit": 0.0,
+   "suspend_hospital": 0.0,
+   "delist_specialty": 0.0,
+   "escalate_to_sec": 0.0,
+   "no_action_review": 0.0
+  },
+  {
+   "trigger": "T5",
+   "cases": 548,
+   "fraud_share": 0.1277,
+   "field_audited": 1.0,
+   "release_claim": 0.595,
+   "show_cause_notice": 0.0,
+   "order_field_audit": 0.0,
+   "suspend_hospital": 0.099,
+   "delist_specialty": 0.0,
+   "escalate_to_sec": 0.011,
+   "no_action_review": 0.296
+  },
+  {
+   "trigger": "T6",
+   "cases": 70,
+   "fraud_share": 1.0,
+   "field_audited": 1.0,
+   "release_claim": 0.0,
+   "show_cause_notice": 0.0,
+   "order_field_audit": 0.0,
+   "suspend_hospital": 0.671,
+   "delist_specialty": 0.0,
+   "escalate_to_sec": 0.057,
+   "no_action_review": 0.271
+  },
+  {
+   "trigger": "T7",
+   "cases": 548,
+   "fraud_share": 0.1277,
+   "field_audited": 1.0,
+   "release_claim": 0.547,
+   "show_cause_notice": 0.137,
+   "order_field_audit": 0.0,
+   "suspend_hospital": 0.0,
+   "delist_specialty": 0.0,
+   "escalate_to_sec": 0.0,
+   "no_action_review": 0.316
+  },
+  {
+   "trigger": "T10",
+   "cases": 548,
+   "fraud_share": 0.1277,
+   "field_audited": 0.8978,
+   "release_claim": 0.575,
+   "show_cause_notice": 0.0,
+   "order_field_audit": 0.0,
+   "suspend_hospital": 0.141,
+   "delist_specialty": 0.0,
+   "escalate_to_sec": 0.011,
+   "no_action_review": 0.274
+  },
+  {
+   "trigger": "R1",
+   "cases": 548,
+   "fraud_share": 0.1277,
+   "field_audited": 0.0,
+   "release_claim": 0.0,
+   "show_cause_notice": 1.0,
+   "order_field_audit": 0.0,
+   "suspend_hospital": 0.0,
+   "delist_specialty": 0.0,
+   "escalate_to_sec": 0.0,
+   "no_action_review": 0.0
+  },
+  {
+   "trigger": "R2",
+   "cases": 547,
+   "fraud_share": 0.1261,
+   "field_audited": 0.0,
+   "release_claim": 0.516,
+   "show_cause_notice": 0.484,
+   "order_field_audit": 0.0,
+   "suspend_hospital": 0.0,
+   "delist_specialty": 0.0,
+   "escalate_to_sec": 0.0,
+   "no_action_review": 0.0
+  },
+  {
+   "trigger": "R3",
+   "cases": 547,
+   "fraud_share": 0.1261,
+   "field_audited": 0.0,
+   "release_claim": 0.512,
+   "show_cause_notice": 0.488,
+   "order_field_audit": 0.0,
+   "suspend_hospital": 0.0,
+   "delist_specialty": 0.0,
+   "escalate_to_sec": 0.0,
+   "no_action_review": 0.0
+  }
+ ],
+ "by_state": [
+  {
+   "state": "Karnataka",
+   "sec_escalations_per_year": 175,
+   "share_of_egregious_escalated": 0.1347
+  },
+  {
+   "state": "Rajasthan",
+   "sec_escalations_per_year": 116,
+   "share_of_egregious_escalated": 0.1745
+  },
+  {
+   "state": "Madhya Pradesh",
+   "sec_escalations_per_year": 111,
+   "share_of_egregious_escalated": 0.193
+  },
+  {
+   "state": "Chhattisgarh",
+   "sec_escalations_per_year": 72,
+   "share_of_egregious_escalated": 0.1172
+  },
+  {
+   "state": "Andhra Pradesh",
+   "sec_escalations_per_year": 69,
+   "share_of_egregious_escalated": 0.0975
+  },
+  {
+   "state": "Bihar",
+   "sec_escalations_per_year": 63,
+   "share_of_egregious_escalated": 0.2144
+  },
+  {
+   "state": "Uttar Pradesh",
+   "sec_escalations_per_year": 55,
+   "share_of_egregious_escalated": 0.0673
+  },
+  {
+   "state": "Maharashtra",
+   "sec_escalations_per_year": 43,
+   "share_of_egregious_escalated": 0.1004
+  },
+  {
+   "state": "Assam",
+   "sec_escalations_per_year": 42,
+   "share_of_egregious_escalated": 0.2341
+  },
+  {
+   "state": "Jharkhand",
+   "sec_escalations_per_year": 36,
+   "share_of_egregious_escalated": 0.2524
+  }
+ ],
+ "allocation_fit": [
+  {
+   "state": "Uttar Pradesh",
+   "vintage": "2021-22",
+   "districts": 75,
+   "districts_published": 75,
+   "r2_hospitals": 0.492,
+   "r2_population": 0.436,
+   "r2_both": 0.526,
+   "beta_hospitals": 0.49,
+   "beta_population": 0.45,
+   "r2_sqrt_sqrt_weight": 0.526
+  },
+  {
+   "state": "Gujarat",
+   "vintage": "to Aug 2023",
+   "districts": 33,
+   "districts_published": 33,
+   "r2_hospitals": 0.77,
+   "r2_population": 0.838,
+   "r2_both": 0.862,
+   "beta_hospitals": 0.39,
+   "beta_population": 0.77,
+   "r2_sqrt_sqrt_weight": 0.856
+  }
+ ]
+}

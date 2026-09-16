@@ -1,0 +1,4 @@
+variant,auto_resolution,to_human,innocent_suspended,innocent_t10_suspended,fraud_enforced,wrongful_suspensions_per_year,human_reviews_per_year
+As first built: a death-register entry is proof; one field channel,0.8876,0.1124,0.1127,0.8828,0.8252,18251,23799
+E-1 fixed: a register entry without a certificate is a lead,0.8698,0.1302,0.0144,0.0962,0.8195,2329,27568
+E-1 + E-2 fixed: egregious triggers order two field channels (current),0.8668,0.1332,0.0063,0.0314,0.8037,1016,28203
