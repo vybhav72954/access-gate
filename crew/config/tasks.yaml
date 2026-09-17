@@ -1,0 +1,266 @@
+# The nine tasks, run in order by the crew in crew/crew_llm.py:
+#
+#   route              Case Router             always; its plan may only widen the tracks the rules mandate
+#   investigate        Desk Investigator       always
+#   medical_audit      Medical Auditor         only on a clinical question (T2, T3, T4, T7), or if the router opens it
+#   field_review       Field Evidence Analyst  only when field reports are on file
+#   billing_audit      Billing & Tariff Analyst  only when the money is in question (R2, above-rate), or the router
+#   advocacy           Provider Advocate       only when a reading supports fraud, or if the router opens it
+#   review             Audit Reviewer          always; then the enforcement policy decides (task callback)
+#   committee_brief    Committee Liaison       only when the decision refers the case to the Committee
+#   enforce            Enforcement Officer     always
+#
+# `context` is the hand-off. The four evidence readers get none: each works independently of the others' findings.
+# The advocate receives the four readings, because the hospital's side is an answer to them, and the reviewer
+# receives all five reports. The liaison and the officer get none either: they work from the decision
+# the policy made, through their tools, not from reports the policy may have set aside.
+#
+# Placeholders are filled by plain text replacement at kickoff, and a replacement is applied to text already
+# inserted. Each reader's case file quotes documents, so it is the only placeholder in its task.
+
+route:
+  description: >-
+    Plan the investigation of the case below, as the case router.
+
+
+    Some work is already open by rule and you cannot close it; the case file names it. Decide which of the remaining
+    tracks -- medical, field, billing, advocate -- this file raises a question for, and open those. Opening a track
+    puts an agent to work, so open one because the file raises its question, not for completeness. Opening nothing
+    is a valid plan when the rules have already opened what the case needs.
+
+
+    Return open, a list that is empty when you would add nothing, each naming the track and giving the reason in at
+    least one full sentence, and a summary of your plan in one or two sentences.
+
+
+    {route_file}
+  expected_output: >-
+    The plan as a JSON object with open and summary.
+  agent: case_router
+  context: []
+
+investigate:
+  description: >-
+    Investigate the fraud trigger on the claim below, as the desk audit of its documents.
+
+
+    Work through the trigger's desk-audit checks. The documents on this claim are quoted in full below. Establish
+    whether they are present, consistent with one another and genuine, and whether they explain what the trigger
+    flagged. If the trigger concerns other claims, use your tools to list them, read their documents and compare them,
+    and decide for yourself what the comparison shows: identical or near-identical records filed as separate
+    admissions point one way, distinct records with their own findings point the other. Whether the care was
+    clinically needed is the Medical Auditor's question; take a position on it only as far as the documents' integrity
+    bears on it, and otherwise leave it.
+
+
+    Then give your finding:
+
+    - supports_fraud: true if the documentary evidence supports the suspicion, false if it explains it away, null if
+    the documents cannot settle it or the question is not a documentary one;
+
+    - confidence between 0 and 1 in that stance (0 when null);
+
+    - conclusion: two to four sentences on what the evidence shows, in your own words;
+
+    - citation: the claims and documents you relied on, as claim_id/doc_type, separated by semicolons.
+
+
+    A checklist item that needs the patient or a hospital visit is what the field channels answer when the documents
+    cannot; it is not a prerequisite for settling a case the documents do settle. A mandatory document that is
+    missing stops the desk from clearing a claim, and your conclusion should name it. When the missing document is the
+    one that would explain the trigger (the invoice for an amount above the rate, the referral for a reserved
+    package), the trigger stands unexplained. Any other missing upload is not by itself evidence of fraud, because
+    uploads fail and files arrive incomplete: the stance comes from what the documents on file show.
+
+
+    {desk_file}
+  expected_output: >-
+    The desk finding as a JSON object with supports_fraud, confidence, conclusion and citation.
+  agent: desk_investigator
+  context: []
+
+medical_audit:
+  description: >-
+    Audit the clinical record of the claim below, as the medical auditor.
+
+
+    This trigger turns on a clinical question: whether the admission was needed; whether the length of the stay is
+    justified by the course documented day by day; whether the procedure billed was done, and a same-day discharge
+    clinically plausible; or, for repeat admissions, whether each episode had its own indication and findings. Check
+    the notes against the objective record: vitals charts, investigation reports, results.
+
+
+    Then give your finding:
+
+    - supports_fraud: true if the clinical record does not justify what was billed, false if it does, null only if the
+    record genuinely cannot settle it;
+
+    - confidence between 0 and 1 in that stance (0 when null);
+
+    - conclusion: two to four sentences, in clinical terms;
+
+    - citation: the claims and documents you relied on, as claim_id/doc_type, separated by semicolons.
+
+
+    Whether documents were forged or copied, and whether an invoice or a referral is on file, are the Desk
+    Investigator's questions, not yours. A mandatory document that is missing stops a clearance: name it.
+
+
+    {medical_file}
+  expected_output: >-
+    The clinical finding as a JSON object with supports_fraud, confidence, conclusion and citation.
+  agent: medical_auditor
+  context: []
+
+field_review:
+  description: >-
+    Weigh the field reports on file for the claim below, as the field evidence analyst.
+
+
+    For each field report: keep the stance the field team recorded (true supports the suspicion, false opposes it,
+    null neither); give it a confidence no higher than the team's own, lower when the report is vague, answers a
+    different question from the one this trigger's field checks ask, or disagrees with the documents on file; and say
+    why in one or two sentences. You may read the documents with read_document.
+
+
+    Return assessments: one for each field report, with its channel exactly as the report names it, supports_fraud,
+    confidence and conclusion.
+
+
+    {field_file}
+  expected_output: >-
+    The assessments as a JSON object with a list named assessments.
+  agent: field_evidence_analyst
+  context: []
+
+billing_audit:
+  description: >-
+    Establish whether the money on the claim below is accounted for, as the billing and tariff analyst.
+
+
+    Start with claim_tariff: it computes the published rate, the amount claimed and the excess, and lists the
+    documents on file that could account for it. Read each of those with read_document and judge what it actually
+    covers. Compare the total they account for against the excess. If the documents account for the excess, the
+    amount is explained; if they account for part of it, the remainder is unexplained, and you say how much.
+
+
+    Set supports_fraud=true when the amount is not accounted for, false when it is, and null when you cannot settle
+    it on the documents. Give the figures you used in the conclusion, and cite the documents you read. You must call
+    claim_tariff before taking any position other than null: figures you did not compute here are not figures this
+    case establishes, and a stance without them is sent back.
+
+
+    {billing_file}
+  expected_output: >-
+    The finding as a JSON object with supports_fraud, confidence, conclusion and citation.
+  agent: billing_analyst
+  context: []
+
+advocacy:
+  description: >-
+    Put the hospital's side on the claim below, as the provider advocate.
+
+
+    The readers' findings reach you as the context, each labelled with its finding. Read them, read the documents,
+    and answer one question: is there an innocent explanation of what was flagged that this file actually supports,
+    and does the evidence on file exclude it?
+
+
+    Set excluded=false only when the explanation stands on the documents and you can cite what supports it; such an
+    explanation stops an action no human has reviewed, so it must be real, and you must have read what it rests on
+    with read_document (or checked the figures with claim_tariff) before you answer it. An unexcluded defence that
+    read nothing is sent back. Set excluded=true when the evidence rules
+    the innocent reading out, and say in the explanation what would have had to be true and is not. Either way the
+    explanation is one the file will bear, in your own words, with the document behind it cited.
+
+
+    {advocate_file}
+  expected_output: >-
+    The answer as a JSON object with explanation, excluded and citation.
+  agent: provider_advocate
+  context: [investigate, medical_audit, field_review, billing_audit]
+
+review:
+  description: >-
+    Review the findings on the claim below before the enforcement policy decides, as the audit reviewer.
+
+
+    The reports to review follow the case file, as the context, each labelled with its finding: desk_audit (the Desk
+    Investigator's), medical_audit (the Medical Auditor's, on clinical triggers), billing_audit (the Billing & Tariff
+    Analyst's, where the money was in question), field_reports (the Field Evidence Analyst's weighing of the field
+    reports on file) and advocacy (the Provider Advocate's account of the hospital's side). For desk_audit,
+    medical_audit and billing_audit, check that the stance follows from the conclusion, that the conclusion follows
+    from the evidence, and that the documents cited say what the finding claims. For advocacy, check that the
+    explanation is one the cited documents actually bear: dispute it when the file does not support it, because an
+    explanation the evidence does not exclude stops an action no human has reviewed. Check them with your tools where
+    the case file does not settle it.
+
+
+    Dispute a finding only when it does not hold: a stance that contradicts its own reasoning, a cited document that
+    says something else, an amount or a date that does not add up, evidence on file that the finding ignores. Do not
+    dispute a finding because you would have weighed the evidence differently. A disputed finding is set aside and
+    weighs nothing; what the case then does depends on the readings that remain. Field reports, registry facts, and a
+    document comparison the claim store makes itself are not yours to dispute: a dispute of a reading that repeats
+    such a comparison is refused and recorded.
+
+
+    Return disputes, a list that is empty when every finding holds, each naming the finding (desk_audit,
+    medical_audit, billing_audit or advocacy) and giving the reason in at least one full sentence, and a summary of
+    your review in two to four sentences. The summary and the list are one answer: if your summary says a finding is
+    disputed, that finding must be in the list, because only the list sets anything aside. A summary that disputes
+    what the list does not is sent back.
+
+
+    {review_file}
+  expected_output: >-
+    The review as a JSON object with disputes and summary.
+  agent: audit_reviewer
+  context: [investigate, medical_audit, field_review, billing_audit, advocacy]
+
+committee_brief:
+  description: >-
+    Case {case_id}. The enforcement policy has referred it to the State Empanelment Committee.
+
+
+    1. Call enforcement_decision for the decision and the findings it rests on, and access_impact for what suspending
+    the hospital would do to access in its district.
+
+    2. File the brief with file_committee_brief: a summary setting the evidence and the access consequence side by side;
+    two to four options genuinely open to the Committee, each with its consequence; the option you recommend and why;
+    and the one question the Committee must answer.
+
+    3. State access exactly as access_impact states it, naming only the specialties it names. Never write that the
+    hospital is suspended or that anything has been de-listed: the Committee has not decided. Refer to the hospital
+    only as {hospital_ref}; name no other hospital. If the tool rejects the brief, revise it and file it again.
+  expected_output: >-
+    One sentence confirming the brief was filed.
+  agent: committee_liaison
+  context: []
+
+enforce:
+  description: >-
+    Case {case_id}. The findings have been reviewed, and the enforcement policy has decided the case on them.
+
+
+    1. Call enforcement_decision: it gives the decision, what it does and does not do, the findings it rests on, and
+    the one tool that executes it.
+
+    2. If the decision is a suspension, an escalation to the State Empanelment Committee or a de-listing referral,
+    call access_impact before drafting.
+
+    3. Draft the explanation, 80 to 180 words, plain English, no headings or lists. State the action exactly as the
+    decision describes it. Never write that a claim is released or paid unless the decision releases it, that the
+    hospital is suspended unless the decision suspends it, or that anything has been de-listed. Discuss access only for
+    a suspension, an escalation or a de-listing referral, and then only for the specialties access_impact names. Refer
+    to the hospital only as {hospital_ref}; name no other hospital.
+
+    4. Execute the decision with its action tool. For a field audit, add the questions the field team must answer in
+    this case; for a show-cause notice, the documents the hospital must produce. If the tool rejects your text, revise
+    it and call the tool again.
+
+
+    The decision is not yours to change: every other action tool refuses.
+  expected_output: >-
+    One sentence naming the action you executed.
+  agent: enforcement_officer
+  context: []
