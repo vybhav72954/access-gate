@@ -136,7 +136,10 @@
 
   .steps { counter-reset: step; list-style: none; padding: 0; max-width: var(--col); }
   .steps > li { counter-increment: step; display: grid; grid-template-columns: 28px 1fr; gap: 15px; margin: 0 0 26px; max-width: none; }
-  .steps > li::before { content: counter(step); font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--surface); background: var(--deep); width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; margin-top: 3px; }
+  /* The marker owns the first cell; everything else stacks in the second column. Without explicit
+     placement, auto-flow drops each child after the heading into the 28px number column. */
+  .steps > li::before { content: counter(step); grid-column: 1; grid-row: 1; font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--surface); background: var(--deep); width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; margin-top: 3px; }
+  .steps > li > * { grid-column: 2; min-width: 0; }
   .steps h4 { margin: 0 0 2px; }
   .steps p { margin: 4px 0; }
   .steps pre { margin: 10px 0 0; }
