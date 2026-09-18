@@ -1,0 +1,1210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Access Gate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    --paper:#f6f7f8; --surface:#fff; --surface-2:#eef2f4;
+    --ink:#14202a; --ink-soft:#47606f; --ink-faint:#6d8494;
+    --rule:#d2dce2; --rule-soft:#e4eaee;
+    --deep:#12455f; --deep-soft:#e2ecf1;
+    --gate:#8f6212; --gate-soft:#f6ecd8;
+    --good:#3f6b48; --good-soft:#e7efe6;
+    --bad:#8f2121; --bad-soft:#f5e6e6;
+    --shadow:0 1px 2px rgba(20,32,42,.06), 0 8px 24px -16px rgba(20,32,42,.28);
+    --col:1060px; --measure:70ch;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:#0f171d; --surface:#151f27; --surface-2:#1c2932;
+      --ink:#e7eef3; --ink-soft:#a9bcc8; --ink-faint:#8299a8;
+      --rule:#2b3b46; --rule-soft:#223039;
+      --deep:#8fc0d8; --deep-soft:#1a2c38;
+      --gate:#e0b45f; --gate-soft:#2e2513;
+      --good:#8fc09a; --good-soft:#18251b;
+      --bad:#e29a9a; --bad-soft:#2a1919;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:#0f171d; --surface:#151f27; --surface-2:#1c2932;
+    --ink:#e7eef3; --ink-soft:#a9bcc8; --ink-faint:#8299a8;
+    --rule:#2b3b46; --rule-soft:#223039;
+    --deep:#8fc0d8; --deep-soft:#1a2c38;
+    --gate:#e0b45f; --gate-soft:#2e2513;
+    --good:#8fc09a; --good-soft:#18251b;
+    --bad:#e29a9a; --bad-soft:#2a1919;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px; line-height: 1.62; -webkit-font-smoothing: antialiased;
+  }
+  h1,h2,h3,h4 { font-family: "IBM Plex Serif", Georgia, serif; text-wrap: balance; margin: 0; }
+  a { color: var(--deep); text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--gate); outline-offset: 2px; border-radius: 2px; }
+  code, .mono { font-family: "IBM Plex Mono", ui-monospace, Consolas, monospace; }
+  code { font-size: .87em; background: var(--surface-2); padding: .1em .34em; border-radius: 3px; }
+  img { max-width: 100%; }
+
+  .shell { display: grid; grid-template-columns: 236px minmax(0,1fr); max-width: 1440px; margin: 0 auto; }
+  .rail {
+    position: sticky; top: env(safe-area-inset-top, 0px); align-self: start;
+    max-height: 100vh; overflow-y: auto; padding: 34px 18px 40px 26px; border-right: 1px solid var(--rule);
+  }
+  .rail-title { font-family: "IBM Plex Serif", serif; font-weight: 600; font-size: 15px; }
+  .rail-sub { font-size: 11px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .09em; margin-top: 3px; }
+  .rail nav { display: flex; flex-direction: column; gap: 1px; margin-top: 20px; }
+  .rail nav a {
+    display: grid; grid-template-columns: 1.7em 1fr; gap: 6px; align-items: baseline;
+    padding: 5px 8px; border-radius: 4px; color: var(--ink-soft); text-decoration: none; font-size: 13.5px;
+  }
+  .rail nav a:hover { background: var(--surface-2); color: var(--ink); }
+  .rail nav a .n { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; color: var(--ink-faint); }
+  .rail .note-sm { margin-top: 24px; font-size: 11.5px; color: var(--ink-faint); line-height: 1.5; }
+  .main { padding: 40px 40px 120px; min-width: 0; }
+  .wrap { max-width: var(--col); }
+
+  .mast { border-bottom: 2px solid var(--ink); padding-bottom: 24px; }
+  .eyebrow { font-size: 11.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-faint); }
+  h1 { font-size: clamp(38px,5.4vw,58px); line-height: 1.02; font-weight: 600; letter-spacing: -.015em; margin: 12px 0 0; }
+  .standfirst { font-size: clamp(17px,2vw,19.5px); line-height: 1.5; color: var(--ink-soft); max-width: var(--measure); margin-top: 16px; }
+  .standfirst strong { color: var(--ink); font-weight: 600; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+  .chip { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; padding: 3px 9px; border: 1px solid var(--rule); border-radius: 999px; color: var(--ink-soft); background: var(--surface); }
+  .chip.on { border-color: var(--good); color: var(--good); background: var(--good-soft); }
+  .chip.warn { border-color: var(--gate); color: var(--gate); background: var(--gate-soft); }
+
+  section { padding-top: 52px; scroll-margin-top: 16px; }
+  .sec-head { display: grid; grid-template-columns: 2.6em 1fr; gap: 12px; align-items: baseline; border-top: 1px solid var(--rule); padding-top: 18px; max-width: var(--col); }
+  section:first-of-type .sec-head { border-top: none; padding-top: 34px; }
+  .sec-num { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--gate); }
+  h2 { font-size: clamp(25px,3vw,32px); font-weight: 600; letter-spacing: -.01em; line-height: 1.15; }
+  h3 { font-size: 19px; font-weight: 600; margin: 36px 0 8px; max-width: var(--col); }
+  h4 { font-size: 15.5px; font-weight: 600; margin: 24px 0 6px; font-family: "IBM Plex Sans", sans-serif; }
+  p, ul, ol, blockquote { max-width: var(--measure); }
+  p { margin: 14px 0; }
+  ul, ol { margin: 14px 0; padding-left: 22px; }
+  li { margin: 7px 0; }
+  li::marker { color: var(--ink-faint); }
+  .lede { font-size: 17.5px; color: var(--ink-soft); }
+  strong { font-weight: 600; }
+
+  figure { margin: 28px 0; max-width: var(--col); }
+  figure img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 3px; background: #fff; }
+  figcaption { font-size: 13.5px; color: var(--ink-faint); margin-top: 10px; max-width: var(--measure); }
+  figcaption b { color: var(--ink-soft); font-weight: 600; }
+
+  .scroll { overflow-x: auto; margin: 22px 0; border: 1px solid var(--rule); border-radius: 4px; background: var(--surface); max-width: var(--col); }
+  table { border-collapse: collapse; width: 100%; font-size: 13.8px; font-family: "IBM Plex Sans", sans-serif; }
+  th, td { text-align: left; padding: 9px 13px; border-bottom: 1px solid var(--rule-soft); vertical-align: top; }
+  thead th { position: sticky; top: 0; background: var(--surface-2); color: var(--ink-soft); font-size: 11px; letter-spacing: .07em; text-transform: uppercase; font-weight: 600; white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; font-family: "IBM Plex Mono", monospace; }
+  .id { font-family: "IBM Plex Mono", monospace; font-size: 12.5px; color: var(--deep); white-space: nowrap; }
+  .tag { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; padding: 1px 6px; border-radius: 3px; white-space: nowrap; }
+  .tag.real { background: var(--good-soft); color: var(--good); }
+  .tag.sim { background: var(--gate-soft); color: var(--gate); }
+  .tag.no { background: var(--bad-soft); color: var(--bad); }
+
+  .note { border-left: 3px solid var(--deep); background: var(--surface); padding: 15px 20px; margin: 24px 0; max-width: var(--measure); box-shadow: var(--shadow); }
+  .note.gate { border-left-color: var(--gate); }
+  .note.bad { border-left-color: var(--bad); }
+  .note h4 { margin-top: 0; }
+  .note p:first-child { margin-top: 0; } .note p:last-child { margin-bottom: 0; }
+  blockquote { margin: 22px 0; padding: 4px 0 4px 20px; border-left: 2px solid var(--gate); font-family: "IBM Plex Serif", serif; font-size: 17px; color: var(--ink-soft); }
+  blockquote cite { display: block; font-family: "IBM Plex Sans", sans-serif; font-size: 12.5px; font-style: normal; color: var(--ink-faint); margin-top: 8px; }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px,1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 4px; margin: 26px 0; overflow: hidden; max-width: var(--col); }
+  .stat { background: var(--surface); padding: 15px 17px; }
+  .stat .v { font-family: "IBM Plex Serif", serif; font-size: 26px; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .stat .k { font-size: 12.5px; color: var(--ink-faint); margin-top: 5px; line-height: 1.4; }
+  .stat.gate .v { color: var(--gate); }
+
+  pre { font-family: "IBM Plex Mono", monospace; font-size: 12.8px; line-height: 1.65; background: var(--surface); color: var(--ink); border: 1px solid var(--rule); border-radius: 4px; padding: 15px 17px; overflow-x: auto; margin: 16px 0; max-width: var(--col); }
+  pre .c { color: var(--ink-faint); }
+
+  .steps { counter-reset: step; list-style: none; padding: 0; max-width: var(--col); }
+  .steps > li { counter-increment: step; display: grid; grid-template-columns: 28px 1fr; gap: 15px; margin: 0 0 26px; max-width: none; }
+  .steps > li::before { content: counter(step); font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--surface); background: var(--deep); width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; margin-top: 3px; }
+  .steps h4 { margin: 0 0 2px; }
+  .steps p { margin: 4px 0; }
+  .steps pre { margin: 10px 0 0; }
+
+  .walk { max-width: var(--col); margin: 24px 0; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; }
+  .walk-step { display: grid; grid-template-columns: 150px 1fr; gap: 0; border-bottom: 1px solid var(--rule-soft); background: var(--surface); }
+  .walk-step:last-child { border-bottom: none; }
+  .walk-who { padding: 13px 16px; background: var(--surface-2); font-size: 13px; font-weight: 600; color: var(--ink-soft); border-right: 1px solid var(--rule-soft); }
+  .walk-who span { display: block; font-weight: 400; font-size: 11.5px; color: var(--ink-faint); font-family: "IBM Plex Mono", monospace; margin-top: 2px; }
+  .walk-what { padding: 13px 18px; font-size: 14px; }
+  .walk-what p { margin: 0; max-width: none; }
+  .walk-what p + p { margin-top: 8px; }
+
+  .foot { margin-top: 70px; border-top: 1px solid var(--rule); padding-top: 18px; font-size: 13px; color: var(--ink-faint); max-width: var(--col); }
+
+  @media (max-width: 900px) {
+    .shell { grid-template-columns: 1fr; }
+    .rail { position: static; max-height: none; border-right: none; border-bottom: 1px solid var(--rule); padding: 24px 20px 18px; }
+    .rail nav { flex-direction: row; flex-wrap: wrap; gap: 4px; }
+    .rail nav a { grid-template-columns: auto auto; border: 1px solid var(--rule); }
+    .rail .note-sm { display: none; }
+    .main { padding: 28px 20px 80px; }
+    .walk-step { grid-template-columns: 1fr; }
+    .walk-who { border-right: none; border-bottom: 1px solid var(--rule-soft); }
+  }
+  @media print {
+    .rail { display: none; }
+    .shell { grid-template-columns: 1fr; }
+    body { background: #fff; font-size: 11pt; }
+    section { page-break-inside: auto; }
+    figure, .note, .stats { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="rail">
+    <div class="rail-title">The Access Gate</div>
+    <div class="rail-sub">Single source of truth</div>
+    <nav>
+      <a href="#problem"><span class="n">01</span><span>The problem</span></a>
+      <a href="#gap"><span class="n">02</span><span>The gap we fill</span></a>
+      <a href="#built"><span class="n">03</span><span>What we built</span></a>
+      <a href="#walk"><span class="n">04</span><span>One case, end to end</span></a>
+      <a href="#data"><span class="n">05</span><span>The data</span></a>
+      <a href="#arch"><span class="n">06</span><span>Architecture</span></a>
+      <a href="#crew"><span class="n">07</span><span>The nine agents</span></a>
+      <a href="#code"><span class="n">08</span><span>The code</span></a>
+      <a href="#decisions"><span class="n">09</span><span>Design decisions</span></a>
+      <a href="#wrong"><span class="n">10</span><span>What went wrong</span></a>
+      <a href="#testing"><span class="n">11</span><span>Testing</span></a>
+      <a href="#results"><span class="n">12</span><span>Results</span></a>
+      <a href="#repro"><span class="n">13</span><span>Reproduce it</span></a>
+      <a href="#limits"><span class="n">14</span><span>Limits &amp; ethics</span></a>
+    </nav>
+    <p class="note-sm">
+      Every figure here traces to a published source or a named, swept assumption. Hospital identities are
+      pseudonymous throughout (EC-1).
+    </p>
+  </aside>
+
+  <main class="main">
+    <header class="mast wrap">
+      <div class="eyebrow">PM-JAY hospital-fraud enforcement · an agent crew on CrewAI</div>
+      <h1>The Access Gate</h1>
+      <p class="standfirst">
+        India's PM-JAY fraud system already decides <em>whether</em> a hospital cheated. It never asks
+        <strong>who loses care if we shut it down</strong>. In 19.1% of district × specialty cells, the accused
+        hospital is the only provider there is. This is an agent crew that investigates the flag, acts on it — and
+        stops at the one question nobody currently asks.
+      </p>
+      <div class="meta">
+        <span class="chip">CrewAI 1.15.20 · Python 3.12</span>
+        <span class="chip on">311 tests passing</span>
+        <span class="chip">9 agents · 21 tools</span>
+        <span class="chip">5,000-case evaluation</span>
+        <span class="chip warn">≈895 escalations a year</span>
+      </div>
+    </header>
+
+    <!-- 01 ─────────────────────────────────────────────── -->
+    <section id="problem">
+      <div class="sec-head"><div class="sec-num">01</div><h2>The problem</h2></div>
+      <p class="lede">
+        A State Health Agency must decide, thousands of times a year, what to do about a hospital its automated
+        system has flagged for claim fraud — without knowing whether that hospital is the only place in its
+        district that performs the procedure in question.
+      </p>
+
+      <h3>The scheme</h3>
+      <p>
+        Ayushman Bharat PM-JAY gives India's poorest families ₹5 lakh a year of cashless secondary and tertiary
+        cover through roughly <strong>35,286 empanelled hospitals</strong> across 725 district cells and 38 states
+        and union territories. States run it in trust mode, insurance mode, or a hybrid. Delhi, Odisha and West
+        Bengal have not implemented it — which is why they are excluded from every network figure in this document
+        rather than counted as zero.
+      </p>
+
+      <h3>What the triggers actually detect</h3>
+      <p>
+        Detection is not our contribution. These are NHA's published rules, transcribed into
+        <code>rules/triggers.py</code>. Severity band 1 is administrative, 2 substantive, 3 egregious — and only
+        band 3 ever reaches the access gate.
+      </p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Trigger</th><th>What it catches</th><th class="num">Band</th><th>Why it needs judgement, not a keyword</th></tr></thead>
+          <tbody>
+            <tr><td class="id">T2</td><td>Zero length of stay on a major surgical package</td><td class="num">2</td><td>Same-day discharge is fraud on a gastrectomy and routine on a day-care procedure — and a genuine discharge against medical advice looks identical to both until you read the notes.</td></tr>
+            <tr><td class="id">T3</td><td>Medical admission discharged the same day</td><td class="num">2</td><td>The explanation is in prose the patient's file may or may not contain.</td></tr>
+            <tr><td class="id">T4</td><td>Medical management beyond ten days in a non-critical case</td><td class="num">2</td><td>“Persistent hypoxia needing BiPAP” justifies the stay. “Comfortable, awaiting family” does not. No keyword list separates them.</td></tr>
+            <tr><td class="id">T5</td><td>The same surgeon billed in two districts on one day</td><td class="num">3</td><td>Requires fetching the other claim and comparing distances — the desk sees one claim by default.</td></tr>
+            <tr><td class="id">T6</td><td>The same document used across different claims</td><td class="num">3</td><td>A reused document and a hospital that templates every discharge summary look the same at the desk.</td></tr>
+            <tr><td class="id">T7</td><td>Three acute admissions for one beneficiary within 30 days</td><td class="num">3</td><td>Three genuinely distinct illnesses, or one admission billed three times with the vitals copied across. Only setting the records side by side tells you.</td></tr>
+            <tr><td class="id">T10</td><td>Admission, discharge or surgery recorded after the date of death</td><td class="num">3</td><td>A register entry can be a data error; a death certificate dating death before admission is proof. The difference decides whether a hospital is suspended.</td></tr>
+            <tr><td class="id">R1</td><td>A specialty billed that the registry does not list for that hospital</td><td class="num">2</td><td>Derived from the real registry. 30% of hospitals list nothing at all, which is missing data, not a finding.</td></tr>
+            <tr><td class="id">R2</td><td>An amount billed above the published package rate</td><td class="num">2</td><td>Whether ₹12,000 of implant accounts for a ₹60,000 excess is arithmetic against free-text invoices.</td></tr>
+            <tr><td class="id">R3</td><td>A package reserved for government facilities billed privately</td><td class="num">2</td><td>A referral clears it — but only for the nine reserved listings whose <code>referral_basis</code> allows it.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>What happens today — and where it stops being automatic</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Stage</th><th>Who</th><th>Clock</th><th>Automated</th></tr></thead>
+          <tbody>
+            <tr><td>Trigger fires on a claim</td><td>NAFU platform</td><td>within 24 h</td><td><span class="tag real">yes</span></td></tr>
+            <tr><td>Claim withheld pending scrutiny</td><td>NAFU</td><td>immediate</td><td><span class="tag real">yes</span></td></tr>
+            <tr><td>Desk medical audit</td><td>SAFU</td><td>—</td><td><span class="tag no">no</span></td></tr>
+            <tr><td>Hospital visit · beneficiary call · beneficiary visit</td><td>SAFU field team</td><td>—</td><td><span class="tag no">no</span></td></tr>
+            <tr><td>Show-cause notice</td><td>SHA</td><td>5 days to reply</td><td><span class="tag no">no</span></td></tr>
+            <tr><td>Suspension pending investigation</td><td>SHA</td><td>stated months</td><td><span class="tag no">no</span></td></tr>
+            <tr><td>Penalty</td><td>SHA</td><td>7 working days to deposit</td><td><span class="tag no">no</span></td></tr>
+            <tr><td>De-empanelment</td><td><strong>SEC</strong></td><td>closed within 30 days</td><td><span class="tag no">no</span></td></tr>
+            <tr><td>Public naming · FIR</td><td>SHA</td><td>—</td><td><span class="tag no">no</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        De-empanelment runs <strong>one year by default</strong>. The only patient-protection clause anywhere in
+        that ladder is that existing inpatients finish their treatment. Nobody asks about the next patient.
+      </p>
+
+      <h3>The scale, and the arithmetic that governs the design</h3>
+      <div class="stats">
+        <div class="stat"><div class="v">3,167</div><div class="k">hospitals found guilty of violations since inception</div></div>
+        <div class="stat"><div class="v">2,359</div><div class="k">de-empanelled, as at 31 May 2026</div></div>
+        <div class="stat"><div class="v">1,200+</div><div class="k">suspended</div></div>
+        <div class="stat"><div class="v">₹328.49 cr</div><div class="k">penalties imposed · 29 FIRs</div></div>
+      </div>
+      <p>
+        Enforcement is accelerating: the earlier PIB figures were 1,114 de-empanelled and 549 suspended with ₹122
+        crore in penalties, and the May 2026 parliamentary answer is roughly double on every measure. The volume of
+        network-removal decisions is rising, and none of them currently consider who loses access.
+      </p>
+      <div class="note gate">
+        <h4>The base rate decides everything downstream</h4>
+        <p>
+          Confirmed fraud is <strong>0.18% of authorised admissions</strong>. At that prior, a detector running at a
+          1% false-positive rate produces a flagged pile that is roughly <strong>86% innocent</strong>. Three
+          consequences follow, and all three are visible in the build: the system must be cheap to be wrong (so the
+          claim is withheld, not confiscated); guessing is worse than asking (so low confidence buys evidence
+          rather than acting, <span class="id">B-8</span>); and the irreversible end of the ladder needs a human
+          (so the gate escalates rather than deciding).
+        </p>
+      </div>
+
+      <h3>Who is in the room</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Stakeholder</th><th>Role in the decision</th><th>Interest</th></tr></thead>
+          <tbody>
+            <tr><td><strong>State Health Agency</strong> (SHA)</td><td>Owns enforcement. Issues notices, suspends, levies penalties.</td><td>Primary user. Throughput without indefensible calls.</td></tr>
+            <tr><td><strong>State Anti-Fraud Unit</strong> (SAFU)</td><td>Investigates: desk audit, hospital visit, beneficiary contact.</td><td>A prioritised queue, not an undifferentiated pile.</td></tr>
+            <tr><td><strong>State Empanelment Committee</strong> (SEC)</td><td>Decides de-empanelment; closes cases within 30 days.</td><td>A complete evidence pack, including consequences.</td></tr>
+            <tr><td><strong>National Anti-Fraud Unit</strong> (NAFU)</td><td>Sets triggers, monitors nationally, withholds flagged claims.</td><td>Upstream. Supplies our input.</td></tr>
+            <tr><td><strong>Empanelled hospital</strong></td><td>Subject of the decision. Five days to answer a notice.</td><td>Due process; proportionate action.</td></tr>
+            <tr><td><strong>Beneficiary</strong></td><td>Bears the access consequence. Not consulted today.</td><td><strong>The unrepresented party. This project represents them.</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 02 ─────────────────────────────────────────────── -->
+    <section id="gap">
+      <div class="sec-head"><div class="sec-num">02</div><h2>The gap we fill</h2></div>
+      <p>
+        NHA's own <em>Guidelines on Hospital Empanelment and De-Empanelment</em> already name the variable. §3.2.3
+        allows decisions to be taken
+      </p>
+      <blockquote>
+        “…based on their local context, availability of providers, and the need to balance quality and access…”
+        <cite>NHA, Guidelines on Hospital Empanelment and De-Empanelment, §3.2.3</cite>
+      </blockquote>
+      <p>
+        The same document lists the adequacy indicators a Committee should monitor: hospital-to-population ratio,
+        beds and doctors to population, <em>specialties in various districts</em>, <em>geographic distribution of
+        empanelled hospitals</em>, and the percentage of eligible hospitals in a district that are empanelled.
+      </p>
+      <div class="note gate">
+        <h4>The gap, stated precisely</h4>
+        <p>
+          <strong>NHA names the variables, attaches no threshold to any of them, and sites them in empanelment
+          planning — never in the disciplinary process.</strong> The enforcement ladder in §6.3 runs on fraud
+          severity alone. We are not inventing a policy; we are supplying the number the existing policy already
+          asks for, and putting it in front of the decision that needs it.
+        </p>
+      </div>
+
+      <h3>How thin the network actually is</h3>
+      <div class="stats">
+        <div class="stat"><div class="v">19.1%</div><div class="k">of occupied district × specialty cells have exactly one provider</div></div>
+        <div class="stat"><div class="v">27.0%</div><div class="k">sole-provider rate in NITI aspirational districts, against 17.9% elsewhere</div></div>
+        <div class="stat"><div class="v">51 km</div><div class="k">median distance to the nearest alternative district</div></div>
+        <div class="stat gate"><div class="v">50 km</div><div class="k">the threshold at which we stop calling an alternative reachable — swept, not asserted</div></div>
+      </div>
+      <p>
+        The network is thinnest exactly where deprivation is already flagged. That is not a rhetorical point: it is
+        why the gate's second condition exists — a district with two or fewer providers in an aspirational district
+        is protected as well as an outright sole provider (<span class="id">B-7</span>).
+      </p>
+      <figure>
+        <img src="docs/figures/slide-decision-flow.png" alt="Decision flow: a flagged claim is released, sent for evidence, or confirmed as fraud; confirmed egregious cases pass through the access gate, which either allows a suspension or escalates to the State Empanelment Committee.">
+        <figcaption><b>The decision, end to end.</b> Every path but one is automatic. The gate is the only place the system stops and hands the decision to humans — and it does so with the access consequence quantified, which is the thing the Committee currently has to guess.</figcaption>
+      </figure>
+      <h3>Two ways the gate can fire</h3>
+      <ul>
+        <li><strong>Protect.</strong> Suspension would remove a district's only real provider of some specialty. The case escalates to the Committee with a brief setting the evidence against the access loss.</li>
+        <li><strong>Phantom.</strong> The hospital is the district's only listed provider of the <em>billed</em> specialty, but its facility type cannot plausibly deliver it — a primary health centre listed for radiation oncology. Here the gate inverts: the specialty is referred for de-listing and the district flagged as uncovered, because the access it appears to provide does not exist and its presence <em>masks</em> the gap.</li>
+        <li><strong>Unknown.</strong> Adequacy cannot be established (a hospital listing no specialties at all). An irreversible action with an unknowable access consequence is a human's call, so it escalates rather than proceeding (<span class="id">B-6</span>).</li>
+      </ul>
+    </section>
+
+    <!-- 03 ─────────────────────────────────────────────── -->
+    <section id="built">
+      <div class="sec-head"><div class="sec-num">03</div><h2>What we built</h2></div>
+      <p class="lede">
+        One CrewAI crew of nine agents investigates a flagged claim through NHA's four evidence channels, a
+        deterministic policy decides what to do, and two agents carry that decision out — writing the notice,
+        ordering the field audit, or preparing the Committee's brief.
+      </p>
+      <figure>
+        <img src="docs/figures/slide-agentic-workflow.png" alt="Six stages: route, read with four independent agents, defend, review, decide with the deterministic policy and access gate, then act.">
+        <figcaption><b>Six stages, nine agents.</b> Stage 5 is not an agent. Agents propose; the policy disposes.</figcaption>
+      </figure>
+      <div class="note">
+        <h4>The rule the whole design rests on</h4>
+        <p>
+          <strong>No agent decides an enforcement action, and no agent that reads the evidence can see who depends
+          on the hospital.</strong> Whether a hospital committed fraud must not depend on who would lose access if
+          it did — so the access data is unreachable from every reading agent's tools and arrives only after the
+          decision, for the two agents that act on it.
+        </p>
+      </div>
+      <h3>What the system produces for each case</h3>
+      <ul>
+        <li><strong>An action</strong>, executed: release the claim, withhold it, issue a show-cause notice, order a field audit with specific questions, suspend, escalate to the Committee, refer a specialty for de-listing, or refer to a human.</li>
+        <li><strong>An artefact</strong> — the notice, order or brief in plain English, naming the evidence, written by the Enforcement Officer and checked before it can be filed.</li>
+        <li><strong>An investigation trail</strong>: every tool every agent called, in order, with refused calls marked.</li>
+        <li><strong>A decision-log row</strong> — 31 columns including the roster that worked the case, the channels used, the gate outcome and the specialties at stake.</li>
+      </ul>
+      <h3>When the model is unavailable</h3>
+      <p>
+        The same pipeline runs on <code>crew/investigate.py</code>, a deterministic desk that reads the documents
+        with negation-aware keyword rules. The decision is marked <code>degraded=true</code>, the roster, review,
+        disputes and brief are left empty — because the rules decided it, and an artefact must never look like the
+        crew's work when it was not. Scenario S9 exercises exactly this path. It is a designed outcome, not a
+        failure mode: the system's floor is the rules, and the rules are precisely what the crew is measured
+        against.
+      </p>
+    </section>
+
+    <!-- 04 ─────────────────────────────────────────────── -->
+    <section id="walk">
+      <div class="sec-head"><div class="sec-num">04</div><h2>One case, end to end</h2></div>
+      <p>
+        Scenario S2 — the thesis case. A cardiology claim in Bahraich, flagged by <span class="id">T10</span>:
+        the admission is recorded thirteen days after the beneficiary's date of death. The hospital is the only
+        cardiology provider in a district of 4.16 million people, 83 km from the nearest alternative, in a NITI
+        aspirational district. This is what actually happens, taken from a live run.
+      </p>
+      <div class="walk">
+        <div class="walk-step">
+          <div class="walk-who">Intake<span>crew/run.py</span></div>
+          <div class="walk-what"><p>The claim is re-validated on arrival — identifiers normalised, timestamps checked as Indian time, document hashes recomputed against their text. An impossible timeline (discharge before admission) would be refused here rather than clamped.</p></div>
+        </div>
+        <div class="walk-step">
+          <div class="walk-who">Detection<span>rules/triggers.py</span></div>
+          <div class="walk-what"><p>T10 fires, severity 3 (egregious). Deterministic, and no agent is consulted: detection is NHA's rules, not ours.</p></div>
+        </div>
+        <div class="walk-step">
+          <div class="walk-who">Case Router<span>route</span></div>
+          <div class="walk-what"><p>Sees the trigger, the package and rate, and what <em>kinds</em> of document are on file — never the documents. T10 raises no clinical question, no field report exists, and the claim is at its package rate, so it opens nothing further. It could not have closed the desk audit even if it had wanted to.</p></div>
+        </div>
+        <div class="walk-step">
+          <div class="walk-who">Desk Investigator<span>investigate</span></div>
+          <div class="walk-what">
+            <p>Calls <code>beneficiary_claim_history</code> (no other claims), then reads the death certificate and the discharge summary, then checks <code>documents_shared_with_other_claims</code> (none).</p>
+            <p><strong>Finding:</strong> supports fraud, confidence 0.95 — the certificate dates death thirteen days before the admission it is billed against.</p>
+          </div>
+        </div>
+        <div class="walk-step">
+          <div class="walk-who">Provider Advocate<span>advocacy</span></div>
+          <div class="walk-what"><p>Triggered because a reading supports fraud: no hospital is acted against without its side being put. It reads the certificate, the summary and the pre-investigation note, builds the innocent account the file will bear — and reports that the evidence <strong>excludes</strong> it, because the certificate itself carries the date.</p></div>
+        </div>
+        <div class="walk-step">
+          <div class="walk-who">Audit Reviewer<span>review</span></div>
+          <div class="walk-what"><p>Re-reads the two documents the desk cited, checks that the stance follows from the conclusion and the conclusion from the evidence, and disputes nothing. Had it disputed the desk reading, that finding would have been set aside and weighed nothing.</p></div>
+        </div>
+        <div class="walk-step">
+          <div class="walk-who">The policy<span>rules/policy.py</span></div>
+          <div class="walk-what">
+            <p>Runs in the review task's callback. Evidence rules bind the readings to the desk's preconditions; the confidence aggregates above the 0.70 floor; T10 with a certificate is one of the few findings that may carry an egregious trigger without field evidence (<span class="id">B-28</span>).</p>
+            <p><strong>Then the gate:</strong> suspending this hospital would leave Bahraich with no cardiology provider within 83 km. Action becomes <code>ESCALATE_SEC</code> rather than <code>SUSPEND</code>.</p>
+          </div>
+        </div>
+        <div class="walk-step">
+          <div class="walk-who">Committee Liaison<span>committee_brief</span></div>
+          <div class="walk-what"><p>Reads the decision and the access impact, then files a brief: the evidence and the access consequence side by side, three options genuinely open to the Committee with their consequences, a recommendation, and the one question it must answer. The brief is checked like a notice — text asserting a suspension the Committee has not ordered is rejected and sent back.</p></div>
+        </div>
+        <div class="walk-step">
+          <div class="walk-who">Enforcement Officer<span>enforce</span></div>
+          <div class="walk-what"><p>Reads the same decision, drafts a 138-word explanation for the hospital, and executes through <code>escalate_to_state_committee</code> — the only action tool that will accept this decision. Every other one refuses.</p></div>
+        </div>
+        <div class="walk-step">
+          <div class="walk-who">Output<span>crew/actions.py</span></div>
+          <div class="walk-what"><p>The artefact, the trail, the access impact and the brief are written to <code>out/artefacts/</code>, and one row lands in the decision log.</p></div>
+        </div>
+      </div>
+      <div class="note gate">
+        <h4>Why this case is the whole argument</h4>
+        <p>
+          Scenario S1 is the <em>same fraud</em> — same trigger, same package, same amount, same length of stay,
+          same findings — at a cardiology hospital in Ahmedabad, where 101 other providers exist. S1 is suspended
+          automatically. S2 is escalated with the access impact attached. A test asserts exactly this pairing, so
+          the thesis cannot quietly stop being true as the code changes.
+        </p>
+      </div>
+    </section>
+
+    <!-- 05 ─────────────────────────────────────────────── -->
+    <section id="data">
+      <div class="sec-head"><div class="sec-num">05</div><h2>The data</h2></div>
+      <p>
+        The network is real; the crimes are invented. Real patient and claim data is not public, so claims are
+        simulated — but they are placed on the real hospital network, and every structural figure comes from
+        published sources that rebuild byte-for-byte from the scripts in the repo.
+      </p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Store</th><th>Contents</th><th class="num">Volume</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td><code>data/registry/</code></td><td>PM-JAY empanelled hospital export</td><td class="num">35,286 rows</td><td><span class="tag real">real</span></td></tr>
+            <tr><td><code>reference/district_adequacy.csv</code></td><td>Providers per district × specialty</td><td class="num">11,528 cells</td><td><span class="tag real">real, derived</span></td></tr>
+            <tr><td><code>reference/access_distance.csv</code></td><td>Km to the nearest alternative district holding that specialty</td><td class="num">2,185 cells</td><td><span class="tag real">real, derived</span></td></tr>
+            <tr><td><code>reference/specialty_canonical.csv</code></td><td>48 registry codes across two vintages → 24 canonical specialties</td><td class="num">24</td><td><span class="tag real">real, derived</span></td></tr>
+            <tr><td><code>district/features_by_district</code></td><td>Population, disease burden, infrastructure</td><td class="num">785 × 93</td><td><span class="tag real">real</span></td></tr>
+            <tr><td><code>geo/district_boundaries</code></td><td>District geometry → representative points for distance</td><td class="num">734 districts</td><td><span class="tag real">real</span></td></tr>
+            <tr><td><code>data/external/ogd/</code></td><td>Ministry of Health tables tabled in Parliament (data.gov.in)</td><td class="num">21 tables</td><td><span class="tag real">real</span></td></tr>
+            <tr><td><code>rulebooks/</code></td><td>NHA empanelment guidelines, anti-fraud guidebook, field investigation manual, HBP 2022 package master</td><td class="num">4 documents</td><td><span class="tag real">real</span></td></tr>
+            <tr><td><code>generate/corpus.py</code></td><td>Flagged-claim corpus — real placement, simulated conduct</td><td class="num">5,000 / run</td><td><span class="tag sim">simulated</span></td></tr>
+            <tr><td><code>generate/fixtures.py</code></td><td>The ten scenarios, each selected from real data and asserted</td><td class="num">10</td><td><span class="tag sim">simulated</span></td></tr>
+            <tr><td><code>generate/benchmark.py</code></td><td>Hand-written cases whose truth sits in free text or across claims</td><td class="num">40</td><td><span class="tag sim">simulated</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>How we know the network figures are right</h3>
+      <p>
+        The registry is validated against the Ministry's own published count: <strong>31,196 against 30,957
+        hospitals, +0.8%</strong> after our filters. Beyond that, <code>scripts/build_reference.py</code>
+        <strong>asserts</strong> the seven headline figures quoted throughout the documentation. If a filter
+        changes and a number drifts, the build fails rather than letting the report and the code disagree — which
+        is the failure mode that makes a report indefensible under scrutiny.
+      </p>
+
+      <h3>What “simulated” means here, precisely</h3>
+      <ul>
+        <li><strong>Placement is real.</strong> Every simulated claim is billed by a real empanelled hospital in a real district for a real HBP 2022 package at its published rate.</li>
+        <li><strong>Conduct is simulated</strong> — whether that claim is fraudulent, and what its documents say — calibrated to the published 0.18% confirmed-fraud rate and swept across four corpus seeds to show the results are not an artefact of one draw.</li>
+        <li><strong>Nothing is written next to real data.</strong> The corpus is generated in memory; <code>data/synthetic/</code> does not exist in the repo.</li>
+        <li><strong>Nothing is trained on it</strong> (<span class="id">EC-2</span>). The brief licenses simulated <em>input</em>, not simulated <em>training</em> data, and no component is fitted on generated claims.</li>
+      </ul>
+
+      <h3>Known data defects, handled rather than hidden</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>ID</th><th>Defect</th><th>How it is handled</th></tr></thead>
+          <tbody>
+            <tr><td class="id">D-1</td><td>Three states have not implemented the scheme</td><td>Excluded explicitly from network denominators rather than counted as zero-provider districts.</td></tr>
+            <tr><td class="id">D-2</td><td>District vintage: India has created many districts since 2011, and sources disagree</td><td>LGD district codes are the join key throughout; names are never joined on directly.</td></tr>
+            <tr><td class="id">D-4</td><td>30% of hospitals list no specialty at all</td><td>Treated as <em>missing data</em>, not absence of capability. R1 requires a non-empty list to fire; the gate returns <code>unknown</code>, which escalates to a human.</td></tr>
+            <tr><td class="id">D-6</td><td>Two code vintages split one specialty in two (<code>S12</code> and <code>MC</code> are both cardiology)</td><td>Canonicalised to 24 specialties. Left raw, this overstated every adequacy figure by splitting providers.</td></tr>
+            <tr><td class="id">—</td><td>23 districts have no usable geometry</td><td>They get adequacy counts with no distance rather than crashing or being dropped — a provider count needs no geometry.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <figure>
+        <img src="docs/figures/6-data-flow-and-provenance.png" alt="Data flow diagram showing which inputs are real and which are simulated, and how each published figure is derived.">
+        <figcaption><b>Provenance.</b> Which inputs are real, which are simulated, and where every published figure comes from.</figcaption>
+      </figure>
+    </section>
+
+    <!-- 06 ─────────────────────────────────────────────── -->
+    <section id="arch">
+      <div class="sec-head"><div class="sec-num">06</div><h2>Architecture</h2></div>
+      <p>Five layers. Only one contains agents, and the decision layer sits after it.</p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Layer</th><th>Component</th><th>Responsibility</th><th>Deterministic</th></tr></thead>
+          <tbody>
+            <tr><td><strong>L1 Ingest</strong></td><td><code>generate/</code></td><td>The ten scenarios; a simulated year of flagged claims on the real network</td><td><span class="tag real">yes</span></td></tr>
+            <tr><td><strong>L2 Detect</strong></td><td><code>rules/triggers.py</code></td><td>NHA's published trigger rules; emits a <code>TriggerHit</code></td><td><span class="tag real">yes</span></td></tr>
+            <tr><td><strong>L3 Reason</strong></td><td><code>crew/</code></td><td>Nine agents with tools: one routes, four read independently, one defends, one reviews, two act</td><td><span class="tag sim">no — LLM</span></td></tr>
+            <tr><td><strong>L4 Decide</strong></td><td><code>rules/policy.py</code></td><td>Thresholds, the decision table, and the access gate</td><td><span class="tag real">yes</span></td></tr>
+            <tr><td><strong>L5 Act</strong></td><td><code>crew/actions.py</code></td><td>The only side effects: artefacts, field-audit queue, decision log</td><td><span class="tag real">yes</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <figure>
+        <img src="docs/figures/2-component-architecture.png" alt="Component architecture: ingest and detect feed the nine-agent crew, whose evidence tools reach the claim store but never the reference data; the policy and access gate decide; the act layer writes artefacts.">
+        <figcaption><b>Solid arrows are the pipeline; dotted arrows are tool calls.</b> The evidence tools reach the claim store and never <code>data/reference/</code>. That separation — not an instruction in a prompt — is what keeps the readings blind to access.</figcaption>
+      </figure>
+
+      <h3>Why a crew and not a script</h3>
+      <p>
+        NHA's guidebook gives every trigger its own verification checklist across all four evidence channels. The
+        investigation always starts at the desk, and what happens next depends on what the desk finds: settle it
+        there (S1, S3), order specific field channels because the documents cannot answer the question (S7), or
+        weigh the field reports already on file (S6, S8). The same pipeline takes different paths through the
+        evidence, and <code>channels_used</code> records which. Four parts of that job are not deterministic:
+      </p>
+      <ul>
+        <li><strong>Which questions a case raises.</strong> The rules can key work to the trigger; they cannot notice that this particular file also raises a money question.</li>
+        <li><strong>Reading the evidence.</strong> Documents state their facts in free text, and the guidebook's desk checks for repeat admissions and reused documents require comparing documents <em>across</em> claims.</li>
+        <li><strong>Putting the hospital's side</strong>, which has no document to read and so nothing in the file demands it.</li>
+        <li><strong>Checking those readings, and explaining the action</strong> to the people it affects clearly enough that they can respond.</li>
+      </ul>
+
+      <h3>Two model providers behind one contract</h3>
+      <p>
+        <code>crew/llm.py</code> (Claude, via the official Anthropic SDK) and <code>crew/gemini.py</code> (Gemini,
+        via google-genai) both implement CrewAI's <code>BaseLLM</code>. Gemini's free tier carries development and
+        the demo; Claude (<code>claude-opus-5</code>) is for the final presentation run. Swapping models changes
+        what agents conclude, never the rules that act on it.
+      </p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Concern</th><th>What the adapter has to do</th></tr></thead>
+          <tbody>
+            <tr><td>Tool calling</td><td>CrewAI passes tools in OpenAI shape and expects a list of calls back; it executes them itself and appends the results. Returning a string ends the loop.</td></tr>
+            <tr><td>Claude thinking blocks</td><td>An assistant turn containing <code>tool_use</code> must be resent with its thinking blocks intact. CrewAI rebuilds that message without them, so the adapter caches the original turn by tool-use id and re-inserts it.</td></tr>
+            <tr><td>Gemini thought signatures</td><td>Function-call turns are rejected if resent without their <code>thought_signature</code>. Same fix: cache the turn as the model returned it, resend verbatim.</td></tr>
+            <tr><td>Structured output</td><td>CrewAI 1.15.20's built-in Gemini provider strips <code>null</code> from output schemas — so an agent could never answer <em>inconclusive</em>, which is the answer that orders a field audit. Our adapter preserves it (<span class="id">B-13</span>), and a test proves it end to end.</td></tr>
+            <tr><td>Quota and failure</td><td>Calls are paced to 10 requests a minute; a 429 naming a per-day quota marks that model spent and fails over immediately rather than waiting on a retry delay that lies (<span class="id">B-41</span>). Any unrecoverable failure degrades the case to the rules.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Everything crossing a boundary is typed</h3>
+      <p>
+        Pydantic contracts sit at every edge (<code>crew/schemas.py</code>), and <code>process()</code>
+        re-validates every claim on arrival because <code>model_copy(update=…)</code> bypasses validators — a
+        lesson learned when a crafted claim id wrote outside the output directory (<span class="id">B-30</span>).
+        Claim ids must be plain tokens, unknown fields are errors, timestamps are Indian time, and document hashes
+        must match their text.
+      </p>
+    </section>
+
+    <!-- 07 ─────────────────────────────────────────────── -->
+    <section id="crew">
+      <div class="sec-head"><div class="sec-num">07</div><h2>The nine agents</h2></div>
+      <p>
+        Each owns one question no rule can answer, and holds only the tools that question needs. The roster grew
+        twice under review — two agents were one reading (<span class="id">F-60</span>), and six left three
+        questions unowned (<span class="id">F-62</span>).
+      </p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Agent</th><th>The question it owns</th><th>Runs on</th><th>Returns</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Case Router</strong></td><td>Which optional investigations does this file raise?</td><td>every case, first</td><td>A plan: tracks to open, each with a reason</td></tr>
+            <tr><td><strong>Desk Investigator</strong></td><td>Are the documents present, consistent, genuine, uncopied?</td><td>every case</td><td>Stance, confidence, conclusion, citations</td></tr>
+            <tr><td><strong>Medical Auditor</strong></td><td>Was the care billed clinically needed?</td><td>T2, T3, T4, T7, or the router</td><td>The same shape, on the clinical question</td></tr>
+            <tr><td><strong>Field Evidence Analyst</strong></td><td>What is each field report on file actually worth?</td><td>field reports on file</td><td>One assessment per report</td></tr>
+            <tr><td><strong>Billing &amp; Tariff Analyst</strong></td><td>Is the amount claimed accounted for?</td><td>R2, above-rate claims, or the router</td><td>The reading shape, on the money</td></tr>
+            <tr><td><strong>Provider Advocate</strong></td><td>What innocent account will the file bear, and is it excluded?</td><td>when a reading supports fraud, or the router</td><td>An explanation, whether the evidence excludes it, citations</td></tr>
+            <tr><td><strong>Audit Reviewer</strong></td><td>Does each finding hold against what it cites?</td><td>every case</td><td>Disputes with reasons, and a summary</td></tr>
+            <tr><td><strong>Committee Liaison</strong></td><td>What must the Committee decide, and on what?</td><td>escalation or de-listing referral</td><td>A filed brief: evidence, options, recommendation, question</td></tr>
+            <tr><td><strong>Enforcement Officer</strong></td><td>How is the decision executed and explained?</td><td>every case</td><td>The action, executed through its one permitted tool</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <figure>
+        <img src="docs/figures/4a-crew-composition-and-the-task-graph.png" alt="Crew composition: the router feeds four independent readers, whose findings flow to the advocate and then the reviewer, then to the policy, then to the two acting agents.">
+        <figcaption><b>The arrows are CrewAI <code>context</code> edges — the hand-off.</b> The four readers have no incoming edge: independence is expressed in configuration, not in a prompt. Each edge is labelled with the name the receiving agent reads it by, so a finding can be disputed by name.</figcaption>
+      </figure>
+
+      <h3>Which agent may call which tool</h3>
+      <p>
+        Capability is granted per agent in <code>crew/agent_tools.py</code>, not by instruction — an agent cannot
+        call a tool it was not given, and every call is recorded against the agent that made it.
+      </p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Tool</th><th>Router</th><th>Desk</th><th>Medical</th><th>Field</th><th>Billing</th><th>Advocate</th><th>Reviewer</th><th>Liaison</th><th>Officer</th></tr></thead>
+          <tbody>
+            <tr><td><code>beneficiary_claim_history</code></td><td></td><td>●</td><td>●</td><td></td><td>●</td><td></td><td>●</td><td></td><td></td></tr>
+            <tr><td><code>documents_shared_with_other_claims</code></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td></tr>
+            <tr><td><code>surgeon_same_day_claims</code></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td></tr>
+            <tr><td><code>read_document</code></td><td></td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td></td><td></td></tr>
+            <tr><td><code>compare_documents</code></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td></tr>
+            <tr><td><code>claim_tariff</code></td><td></td><td></td><td></td><td></td><td>●</td><td>●</td><td></td><td></td><td></td></tr>
+            <tr><td><code>enforcement_decision</code></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td>●</td></tr>
+            <tr><td><code>access_impact</code> — <em>the only access data in the crew</em></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td>●</td></tr>
+            <tr><td><code>file_committee_brief</code></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td></tr>
+            <tr><td>the seven action tools</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Three things that table is meant to show. <strong>The Case Router holds nothing</strong>, because a router
+        that has read the file has already formed the reading its readers are supposed to reach independently.
+        <strong><code>access_impact</code> sits only with the two agents that act</strong>. And <strong>only the
+        officer can act at all</strong> — each of its seven action tools executes exactly one action and refuses
+        unless that action is the policy's.
+      </p>
+
+      <h3>Four powers, deliberately asymmetric</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Agent</th><th>What it may do</th><th>What it may never do</th></tr></thead>
+          <tbody>
+            <tr><td>Case Router</td><td><strong>Widen</strong> the investigation — open tracks the rules did not mandate</td><td>Close anything. The mandatory set is a floor the model cannot lower <span class="id">B-48</span></td></tr>
+            <tr><td>Provider Advocate</td><td><strong>Slow</strong> a case: an unexcluded innocent account turns a notice or suspension into a field audit or human review</td><td>Release a claim, or stop an escalation already going to humans <span class="id">B-49</span></td></tr>
+            <tr><td>Audit Reviewer</td><td><strong>Dispute</strong> a finding, which is then set aside and weighs nothing</td><td>Convict, clear, or re-weigh — or dispute a reading that repeats a measurement the claim store made itself <span class="id">B-44a</span></td></tr>
+            <tr><td>Enforcement Officer</td><td><strong>Execute</strong> the policy's decision and explain it</td><td>Choose a different action; every other action tool refuses <span class="id">B-35</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>The guardrails: five checks on substance, not shape</h3>
+      <p>
+        Every task that produces a finding has a guardrail. A guardrail returns feedback for one retry; a second
+        failure fails the task and the case degrades to the rules. These check whether an answer was
+        <em>earned</em> — because a well-formed answer that nothing supports passes a schema perfectly
+        (<span class="id">F-63</span>).
+      </p>
+      <ol>
+        <li><strong>A stance must cite something.</strong> A finding at 0.93 citing nothing goes back.</li>
+        <li><strong>A stance on the money must have called <code>claim_tariff</code> first.</strong> Figures not computed here are not figures this case establishes.</li>
+        <li><strong>A defence that would stop an action must have read the file</strong> with a tool — not rested on the case summary.</li>
+        <li><strong>A cross-claim stance must have examined the other claims</strong> — listed them, then read or compared them. This is the guidebook's own desk check, enforced.</li>
+        <li><strong>The reviewer's summary may not assert a dispute its list omits.</strong> Only the list sets anything aside, so a summary saying otherwise is a contradiction the artefact would otherwise print.</li>
+      </ol>
+
+      <h3>Did the agents actually do anything?</h3>
+      <p>
+        The fair answer is a real trace, not a diagram. This is the investigation trail printed in
+        <code>out_live/artefacts/escalate_to_sec_CASE-CLM-S02.md</code> — the same fifteen tool calls, in the order
+        the agents made them, on a live run.
+      </p>
+      <figure>
+        <img src="docs/figures/4d-a-real-trace-every-tool-call-on-one-case.png" alt="Sequence diagram of fifteen real tool calls across the desk investigator, provider advocate, audit reviewer, committee liaison and enforcement officer.">
+        <figcaption><b>Three agents read the same death certificate for three different reasons</b> — to judge it, to argue against it, and to check the judgement. The liaison and officer read the decision rather than forming one, and the only write in the whole trace is the last call.</figcaption>
+      </figure>
+    </section>
+
+    <!-- 08 ─────────────────────────────────────────────── -->
+    <section id="code">
+      <div class="sec-head"><div class="sec-num">08</div><h2>The code</h2></div>
+      <p>Every module, and what it is responsible for.</p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>File</th><th>Responsibility</th><th>Key entry points</th></tr></thead>
+          <tbody>
+            <tr><td><code>crew/crew_llm.py</code></td><td>The CrewAI crew (<code>@CrewBase</code>): nine agents, nine tasks, five of them <code>ConditionalTask</code>. Builds each agent's case file, runs the guardrails, and holds the callback where the policy decides.</td><td><code>AccessGateCrew</code>, <code>case_file()</code>, <code>decide()</code>, <code>mandatory_tracks()</code></td></tr>
+            <tr><td><code>crew/agent_tools.py</code></td><td>Every agent-callable tool, bound to one case: five evidence tools, the tariff, the decision and access readers, the Committee brief, seven gated action tools. Records the investigation trail per agent.</td><td><code>CaseFile</code>, <code>_kit()</code>, <code>ActionTool</code></td></tr>
+            <tr><td><code>crew/guardrails.py</code></td><td>Deterministic checks on agent output — the evidence rules that bind readings to recorded facts, and the publication rules that a notice or brief must pass.</td><td><code>guarded_findings()</code>, <code>draft_problems()</code>, <code>brief_problems()</code></td></tr>
+            <tr><td><code>crew/config/agents.yaml</code></td><td>The nine agents' role, goal and backstory — canonical CrewAI project layout, so the roster is readable without reading Python.</td><td>—</td></tr>
+            <tr><td><code>crew/config/tasks.yaml</code></td><td>The nine tasks, their conditions, their <code>context</code> hand-offs and the instructions each agent works to.</td><td>—</td></tr>
+            <tr><td><code>crew/investigate.py</code></td><td>The deterministic desk — the degraded path — plus the evidentiary preconditions <em>both</em> desks must meet.</td><td><code>affirmed()</code>, <code>required_documents()</code></td></tr>
+            <tr><td><code>crew/schemas.py</code></td><td>Pydantic contracts at every boundary. EC-1 pseudonymity is enforced by the <code>Claim</code> type itself.</td><td><code>Claim</code>, <code>Finding</code>, <code>Decision</code></td></tr>
+            <tr><td><code>crew/actions.py</code></td><td>The only module with side effects: renders the artefact, appends the 31-column decision log, queues field audits.</td><td><code>execute()</code>, <code>LOG_FIELDS</code></td></tr>
+            <tr><td><code>crew/run.py</code></td><td>Orchestration and CLI: validation, the crew or the rules, the scenario runner, provider selection.</td><td><code>process()</code></td></tr>
+            <tr><td><code>crew/llm.py</code> · <code>gemini.py</code> · <code>providers.py</code></td><td>The two model adapters behind one CrewAI contract, each preserving the thinking blocks or thought signatures its API requires across tool turns.</td><td><code>ClaudeLLM</code>, <code>GeminiLLM</code></td></tr>
+            <tr><td><code>rules/triggers.py</code></td><td>NHA triggers T2–T10 and the derived R1–R3, plus the <code>ClaimStore</code> that makes cross-claim triggers possible.</td><td><code>evaluate()</code>, <code>ClaimStore</code></td></tr>
+            <tr><td><code>rules/policy.py</code></td><td><strong>The irreversible decision.</strong> Every threshold carries its reason in the source.</td><td><code>weigh()</code>, <code>defended()</code>, <code>access_gate()</code>, <code>decide()</code></td></tr>
+            <tr><td><code>metrics/run.py</code></td><td>The 5,000-case evaluation: ablation, threshold sweep, disparate-impact audit. Writes <code>results/</code> and docs/09.</td><td><code>--quick</code>, <code>--doc-only</code></td></tr>
+            <tr><td><code>metrics/benchmark.py</code></td><td>The 40-case rules-versus-crew benchmark, resumable across quota exhaustion. Writes docs/10.</td><td><code>--llm</code>, <code>--report</code></td></tr>
+            <tr><td><code>generate/</code></td><td>The corpus, the ten scenarios, and the benchmark cases — with <code>CORRECTIONS</code> recording every post-run change to a case.</td><td><code>build_scenarios()</code></td></tr>
+            <tr><td><code>tests/</code></td><td>311 tests. <code>fakes.py</code> plays all nine agents through the real adapters and CrewAI's own tool loop, so the crew is provable without an API key.</td><td><code>pytest</code></td></tr>
+            <tr><td><code>scripts/</code></td><td>Reference-table builders; each rebuilds its output byte-for-byte from the published sources and asserts the documented figures.</td><td><code>build_reference.py</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Where the documentation lives</h3>
+      <p>
+        This page is the summary; <code>docs/00</code>–<code>docs/10</code> are the detail — business requirements,
+        high- and low-level design, all eleven diagrams with their Mermaid sources and rendered PNGs, the data
+        dictionary, the test plan and failure log, the risk register, the glossary, and the two evaluations.
+        <code>docs/09</code> and <code>docs/10</code> are <em>generated</em> from the results, so they cannot drift
+        from the numbers they report.
+      </p>
+    </section>
+
+    <!-- 09 ─────────────────────────────────────────────── -->
+    <section id="decisions">
+      <div class="sec-head"><div class="sec-num">09</div><h2>Design decisions</h2></div>
+      <p>
+        Fifty numbered decisions are recorded in <code>docs/02-LLD.md</code> §0, each as <em>design said</em> →
+        <em>as built</em> → <em>why</em>. They are grouped here by what they govern.
+      </p>
+
+      <h3>Evidence: what may be concluded, and from what</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>ID</th><th>As built</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td class="id">B-10</td><td>A death-register entry alone orders field verification; only a certificate is proof</td><td>The evaluation found every register error became a suspension.</td></tr>
+            <tr><td class="id">B-11</td><td>Every egregious trigger orders two independent field channels</td><td>One wrong field report above the confidence floor could otherwise suspend an innocent hospital.</td></tr>
+            <tr><td class="id">B-14</td><td>Recorded facts outrank agent readings, deterministically</td><td>A live agent turned “registry consistent” into “clears the claim” at confidence 1.00. Instructions reduce this; only code rules it out.</td></tr>
+            <tr><td class="id">B-15</td><td>The desk may clear a claim only when the package's mandatory documents are on file</td><td>NHA's own trigger-2 checklist. A package name in a discharge summary was clearing padded stays.</td></tr>
+            <tr><td class="id">B-22</td><td>The desk reads negation</td><td>“No complications”, “non-critical course” and “Not a LAMA case” were clearing claims by keyword match.</td></tr>
+            <tr><td class="id">B-28</td><td>A reused document waits for a hospital visit and a beneficiary call before suspension</td><td>Team decision: at the desk, document reuse and an honest upload error look identical. Only T10 with a certificate is proof in itself.</td></tr>
+            <tr><td class="id">B-38</td><td>All eight mandatory document categories are read from the package master</td><td>The check covered three. It was clearing admissions whose investigation reports were never filed.</td></tr>
+            <tr><td class="id">B-40</td><td>A clearance also needs the document that would <em>explain</em> the trigger — an invoice for R2, a referral for R3</td><td>The crew cleared both without them, reading the gap as an upload slip.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>The gate and the policy</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>ID</th><th>As built</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td class="id">B-4</td><td>Investigators are blind to network adequacy</td><td>Whether a hospital committed fraud must not depend on who would lose access if it did.</td></tr>
+            <tr><td class="id">B-6</td><td>Unknown adequacy escalates to a human</td><td>An irreversible action with an unknowable access consequence is a human's call.</td></tr>
+            <tr><td class="id">B-7</td><td>Protect a sole provider ≥ 50 km from an alternative, or ≤ 2 providers in an aspirational district</td><td>Makes the distance figure load-bearing and sweepable rather than asserted.</td></tr>
+            <tr><td class="id">B-8</td><td>Low confidence buys evidence first — a field audit, then a human</td><td>At a 0.18% prior, guessing is worse than asking.</td></tr>
+            <tr><td class="id">B-21</td><td>The gate checks <em>every</em> specialty the hospital is empanelled for</td><td>Suspension removes it from all of them. Gating on the billed specialty alone auto-suspended the only real provider of something else in 6.5% of confirmed egregious findings.</td></tr>
+            <tr><td class="id">B-31</td><td>A referral clears a reserved package only where the master allows it — 9 of 189 reserved listings</td><td>A letter was clearing private billing of strictly reserved packages.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>The agents</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>ID</th><th>As built</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td class="id">B-32</td><td>The agents call their own tools, through native function calling in both adapters</td><td>Reverses a deferral that had left the crew decorative. The guidebook's cross-claim checks need fetching, and comparing needs fetching.</td></tr>
+            <tr><td class="id">B-34</td><td>The policy decides <em>inside</em> the crew, in the review task's callback</td><td>Keeps “agents propose, the policy disposes” inside one crew with a real hand-off.</td></tr>
+            <tr><td class="id">B-35</td><td>The officer acts through gated action tools; a rejected draft returns with its reasons</td><td>Acting is the agent's work; deciding stays the policy's. Publication checks became feedback the agent acts on.</td></tr>
+            <tr><td class="id">B-36</td><td>Tools read only this claim and claims a tool has shown to be related to it</td><td>An agent may not conclude on repeat admissions without looking at them, nor browse the corpus.</td></tr>
+            <tr><td class="id">B-43</td><td>Readings are independent — each reader's task takes no context</td><td>Two readings that saw each other are one reading with a witness. Independence is what makes a conflict between them evidence.</td></tr>
+            <tr><td class="id">B-44</td><td>Dispute only: the reviewer sets a finding aside, and can neither convict nor clear</td><td>A reviewer that could confirm would be a second vote on the same evidence. Doubt is what a review honestly adds.</td></tr>
+            <tr><td class="id">B-44a</td><td>A dispute may set aside a reading, never a measurement</td><td>Removing a reading takes it out of the confidence denominator too, so striking the only dissent <em>raises</em> the survivor's confidence. A reviewer that cannot clear a case must not be able to clear it by subtraction.</td></tr>
+            <tr><td class="id">B-48</td><td>The router may only widen the investigation</td><td>A model deciding what <em>not</em> to investigate is a model deciding the case.</td></tr>
+            <tr><td class="id">B-49</td><td>The defence can slow a case, never clear one</td><td>An advocate that could clear would argue 20 benchmark frauds free. Due process requires only that no irreversible step be taken while an innocent account the file supports stands unexamined.</td></tr>
+            <tr><td class="id">B-50</td><td>Five guardrails on substance, not shape</td><td>An agent can return a well-formed answer nothing supports, and every one of those passes a schema.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Engineering</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>ID</th><th>As built</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td class="id">B-12</td><td>The corpus is generated in memory, never written beside real data</td><td>Nothing simulated should ever be mistakable for a real record.</td></tr>
+            <tr><td class="id">B-13</td><td>Our own Gemini adapter, not CrewAI's built-in provider</td><td>CrewAI's strips <code>null</code> from output schemas, so an agent could never answer <em>inconclusive</em> — the answer that orders a field audit.</td></tr>
+            <tr><td class="id">B-29</td><td>A package carries every specialty it is listed under — 473 are cross-listed</td><td>Taking the first-sorted listing exposed 15,419 hospitals to false R1 notices.</td></tr>
+            <tr><td class="id">B-30</td><td><code>process()</code> re-validates every claim; ids are plain tokens; hashes are recomputed</td><td><code>model_copy()</code> skips validation — a claim id once wrote outside the output directory.</td></tr>
+            <tr><td class="id">B-37</td><td>Every artefact and log row carries the investigation trail</td><td>Agent work must be auditable, and a rejected overstatement must not reach the artefact through its own trail.</td></tr>
+            <tr><td class="id">B-41</td><td>A 429 naming a per-day quota marks the model spent and fails at once</td><td>The 53-second retry delay it carries is a lie; the adapter waited four minutes a call.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 10 ─────────────────────────────────────────────── -->
+    <section id="wrong">
+      <div class="sec-head"><div class="sec-num">10</div><h2>What went wrong, and what it taught us</h2></div>
+      <p>
+        Sixty-three findings are logged in <code>docs/05-TEST-PLAN.md</code> §5 across four audit rounds and the
+        crew rebuild, each with the test that now locks it. These are the ones worth knowing.
+      </p>
+
+      <div class="note bad">
+        <h4><span class="id">F-54</span> · The crew was decoration, and a review — not a test — found it</h4>
+        <p>
+          Of four agents, only one changed a decision. None called a tool, because the orchestrator called every
+          tool itself. The triage agent's plan was never read, the registry agent was always overridden, and the
+          5,000-case evaluation never ran the crew at all. <strong>Every test passed.</strong> The mitigation for
+          this exact risk had asserted on <code>channels_used</code> — which tests the pipeline, not the agents.
+          The lesson is in the risk register now: a test that cannot fail when the agents are removed does not
+          test the agents.
+        </p>
+      </div>
+
+      <div class="note bad">
+        <h4><span class="id">F-61</span> · A reviewer could clear a case by subtraction</h4>
+        <p>
+          On benchmark case BCH-T7-03 the Desk Investigator measured the progress notes byte-identical to the
+          previous admission's and supported fraud at 0.90; the Medical Auditor read the episodes as clinically
+          distinct. The Audit Reviewer disputed the desk's reading — which by design makes it weigh nothing —
+          leaving only the dissent, and the aggregate confidence <em>rose</em> from 0.46 to 0.85. A fraud was
+          released. A dispute aimed at a reading that rests on the claim store's own byte-identical comparison is
+          now refused and recorded.
+        </p>
+      </div>
+
+      <div class="note bad">
+        <h4><span class="id">F-63</span> · A well-formed answer that nothing supports</h4>
+        <p>
+          Live, the Audit Reviewer's summary read “the desk audit is disputed because…” while its disputes list
+          was empty — so the artefact printed “No finding disputed” beside a summary saying the opposite, and
+          nothing was set aside. The same shape of gap ran through the roster: a stance could cite nothing, the
+          Billing Analyst could state an excess it never computed, a defence could rest on a summary it never
+          checked. Each passes a schema. Five substance guardrails now sit where “the answer must be earned”
+          belongs.
+        </p>
+      </div>
+
+      <h3>Others, in brief</h3>
+      <ul>
+        <li><span class="id">F-22</span> The gate checked only the billed specialty — so suspending a hospital silently removed the only real provider of a <em>different</em> specialty in 6.5% of confirmed egregious findings.</li>
+        <li><span class="id">F-55</span> Live, the crew issued a notice on the scenario that should release — and it was <em>right</em>: the fixture lacked two documents its package makes mandatory. The scenario was fixed, not the agent.</li>
+        <li><span class="id">F-56</span> The mandatory-document check covered three of the eight categories the package master names. All eight are now read from the master itself; the 1,000-case evaluation trial was byte-identical before and after.</li>
+        <li><span class="id">F-57</span> A spent daily quota cost four minutes a call before failing, because the 429 carries a retry delay that lies.</li>
+        <li><span class="id">F-58</span> The crew cleared an above-rate claim with no invoice and a reserved package with no referral, reading each gap as an upload slip.</li>
+        <li><span class="id">F-60</span> Two agents were one reading — a single unchecked reading was all the evidence the policy ever weighed. The roster went to six.</li>
+        <li><span class="id">F-62</span> Three questions no agent owned: the money, the hospital's side, and which questions the case raises. The roster went to nine.</li>
+      </ul>
+      <div class="note gate">
+        <h4><span class="id">R-18</span> · Disclosed rather than fixed</h4>
+        <p>
+          A pseudonym does not hide a hospital that network facts single out. Scenario S2's hospital is
+          identifiable as the only cardiology provider in its district, and no amount of renaming changes that.
+          We say so rather than pretend otherwise — and it is a live limitation of publishing access-based
+          reasoning at all.
+        </p>
+      </div>
+    </section>
+
+    <!-- 11 ─────────────────────────────────────────────── -->
+    <section id="testing">
+      <div class="sec-head"><div class="sec-num">11</div><h2>Testing</h2></div>
+      <div class="stats">
+        <div class="stat"><div class="v">311</div><div class="k">tests, ~6 min, no API key needed</div></div>
+        <div class="stat"><div class="v">10</div><div class="k">end-to-end scenarios, each asserted against real data</div></div>
+        <div class="stat"><div class="v">5,000</div><div class="k">simulated flagged claims per evaluation run</div></div>
+        <div class="stat"><div class="v">40</div><div class="k">hand-written cases where the truth is in the text</div></div>
+      </div>
+      <p>
+        The crew is provable offline. <code>tests/fakes.py</code> plays all nine agents through the real adapters
+        and CrewAI's own tool loop, so tool calls, refusals, guardrail retries, the hand-offs, disputes, the policy
+        between the agents and the officer's gated actions all run exactly as they do live — without an API key,
+        and deterministically.
+      </p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Suite</th><th>What it holds down</th></tr></thead>
+          <tbody>
+            <tr><td><code>test_policy.py</code></td><td>Every threshold and gate branch, including “no single field report can suspend a hospital”.</td></tr>
+            <tr><td><code>test_scenarios.py</code></td><td>The ten scenarios end to end, plus the thesis test that S1 and S2 differ only by district.</td></tr>
+            <tr><td><code>test_gemini_contract.py</code> · <code>test_llm_contract.py</code></td><td>The full crew through each adapter: tool loops, thought signatures, thinking blocks, structured output with nulls preserved.</td></tr>
+            <tr><td><code>test_agent_tools.py</code></td><td>Each agent's kit, tool refusals, the per-agent trail, and that no evidence tool reveals access.</td></tr>
+            <tr><td><code>test_edges.py</code></td><td>Every audit finding that has a fix — each test fails without it.</td></tr>
+            <tr><td><code>test_corpus.py</code> · <code>test_data.py</code></td><td>Corpus validity and the real reference tables, including that every corpus claim files every document its package requires.</td></tr>
+            <tr><td><code>test_benchmark.py</code></td><td>The benchmark harness itself — scoring, resumption, and the report.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>The ten scenarios</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>#</th><th>Input</th><th>Expected</th><th>Proves</th></tr></thead>
+          <tbody>
+            <tr><td class="id">S1</td><td>Admission recorded 13 days after the beneficiary's death — cardiology hospital in Ahmedabad (101 providers)</td><td><code>SUSPEND</code></td><td>The pipeline decides and acts unattended</td></tr>
+            <tr><td class="id">S2</td><td><strong>Identical pattern</strong> — the sole cardiology provider in Bahraich (4.16 M people, 83 km, aspirational)</td><td><code>ESCALATE_SEC</code></td><td><strong>The thesis: same fraud, different decision</strong></td></tr>
+            <tr><td class="id">S3</td><td>Zero-day stay on a major surgical package; surgery performed, patient left against medical advice that evening</td><td><code>RELEASE_CLAIM</code></td><td>False positives are released, not left hanging</td></tr>
+            <tr><td class="id">S4</td><td>Cardiology package billed by a hospital the real registry does not list for cardiology</td><td><code>SHOW_CAUSE</code></td><td>Detection running on real published data</td></tr>
+            <tr><td class="id">S5</td><td>Discharge summary reused across two beneficiaries at a PHC listed as sole radiation-oncology provider</td><td><code>DELIST_SPECIALTY</code></td><td>Phantom capability — the gate inverts</td></tr>
+            <tr><td class="id">S6</td><td>One surgeon billed in two districts 250–600 km apart on one day; field reports on file</td><td><code>SUSPEND</code></td><td>Branching: channels follow the evidence</td></tr>
+            <tr><td class="id">S7</td><td>Third acute admission in 30 days; three clinically distinct episodes, none with its package's mandatory reports</td><td><code>FIELD_AUDIT</code></td><td>Branching: buys evidence instead of guessing</td></tr>
+            <tr><td class="id">S8</td><td>Same pattern; field reports conflict (0.60 for, 0.55 against)</td><td><code>NO_ACTION</code> (human)</td><td>Low confidence is defined, not accidental</td></tr>
+            <tr><td class="id">S9</td><td>S2's case with the model API unreachable</td><td><code>ESCALATE_SEC</code>, degraded</td><td>Designed degradation, not a crash</td></tr>
+            <tr><td class="id">S10</td><td>No discharge date; district name matching two LGD codes</td><td><code>REFUSE</code></td><td>Never fabricates to keep the pipeline moving</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Every scenario is <strong>selected from real data and asserted</strong> in <code>generate/fixtures.py</code>
+        — if the registry stops supporting a scenario, the build fails rather than testing a fiction. A separate
+        test asserts each scenario fires <em>only</em> its intended trigger, so a fixture cannot quietly start
+        proving something else.
+      </p>
+      <div class="note">
+        <h4>Live runs are checked, not assumed</h4>
+        <p>
+          The last live run of the ten scenarios produced <strong>9 of 10</strong> expected actions. S8 landed at
+          0.71 against the 0.70 confidence floor — a hundredth above — and issued a notice where a human review was
+          expected. Nothing structural changed: no finding was disputed, the defence did not stand, and the same
+          scenario passes on the rules path and offline. It is exactly the live variance both evaluations warn
+          about, landing either side of a threshold, and it is why the instruction before any recording is
+          <em>check the table first</em>.
+        </p>
+      </div>
+    </section>
+
+    <!-- 12 ─────────────────────────────────────────────── -->
+    <section id="results">
+      <div class="sec-head"><div class="sec-num">12</div><h2>Results</h2></div>
+      <h3>The 5,000-case evaluation</h3>
+      <p>A simulated year of flags placed on the real network, run through the real pipeline end to end.</p>
+      <div class="stats">
+        <div class="stat"><div class="v">86.7%</div><div class="k">of flags reach a final action with no human</div></div>
+        <div class="stat"><div class="v">0.63%</div><div class="k">of innocent flags end in suspension (0.44–0.63% across four seeds)</div></div>
+        <div class="stat"><div class="v">80.4%</div><div class="k">of frauds enforced against</div></div>
+        <div class="stat gate"><div class="v">10.9%</div><div class="k">of confirmed egregious findings would have stripped a district of its only provider — escalated instead, ≈895 a year</div></div>
+      </div>
+      <p>
+        The ablation is the number that justifies the build: wrongful suspensions fall from
+        <strong>18,251 → 2,329 → 1,016 a year</strong> as the evidence rules and then the gate are added. Every one
+        of the residual 0.63% comes from a case where <em>both</em> independent field reports were wrong — which is
+        the failure mode the design accepts, having ruled out the single-report one by construction
+        (<span class="id">B-11</span>).
+      </p>
+      <p>
+        Two further audits ship with it. The <strong>threshold sweep</strong> moves the 50 km distance constant
+        across its plausible range and publishes the operating point, so the number is defended rather than
+        asserted. The <strong>disparate-impact audit</strong> reports outcomes by hospital type: not-for-profit
+        hospitals are 4.1% of the network but 7.1% of sole providers, so a policy that resolves cleanly on
+        well-documented cases would quietly advantage chains with compliance departments. We publish that result
+        whichever way it falls.
+      </p>
+
+      <h3>Do the agents read better than the rules?</h3>
+      <p>
+        The evaluation cannot answer this: its corpus documents are neutral by design, so both paths read them
+        identically and the 5,000-case numbers measure the policy and the gate, not the crew. The agent benchmark
+        exists for exactly this question — 40 hand-written cases whose truth sits in free text or across claims,
+        scored against known truth in both directions, with innocent-side and fraud-side errors reported
+        separately.
+      </p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Run</th><th>Model</th><th class="num">Cases scored</th><th class="num">Wrong</th></tr></thead>
+          <tbody>
+            <tr><td>Rules path (no LLM)</td><td>—</td><td class="num">40</td><td class="num"><strong>15</strong></td></tr>
+            <tr><td>Crew, two agents</td><td><code>flash-lite</code></td><td class="num">40</td><td class="num">5</td></tr>
+            <tr><td>Crew, six agents</td><td><code>flash-lite</code></td><td class="num">40</td><td class="num">2</td></tr>
+            <tr><td>Crew, six agents after <span class="id">F-61</span></td><td><code>flash</code></td><td class="num">39 of 40</td><td class="num">0</td></tr>
+            <tr><td>Crew, nine agents (pre-hardening)</td><td><code>flash</code></td><td class="num">39 of 40</td><td class="num">0</td></tr>
+            <tr><td><strong>Crew, nine agents, hardened</strong> (current)</td><td><code>flash</code></td><td class="num">39 of 40</td><td class="num"><strong>0</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        On the 39 cases the current crew ran: <strong>19 of 19 innocent claims released with none enforced against,
+        and 20 of 20 frauds enforced against with none released.</strong> The rules, on those same 39 cases, make
+        14 wrong decisions — they enforce against 6 innocent hospitals and release 8 frauds.
+      </p>
+      <div class="note">
+        <h4>The confound, stated rather than buried</h4>
+        <p>
+          The first two crew runs were served by the fallback model, because the free tier's daily cap on the
+          primary was gone by then; the last three by the primary. <strong>The fall from five wrong to none
+          therefore carries a model change inside it and cannot be credited to the roster.</strong> The one
+          comparison that holds the model fixed is six agents against nine, and there the result is unchanged at
+          zero. On these 40 cases the benchmark is saturated for the crew: it can no longer tell these rosters
+          apart, which is a limit of the measurement, not evidence that the crew is finished. Harder cases are the
+          next honest step.
+        </p>
+      </div>
+      <p>
+        What the agents demonstrably did, on the 39 scored cases: the <strong>Case Router</strong> opened work no
+        rule mandated on 10 of them, across three different tracks; the <strong>Billing &amp; Tariff
+        Analyst</strong> worked 12 cases and read the money correctly on every above-rate claim, including the one
+        case both paths had got wrong in every earlier run — an implant invoice of ₹12,000 against an excess of
+        ₹60,000, read as justifying it; the <strong>Provider Advocate</strong> worked 22 cases and found an
+        unexcluded innocent explanation on 2, both on claims already being released, so <em>it has still never
+        changed a decision</em>. That its guard against arguing frauds free holds is shown; that the agent earns
+        its cost is not, and this benchmark — having no case where a defence ought to bite — cannot show it. The
+        <strong>Audit Reviewer disputed nothing</strong> for the third consecutive live run, so the refusal rule
+        <span class="id">B-44a</span> exists to enforce has still never fired outside its tests.
+      </p>
+      <div class="note bad">
+        <h4>The one case the crew did not decide</h4>
+        <p>
+          BCH-R3-02 degraded: the model failed mid-case, so the deterministic rules decided it alone — and
+          <strong>got it wrong</strong>, issuing a show-cause notice against an innocent hospital. It is excluded
+          from the crew's score, correctly, because it is not the crew's decision. It is also the sharpest
+          available illustration of the point: the fallback path is the rules, and the rules are exactly what the
+          crew is measured against.
+        </p>
+      </div>
+      <p>
+        <strong>The guardrails are not free.</strong> Hardening the crew against unearned answers
+        (<span class="id">F-63</span>) raised the cost from 17.5 to <strong>20.1 model requests a case</strong>,
+        because an agent sent back to do the work it skipped costs a round trip. The score did not move — it was
+        already at zero — so what that spend bought is not a better number but a defensible one.
+      </p>
+    </section>
+
+    <!-- 13 ─────────────────────────────────────────────── -->
+    <section id="repro">
+      <div class="sec-head"><div class="sec-num">13</div><h2>Reproduce it</h2></div>
+      <p class="lede">
+        Everything below runs from a clean clone. Only the live-model steps need an API key; the full test suite,
+        the ten scenarios and the 5,000-case evaluation all run without one.
+      </p>
+      <ol class="steps">
+        <li>
+          <h4>Environment</h4>
+          <p>Python 3.12. CrewAI 1.15.20 resolves cleanly on 3.12 and 3.13 — 135 packages, no torch.</p>
+<pre><span class="c"># from access-gate/</span>
+uv venv --python 3.12
+uv pip install -r requirements.txt</pre>
+        </li>
+        <li>
+          <h4>Keys — optional</h4>
+          <p>
+            <strong>Without a key the crew degrades to the deterministic rules path</strong> and every decision is
+            marked <code>degraded=true</code>. That is a designed path, so the build is still fully runnable and
+            testable with no credentials at all.
+          </p>
+<pre>cp .env.example .env
+<span class="c"># GEMINI_API_KEY      — development and the demo (free tier)</span>
+<span class="c"># ANTHROPIC_API_KEY   — the final presentation run (claude-opus-5)</span>
+<span class="c"># DATA_GOV_IN_API_KEY — only to re-pull the OGD tables; they are already in the repo</span></pre>
+        </li>
+        <li>
+          <h4>Rebuild the reference data</h4>
+          <p>
+            Each script rebuilds its output byte-for-byte and verifies the documented figures. If a filter changes
+            and a headline number drifts, this step fails rather than letting the report and the code disagree.
+          </p>
+<pre>python scripts/build_reference.py      <span class="c"># reference tables + assert the seven headline figures</span>
+python scripts/build_lookups.py        <span class="c"># district points + trigger catalogue</span>
+python scripts/build_packages.py       <span class="c"># package rates, specialty listings, day-care list</span>
+python scripts/build_state_context.py  <span class="c"># official tables → state context, specialty volumes</span></pre>
+        </li>
+        <li>
+          <h4>Run the ten scenarios — the fastest proof it works</h4>
+          <p>
+            Deterministic, seconds, no key. Expect <strong>10/10</strong>, a table of decisions, and an
+            <code>agents</code> column showing which roster worked each case. Artefacts land in
+            <code>out/artefacts/</code> and one row per case in <code>out/decision_log.csv</code>.
+          </p>
+<pre>python -m crew.run --scenarios                  <span class="c"># → out/</span></pre>
+        </li>
+        <li>
+          <h4>Run them again on a live model</h4>
+          <p>
+            The runner prints which model served each case and <strong>exits 2 if a model run silently fell back
+            to the rules</strong> — treat that as a failure, not a pass. Live output varies: check the table before
+            recording a demo.
+          </p>
+<pre>python -m crew.run --scenarios --llm --provider gemini --out out_live
+python -m crew.run --scenarios --llm --only S2,S3   <span class="c"># re-run two, to save free-tier calls</span></pre>
+        </li>
+        <li>
+          <h4>The test suite</h4>
+          <p>311 tests, about six minutes, no API key. The crew runs through scripted models, so agent behaviour is covered offline.</p>
+<pre>pytest
+uvx ruff check --select F,E9,B,PLE --ignore B008,B905 .</pre>
+        </li>
+        <li>
+          <h4>The 5,000-case evaluation</h4>
+          <p>
+            About 20 minutes. Writes <code>results/</code> and regenerates <code>docs/09-EVALUATION.md</code> from
+            them. Trial runs write to <code>results/trial-*/</code> only and never touch the published results —
+            so experimenting cannot silently rewrite the numbers in the report.
+          </p>
+<pre>python -m metrics.run                  <span class="c"># full run → results/ + docs/09</span>
+python -m metrics.run --quick          <span class="c"># a trial, into results/trial-*/</span>
+python -m metrics.run --doc-only       <span class="c"># rewrite docs/09 from existing results</span></pre>
+        </li>
+        <li>
+          <h4>The agent benchmark — rules against the crew</h4>
+          <p>
+            The rules path is free and instant. The crew path costs roughly <strong>20 model requests a
+            case</strong> for nine agents — about 800 for 40 cases, against a free tier allowing 500 a day on the
+            fallback model and 20 on the primary. <strong>Run one process only:</strong> two concurrent runs write
+            into one CSV and burn the quota twice as fast. If the quota runs out mid-run, re-run the same command
+            <em>without</em> <code>--fresh</code> and it resumes from where it stopped.
+          </p>
+<pre>python -m metrics.benchmark                                  <span class="c"># rules path, seconds</span>
+python -m metrics.benchmark --llm --provider gemini --fresh  <span class="c"># the crew, live (~90 min)</span>
+python -m metrics.benchmark --llm --provider gemini          <span class="c"># resume after a quota stop</span>
+python -m metrics.benchmark --report                         <span class="c"># → results/agent_benchmark.json + docs/10</span></pre>
+        </li>
+        <li>
+          <h4>Re-render the figures</h4>
+          <p>
+            Every diagram has a Mermaid source and a PNG in <code>docs/figures/</code>. On Windows, point puppeteer
+            at the Chrome already installed rather than letting it download one.
+          </p>
+<pre>npx -y @mermaid-js/mermaid-cli \
+  -i docs/figures/&lt;name&gt;.mmd -o docs/figures/&lt;name&gt;.png -b white -s 3</pre>
+        </li>
+      </ol>
+      <div class="note">
+        <h4>Three environment traps that cost us time</h4>
+        <p>
+          The Windows console is cp1252 — set <code>PYTHONIOENCODING=utf-8</code> before printing anything
+          non-ASCII. A uv-created venv launches a child interpreter, so one benchmark run legitimately shows two
+          <code>python.exe</code> processes: check the parent PID before concluding two runs are racing. And a
+          semicolon inside a Mermaid sequence-diagram message ends the statement, so a diagram containing one
+          silently fails to render.
+        </p>
+      </div>
+    </section>
+
+    <!-- 14 ─────────────────────────────────────────────── -->
+    <section id="limits">
+      <div class="sec-head"><div class="sec-num">14</div><h2>Limits and ethics</h2></div>
+      <h3>Ethical constraints, fixed before the build</h3>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>ID</th><th>Constraint</th></tr></thead>
+          <tbody>
+            <tr><td class="id">EC-1</td><td><strong>Pseudonymisation.</strong> The registry contains real, named hospitals and our outputs are accusatory. Real identities are used only for network-structure computation, which is published fact. No real hospital is asserted to have committed any offence.</td></tr>
+            <tr><td class="id">EC-2</td><td><strong>No training on simulated data.</strong> The brief licenses simulated <em>input</em>, not simulated <em>training</em> data. No component is fitted on generated claims.</td></tr>
+            <tr><td class="id">EC-3</td><td><strong>Flags, not conclusions.</strong> On capability the output is “flagged for verification, ranked by access consequence” — never “confirmed incapable.” Capability cannot be established without a site visit, and the real process knows this.</td></tr>
+            <tr><td class="id">EC-4</td><td><strong>Disparate impact is measured, not assumed away.</strong> Not-for-profit hospitals are 4.1% of the network but 7.1% of sole providers. We audit for it and publish the result whichever way it falls.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>What this system does not do</h3>
+      <ul>
+        <li><strong>It does not detect fraud.</strong> The triggers are NHA's published rules; we claim no detection contribution.</li>
+        <li><strong>It does not de-empanel.</strong> That decision is reserved to the Committee by policy. The system prepares the Committee; it never pre-empts it.</li>
+        <li><strong>Template documents still fire.</strong> Hospitals that legitimately use one template for every discharge summary trip the reuse check. That orders a field check, never a suspension — but it is a real false-positive source.</li>
+        <li><strong>The implant-invoice rule is coarse.</strong> An implant invoice is accepted for any package, because the master carries no clean implant flag.</li>
+        <li><strong>Negation reading is heuristic.</strong> “No complications” is handled; an unusually structured sentence may not be.</li>
+        <li><strong>Claude has never been run live.</strong> The adapter is proven offline against the API contract, but every demo figure here is Gemini's.</li>
+        <li><strong>The district is the decision unit, not the catchment.</strong> It is where the Committee sits and how the registry is keyed. A patient near a boundary may have an alternative the model does not count.</li>
+        <li><strong>The benchmark is saturated.</strong> Forty cases can no longer distinguish the rosters we are choosing between.</li>
+      </ul>
+      <h3>What we would do next</h3>
+      <ul>
+        <li><strong>Harder benchmark cases</strong>, including at least one where a defence ought to change a decision — the Provider Advocate's value is currently unmeasured.</li>
+        <li><strong>A live Claude run</strong>, to show the contract holds on a second provider in practice rather than only in tests.</li>
+        <li><strong>Catchment rather than district</strong> for the access calculation, which would need travel-time data the registry does not carry.</li>
+        <li><strong>A real reviewer dispute in the wild.</strong> B-44a's refusal rule has never fired outside its tests, so its live behaviour is unproven.</li>
+      </ul>
+      <div class="note gate">
+        <h4>The honest summary</h4>
+        <p>
+          The system automates the 86.7% of cases where the evidence settles the question, and stops at the cases
+          where acting would remove care — with the consequence quantified for the humans who decide. What it
+          contributes is not a better detector. It is the question nobody was asking, asked in the one place where
+          asking it changes what happens.
+        </p>
+      </div>
+      <div class="foot">
+        The Access Gate · an agent crew for PM-JAY hospital-fraud enforcement, built on CrewAI 1.15.20.
+        Full documentation in <code>docs/00</code>–<code>docs/10</code>. Every figure traces to a published source
+        or a named, swept assumption; hospital identities are pseudonymous throughout.
+      </div>
+    </section>
+  </main>
+</div>
+</body>
+</html>
