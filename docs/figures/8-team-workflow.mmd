@@ -1,0 +1,30 @@
+flowchart TD
+    subgraph D12["Days 1-2 · argument"]
+        W1["Problem brief"]
+        W2["Six-factor argument"]
+        W3{"Design<br/>sign-off"}
+    end
+    subgraph D34["Days 3-4 · policy"]
+        W4["policy.py with reasons"]
+        W5["Environment + tools"]
+    end
+    subgraph D58["Days 5-8 · build"]
+        W6["Generator + triggers"]
+        W7["Agents + runner"]
+    end
+    subgraph D910["Days 9-10 · test"]
+        W8["Ten scenarios"]
+        W9["Sweep + disparate-impact audit"]
+        W10{"Build<br/>freeze"}
+    end
+    subgraph D1112["Days 11-12 · package"]
+        W11["Demo recording"]
+        W12["Deck + report"]
+        W13["Q&A rehearsal"]
+    end
+
+    W1 --> W2 --> W3 --> W4 --> W5 --> W6 --> W7 --> W8 --> W9 --> W10 --> W11 --> W12 --> W13
+
+    style W3 fill:#f6ecd8,stroke:#8f6212
+    style W10 fill:#f6ecd8,stroke:#8f6212
+

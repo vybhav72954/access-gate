@@ -1,0 +1,18 @@
+flowchart LR
+    S1["1 · rules/policy.py<br/>thresholds + reasons"]
+    S2["2 · crew/tools.py<br/>testable with no LLM"]
+    S3["3 · rules/triggers.py<br/>detect + route"]
+    S4["4 · generate/fixtures.py<br/>ten scenarios"]
+    S5["5 · crew/ + run.py<br/>agents last"]
+    S6["6 · tests/<br/>207 tests"]
+    S8["7 · corpus + metrics<br/>measure at scale"]
+    S7["8 · optional viewer<br/>timeboxed"]
+
+    S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S8 --> S7
+
+    D1["Pipeline works<br/>deterministically here"]
+    S3 -.- D1
+
+    style S1 fill:#f6ecd8,stroke:#8f6212,stroke-width:2px
+    style S5 fill:#e2ecf1,stroke:#12455f
+    style S7 stroke-dasharray: 5 5

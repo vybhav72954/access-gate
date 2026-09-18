@@ -1,0 +1,81 @@
+flowchart TD
+    subgraph L1["L1 · INGEST — deterministic"]
+        GEN["generate/fixtures.py + corpus.py<br/>ten scenarios + a simulated year of flags"]
+    end
+
+    subgraph L2["L2 · DETECT — deterministic"]
+        TRG["rules/triggers.py<br/>NHA published rules"]
+    end
+
+    subgraph L3["L3 · REASON — LLM · one CrewAI crew, nine agents"]
+        RTR["Case Router<br/>which questions does this file raise?<br/>may only widen the roster"]
+        INV["Desk Investigator<br/>are the documents genuine?"]
+        MED["Medical Auditor<br/>was the care needed?<br/>T2 T3 T4 T7"]
+        BIL["Billing &amp; Tariff Analyst<br/>is the amount accounted for?<br/>R2 · above-rate claims"]
+        FLD["Field Evidence Analyst<br/>what is each field report worth?"]
+        ADV["Provider Advocate<br/>what innocent account does<br/>the file bear, and is it excluded?"]
+        REV["Audit Reviewer<br/>does each reading hold?"]
+        LIA["Committee Liaison<br/>what must the SEC decide?"]
+        OFF["Enforcement Officer<br/>execute and explain"]
+    end
+
+    subgraph ETOOLS["Evidence tools — this claim and claims shown related; nothing about access"]
+        E1["beneficiary_claim_history"]
+        E2["documents_shared_with_other_claims"]
+        E3["surgeon_same_day_claims"]
+        E4["read_document · compare_documents"]
+    end
+
+    subgraph OTOOLS["Decision tools — only after the policy has decided"]
+        O1["enforcement_decision"]
+        O2["access_impact"]
+        O4["file_committee_brief<br/>checked like a notice"]
+        O3["seven action tools<br/>each executes only the policy's decision"]
+    end
+
+    subgraph L4["L4 · DECIDE — deterministic"]
+        GRD["crew/guardrails.py<br/>evidence rules"]
+        POL["rules/policy.py<br/>thresholds + access gate"]
+    end
+
+    subgraph L5["L5 · ACT — side effects"]
+        ACT["crew/actions.py<br/>artefact · queue · log · investigation trail"]
+    end
+
+    CLAIMS[("ClaimStore<br/>claims on file")]
+    REF[("data/reference/<br/>precomputed, real")]
+
+    GEN --> TRG --> RTR
+    RTR -->|"mandatory tracks + whatever it opens"| INV
+    RTR --> MED
+    RTR --> BIL
+    RTR --> FLD
+    INV -.-> ETOOLS
+    MED -.-> ETOOLS
+    BIL -.-> ETOOLS
+    FLD -.-> ETOOLS
+    REV -.-> ETOOLS
+    ADV -.-> ETOOLS
+    ETOOLS -.-> CLAIMS
+    INV -->|desk reading| ADV
+    MED -->|clinical reading| ADV
+    BIL -->|money reading| ADV
+    ADV -->|"the hospital's side"| REV
+    INV -->|desk reading| REV
+    MED -->|clinical reading| REV
+    BIL -->|money reading| REV
+    FLD -->|weighed reports| REV
+    REV -->|readings + disputes + defence| GRD --> POL
+    POL -->|decision| LIA
+    POL -->|decision| OFF
+    LIA -.-> OTOOLS
+    OFF -.-> OTOOLS
+    O2 -.-> REF
+    POL -.-> REF
+    O4 -->|brief for the SEC| ACT
+    O3 -->|committed action| ACT
+
+    style L3 fill:#e2ecf1,stroke:#12455f
+    style L4 fill:#f6ecd8,stroke:#8f6212
+    style ETOOLS fill:#eceded,stroke:#bfc3c8
+    style OTOOLS fill:#eceded,stroke:#bfc3c8

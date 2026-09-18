@@ -1,0 +1,35 @@
+sequenceDiagram
+    autonumber
+    participant D as Desk Investigator
+    participant A as Provider Advocate
+    participant V as Audit Reviewer
+    participant G as guardrails + policy
+    participant L as Committee Liaison
+    participant O as Enforcement Officer
+    participant T as tools (bound to this case)
+
+    Note over D,V: the Case Router worked this case first, and appears nowhere below: it holds no tools
+    D->>T: beneficiary_claim_history()
+    T-->>D: no other claims
+    D->>T: read_document(death_certificate)
+    D->>T: read_document(discharge_summary)
+    D->>T: documents_shared_with_other_claims()
+    T-->>D: no shared documents
+    Note over D,A: desk reading: supports fraud, 0.95 — the certificate<br/>dates death before the admission
+    A->>T: read_document(death_certificate)
+    A->>T: read_document(discharge_summary)
+    A->>T: read_document(pre_investigation)
+    Note over A: the hospital's side, read off the file itself —<br/>an unexcluded defence may not rest on a summary
+    V->>T: read_document(death_certificate)
+    V->>T: read_document(discharge_summary)
+    Note over V,G: the reviewer checks the findings against what they cite,<br/>disputes nothing, and the policy decides: ESCALATE_SEC
+    L->>T: enforcement_decision()
+    T-->>L: escalate_to_sec (CONFIRMED_EGREGIOUS, providers=1, 83 km)
+    L->>T: access_impact()
+    T-->>L: gate protect · at stake: cardiology
+    L->>T: file_committee_brief(summary 86 w, 3 options, recommendation 89 w)
+    T-->>L: filed
+    O->>T: enforcement_decision()
+    O->>T: access_impact()
+    O->>T: escalate_to_state_committee(explanation, 138 words)
+    T-->>O: executed

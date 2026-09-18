@@ -1,0 +1,54 @@
+flowchart LR
+    subgraph ROUTE["1 · route"]
+        direction TB
+        A0["Case Router<br/><i>which questions does this file raise?</i><br/>tools: none · always"]
+    end
+
+    subgraph READ["2 · read — independent, context: []"]
+        direction TB
+        A1["Desk Investigator<br/><i>are the documents genuine?</i><br/>5 evidence tools · always"]
+        A2["Medical Auditor<br/><i>was the care needed?</i><br/>2 tools · T2 T3 T4 T7"]
+        A3["Field Evidence Analyst<br/><i>what is each report worth?</i><br/>1 tool · reports on file"]
+        A4["Billing &amp; Tariff Analyst<br/><i>is the amount accounted for?</i><br/>3 tools · R2 · above rate"]
+    end
+
+    subgraph DEFEND["3 · defend"]
+        direction TB
+        A5["Provider Advocate<br/><i>what innocent account does the file bear?</i><br/>2 tools · a reading supports fraud"]
+    end
+
+    subgraph REVIEW["4 · review"]
+        direction TB
+        A6["Audit Reviewer<br/><i>does each finding hold?</i><br/>5 evidence tools · always"]
+    end
+
+    subgraph DECIDE["5 · decide — not an agent"]
+        direction TB
+        POL["rules/policy.py decide()<br/>evidence rules · disputes · defence<br/>the access gate"]
+    end
+
+    subgraph ACT["6 · act"]
+        direction TB
+        A7["Committee Liaison<br/><i>what must the SEC decide?</i><br/>3 tools · on a referral"]
+        A8["Enforcement Officer<br/><i>execute and explain</i><br/>2 + 7 action tools · always"]
+    end
+
+    A0 -.->|"opens optional tracks<br/>(may only widen)"| READ
+    A1 -->|desk_audit| A5
+    A2 -->|medical_audit| A5
+    A4 -->|billing_audit| A5
+    A1 --> A6
+    A2 --> A6
+    A3 -->|field_reports| A6
+    A4 --> A6
+    A5 -->|advocacy| A6
+    A6 -->|"task callback"| POL
+    POL --> A7
+    POL --> A8
+
+    style ROUTE fill:#f3f6f8,stroke:#9fb3c0
+    style READ fill:#e2ecf1,stroke:#12455f
+    style DEFEND fill:#f3f6f8,stroke:#9fb3c0
+    style REVIEW fill:#e2ecf1,stroke:#12455f
+    style DECIDE fill:#f6ecd8,stroke:#8f6212
+    style ACT fill:#f3f6f8,stroke:#9fb3c0

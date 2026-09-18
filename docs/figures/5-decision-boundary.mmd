@@ -1,0 +1,32 @@
+flowchart TB
+    subgraph AUTO["AUTOMATED — no human in the loop"]
+        direction LR
+        A1["Release claim"]
+        A2["Withhold claim"]
+        A3["Show-cause notice"]
+        A4["Order field audit"]
+        A5["Suspend<br/>where alternatives exist"]
+    end
+
+    subgraph GATE["THE ACCESS GATE"]
+        G["Would suspending this hospital leave its district<br/>without a real provider of ANY specialty?"]
+    end
+
+    subgraph HUMAN["STATE EMPANELMENT COMMITTEE — never automated"]
+        direction LR
+        H1["Suspend a sole provider"]
+        H2["De-empanel"]
+        H3["Relax criteria for access"]
+    end
+
+    AUTO --> GATE --> HUMAN
+
+    N1["reversible · high volume<br/>explainable · measured"]
+    N2["irreversible · names a provider publicly<br/>removes access for up to a year"]
+
+    AUTO -.- N1
+    HUMAN -.- N2
+
+    style AUTO fill:#e2ecf1,stroke:#12455f
+    style GATE fill:#f6ecd8,stroke:#8f6212,stroke-width:3px
+    style HUMAN fill:#f6ecd8,stroke:#8f6212

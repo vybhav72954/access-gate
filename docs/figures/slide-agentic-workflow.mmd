@@ -1,0 +1,11 @@
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Segoe UI, Helvetica, Arial, sans-serif","fontSize":"20px","primaryColor":"#e2ecf1","primaryTextColor":"#11212b","primaryBorderColor":"#12455f","lineColor":"#41637a"},"flowchart":{"curve":"basis","nodeSpacing":40,"rankSpacing":55,"useMaxWidth":false,"wrappingWidth":320}}}%%
+flowchart LR
+    A(["Flagged<br/>claim"]) --> B["<b>1 · ROUTE</b><br/>Case Router<br/><i>which questions does<br/>this file raise?</i>"]
+    B --> C["<b>2 · READ</b><br/>four agents, independently<br/>Desk · Medical · Field · Billing<br/><i>each with its own tools</i>"]
+    C --> D["<b>3 · DEFEND</b><br/>Provider Advocate<br/><i>what innocent account<br/>does the file bear?</i>"]
+    D --> E["<b>4 · REVIEW</b><br/>Audit Reviewer<br/><i>does each finding<br/>hold up?</i>"]
+    E --> F["<b>5 · DECIDE</b><br/>the enforcement policy<br/>+ the access gate<br/><i>deterministic, not an agent</i>"]
+    F --> G["<b>6 · ACT</b><br/>Enforcement Officer<br/>Committee Liaison<br/><i>execute and explain</i>"]
+
+    style A fill:#ffffff,stroke:#41637a
+    style F fill:#f6ecd8,stroke:#8f6212,stroke-width:3px

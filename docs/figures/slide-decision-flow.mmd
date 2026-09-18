@@ -1,0 +1,18 @@
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Segoe UI, Helvetica, Arial, sans-serif","fontSize":"22px","primaryColor":"#e2ecf1","primaryTextColor":"#11212b","primaryBorderColor":"#12455f","lineColor":"#41637a"},"flowchart":{"curve":"basis","nodeSpacing":55,"rankSpacing":65,"useMaxWidth":false,"wrappingWidth":420}}}%%
+flowchart TD
+    A(["Flagged claim"]) --> B{"What does<br/>the evidence show?"}
+
+    B -->|"explained"| R["<b>Release the claim</b>"]
+    B -->|"cannot settle it"| F["<b>Get evidence</b><br/>field audit, or a human"]
+    B -->|"fraud confirmed"| S{"How serious?"}
+
+    S -->|"band 1-2"| N["<b>Show-cause notice</b>"]
+    S -->|"egregious"| G["<b>THE ACCESS GATE</b><br/>would suspending this hospital leave<br/>the district without its only provider?"]
+
+    G -->|"no — patients have<br/>somewhere else to go"| SUS["<b>Suspend</b>"]
+    G -->|"yes, or unknowable"| SEC["<b>Escalate to the State<br/>Empanelment Committee</b><br/>with the access impact"]
+
+    style A fill:#ffffff,stroke:#41637a
+    style G fill:#f6ecd8,stroke:#8f6212,stroke-width:4px
+    style SEC fill:#f6ecd8,stroke:#8f6212
+    style R fill:#e8f0e6,stroke:#4a6b45

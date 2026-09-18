@@ -1,0 +1,45 @@
+sequenceDiagram
+    autonumber
+    participant N as NAFU
+    participant R as run.py
+    participant T as triggers
+    participant C as Case Router
+    participant I as Desk Investigator
+    participant P as Provider Advocate
+    participant V as Audit Reviewer
+    participant G as guardrails + policy
+    participant L as Committee Liaison
+    participant O as Enforcement Officer
+    participant TL as Decision tools
+    participant A as actions
+    participant S as SEC
+
+    N->>R: flagged claim CLM-S02
+    R->>T: evaluate(claim)
+    T-->>R: TriggerHit T10, egregious
+    R->>C: route(trigger, package and rate, what kinds of document are on file — never the documents)
+    C-->>R: plan: open nothing further
+    Note over C: T10 is not a clinical question, no field report is on file<br/>and the claim is at its package rate: the router adds nothing,<br/>and it could not have removed the desk audit if it wanted to
+    R->>I: investigate(case file: documents, desk checks — no access data)
+    I-->>P: reading: supports, 0.95 — the certificate dates death 13 days before admission
+    Note over P: a reading supports fraud, so the hospital's side<br/>is put before anything is decided (B-49)
+    P-->>V: the innocent account the file bears — **excluded**: the certificate itself carries the date
+    V-->>G: review: each finding follows from what it cites — no dispute
+    Note over G: a certificate dating death before admission<br/>may carry T10 without the field (B-28)
+    G->>G: decide(findings, adequacy, network)
+    Note over G: egregious AND Bahraich would lose its<br/>only real cardiology provider → the gate fires
+    G-->>L: ESCALATE_SEC
+    L->>TL: enforcement_decision() · access_impact()
+    TL-->>L: escalate — not a suspension · only real provider of Cardiology
+    L->>TL: file_committee_brief(evidence + access, options, recommendation, question)
+    TL-->>L: filed — it passed the same publication checks as a notice
+    G-->>O: ESCALATE_SEC
+    O->>TL: enforcement_decision()
+    TL-->>O: escalate — the hospital is NOT suspended,<br/>execute with escalate_to_state_committee
+    O->>TL: access_impact()
+    TL-->>O: only real provider of Cardiology,<br/>nearest alternative 83 km away in Gonda
+    O->>TL: escalate_to_state_committee(explanation)
+    TL-->>O: executed — the draft passed the publication checks
+    R->>A: execute(decision, trail, brief)
+    A->>S: escalation: the liaison's brief, access impact, investigation trail
+    A->>A: append decision_log row

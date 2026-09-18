@@ -1,0 +1,91 @@
+flowchart TD
+    START(["Claim flagged by a trigger"]) --> RTR
+
+    RTR{{"CASE ROUTER<br/>which optional questions does this file raise?<br/>no evidence tools · may only widen<br/>what the rules already mandate"}}
+    RTR --> INV
+    RTR --> MED
+    RTR --> FLD
+    RTR --> BIL
+
+    INV{{"DESK INVESTIGATOR<br/>are the documents present, consistent,<br/>genuine, not copied?"}}
+
+    INV -->|"T7 · repeat admissions"| H["beneficiary_claim_history<br/>then compare_documents"]
+    INV -->|"T6 · reused document"| S["documents_shared_with_other_claims<br/>then compare_documents"]
+    INV -->|"T5 · surgeon in two places"| U["surgeon_same_day_claims<br/>then read_document"]
+    INV -->|"single-claim triggers"| D["the claim's own documents<br/>read in their own words"]
+
+    MED{{"MEDICAL AUDITOR<br/>T2 T3 T4 T7 only<br/>was the care clinically needed?"}}
+    MED --> M1["the clinical record, and on repeat<br/>admissions each other episode"]
+
+    FLD{{"FIELD EVIDENCE ANALYST<br/>only if field reports are on file<br/>what is each report worth?"}}
+    FLD --> F1["each report against<br/>the documents and this trigger's<br/>field checks"]
+
+    BIL{{"BILLING &amp; TARIFF ANALYST<br/>R2 · any claim above its package rate<br/>is the amount accounted for?"}}
+    BIL --> B1["claim_tariff: the rate, the claim,<br/>the excess — then the invoices<br/>that should cover it"]
+
+    H --> REP
+    S --> REP
+    U --> REP
+    D --> REP
+
+    REP["FOUR READINGS, taken independently<br/>supports · opposes · cannot settle"] --> ADV
+    M1 --> REP
+    F1 --> REP
+    B1 --> REP
+
+    ADV{{"PROVIDER ADVOCATE<br/>only when a reading supports fraud<br/>what innocent account does the file bear,<br/>and does the evidence exclude it?"}}
+    REP -->|"nothing supports fraud"| REV
+    ADV --> REV
+
+    REV{{"AUDIT REVIEWER<br/>does each finding follow<br/>from what it cites?"}}
+    REV -->|"a finding does not hold"| DIS["DISPUTED — set aside<br/>it weighs nothing<br/>unless it repeats a measurement,<br/>when the dispute is refused (B-44a)"]
+    REV -->|"they hold"| GR
+    DIS --> GR
+
+    GR["GUARDRAILS — deterministic<br/>a stance on T5-T7 needs the claims examined<br/>desk preconditions · field reports kept · registry lookup"] --> FLOOR
+
+    FLOOR{"confidence >= 0.70?"}
+    FLOOR -->|"no · field channels outstanding"| X3["ORDER FIELD AUDIT"]
+    FLOOR -->|"no · nothing left to order"| X1["HUMAN REVIEW"]
+    FLOOR -->|yes| SEV
+
+    SEV{"what the evidence shows"}
+    SEV -->|"explained"| X0["RELEASE CLAIM"]
+    SEV -->|"confirmed · band 1-2"| X2["SHOW-CAUSE NOTICE"]
+    SEV -->|"confirmed · egregious · field evidence incomplete"| X3
+    SEV -->|"confirmed · egregious"| GATE
+
+    GATE{{"THE ACCESS GATE<br/>every specialty the hospital is empanelled for"}}
+
+    GATE -->|"each keeps a provider in reach"| X4["SUSPEND<br/>+ refer to SEC"]
+    GATE -->|"access unknowable"| X5["ESCALATE TO SEC<br/>access marked unknown"]
+    GATE -->|"any would lose its only real provider"| X6["ESCALATE TO SEC<br/>with access brief"]
+    GATE -->|"billed specialty: phantom listing"| X7["DE-LISTING REFERRAL<br/>flag district uncovered"]
+
+    X2 & X4 --> DEF
+    DEF{"B-49 · does an innocent account stand<br/>that the evidence on file does not exclude?"}
+    DEF -->|"no · the action proceeds"| OFF
+    DEF -->|"yes · field channels left to order"| X3
+    DEF -->|"yes · none left"| X1
+
+    X5 & X6 & X7 --> LIA
+
+    LIA[["COMMITTEE LIAISON<br/>files the SEC's brief: evidence, access,<br/>the options open to it, a recommendation"]]
+
+    X0 & X1 & X3 --> OFF
+    LIA --> OFF
+
+    OFF[["ENFORCEMENT OFFICER<br/>reads the decision · drafts · executes<br/>through the one action tool that accepts it"]]
+
+    style RTR fill:#e2ecf1,stroke:#12455f
+    style INV fill:#e2ecf1,stroke:#12455f
+    style MED fill:#e2ecf1,stroke:#12455f
+    style FLD fill:#e2ecf1,stroke:#12455f
+    style BIL fill:#e2ecf1,stroke:#12455f
+    style ADV fill:#e2ecf1,stroke:#12455f
+    style REV fill:#e2ecf1,stroke:#12455f
+    style LIA fill:#f6ecd8,stroke:#8f6212
+    style OFF fill:#e2ecf1,stroke:#12455f
+    style GATE fill:#f6ecd8,stroke:#8f6212,stroke-width:3px
+    style X6 fill:#f6ecd8,stroke:#8f6212
+    style X7 fill:#f6ecd8,stroke:#8f6212

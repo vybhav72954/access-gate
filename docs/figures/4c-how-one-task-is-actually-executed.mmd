@@ -1,0 +1,15 @@
+flowchart TD
+    T["task description + this agent's case file<br/>(the only case data it ever sees)"] --> LLM
+    LLM{{"the model<br/>Gemini 3 · Claude Opus 5"}}
+    LLM -->|"returns a list of tool calls"| TOOLS["CrewAI executes them<br/>and appends the results"]
+    TOOLS --> REC["each call recorded in the trail:<br/>agent · tool · arguments · result size"]
+    REC --> LLM
+    LLM -->|"returns text"| GRD{{"guardrail<br/>is this answer <i>earned</i>?"}}
+    GRD -->|"no — feedback, one retry"| LLM
+    GRD -->|"no, twice"| DEG["task fails → the case degrades<br/>the rules decide it, and the artefact says so"]
+    GRD -->|"yes — clean labelled JSON"| CB["callback records the finding<br/>on the CaseFile"]
+    CB --> NEXT["the next task<br/>(the review callback is where the policy decides)"]
+
+    style LLM fill:#e2ecf1,stroke:#12455f
+    style GRD fill:#f6ecd8,stroke:#8f6212
+    style DEG fill:#f4e4e4,stroke:#8f2121

@@ -1,0 +1,50 @@
+flowchart LR
+    subgraph REAL["REAL — public, cited"]
+        R1[("PM-JAY registry<br/>35,286 hospitals")]
+        R2[("District features<br/>785 x 93")]
+        R3[("geoBoundaries ADM2")]
+        R4["HBP 2022 master"]
+        R5["NHA anti-fraud guidebook"]
+        R6["NHA empanelment guidelines"]
+        R7[("NITI aspirational districts")]
+        R8[("Rajya Sabha tables<br/>21 via data.gov.in")]
+    end
+
+    subgraph PRE["PRECOMPUTED — real, derived"]
+        P1[("district_adequacy.csv<br/>11,528 cells")]
+        P2[("access_distance.csv<br/>2,185 cells")]
+        P3["specialty_legend.json"]
+        P4[("state_context.csv<br/>specialty_volume.csv")]
+    end
+
+    subgraph SIM["SIMULATED"]
+        S1[("flagged-claim corpus<br/>in memory")]
+        S2["verification documents"]
+    end
+
+    PIPE{{"Pipeline"}}
+    OUT[("decision_log.csv<br/>+ artefacts")]
+
+    R1 --> P1
+    R1 --> P2
+    R3 --> P2
+    R2 --> P1
+    R7 --> P1
+    R4 --> P3
+    R8 --> P4
+    P4 -->|where claims land| S1
+    P1 -->|which hospitals| S1
+
+    P1 --> PIPE
+    P2 --> PIPE
+    P3 --> PIPE
+    R1 --> PIPE
+    R5 --> PIPE
+    R6 --> PIPE
+    S1 --> PIPE
+    S2 --> PIPE
+    PIPE --> OUT
+
+    style REAL fill:#e2ecf1,stroke:#12455f
+    style PRE fill:#e2ecf1,stroke:#12455f
+    style SIM fill:#f6ecd8,stroke:#8f6212

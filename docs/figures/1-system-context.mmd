@@ -1,0 +1,28 @@
+flowchart LR
+    NAFU["NAFU platform<br/>national trigger engine"]
+    REG[("PM-JAY registry<br/>35,286 hospitals")]
+    DIST[("District frame<br/>785 x 93 indicators")]
+    GEO[("District geometry<br/>representative points")]
+    RULE["NHA rulebooks<br/>guidebook + guidelines"]
+
+    SYS{{"THE ACCESS GATE"}}
+
+    HOSP["Empanelled hospital"]
+    SAFU["SAFU field team"]
+    SEC["State Empanelment Committee"]
+    LOG[("Decision log")]
+
+    NAFU -->|flagged claim + trigger id| SYS
+    REG --> SYS
+    DIST --> SYS
+    GEO --> SYS
+    RULE --> SYS
+
+    SYS -->|claim released or withheld| HOSP
+    SYS -->|show-cause notice, 5-day clock| HOSP
+    SYS -->|field audit order + checklist| SAFU
+    SYS ==>|escalation brief with access impact| SEC
+    SYS --> LOG
+
+    style SYS fill:#12455f,stroke:#0d3a50,color:#ffffff
+    style SEC fill:#f6ecd8,stroke:#8f6212,color:#14191d
