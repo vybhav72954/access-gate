@@ -1,0 +1,19 @@
+# This repository verifies bytes, so git must not rewrite them.
+#
+# The official data.gov.in tables and the registry export are recorded in _manifest.json with their
+# sha256, and tests/test_data.py checks every file against it. The reference tables are asserted to
+# rebuild byte-for-byte. Git's default line-ending conversion (core.autocrlf, on by default with Git
+# for Windows) silently breaks all of that on clone: a CSV stored with LF is checked out with CRLF,
+# its hash changes, and the test suite fails on a machine where nothing is actually wrong.
+#
+# -text disables that conversion for everything. What was committed is what you get, on every platform.
+* -text
+
+# Be explicit about the binaries as well, so no tool treats them as diffable text.
+*.pdf    binary
+*.xls    binary
+*.xlsx   binary
+*.parquet binary
+*.png    binary
+*.svg    binary
+*.geojson binary
