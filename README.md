@@ -119,7 +119,7 @@ The registry is validated against the Ministry's own count: 31,196 vs 30,957
 hospitals (+0.8%).
 
 **The agents, measured.** The benchmark has 40 hand-written cases whose truth sits in the documents, run through
-both paths of the same pipeline. The rules make **15 wrong decisions**. The crew has been run live four times:
+both paths of the same pipeline. The rules make **15 wrong decisions**. The crew has been run live five times:
 
 | Run | Model | Cases scored | Wrong |
 |---|---|---|---|

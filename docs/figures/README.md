@@ -18,6 +18,14 @@ background, so they stay sharp in a deck, in print, and in the report.
 | `7-build-order-and-dependencies.png` | What had to exist before what | Process questions |
 | `8-team-workflow.png` | How the five of us worked | Process questions |
 
+Two more are built for slides rather than for the document. They carry fewer boxes, larger type and a
+horizontal flow, and they have no corresponding section in 03-DIAGRAMS — the detailed versions live there.
+
+| Figure | What it shows | Use it for |
+|---|---|---|
+| `slide-agentic-workflow.png` | The crew as six stages: route, read, defend, review, decide, act | **The deck.** One slide that explains the whole system |
+| `slide-decision-flow.png` | What happens to a flagged claim, ending at the access gate | **The deck.** One slide that explains the contribution |
+
 ## Re-rendering
 
 Edit the `.mmd` (or the Mermaid block in 03-DIAGRAMS.md, which is the same text), then:
