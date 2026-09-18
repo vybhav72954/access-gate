@@ -161,8 +161,7 @@ trail that every artefact carries.
 
 ---
 
-## 3. Agentic flowchart ★
-
+## 3. Agentic flowchart
 **This is the diagram that answers "why CrewAI and not a script?"** The upper branches are taken by the agents,
 each choosing what evidence its own question needs; the lower one by the policy, according to *who else can treat
 these patients*.
@@ -349,8 +348,7 @@ human decision (B-49).
 
 ---
 
-## 4a. Crew composition and the task graph ★
-
+## 4a. Crew composition and the task graph
 **The CrewAI view of the same system.** `AccessGateCrew` (`@CrewBase`, `Process.sequential`) is nine agents and nine
 tasks declared in `crew/config/agents.yaml` and `crew/config/tasks.yaml`. Five tasks are `ConditionalTask`s. The
 arrows here are **`context`** — CrewAI's hand-off, the only way one agent's output reaches another.
@@ -550,8 +548,7 @@ the same calls in brief (`tools_called`).
 
 ---
 
-## 5. Decision boundary ★
-
+## 5. Decision boundary
 **The second diagram for the deck.** It is the argument, drawn.
 
 ![5. Decision boundary](figures/5-decision-boundary.png)

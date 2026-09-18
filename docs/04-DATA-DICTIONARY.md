@@ -29,9 +29,16 @@
 
 ---
 
-## 2. Registry — `data/registry/pmjay_hospitals.parquet`
+## 2. Registry — `data/registry/PMJAY_empanelled_hospitals_2026-07-16.xls`
 
-Source: hospitals.pmjay.gov.in, Registered Hospitals view, all-India export, July 2026.
+Source: hospitals.pmjay.gov.in, Registered Hospitals view, all-India export, July 2026. Fetched by
+`data/registry/fetch_pmjay_hospitals.py`, which records the size and sha256 of every file it wrote in
+`_manifest.json`; `tests/test_data.py` checks the export against it.
+
+**The pipeline never reads this file at run time.** `scripts/build_reference.py` derives
+`data/reference/registry_pseudonymised.csv` from it — the same rows with no hospital names and no NHA
+identifiers — and that is what `crew/tools.py` loads. Real names reach nothing that can emit an
+artefact (EC-1).
 
 | Field | Type | Notes |
 |---|---|---|

@@ -1,19 +1,23 @@
-# This repository verifies bytes, so git must not rewrite them.
+# Line endings, and why one directory needs a different rule.
 #
-# The official data.gov.in tables and the registry export are recorded in _manifest.json with their
-# sha256, and tests/test_data.py checks every file against it. The reference tables are asserted to
-# rebuild byte-for-byte. Git's default line-ending conversion (core.autocrlf, on by default with Git
-# for Windows) silently breaks all of that on clone: a CSV stored with LF is checked out with CRLF,
-# its hash changes, and the test suite fails on a machine where nothing is actually wrong.
+# Most of this repository is ordinary text: git normalises it on commit and hands each platform its
+# native endings on checkout. That is what stops a run on Windows from leaving every regenerated CSV
+# looking modified.
 #
-# -text disables that conversion for everything. What was committed is what you get, on every platform.
-* -text
+# The exception is the official data.gov.in tables. Each is fetched with its sha256 written into
+# data/external/ogd/_manifest.json, and tests/test_data.py hashes the file on disk against it (this is
+# finding F-50, which was fixed once in the fetcher and came back at the packaging layer). If git
+# rewrites their line endings on checkout, the hash changes and a fresh clone fails its own test suite
+# with nothing actually wrong. They are marked -text so they arrive exactly as committed.
+#
+# The registry export is hashed the same way, but it is a binary .xls and git never converts it.
 
-# Be explicit about the binaries as well, so no tool treats them as diffable text.
-*.pdf    binary
-*.xls    binary
-*.xlsx   binary
-*.parquet binary
-*.png    binary
-*.svg    binary
-*.geojson binary
+*                          text=auto
+data/external/ogd/*.csv    -text
+
+*.pdf                      binary
+*.xls                      binary
+*.xlsx                     binary
+*.parquet                  binary
+*.png                      binary
+*.geojson                  binary

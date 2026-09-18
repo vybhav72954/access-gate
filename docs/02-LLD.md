@@ -127,7 +127,7 @@ scripts/build_state_context.py  official tables -> state_context, specialty_volu
 ```
 access-gate/
 ├─ data/
-│  ├─ registry/pmjay_hospitals.parquet      # real, 35,286 rows
+│  ├─ registry/PMJAY_empanelled_hospitals_2026-07-16.xls   # real export, 35,286 rows
 │  ├─ reference/
 │  │  ├─ district_adequacy.csv              # 11,528 cells
 │  │  ├─ access_distance.csv                # 2,185 cells
