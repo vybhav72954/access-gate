@@ -207,7 +207,7 @@ python -m crew.run --scenarios         # the ten scenarios, deterministic -> out
 python -m crew.run --scenarios --llm --provider gemini  # the crew on Gemini, free tier (demo; GEMINI_API_KEY)
 python -m crew.run --scenarios --llm --provider claude  # the crew on Claude (final presentation; ANTHROPIC_API_KEY)
 python -m crew.run --scenarios --llm --only S2,S3       # re-run chosen scenarios (saves free-tier calls)
-python -m metrics.run                  # a simulated year of flags -> results/, docs/09-EVALUATION.md (~11 min)
+python -m metrics.run                  # a simulated year of flags -> results/, docs/09-EVALUATION.md (~20 min)
 python -m metrics.run --doc-only       # rewrite docs/09 from results/ without re-running
 python -m metrics.benchmark            # the agent benchmark on the rules (seconds)
 python -m metrics.benchmark --llm --provider gemini     # ... and on the crew (live; resumes if the quota runs out)
