@@ -68,7 +68,7 @@ Correct and wrong decisions.
 
 ### How the crew worked: Crew (gemini), final run: nine agents
 
-- Cases the crew ran: 39 of 40 (1 degraded to the rules when the model was unavailable, and are left out of its score)
+- Cases the crew ran: 39 of 40 (1 degraded to the rules when the model was unavailable, and is left out of its score)
 - The Desk Investigator called its tools on 39 cases; on the 6 repeat-admission cases it read or compared the other admissions' documents on 6
 - The Case Router opened work no rule mandated on 10 cases (by track: advocate 4, billing 5, medical 1); it can add to the mandatory set and never take from it (B-48)
 - The Billing & Tariff Analyst worked 12 cases

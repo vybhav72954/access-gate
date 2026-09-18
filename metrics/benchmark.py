@@ -413,8 +413,8 @@ def write_doc(cases: list[BenchCase], series: list[Series], data: dict) -> str:
         st = stats[s.key]
         lines += ["", f"### How the crew worked: {s.label}", "",
                   f"- Cases the crew ran: {st['scored']} of {st['cases']}"
-                  + (f" ({c['degraded']} degraded to the rules when the model was unavailable, and are left out of its "
-                     f"score)" if c["degraded"] else ""),
+                  + (f" ({c['degraded']} degraded to the rules when the model was unavailable, and "
+                     f"{'is' if c['degraded'] == 1 else 'are'} left out of its score)" if c["degraded"] else ""),
                   f"- The Desk Investigator called its tools on {c['investigator_used_tools']} cases; on the "
                   f"{c['t7_cases']} repeat-admission cases it read or compared the other admissions' documents on "
                   f"{c['t7_compared_documents']}"]

@@ -212,7 +212,7 @@ python -m metrics.run --doc-only       # rewrite docs/09 from results/ without r
 python -m metrics.benchmark            # the agent benchmark on the rules (seconds)
 python -m metrics.benchmark --llm --provider gemini     # ... and on the crew (live; resumes if the quota runs out)
 python -m metrics.benchmark --report   # results/agent_benchmark.json + docs/10-AGENT-EVALUATION.md
-pytest                                 # 311 tests, ~6 min, no API key needed
+pytest                                 # 318 tests, ~6 min, no API key needed
 ```
 
 **Verified:** CrewAI 1.15.20 resolves cleanly on Python 3.12 and 3.13 (135 packages, no torch).

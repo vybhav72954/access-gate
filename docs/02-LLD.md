@@ -9,7 +9,7 @@
 
 ## 0. As built — 18 September 2026
 
-The pipeline is implemented and **311 tests pass** (`pytest`, ~6 min, no API key needed). Where the build
+The pipeline is implemented and **318 tests pass** (`pytest`, ~6 min, no API key needed). Where the build
 departed from the design below, the code is authoritative and the reason is recorded here.
 
 | # | Design said | As built | Why |

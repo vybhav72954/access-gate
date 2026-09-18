@@ -106,7 +106,8 @@
   figcaption b { color: var(--ink-soft); font-weight: 600; }
 
   .scroll { overflow-x: auto; margin: 22px 0; border: 1px solid var(--rule); border-radius: 4px; background: var(--surface); max-width: var(--col); }
-  table { border-collapse: collapse; width: 100%; font-size: 13.8px; font-family: "IBM Plex Sans", sans-serif; }
+  /* Inside .scroll the container scrolls; without a floor the columns squeeze to slivers on a phone. */
+  table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: 13.8px; font-family: "IBM Plex Sans", sans-serif; }
   th, td { text-align: left; padding: 9px 13px; border-bottom: 1px solid var(--rule-soft); vertical-align: top; }
   thead th { position: sticky; top: 0; background: var(--surface-2); color: var(--ink-soft); font-size: 11px; letter-spacing: .07em; text-transform: uppercase; font-weight: 600; white-space: nowrap; }
   tbody tr:last-child td { border-bottom: none; }
@@ -153,6 +154,8 @@
   .walk-what p { margin: 0; max-width: none; }
   .walk-what p + p { margin-top: 8px; }
 
+  .prov { font-size: 14px; color: var(--ink-faint); border-left: 2px solid var(--rule); padding-left: 14px; }
+  .prov strong { color: var(--ink-soft); }
   .foot { margin-top: 70px; border-top: 1px solid var(--rule); padding-top: 18px; font-size: 13px; color: var(--ink-faint); max-width: var(--col); }
 
   @media (max-width: 900px) {
@@ -213,8 +216,8 @@
       </p>
       <div class="meta">
         <span class="chip">CrewAI 1.15.20 · Python 3.12</span>
-        <span class="chip on">311 tests passing</span>
-        <span class="chip">9 agents · 21 tools</span>
+        <span class="chip on">318 tests passing</span>
+        <span class="chip">9 agents · 16 tools</span>
         <span class="chip">5,000-case evaluation</span>
         <span class="chip warn">≈895 escalations a year</span>
       </div>
@@ -295,6 +298,14 @@
         Enforcement is accelerating: the earlier PIB figures were 1,114 de-empanelled and 549 suspended with ₹122
         crore in penalties, and the May 2026 parliamentary answer is roughly double on every measure. The volume of
         network-removal decisions is rising, and none of them currently consider who loses access.
+      </p>
+      <p class="prov">
+        <strong>Provenance, stated exactly.</strong> The 3,167 guilty findings and the 0.18% confirmed-fraud rate come
+        from PIB releases captured in <code>rulebooks/parliament/</code>, and you can grep them. The May 2026 counts —
+        de-empanelled, suspended, penalties, FIRs — are from reporting of the Lok Sabha written replies: the PDFs on
+        sansad.in return an error rather than a document, so they could not be captured alongside the rest. That is
+        recorded in <code>rulebooks/PRIMARY_SOURCES.md</code> rather than smoothed over, and it is why the base rate,
+        not the enforcement totals, is what the design actually rests on.
       </p>
       <div class="note gate">
         <h4>The base rate decides everything downstream</h4>
@@ -655,7 +666,7 @@
             <tr><td><code>compare_documents</code></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td></tr>
             <tr><td><code>claim_tariff</code></td><td></td><td></td><td></td><td></td><td>●</td><td>●</td><td></td><td></td><td></td></tr>
             <tr><td><code>enforcement_decision</code></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td>●</td></tr>
-            <tr><td><code>access_impact</code> — <em>the only access data in the crew</em></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td>●</td></tr>
+            <tr><td><code>access_impact</code></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td>●</td></tr>
             <tr><td><code>file_committee_brief</code></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td></tr>
             <tr><td>the seven action tools</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td></tr>
           </tbody>
@@ -732,7 +743,7 @@
             <tr><td><code>metrics/run.py</code></td><td>The 5,000-case evaluation: ablation, threshold sweep, disparate-impact audit. Writes <code>results/</code> and docs/09.</td><td><code>--quick</code>, <code>--doc-only</code></td></tr>
             <tr><td><code>metrics/benchmark.py</code></td><td>The 40-case rules-versus-crew benchmark, resumable across quota exhaustion. Writes docs/10.</td><td><code>--llm</code>, <code>--report</code></td></tr>
             <tr><td><code>generate/</code></td><td>The corpus, the ten scenarios, and the benchmark cases — with <code>CORRECTIONS</code> recording every post-run change to a case.</td><td><code>build_scenarios()</code></td></tr>
-            <tr><td><code>tests/</code></td><td>311 tests. <code>fakes.py</code> plays all nine agents through the real adapters and CrewAI's own tool loop, so the crew is provable without an API key.</td><td><code>pytest</code></td></tr>
+            <tr><td><code>tests/</code></td><td>318 tests. <code>fakes.py</code> plays all nine agents through the real adapters and CrewAI's own tool loop, so the crew is provable without an API key.</td><td><code>pytest</code></td></tr>
             <tr><td><code>scripts/</code></td><td>Reference-table builders; each rebuilds its output byte-for-byte from the published sources and asserts the documented figures.</td><td><code>build_reference.py</code></td></tr>
           </tbody>
         </table>
@@ -891,7 +902,7 @@
     <section id="testing">
       <div class="sec-head"><div class="sec-num">11</div><h2>Testing</h2></div>
       <div class="stats">
-        <div class="stat"><div class="v">311</div><div class="k">tests, ~6 min, no API key needed</div></div>
+        <div class="stat"><div class="v">318</div><div class="k">tests, ~6 min, no API key needed</div></div>
         <div class="stat"><div class="v">10</div><div class="k">end-to-end scenarios, each asserted against real data</div></div>
         <div class="stat"><div class="v">5,000</div><div class="k">simulated flagged claims per evaluation run</div></div>
         <div class="stat"><div class="v">40</div><div class="k">hand-written cases where the truth is in the text</div></div>
@@ -1108,7 +1119,7 @@ python -m crew.run --scenarios --llm --only S2,S3   <span class="c"># re-run two
         </li>
         <li>
           <h4>The test suite</h4>
-          <p>311 tests, about six minutes, no API key. The crew runs through scripted models, so agent behaviour is covered offline.</p>
+          <p>318 tests, about six minutes, no API key. The crew runs through scripted models, so agent behaviour is covered offline.</p>
 <pre>pytest
 uvx ruff check --select F,E9,B,PLE --ignore B008,B905 .</pre>
         </li>
