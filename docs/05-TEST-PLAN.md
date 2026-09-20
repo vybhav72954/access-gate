@@ -487,7 +487,7 @@ What the new agents did, on the 39 scored cases:
   proven by test (`test_a_dispute_cannot_set_aside_a_reading_that_rests_on_a_measurement`), not by the benchmark.
 - Cost: **17.5 model requests a case**, 683 for the run, against 5.4 for the two-agent crew and 13.4 for six agents.
 
-**The agent benchmark, final live run** (18 September; `gemini-3.5-flash-lite`, which served all 40 cases after the
+**The agent benchmark, six-agent run** (18 September; `gemini-3.5-flash-lite`, which served all 40 cases after the
 primary returned 503). The six-agent crew (F-60) on the corrected code and the corrected cases: **2 wrong decisions**
 against the rules' 15 and the two-agent crew's 5. All 40 cases ran on the model; none degraded. It made no wrong
 decision on the keyword, paraphrase, trap or mislabelled readings, and **no innocent claim was enforced against at
