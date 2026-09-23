@@ -37,10 +37,15 @@ htmlcov/
 
 # ── generated run output (regenerate with crew.run / metrics.*) ────────────
 out/
-out_live/
 out_benchmark/
 out_*/
 *.log
+
+# out_live/ is the exception. It holds the ten demo scenarios decided by the live nine-agent crew —
+# the evidence the test-results deliverable cites, and the front end's only data source. Reproducing
+# it needs an API key and a day's quota, and without a key `crew.run --scenarios` degrades to the
+# rules and every case comes back with no agents at all. Committed so a clone has the real run.
+!out_live/
 
 # Trial evaluation runs only. The published results/ (metrics.json, the sweeps, the benchmark CSVs
 # and their run logs) are committed: docs/09 and docs/10 quote them.
