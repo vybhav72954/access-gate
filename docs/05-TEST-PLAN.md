@@ -544,6 +544,26 @@ escalation brief for S2 said the hospital "is not suspended at this time" and na
 exactly as `access_impact` states them. The crew ran on the backup model because the primary was rate-limited; the
 runner says so.
 
+### Found by the front end's own audit (23 September 2026)
+
+The viewer introduced a second way to be wrong. Everything above is a wrong decision; these are a
+correct decision **described** wrongly, which for a record is the same failure. Both were found by
+reading the export against the page rather than by either one alone.
+
+| # | Observed | Cause | Fix | Test |
+|---|---|---|---|---|
+| F-64 | **The benchmark page scored a case the crew never decided.** `/benchmark` opens on the nine-agent run, whose headline reads "39 of 40 scored, 1 degraded" with **0 wrong**. The table below it printed BCH-R3-02 with a red **wrong** badge, so the page contradicted itself on one screen, and credited the crew with a decision the rules had made | `metrics/benchmark.py` scores `not (crew and degraded)` and leaves a degraded row out of the totals, but the export still carries that row's `score` and the table printed whatever score it found. The page's fine print claimed a degraded case is "never shown as a pass" - it was shown as a *fail*, which is worse | The table applies the predicate the totals apply: on a crew path a degraded row renders **not scored**, with the reason on hover; on the rules path, where no model runs and every row is degraded, every row keeps its score. The fine print now states what is done | `prints no score for a degraded case on a crew path`, `shows exactly as many wrong badges as the headline reports`, `still scores every case on the rules path, where degraded is the normal state`, `leaves a crew path's degraded cases out of its totals`, `scores every case on the rules path, where degraded is the normal state` |
+| F-65 | **`RUN-DEMO.bat /smoke` could not fail.** The smoke test fetches four pages and checks each carries a phrase only a prerendered build would hold. On a miss it printed `FAIL`, then printed "Smoke test done. The demo is good to click." and exited 0 | `:check_page` reported the failure to the screen and nowhere else - no flag, no exit code - and every path through the file ended `exit /b 0`. A stale or broken build passed the check that exists precisely to be run before the demo is trusted | The failure is recorded rather than only printed, the verdict is separated from the checks, and every failing path (no free port, no answer from the server, a failed build, no runtime) returns non-zero | Exercised by pointing one check at a phrase no page carries: the run printed `FAIL /benchmark/`, then `SMOKE TEST FAILED`, and exited **1**; restored, it exits **0** |
+
+**Also checked and found sound**, against the claims made for them: the exporter is deterministic
+(re-running it reproduces `cases.json`, `evaluation.json`, `benchmark.json` and `types.ts` byte for
+byte, `meta.json` differing only in its timestamp); `types.ts` on disk is exactly what the exporter
+would write, so it has not been hand-edited; the bundled map rebuilds byte-identically from its
+pinned sources; every district and state the record names exists in that map; the threshold slider
+reads a swept row at every stop rather than interpolating; and every asset every built page
+references resolves over HTTP, including the module entry on the nested case routes, whose absence
+would leave the pages looking complete and silently unhydrated.
+
 ## 6. Test data isolation
 
 | Rule | Why |

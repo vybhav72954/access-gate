@@ -183,7 +183,7 @@ Full field-level detail in [04-DATA-DICTIONARY](04-DATA-DICTIONARY.md).
 | Geometry | shapely | District representative points; already available |
 | Env | uv | Fast, reproducible, trivially pins the interpreter |
 | LLM | Gemini (`gemini-3.8-flash`, free tier) for development and the demo; Claude (`claude-opus-5`) for the final presentation — each through its official SDK behind one CrewAI adapter contract | Swapping models changes what agents conclude, never the rules that act on it; any model failure degrades to the deterministic rules path |
-| Optional viewer | Svelte, read-only | **Not required by Path A.** Timeboxed. Renders `decision_log.csv` |
+| Evidence viewer | SvelteKit + TypeScript, read-only, prerendered to static files (`frontend/`) | **Not required by Path A**, and it decides nothing: it reads the exported record of decisions already made. Built because a reviewer should be able to see what the crew did without reading a CSV. Carries a bundled map of India (DataMeet boundaries, MIT, Survey of India depiction) so the district a gate decision turns on can be seen rather than only read. No server, no key, no network at runtime |
 
 ---
 

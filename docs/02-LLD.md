@@ -9,7 +9,7 @@
 
 ## 0. As built — 18 September 2026
 
-The pipeline is implemented and **318 tests pass** (`pytest`, ~6 min, no API key needed). Where the build
+The pipeline is implemented and **358 tests pass** (`pytest`, ~6 min, no API key needed). Where the build
 departed from the design below, the code is authoritative and the reason is recorded here.
 
 | # | Design said | As built | Why |
@@ -116,6 +116,11 @@ metrics/benchmark.py rules versus the crew on the benchmark -> results/agent_ben
 scripts/build_reference.py   reference tables + figures.json, self-verifying
 scripts/fetch_ogd.py         21 official tables from data.gov.in
 scripts/build_state_context.py  official tables -> state_context, specialty_volume; reconciled
+scripts/export_frontend.py   the decided run + results/ -> frontend/static/data/*.json (stdlib only)
+scripts/build_india_map.py   DataMeet boundaries -> frontend/src/lib/india-map.json (stdlib only)
+scripts/inline_figures.py    embeds ACCESS-GATE.html's 22 figures as data URIs ( --check | --extract )
+frontend/            SvelteKit evidence viewer: reads that JSON, decides nothing, prerendered
+                     app shell (a fixed rail + a full-width canvas), four routes, bundled India map
 ```
 
 ---

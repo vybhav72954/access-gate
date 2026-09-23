@@ -41,6 +41,12 @@ suspends automatically. **Bahraich** has one, serving 4.16 million people, 83 km
 alternative, in an aspirational district — the system refuses to decide and escalates to a human,
 showing exactly who would lose access.
 
+**To see it: double-click `RUN-DEMO.bat`.** It serves the built evidence viewer on localhost and
+opens it — the ten decided cases on a map of India, the 5,000-case evaluation with a draggable
+distance threshold, and the rules-versus-crew benchmark. No key, and nothing leaves the machine.
+Close the window to stop it. `RUN-DEMO.bat /smoke` starts it, checks four pages and shuts down,
+which is how to check the demo before relying on it.
+
 ---
 
 ## How the crew works
@@ -212,8 +218,28 @@ python -m metrics.run --doc-only       # rewrite docs/09 from results/ without r
 python -m metrics.benchmark            # the agent benchmark on the rules (seconds)
 python -m metrics.benchmark --llm --provider gemini     # ... and on the crew (live; resumes if the quota runs out)
 python -m metrics.benchmark --report   # results/agent_benchmark.json + docs/10-AGENT-EVALUATION.md
-pytest                                 # 318 tests, ~6 min, no API key needed
+pytest                                 # 358 tests, ~6 min, no API key needed
+
+python -m scripts.export_frontend      # the decided run -> frontend/static/data (standard library only)
+cd frontend && npm install && npm run dev    # the evidence viewer, http://localhost:5173
 ```
+
+### The front end
+
+`frontend/` is a SvelteKit + TypeScript viewer for decisions the pipeline has already made — it runs
+no agents and changes nothing. Four screens: the case list, the case record, the 5,000-case
+evaluation and the agent benchmark. It is laid out as an application rather than a document — a
+fixed rail carrying the sections and the run being shown, and a canvas that fills the rest of the
+screen — with a bundled map of India on three of the four screens and a threshold slider on the
+evaluation. It builds to a fully static site that needs no server, no key and no network;
+`frontend/README.md` has the detail.
+
+Its data comes from `scripts/export_frontend.py`, which re-serialises `out_live/` and the committed
+`results/`. **`out_live/` is committed** — it holds the ten demo scenarios as decided by the live
+nine-agent crew, which needs an API key and a day's quota to reproduce. Without a key,
+`crew.run --scenarios` degrades to the rules and every case comes back with no agents at all, which
+makes for a thin demo; `tests/test_export_frontend.py` fails if the exported JSON stops matching the
+run it claims.
 
 **Verified:** CrewAI 1.15.20 resolves cleanly on Python 3.12 and 3.13 (135 packages, no torch).
 
