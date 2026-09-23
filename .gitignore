@@ -77,3 +77,7 @@ desktop.ini
 *.err
 node_modules/
 .claude/
+
+# Boundary sources for scripts/build_india_map.py: ~56 MB, fetched on demand and hash-checked.
+# The generated map (frontend/src/lib/india-map.json) is committed; these are not.
+.mapcache/
