@@ -1,5 +1,9 @@
 node_modules/
 .svelte-kit/
-build/
 .DS_Store
 *.log
+
+# build/ is NOT ignored. It is the prerendered site RUN-DEMO.bat serves, and committing it is what
+# lets a clone run the demo with nothing but Python — no Node, no npm install, no network. It is
+# generated, so it can go stale: `npm run verify` rebuilds it, and any frontend change should be
+# committed together with the rebuild it produces.

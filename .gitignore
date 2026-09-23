@@ -20,7 +20,9 @@ service-account*.json
 __pycache__/
 *.py[cod]
 *.egg-info/
-build/
+# Anchored: this is Python packaging output at the root. Unanchored it also swallowed
+# frontend/build/, which is the built viewer and is committed on purpose (frontend/.gitignore).
+/build/
 dist/
 .venv/
 venv/
