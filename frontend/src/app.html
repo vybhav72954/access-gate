@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="The Access Gate — evidence viewer for PM-JAY hospital-fraud decisions."
+		/>
+		<meta name="color-scheme" content="light dark" />
+		<link rel="icon" href="data:," />
+		<script>
+			// Applied before first paint so a chosen theme never flashes the other one.
+			try {
+				const saved = localStorage.getItem('ag-theme');
+				if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+			} catch (e) {}
+		</script>
+		<script>
+			// Opened straight off disk (file://), browsers refuse to load ES modules at all, so the
+			// prerendered pages still read perfectly but nothing hydrates. Rather than leave controls
+			// on screen that silently do nothing, mark the document once hydration has clearly not
+			// happened, and let the stylesheet hide them and say why.
+			window.addEventListener('load', function () {
+				setTimeout(function () {
+					var el = document.documentElement;
+					if (el.dataset.hydrated !== 'true') el.dataset.hydrated = 'no';
+				}, 1500);
+			});
+		</script>
+		%sveltekit.head%
+	</head>
+	<!-- Eager code preload: every route's chunk is fetched up front, so navigation keeps
+	     working if the connection goes away after the first load. The site is four pages. -->
+	<body data-sveltekit-preload-data="hover" data-sveltekit-preload-code="eager">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

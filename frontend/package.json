@@ -1,0 +1,36 @@
+{
+	"name": "access-gate-frontend",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"format": "prettier --write .",
+		"export": "cd .. && python -m scripts.export_frontend",
+		"verify": "npm run check && npm test && npm run build"
+	},
+	"devDependencies": {
+		"@fontsource-variable/ibm-plex-sans": "^5.3.0",
+		"@fontsource/ibm-plex-mono": "^5.3.0",
+		"@fontsource/ibm-plex-serif": "^5.3.0",
+		"@sveltejs/adapter-static": "^3.0.9",
+		"@sveltejs/kit": "^2.46.4",
+		"@sveltejs/vite-plugin-svelte": "^6.2.1",
+		"@testing-library/jest-dom": "^6.9.1",
+		"@testing-library/svelte": "^5.2.8",
+		"@types/node": "^26.6.2",
+		"jsdom": "^27.0.0",
+		"prettier": "^3.9.8",
+		"prettier-plugin-svelte": "^4.1.1",
+		"svelte": "^5.42.2",
+		"svelte-check": "^4.3.3",
+		"typescript": "^5.9.3",
+		"vite": "^7.1.9",
+		"vitest": "^3.2.4"
+	}
+}
